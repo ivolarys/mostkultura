@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-16T14:57:08+00:00",
+ "fetched_at": "2026-09-16T21:27:41+00:00",
  "events": [
-  {
-   "title": "Kabaret Königgrätz",
-   "start": "2026-09-16T19:00:00+02:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/kabaret-koniggratz?t=15",
-   "end": "2026-09-16T20:25:00+02:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Studio Beseda, Mýtská 126",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Kabaret Königgrätz Studio Beseda · Kolektiv Klicperova divadla a Divadla DRAK Kolektiv Klicperova divadla a Divadla DRAK · režie Petr Kult a Tomáš Čapek Studio Beseda",
-   "image": "https://www.klicperovodivadlo.cz/media/242/gallery/kabaret-koniggratz-fotografie-01-66774",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/kabaret-koniggratz?t=15|2026-09-16T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:038bcf05fbfd"
-  },
   {
    "title": "Prašina 2 – Černý merkurit",
    "start": "2026-09-18T10:00:00+02:00",

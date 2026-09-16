@@ -1,0 +1,29 @@
+{
+ "fetched_at": "2026-09-16T21:26:51+00:00",
+ "events": [
+  {
+   "title": "Noc literatury v Trutnově 2026",
+   "start": "2026-09-16T17:00:00+02:00",
+   "source": "trut",
+   "url": "https://trut.cz/akce/noc-literatury-v-trutnove-2026/",
+   "end": "2026-09-16T22:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Trutnov",
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "Noc literatury v Trutnově 2026 se uskuteční dne 16. září 2026 od 17:00 do 22:00 hodin . Jedná se již o 3. ročník kulturní akce , která propojuje současnou evropskou literaturu, netradiční čtecí místa a širokou veřejnost. Během jednoho večera návštěvníci projdou 7 čtecích míst , na kterých zazní ukázky ze současné evropské literatury v podání zajímavých osobností.",
+   "image": null,
+   "native_id": "https://trut.cz/akce/noc-literatury-v-trutnove-2026/",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "trut:d9589f00751d"
+  }
+ ]
+}

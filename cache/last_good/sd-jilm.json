@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-16T15:06:46+00:00",
+ "fetched_at": "2026-09-16T21:27:13+00:00",
  "events": [
-  {
-   "title": "Jakub Smolík",
-   "start": "2026-09-16T19:00:00+02:00",
-   "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/koncert/jakub-smolik-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "SD Jilm",
-   "category": "koncert",
-   "native_category": "Koncert",
-   "description": "Přijďte si užít výjimečný hudební večer s oblíbeným zpěvákem Jakubem Smolíkem a jeho kapelou! Čeká vás koncert plný emocí, krásných melodií a největších hitů, které si zpívá celé Česko. Nechte se unést příjemnou atmosférou a špičkovým hudebním zážitkem v srdci Jilemnice.",
-   "image": "https://www.sdjilm.cz/storage/app/uploads/public/693/158/c23/thumb_615_250_250_0_0_auto.webp",
-   "native_id": "241|2026-09-16T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "sd-jilm:5f48903a6392"
-  },
   {
    "title": "HitchBros",
    "start": "2026-09-21T18:00:00+02:00",

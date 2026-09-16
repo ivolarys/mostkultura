@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-16T15:08:33+00:00",
+ "fetched_at": "2026-09-16T21:27:38+00:00",
  "events": [
   {
    "title": "Hiki Joki - festival potu, ohně a lučního lazebnictví",
    "start": "2026-09-25T00:00:00+02:00",
    "source": "sauna-nuuk",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet2781",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet2561",
    "end": "2026-09-27T23:59:59+02:00",
    "all_day": true,
    "place": null,
@@ -15,7 +15,7 @@
    "native_category": "Festival",
    "description": "Šestý skok do náruče Labe, šmejdění v županu, šelest bosých nohou v lučním ránu, šerosvit praskajícího dřeva, ale hlavně ponor do štěstí potního bezčasí. FB událost: https://www.facebook.com/events/1515582023299825",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2259704&x=1920&y=1005",
-   "native_id": "#textdet2781|2026-09-25",
+   "native_id": "#textdet2561|2026-09-25",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -23,7 +23,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "sauna-nuuk:b44757156670"
+   "id": "sauna-nuuk:1595dfe53f19"
   }
  ]
 }
