@@ -187,6 +187,13 @@ sources:
     place: Trutnov
     priority: 7
     months: 3
+  - name: trut
+    label: Trut, z. s. – Akce
+    type: trut_program
+    url: https://trut.cz/akce/
+    page: https://trut.cz/akce/
+    place: Trutnov
+    priority: 9
   - name: vrchlabi
     label: Město Vrchlabí – Kalendář akcí
     type: drupal_events

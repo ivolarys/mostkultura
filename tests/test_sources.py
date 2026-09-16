@@ -65,6 +65,55 @@ def test_public4u_trutnov_table_template(cfg, root):
     assert d.start.strftime("%H:%M") == "10:00" and d.end.strftime("%H:%M") == "17:00"
 
 
+def test_trut_program_detail_uses_event_date_and_matching_time(cfg, root):
+    events = _fetch(cfg, root, "trut")
+    assert len(events) == 1
+    e = events[0]
+    assert e.title == "Noc literatury v Trutnově 2026"
+    assert e.start.strftime("%Y-%m-%d %H:%M") == "2026-09-16 17:00"
+    assert e.end and e.end.strftime("%H:%M") == "22:00"
+    assert not e.all_day and e.place_raw == "Trutnov" and e.venue is None
+    assert e.url == "https://trut.cz/akce/noc-literatury-v-trutnove-2026/"
+    assert e.native_id == e.url and "Datum aktualizace" not in e.description
+
+
+def test_trut_program_rejects_broken_listing_but_accepts_empty(cfg):
+    src = _src(cfg, "trut")
+    assert src.parse_listing("<section class='section'><div class='container'><h1>Akce</h1></div></section>") == []
+    duplicate = """<section class='section'><div class='container'><h1>Akce</h1>
+      <article class='card'><h3><a href='/akce/test/'>Test</a></h3></article>
+      <article class='card'><h3><a href='/akce/test/'>Test znovu</a></h3></article>
+      </div></section>"""
+    assert src.parse_listing(duplicate) == [("Test", "https://trut.cz/akce/test/")]
+    with pytest.raises(ValueError, match="markup missing"):
+        src.parse_listing("<main><h1>Akce</h1></main>")
+    with pytest.raises(ValueError, match="malformed event card"):
+        src.parse_listing("<section class='section'><div class='container'><h1>Akce</h1><article class='card'></article></div></section>")
+    with pytest.raises(ValueError, match="without a title"):
+        src.parse_listing("""<section class='section'><div class='container'><h1>Akce</h1>
+          <article class='card'><h3><a href='/akce/ok/'>V pořádku</a></h3></article>
+          <article class='card'><h3><a href='/akce/prazdne/'></a></h3></article></div></section>""")
+
+
+def test_trut_program_never_infers_year_or_uses_unrelated_date(cfg):
+    src = _src(cfg, "trut")
+    url = "https://trut.cz/akce/test/"
+    no_year = "<section class='section'><div class='container'><h1>Test</h1><p><strong>Datum:</strong> 16. 9.</p></div></section>"
+    with pytest.raises(ValueError, match="explicit event date"):
+        src.parse_detail(no_year, "Test", url)
+    date_only = """<section class='section'><div class='container'><h1>Test</h1>
+      <p><strong>Datum:</strong> 16.09.2026</p><p><button>📷 Čtecí místa</button></p>
+      <p>Skutečný popis akce pro návštěvníky.</p></div></section>"""
+    date_only_event = src.parse_detail(date_only, "Test", url)
+    assert date_only_event.all_day and date_only_event.description == "Skutečný popis akce pro návštěvníky."
+    detail = """<section class='section'><div class='container'><h1>Test</h1>
+      <p><strong>Datum:</strong> 16.09.2026</p><p><strong>Místo:</strong> Trutnov</p>
+      <p>Datum aktualizace: 23.7.2026</p><p>Archiv z 15. září 2025 od 09:00 do 11:00.</p>
+      <p>Program 16. září 2026 od 18:00 do 20:00 hodin.</p></div></section>"""
+    e = src.parse_detail(detail, "Test", url)
+    assert e.start.strftime("%H:%M") == "18:00" and e.end and e.end.strftime("%H:%M") == "20:00"
+
+
 def test_public4u_month_urls(cfg):
     from datetime import date
     src = _src(cfg, "dvur-kralove")
@@ -89,7 +138,7 @@ def test_goout_parse(cfg, root):
                                   "bila-tremesna-okoli", "kuks-obec", "dolni-brusnice", "jicin",
                                   "nova-paka", "kultura-novapaka", "uffo", "sd-jilm", "biograf-horice",
                                   "horice-galerie", "horice-koruna", "epo1", "belohradska-sypka",
-                                  "pecka", "josefov-kolonie", "klaster-hostinne"])
+                                  "pecka", "josefov-kolonie", "klaster-hostinne", "trut"])
 def test_fixture_manifest_present(root, name):
     assert (root / "tests" / "fixtures" / name / "manifest.json").exists()
 

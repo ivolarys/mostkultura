@@ -29,6 +29,7 @@ from .podzimni_sneni import PodzimniSneniSource
 from .public4u import Public4uSource
 from .sd_jilm import SdJilmSource
 from .simcal_calendar import SimcalCalendarSource
+from .trut_program import TrutProgramSource
 from .uffo import UffoSource
 from .vismo import VismoSource
 from .vismo6 import Vismo6Source
@@ -65,6 +66,7 @@ REGISTRY: dict[str, type[Source]] = {
     "koruna_program": KorunaProgramSource,
     "simcal_calendar": SimcalCalendarSource,
     "klaster_hostinne": KlasterHostinneSource,
+    "trut_program": TrutProgramSource,
 }
 
 
