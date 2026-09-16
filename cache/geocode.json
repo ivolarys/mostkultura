@@ -384,6 +384,13 @@
   "q": "Vančurova 378, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "kd vidonice|pecka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "KD Vidonice, Pecka, Česko",
+  "ts": "2026-09-16T14:46:04+00:00"
+ },
  "kino 70|jilemnice": {
   "lat": 50.6044839,
   "lon": 15.5101429,
@@ -460,6 +467,13 @@
   "precision": "none",
   "q": "kostel Církve československé husitské, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "kostel nejsvetejsi trojice, kuks|kuks": {
+  "lat": 50.3980167,
+  "lon": 15.8893932,
+  "precision": "venue",
+  "q": "Kostel Nejsvětější Trojice, Kuks, Česko",
+  "ts": "2026-09-16T14:46:04+00:00"
  },
  "kulturni dum strelnice, vancurova 378|vrchlabi": {
   "lat": 50.6309963,
@@ -839,6 +853,20 @@
   "q": "Vinařství Byšičky - Nový Dvůr, Lázně Bělohrad, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "vrchlabi presna adresa bude sdelena pri prihlaseni.|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Vrchlabí Přesná adresa bude sdělena při přihlášení., Vrchlabí, Česko",
+  "ts": "2026-09-16T14:46:04+00:00"
+ },
+ "vystavy|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Výstavy, Trutnov, Česko",
+  "ts": "2026-09-16T14:46:04+00:00"
+ },
  "zahrada za historickymi domky, vstup na akci z husovy ulice|vrchlabi": {
   "lat": null,
   "lon": null,
@@ -873,6 +901,13 @@
   "precision": "venue",
   "q": "ZŠ Husitská, Nová Paka, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "zvicina, trebihost|zvicina": {
+  "lat": 50.4549823,
+  "lon": 15.6948478,
+  "precision": "venue",
+  "q": "Třebihošť, Zvičina, Česko",
+  "ts": "2026-09-16T14:46:04+00:00"
  },
  "|bila tremesna": {
   "lat": 50.4446505,

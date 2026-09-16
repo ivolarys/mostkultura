@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-16T05:05:16+00:00",
+ "fetched_at": "2026-09-16T14:42:31+00:00",
  "events": [
   {
    "title": "Pecka kros",
@@ -170,6 +170,30 @@
    "id": "pecka:89bfafaf4bf5"
   },
   {
+   "title": "Tajuplný hrad Pecka",
+   "start": "2026-10-03T15:00:00+02:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/tajuplny-hrad-pecka-1513_893cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hrad Pecka, Pecka",
+   "category": null,
+   "native_category": null,
+   "description": "Večerní kostýmované prohlídky. Vstupné: 50/ 100 / 150 Kč.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5367&width=300",
+   "native_id": "event-1513",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:2cf1e46fa192"
+  },
+  {
    "title": "VU3V - zimní semestr",
    "start": "2026-10-07T09:00:00+02:00",
    "source": "pecka",
@@ -216,6 +240,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:9ea59bcc2b83"
+  },
+  {
+   "title": "Posvícenská taneční zábava",
+   "start": "2026-10-24T20:00:00+02:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/posvicenska-tanecni-zabava-1511_892cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "KD Vidonice",
+   "category": null,
+   "native_category": null,
+   "description": "Srdečně Vás zveme na posvícenskou taneční zábavu ve Vidonicích v sobotu 24. října 2026. Lahodné občerstvení a živá hudba v podání Jany Ešnerové & spol. Začátek od 20:00 hodin.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5365&width=300",
+   "native_id": "event-1511",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:3a22fef25d81"
   },
   {
    "title": "Smyslohraní",

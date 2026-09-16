@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-16T05:04:50+00:00",
+ "fetched_at": "2026-09-16T14:42:06+00:00",
  "events": [
   {
    "title": "Výstava obrazů",
@@ -24,6 +24,30 @@
    "lon": null,
    "geo": null,
    "id": "kuks-obec:a58a2bca7dc4"
+  },
+  {
+   "title": "Koncert sopranistky Jany Veberové",
+   "start": "2026-10-16T17:00:00+02:00",
+   "source": "kuks-obec",
+   "url": "https://www.kuks.cz/obec-174/akce-v-kuksu-a-okoli/koncert-sopranistky-jany-veberove-440_318cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kostel Nejsvětější Trojice, Kuks",
+   "category": null,
+   "native_category": null,
+   "description": "Koncert sopranistky Jany Veberové",
+   "image": "https://www.kuks.cz/evt_image.php?img=1229&width=300",
+   "native_id": "event-440",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kuks-obec:3eeec71ddfc0"
   }
  ]
 }

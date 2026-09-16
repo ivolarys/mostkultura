@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-16T05:02:50+00:00",
+ "fetched_at": "2026-09-16T14:41:21+00:00",
  "events": [
   {
    "title": "Trampský potlach",
@@ -24,6 +24,30 @@
    "lon": null,
    "geo": null,
    "id": "mostek-okoli:61dd1ee8dc7a"
+  },
+  {
+   "title": "Drakiáda na Zvičině a zavírání turistické sezóny.",
+   "start": "2026-09-27T10:00:00+02:00",
+   "source": "mostek-okoli",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/akce-v-okoli/drakiada-na-zvicine-a-zavirani-turisticke-sezony-1617_378cs.html",
+   "end": "2026-09-27T17:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Zvičina, Třebihošť",
+   "category": null,
+   "native_category": "akce pro celou rodinu, pouštění draků, ukončení turistické sezóny",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4116&width=500",
+   "native_id": "event-1617",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek-okoli:122aaac1859c"
   }
  ]
 }
