@@ -24,7 +24,8 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
   inspirovaném iOS. Zachovej přístupnost, tmavý režim a kompaktní iframe režim.
 - Používej jednotné jednoduché obrysové ikony a dostatečně velké dotykové prvky.
 - Výchozí seskupení akcí je podle **kategorie** (preference uživatele,
-  2026-09-12). Zachovej možnost ručního seskupení podle dne a nastavení v URL.
+  2026-09-12). Ovládání ručního seskupení ve filtru je odstraněné; staré
+  nastavení `group` v URL zůstává podporované.
 - V kategorii zobraz běžné akce nejdřív a několikadenní právě probíhající akce
   až v oddělené, výchozím způsobem rozbalené podsekci.
 - Odkaz „Zdroje“ patří do hlavičky.
