@@ -1647,6 +1647,14 @@
   "place": "Trutnov",
   "ts": "2026-09-11T18:59:09+00:00"
  },
+ "trutnov:5a62999182bf": {
+  "category": "jine",
+  "confidence": 0.4,
+  "model": "gpt-5-mini",
+  "needs_review": true,
+  "place": null,
+  "ts": "2026-09-16T15:10:41+00:00"
+ },
  "trutnov:83672852aa66": {
   "category": "deti",
   "confidence": 0.8,
@@ -1694,6 +1702,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-12T08:22:21+00:00"
+ },
+ "trutnov:c5bd5f7b506a": {
+  "category": "vystava",
+  "confidence": 0.9,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-09-16T15:10:41+00:00"
  },
  "trutnov:c6c3a249b2a8": {
   "category": "vystava",
