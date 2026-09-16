@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-15T04:49:43+00:00",
+ "fetched_at": "2026-09-16T05:08:31+00:00",
  "events": [
-  {
-   "title": "Tichohoří Gumák",
-   "start": "2026-09-15T15:00:00+02:00",
-   "source": "divadlo-drak",
-   "url": "https://draktheatre.cz/repertoar/tichohori/",
-   "end": null,
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Divadlo DRAK – Studio Divadla Drak",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "",
-   "image": "https://draktheatre.cz/wp-content/uploads/2023/09/Tichohori-Gumak_foto-Tomas-Rocek_IMG_2064-320x320.jpeg",
-   "native_id": "https://draktheatre.cz/repertoar/tichohori/|2026-09-15T15:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "divadlo-drak:ee59931503eb"
-  },
   {
    "title": "Vítání občánků",
    "start": "2026-09-16T15:00:00+02:00",

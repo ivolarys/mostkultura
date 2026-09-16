@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-15T04:49:27+00:00",
+ "fetched_at": "2026-09-16T05:06:48+00:00",
  "events": [
   {
    "title": "AFTERWORK on tour",
@@ -50,6 +50,30 @@
    "id": "naplavka-hk:4618f2912ffa"
   },
   {
+   "title": "MINT Market Hradec Králové BABÍ LÉTO",
+   "start": "2026-09-26T10:00:00+02:00",
+   "source": "naplavka-hk",
+   "url": "https://naplavkahk.cz/udalost/2026-09-26-mint-market-hradec-kralove-babi-leto",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Náplavka kulturní klub",
+   "category": null,
+   "native_category": "Festival",
+   "description": "",
+   "image": "https://naplavkahk.cz/media/3142/medialibraryIhu1eM",
+   "native_id": "https://naplavkahk.cz/udalost/2026-09-26-mint-market-hradec-kralove-babi-leto",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "naplavka-hk:f43860025770"
+  },
+  {
    "title": "HITY NA PŘÁNÍ",
    "start": "2026-10-02T21:00:00+02:00",
    "source": "naplavka-hk",
@@ -62,7 +86,7 @@
    "category": null,
    "native_category": "Párty",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3136/medialibraryiPJQsg",
+   "image": "https://naplavkahk.cz/media/3136/medialibraryiPJQsg.pagespeed.ce.23bA2C05qM.jpg",
    "native_id": "https://naplavkahk.cz/udalost/2026-10-02-hity-na-prani",
    "ongoing": false,
    "sources": [],
@@ -86,7 +110,7 @@
    "category": null,
    "native_category": "Párty",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3138/medialibrary9knMn4",
+   "image": "https://naplavkahk.cz/media/3138/medialibrary9knMn4.pagespeed.ce.ogfo5NhqeO.jpg",
    "native_id": "https://naplavkahk.cz/udalost/2026-10-16-spee-ci-leze-video-d-i-s-c-o",
    "ongoing": false,
    "sources": [],
@@ -96,6 +120,30 @@
    "lon": null,
    "geo": null,
    "id": "naplavka-hk:6a50773eeb9d"
+  },
+  {
+   "title": "LIVE STREAM: OKTAGON 95",
+   "start": "2026-10-17T18:00:00+02:00",
+   "source": "naplavka-hk",
+   "url": "https://naplavkahk.cz/udalost/2026-10-17-live-stream-oktagon-95",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Náplavka kulturní klub",
+   "category": null,
+   "native_category": "Přímý přenos",
+   "description": "",
+   "image": null,
+   "native_id": "https://naplavkahk.cz/udalost/2026-10-17-live-stream-oktagon-95",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "naplavka-hk:b96acdbbee17"
   }
  ]
 }

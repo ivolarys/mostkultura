@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-15T04:49:23+00:00",
+ "fetched_at": "2026-09-16T05:05:16+00:00",
  "events": [
   {
    "title": "Pecka kros",
@@ -50,30 +50,6 @@
    "id": "pecka:beb8d883b54f"
   },
   {
-   "title": "8. cyklovýzva Jiřího Styblíka",
-   "start": "2026-09-01T00:00:00+02:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/8-cyklovyzva-jiriho-styblika-1411_811cs.html",
-   "end": "2026-09-30T23:59:00+02:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Pecka",
-   "category": null,
-   "native_category": null,
-   "description": "Trasa na měsíc září + 2. premiová cyklovýzva. Odkaz na registraci v plakátu v příloze. Organizátor: TJ Harant Pecka",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5348&width=300",
-   "native_id": "event-1411",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:4b9edacbdfb5"
-  },
-  {
    "title": "Hodinka se Svatoplukem Hrnčířem",
    "start": "2026-09-29T17:00:00+02:00",
    "source": "pecka",
@@ -96,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:88e492cb0026"
+  },
+  {
+   "title": "8. cyklovýzva Jiřího Styblíka",
+   "start": "2026-09-01T00:00:00+02:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/8-cyklovyzva-jiriho-styblika-1411_811cs.html",
+   "end": "2026-09-30T23:59:00+02:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "Pecka",
+   "category": null,
+   "native_category": null,
+   "description": "Trasa na měsíc září + 2. premiová cyklovýzva. Odkaz na registraci v plakátu v příloze. Organizátor: TJ Harant Pecka",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5348&width=300",
+   "native_id": "event-1411",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:4b9edacbdfb5"
   },
   {
    "title": "Smyslohraní",

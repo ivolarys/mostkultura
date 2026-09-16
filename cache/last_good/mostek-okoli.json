@@ -1,4 +1,29 @@
 {
- "fetched_at": "2026-09-15T04:42:59+00:00",
- "events": []
+ "fetched_at": "2026-09-16T05:02:50+00:00",
+ "events": [
+  {
+   "title": "Trampský potlach",
+   "start": "2026-09-19T16:00:00+02:00",
+   "source": "mostek-okoli",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/akce-v-okoli/trampsky-potlach-207_155cs1708.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hrad Pecka, Pecka",
+   "category": null,
+   "native_category": "folk-country",
+   "description": "",
+   "image": "https://www.hradpecka.cz/evt_image.php?img=1028&width=500",
+   "native_id": "event-207",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek-okoli:61dd1ee8dc7a"
+  }
+ ]
 }

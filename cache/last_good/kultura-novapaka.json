@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-15T04:49:05+00:00",
+ "fetched_at": "2026-09-16T05:04:58+00:00",
  "events": [
-  {
-   "title": "Jan Pokorný",
-   "start": "2026-09-15T18:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=jan-pokorny",
-   "end": "2026-09-15T20:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "restaurace Novopacké sklepy - půda",
-   "category": null,
-   "native_category": "prednaska",
-   "description": "Vstupenky již v předprodeji na Goout.cz https://goout.net/cs/jan-pokorny-povidani-beseda/szruxly/",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/jan-pokorny.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=jan-pokorny",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:b22a755fdb85"
-  },
   {
    "title": "HAVAJSKÉ OSTROVY – Cestopisná přednáška PaedDr.Libora Turka",
    "start": "2026-09-17T18:00:00+02:00",
@@ -216,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:b77f9483ee18"
+  },
+  {
+   "title": "HEREC DO DOMU, HŮL DO RUKY!!! – Divadelní agentura Fanny",
+   "start": "2026-09-30T19:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=herec-do-domu-hul-do-ruky-8211-divadelni-agentura-fanny",
+   "end": "2026-09-30T21:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Nová Paka",
+   "category": null,
+   "native_category": "divadlo",
+   "description": "Slavný herec v podání Petra Rychlého se nečekaně zhroutí přímo na jevišti. Výsledkem této příhody není jen to, že jeho herecký kolega a nejlepší kamarád zařídí, aby se o něj doma starala divadelní nápovědka, do našeho hlavního hrdiny zamilovaná. Ale také to, že se herec každý den mění v jednu z postav slavných dramatiků. Péče nápovědky není rozhodně po chuti hercově příliš starostlivé a příliš zaměstnané matce. Prosadí svou matka nebo kamarád? Které hercovo alter ego nakonec zvítězí? A bude",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/herec-do-domu-hul-do-ruky-8211-divadelni-agentura-fanny.png",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=herec-do-domu-hul-do-ruky-8211-divadelni-agentura-fanny",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:e6c5d3ddb3f8"
   }
  ]
 }
