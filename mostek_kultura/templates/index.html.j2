@@ -449,7 +449,8 @@ function renderPeriods(tabCounts){
 function renderCategories(categoryCounts,categoryTotal){
   const el=document.getElementById('categories');
   const scroll=el.scrollLeft;
-  el.innerHTML=`<button type="button" class="chip${st.cat.size?'':' on'}" data-clear-cats aria-pressed="${!st.cat.size}" aria-label="Vše, ${akceLabel(categoryTotal)}">Vše <span class="n">${categoryTotal}</span></button>`+D.categories.map(c=>{const selected=st.cat.has(c.slug);const count=categoryCounts[c.slug]||0;const label=selected?`${c.label}, ${akceLabel(count)}, zrušit výběr`:`${c.label}, ${akceLabel(count)}`;return `<button type="button" class="chip c-${esc(c.slug)}${selected?' on':''}" data-cat="${esc(c.slug)}" aria-pressed="${selected}" aria-label="${esc(label)}">${catIcon(c.slug)}${esc(c.label)} <span class="n"${selected?' aria-hidden="true"':''}>${selected?'×':count}</span></button>`}).join('');
+  const categories=[...D.categories].sort((a,b)=>collator.compare(a.label,b.label));
+  el.innerHTML=`<button type="button" class="chip${st.cat.size?'':' on'}" data-clear-cats aria-pressed="${!st.cat.size}" aria-label="Vše, ${akceLabel(categoryTotal)}">Vše <span class="n">${categoryTotal}</span></button>`+categories.map(c=>{const selected=st.cat.has(c.slug);const count=categoryCounts[c.slug]||0;const label=selected?`${c.label}, ${akceLabel(count)}, zrušit výběr`:`${c.label}, ${akceLabel(count)}`;return `<button type="button" class="chip c-${esc(c.slug)}${selected?' on':''}" data-cat="${esc(c.slug)}" aria-pressed="${selected}" aria-label="${esc(label)}">${catIcon(c.slug)}${esc(c.label)} <span class="n"${selected?' aria-hidden="true"':''}>${selected?'×':count}</span></button>`}).join('');
   el.scrollLeft=scroll;
 }
 function renderActiveFilters(){
@@ -472,7 +473,7 @@ function renderList(main,ongoing){
       const g=groups[e.category]||(groups[e.category]={main:[],ongoing:[]});
       g[e.ongoing?'ongoing':'main'].push(e);
     });
-    let keys=Object.keys(groups);keys.sort((a,b)=>D.categories.findIndex(c=>c.slug===a)-D.categories.findIndex(c=>c.slug===b));
+    let keys=Object.keys(groups);keys.sort((a,b)=>{if(a==='sport')return b==='sport'?0:1;if(b==='sport')return -1;return D.categories.findIndex(c=>c.slug===a)-D.categories.findIndex(c=>c.slug===b)});
     let html=keys.map(k=>{
       const label=(CAT[k]||{}).label||k;
       const regular=groups[k].main.sort((a,b)=>a.start.localeCompare(b.start));

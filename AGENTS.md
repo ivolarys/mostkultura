@@ -29,6 +29,8 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
   až v oddělené, výchozím způsobem rozbalené podsekci.
 - Odkaz „Zdroje“ patří do hlavičky.
 - Kategorie se posouvají vodorovně a vybraná kategorie zůstává přímo v liště.
+- Horní štítky kategorií jsou řazené abecedně podle českých popisků; ve
+  seskupeném seznamu zůstává konfigurované pořadí a Sport je vždy poslední.
 - V hlavičce jsou značka a odkaz „Zdroje“ na jednom horním řádku; metadata jsou jako menší druhý řádek pod nimi.
 - Respektuj safe area nahoře i po stranách; sticky prvky musí zohlednit horní inset.
 - Oddělení několikadenních akcí používá tenký cikcak se středovým textem a kompaktní mezery.
