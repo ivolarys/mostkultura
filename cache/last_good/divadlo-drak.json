@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-16T21:27:47+00:00",
+ "fetched_at": "2026-09-17T05:04:06+00:00",
  "events": [
-  {
-   "title": "Vítání občánků",
-   "start": "2026-09-16T15:00:00+02:00",
-   "source": "divadlo-drak",
-   "url": "https://draktheatre.cz/repertoar/vitani-obcanku/",
-   "end": null,
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Divadlo DRAK – Hlavní scéna",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "",
-   "image": "https://draktheatre.cz/wp-content/uploads/2014/11/2026-9-Vitani-obcanku-15-1-320x320.jpg",
-   "native_id": "https://draktheatre.cz/repertoar/vitani-obcanku/|2026-09-16T15:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "divadlo-drak:1e91a31414a4"
-  },
   {
    "title": "Tichohoří Gumák",
    "start": "2026-09-17T15:00:00+02:00",

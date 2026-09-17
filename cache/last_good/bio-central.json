@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-16T21:27:50+00:00",
+ "fetched_at": "2026-09-17T05:04:08+00:00",
  "events": [
   {
    "title": "Lev salonu",
@@ -1154,30 +1154,6 @@
    "id": "bio-central:60a445894e8e"
   },
   {
-   "title": "Tady Vary 2026/27 | Předplatné",
-   "start": "2026-09-23T20:00:00+02:00",
-   "source": "bio-central",
-   "url": "https://biocentral.cz/?projection=51245",
-   "end": "2026-09-23T22:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": "Hradec Králové",
-   "venue": "Bio Central",
-   "category": null,
-   "native_category": "Film",
-   "description": "\"Tady Vary 2026/27 je filmov&aacute; sez&oacute;na s předplatn&yacute;m. Do česk&yacute;ch kin přin&aacute;&scaron;&iacute; festivalovou atmosf&eacute;ru a 10 skvěl&yacute;ch filmů v předpremi&eacute;ře. Z des&iacute;tek zapojen&yacute;ch kin si vyberete sv&eacute; nejbliž&scaron;&iacute; nebo nejobl&iacute;beněj&scaron;&iacute;. Poř&iacute;d&iacute;te si v&yacute;hodn&eacute; předplatn&eacute; (3 z 10 filmů m&aacute;te zdarma) na 10 večerů mezi z&aacute;ř&iacute;m 2026 a červnem 2027. Jednou mě",
-   "image": "https://biocentral.cz/uploads/images/movies/2026/06/10/6a033e87b59d17ff897485350c5a33ba.png",
-   "native_id": "51245",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bio-central:a91619c80ca4"
-  },
-  {
    "title": "Tady Vary 1 | Milovník, ne bojovník",
    "start": "2026-09-23T20:00:00+02:00",
    "source": "bio-central",
@@ -1200,6 +1176,30 @@
    "lon": null,
    "geo": null,
    "id": "bio-central:d6afe490c6c2"
+  },
+  {
+   "title": "Tady Vary 2026/27 | Předplatné",
+   "start": "2026-09-23T20:00:00+02:00",
+   "source": "bio-central",
+   "url": "https://biocentral.cz/?projection=51245",
+   "end": "2026-09-23T22:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bio Central",
+   "category": null,
+   "native_category": "Film",
+   "description": "\"Tady Vary 2026/27 je filmov&aacute; sez&oacute;na s předplatn&yacute;m. Do česk&yacute;ch kin přin&aacute;&scaron;&iacute; festivalovou atmosf&eacute;ru a 10 skvěl&yacute;ch filmů v předpremi&eacute;ře. Z des&iacute;tek zapojen&yacute;ch kin si vyberete sv&eacute; nejbliž&scaron;&iacute; nebo nejobl&iacute;beněj&scaron;&iacute;. Poř&iacute;d&iacute;te si v&yacute;hodn&eacute; předplatn&eacute; (3 z 10 filmů m&aacute;te zdarma) na 10 večerů mezi z&aacute;ř&iacute;m 2026 a červnem 2027. Jednou mě",
+   "image": "https://biocentral.cz/uploads/images/movies/2026/06/10/6a033e87b59d17ff897485350c5a33ba.png",
+   "native_id": "51245",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bio-central:a91619c80ca4"
   },
   {
    "title": "Rose",
