@@ -20,6 +20,13 @@
   "q": "Areál autokempu, Mostek, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "areal fotbaloveho hriste v mostku, mostek|mostek": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Areál fotbalového hřiště v Mostku, Mostek, Česko",
+  "ts": "2026-09-18T09:14:13+00:00"
+ },
  "aula spos|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -187,6 +194,13 @@
   "precision": "none",
   "q": "Domov sv. Josefa, Žireč, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "dopravni hriste|dvur kralove nad labem": {
+  "lat": 50.4398285,
+  "lon": 15.8138784,
+  "precision": "venue",
+  "q": "Dopravní hřiště, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-18T09:14:13+00:00"
  },
  "dukelske namesti|nova paka": {
   "lat": 50.4940405,
@@ -363,6 +377,13 @@
   "q": "Hvězdárna a planetárium v Hradci Králové, Hradec Králové, Česko",
   "ts": "2026-09-12T10:40:45+00:00"
  },
+ "ic novopacko, klenotnice drahych kamenu|nova paka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "IC Novopacko, Klenotnice drahých kamenů, Nová Paka, Česko",
+  "ts": "2026-09-18T09:14:13+00:00"
+ },
  "kavarna belohradske sypky|lazne belohrad": {
   "lat": null,
   "lon": null,
@@ -376,6 +397,13 @@
   "precision": "venue",
   "q": "Mikulášská 209, Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "kavarna uffo a hradecek|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kavárna UFFO a Hrádeček, Trutnov, Česko",
+  "ts": "2026-09-18T09:14:13+00:00"
  },
  "kd strelnice, vancurova 378, vrchlabi|vrchlabi": {
   "lat": 50.6309963,

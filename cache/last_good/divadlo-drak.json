@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-17T05:04:06+00:00",
+ "fetched_at": "2026-09-18T09:10:57+00:00",
  "events": [
-  {
-   "title": "Tichohoří Gumák",
-   "start": "2026-09-17T15:00:00+02:00",
-   "source": "divadlo-drak",
-   "url": "https://draktheatre.cz/repertoar/tichohori/",
-   "end": null,
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Divadlo DRAK – Studio Divadla Drak",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "",
-   "image": "https://draktheatre.cz/wp-content/uploads/2023/09/Tichohori-Gumak_foto-Tomas-Rocek_IMG_2064-320x320.jpeg",
-   "native_id": "https://draktheatre.cz/repertoar/tichohori/|2026-09-17T15:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "divadlo-drak:ef8bf6b1b02e"
-  },
   {
    "title": "Tichohoří Gumák",
    "start": "2026-09-18T09:00:00+02:00",
@@ -1250,7 +1226,7 @@
    "id": "divadlo-drak:ed9d72a3aca8"
   },
   {
-   "title": "Všechno se mění (pracovní název)",
+   "title": "Akce G.N.O.M.E",
    "start": "2026-10-30T16:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/vsechno-se-meni-pracovni-nazev-2/",
@@ -1274,7 +1250,7 @@
    "id": "divadlo-drak:82ed77bd4457"
   },
   {
-   "title": "Všechno se mění (pracovní název)",
+   "title": "Akce G.N.O.M.E",
    "start": "2026-10-30T18:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/vsechno-se-meni-pracovni-nazev-2/",
@@ -1346,7 +1322,7 @@
    "id": "divadlo-drak:695a4cf68aa7"
   },
   {
-   "title": "Všechno se mění (pracovní název)",
+   "title": "Akce G.N.O.M.E",
    "start": "2026-10-31T18:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/vsechno-se-meni-pracovni-nazev-2/",

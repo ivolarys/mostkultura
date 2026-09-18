@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-17T05:02:42+00:00",
+ "fetched_at": "2026-09-18T09:09:22+00:00",
  "events": [
   {
    "title": "Stand-up show Undeground Comedy Club",
@@ -216,30 +216,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:1b70403150ba"
-  },
-  {
-   "title": "KAREL V. RAIS HUDBOU ZVĚČNĚNÝ - Komentovaný koncert",
-   "start": "2026-09-17T18:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/karel-v-rais-hudbou-zvecneny-komentovany-koncert",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Koncert",
-   "description": "Muzikolog Viktor Velek seznámí publikum s vybranými hudebními díly, která vznikla na motivy textů K. V. Raise nebo se k němu vztahují (adorační typ skladeb).",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13785528",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/karel-v-rais-hudbou-zvecneny-komentovany-koncert",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:a94738f17f1d"
   },
   {
    "title": "Karel Václav Rais: Komu bylo z Hůry dáno... - výstava",

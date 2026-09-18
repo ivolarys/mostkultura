@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-17T05:04:55+00:00",
+ "fetched_at": "2026-09-18T09:11:08+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1333,8 +1333,8 @@
    "venue": "Bajkazyl Hradec Králové",
    "category": null,
    "native_category": null,
-   "description": "Předmětná beseda nabídne veřejnosti v neformální atmosféře vzácné setkání s opomíjeným tématem potřeby a vlastnictví automobilu ve městě.",
-   "image": "https://dbtools.cz/images/260918_etm.jpg",
+   "description": "Předmětná beseda nabídne veřejnosti v neformální atmosféře vzácné setkání s opomíjeným tématem potřeby a vlastnictví automobilu ve městě. FB: https://facebook.com/events/s/beseda-jak-se-zije-v-hradci-be/1076529605097192/",
+   "image": "https://i.ibb.co/dXHst78/BA260918.png",
    "native_id": "60s3acb26ti68b9jc4oj4b9k6tgjcb9p6hgj2bb1c8qjgchm6kqj2dpkco@google.com",
    "ongoing": false,
    "sources": [],
@@ -1344,6 +1344,30 @@
    "lon": null,
    "geo": null,
    "id": "bajkazyl-hk:05e4080258d6"
+  },
+  {
+   "title": "Festival RecyUpcy",
+   "start": "2026-10-10T10:00:00+02:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/festival-recyupcy-20261010-0800",
+   "end": "2026-10-10T17:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "náměstí 28. října, 500 02 Hradec Králové https://facebook.com/events/s/recyupcy-festival-recyklovaneh/1580114749683957/ Cirkulární centrum vás zve na otevřenou přehlídkou udržitelnosti a kreativity - festival zaměřený na inovativní design a umění využívající upcyklaci a reuse materiálů s prodejní výstavou i workshopy pro veřejnost. V roce 2025 festival nabídl 45 stanovišť umělců, řemeslníků, podnikatelů a organizací především z Hradce Králové a blízkého okolí. Letos festival RecyUpcy proběhne v ",
+   "image": "https://i.ibb.co/v4ygCjBY/Screenshot-20260918-013309-Chrome.jpg",
+   "native_id": "70s3gd336sr38b9n74p3cb9k6cqj2b9o61i3eb9j6sp68e9ocgo3adj2co@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:084f5d5f5554"
   },
   {
    "title": "SHIT INFESTED ROACH HUMAN CARCASS / PLÁN TO KILL / ABSENT GOD",

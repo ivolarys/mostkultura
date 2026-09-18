@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-17T05:04:00+00:00",
+ "fetched_at": "2026-09-18T09:10:53+00:00",
  "events": [
-  {
-   "title": "Prašina 2 – Černý merkurit",
-   "start": "2026-09-18T10:00:00+02:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/prasina-2-cerny-merkurit?t=17",
-   "end": "2026-09-18T12:40:00+02:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Prašina 2 – Černý merkurit Hlavní scéna · Vojtěch Matocha Vojtěch Matocha · režie Pavel Khek Hlavní scéna Dobrodružné Dopolední představení Volné sezení",
-   "image": "https://www.klicperovodivadlo.cz/media/183/gallery/prasina-2-cerny-merkurit-fotografie-01-20994",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/prasina-2-cerny-merkurit?t=17|2026-09-18T10:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:479bcecdff81"
-  },
   {
    "title": "Zažít město jinak 2026",
    "start": "2026-09-19T14:00:00+02:00",

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-17T05:03:31+00:00",
+ "fetched_at": "2026-09-18T09:10:15+00:00",
  "events": [
-  {
-   "title": "HAVAJSKÉ OSTROVY – Cestopisná přednáška PaedDr.Libora Turka",
-   "start": "2026-09-17T18:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=havajske-ostrovy-8211-cestopisna-prednaska-paeddrlibora-turka",
-   "end": "2026-09-17T20:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Klenotnice muzea Nová Paka",
-   "category": null,
-   "native_category": "prednaska",
-   "description": "Expediční cesta po „ráji na Zemi“, ostrovy Oahu, Big Island, Kauai, Maui. Honolulu, Waikiki, bloudění mezi rozžhavenu lávou nejaktivnější sopky světa – Kilauei, pohádkové pláže, budhistické chrámy, nejkrásnější botanická zahrada na světě, původní havajské vesnice. Největší činná sopka na světě Mauna Loa, treky v džungli, zkamenělé lávové stromy, grand kaňon Pacifiku – Waimea valley, Kalalau. Neuvěřitelné sopečné útesy, Polynéské centrum – tichomořské ostrovy v",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/havajske-ostrovy-8211-cestopisna-prednaska-paeddrlibora-turka.png",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=havajske-ostrovy-8211-cestopisna-prednaska-paeddrlibora-turka",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:3a08aaf9420c"
-  },
   {
    "title": "VEČER S TOMÁŠEM TÖPFEREM A JAROSLAVEM SATORANSKÝM",
    "start": "2026-09-18T18:00:00+02:00",

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-17T05:03:40+00:00",
+ "fetched_at": "2026-09-18T09:10:30+00:00",
  "events": [
-  {
-   "title": "Dokonalý den",
-   "start": "2026-09-17T19:00:00+02:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-839398",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Anna spěchá na důležitý pracovní pohovor. Má to promyšlené, naplánované a pod kontrolou… tedy až do chvíle, kdy se jí cestou pokazí auto. Anna tak místo kariérního vítězství končí ve vlaku, kde potká Edu, jehož humor a spontánnost jsou pravým opakem přísně zorganizovaného světa, ve kterém Anna žije. Eda vystoupí v místě, které pro něj má velký význam, a přesvědčí nic netušící Annu, aby ho následovala. Zažívají nečekaná dobrodružství, vtipné momenty, trapasy, poznávají okolí i jeden druhého. Po n",
-   "image": "https://storage.cinemaware.eu/katalogy/images/1/7/17ec3cfb-a9f7-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5571787",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:dac5e303ba8a"
-  },
   {
    "title": "Tlapková patrola: Dinosauří film",
    "start": "2026-09-18T17:30:00+02:00",

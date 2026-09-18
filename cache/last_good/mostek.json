@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-17T05:02:40+00:00",
+ "fetched_at": "2026-09-18T09:09:20+00:00",
  "events": [
   {
    "title": "HRY BEZ KATASTRU - OFF",
@@ -48,6 +48,30 @@
    "lon": null,
    "geo": null,
    "id": "mostek:e4e6c6645724"
+  },
+  {
+   "title": "Strašidelná noc v Mostku - 24. 10. 2026",
+   "start": "2026-10-24T18:00:00+02:00",
+   "source": "mostek",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/strasidelna-noc-v-mostku-24-10-2026-1619_379cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Areál fotbalového hřiště v Mostku, Mostek",
+   "category": null,
+   "native_category": "akce pro celou rodinu, akce pro děti",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4120&width=500",
+   "native_id": "event-1619",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek:c54b527b2cd3"
   }
  ]
 }
