@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-18T09:09:22+00:00",
+ "fetched_at": "2026-09-19T08:56:23+00:00",
  "events": [
   {
    "title": "Stand-up show Undeground Comedy Club",
@@ -24,30 +24,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:83ff1cfceca1"
-  },
-  {
-   "title": "Disco Sokol vol. 4",
-   "start": "2026-09-17T20:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/disco-sokol-vol-4",
-   "end": "2026-09-18T02:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Sokol Lázně Bělohrad",
-   "category": null,
-   "native_category": null,
-   "description": "Čeká vás večer plný tance a pestré hudby v podání DJ JUDY. Těšit se můžete na oldies, českou a slovenskou hudbu, rock i moderní taneční hity.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13841997",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/disco-sokol-vol-4",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:e1a90c7eaa8f"
   },
   {
    "title": "GIOACCHINO ROSSINI - Petite Messe Solennelle",
@@ -288,30 +264,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:8b651eeb08d5"
-  },
-  {
-   "title": "K. V. Rais v kontextech: literatura – region – pedagogika – adaptace",
-   "start": "2026-09-16T09:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/k-v-rais-v-kontextech-literatura-region-pedagogika-adaptace",
-   "end": "2026-09-18T11:30:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Doporučujeme, Konference",
-   "description": "Konference uspořádaná k příležitosti 100. výročí úmrtí Karla V. Raise (1859–1926) připomene osobnost a dílo významného českého spisovatele zejména v souvislostech literární vědy a regionální historie.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13834606",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/k-v-rais-v-kontextech-literatura-region-pedagogika-adaptace",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:208261bf792e"
   },
   {
    "title": "Výstava: Ostrovy Svatopluka Hrnčíře",

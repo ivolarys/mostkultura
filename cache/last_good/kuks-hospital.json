@@ -1,29 +1,4 @@
 {
- "fetched_at": "2026-09-18T09:10:05+00:00",
- "events": [
-  {
-   "title": "Mezinárodní noc pro netopýry na hospitálu Kuks",
-   "start": "2026-09-18T19:30:00+02:00",
-   "source": "kuks-hospital",
-   "url": "https://www.hospital-kuks.cz/cs/akce/74528-mezinarodni-noc-pro-netopyry-na-hospitalu-kuks",
-   "end": "2026-09-18T22:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "hospitál Kuks",
-   "category": null,
-   "native_category": "Netradiční prohlídka",
-   "description": "",
-   "image": "https://www.hospital-kuks.cz/pamatky/hospital-kuks/fotogalerie/Akce---ilustracni-a-plakaty/image-thumb__62920__EventPreviewImage/netopyr-velkouchy.webp",
-   "native_id": "https://www.hospital-kuks.cz/cs/akce/74528-mezinarodni-noc-pro-netopyry-na-hospitalu-kuks",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kuks-hospital:8d37ff87d8ef"
-  }
- ]
+ "fetched_at": "2026-09-19T08:58:26+00:00",
+ "events": []
 }

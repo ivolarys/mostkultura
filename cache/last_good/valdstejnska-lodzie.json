@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-18T09:10:16+00:00",
+ "fetched_at": "2026-09-19T08:58:35+00:00",
  "events": [
   {
    "title": "MALÁ INVENTURA JIČÍN 2026",
@@ -24,30 +24,6 @@
    "lon": null,
    "geo": null,
    "id": "valdstejnska-lodzie:7f595ea6eea5"
-  },
-  {
-   "title": "MIKRO-TEATRO: DELIKATESA",
-   "start": "2026-09-18T20:00:00+02:00",
-   "source": "valdstejnska-lodzie",
-   "url": "https://valdstejnskalodzie.cz/program/mikro-teatro-delikatesa",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Valdštejnská lodžie",
-   "category": null,
-   "native_category": null,
-   "description": "Hororová groteska o neodolatelné chuti. Delikatesa je pozvánkou do světa, kde chuť je více než pouhý smysl. Slavnostní tabule plná omamných chutí a vůní, kde se humor snoubí s absurditou, nostalgie s nadsázkou, poetická hravost se znepokojivou elegancí.",
-   "image": "https://valdstejnskalodzie.cz/media/pages/program/mikro-teatro-delikatesa/86fefae19b-1788517032/delikatnifoto-200x200-crop-50-50-q60.jpg",
-   "native_id": "https://valdstejnskalodzie.cz/program/mikro-teatro-delikatesa",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "valdstejnska-lodzie:d55cefb557ec"
   },
   {
    "title": "A. J. NOSOROŽEC: BLACKOUT",

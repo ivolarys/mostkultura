@@ -356,6 +356,13 @@
   "q": "Hřibojedy, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-14T07:29:42+00:00"
  },
+ "http://zusnovapaka.cz|nova paka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "http://zusnovapaka.cz, Nová Paka, Česko",
+  "ts": "2026-09-19T09:04:09+00:00"
+ },
  "hudebni divadlo karlin|nova paka": {
   "lat": null,
   "lon": null,
@@ -558,6 +565,13 @@
   "precision": "none",
   "q": "Městské informační centrum, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "mestske muzeum - spychar|dvur kralove nad labem": {
+  "lat": 50.4350231,
+  "lon": 15.8161382,
+  "precision": "venue",
+  "q": "Městské muzeum - Špýchar, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-19T09:04:09+00:00"
  },
  "mestske muzeum|dvur kralove nad labem": {
   "lat": 50.4350231,
@@ -901,6 +915,13 @@
   "precision": "none",
   "q": "zahrada za historickými domky, vstup na akci z Husovy ulice, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "zakladni umelecka skola nova paka, okres jicin - sal zus, 3. patro|nova paka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Základní umělecká škola Nová Paka, okres Jičín - SÁL ZUŠ, 3. patro, Nová Paka, Česko",
+  "ts": "2026-09-19T09:04:09+00:00"
  },
  "zakladni umelecka skola|dvur kralove nad labem": {
   "lat": null,
