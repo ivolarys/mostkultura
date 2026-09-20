@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-19T08:58:34+00:00",
+ "fetched_at": "2026-09-20T09:26:38+00:00",
  "events": [
-  {
-   "title": "O POPELCE – Divadlo U Staré herečky",
-   "start": "2026-09-19T16:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=o-popelce-8211-divadlo-u-stare-herecky",
-   "end": "2026-09-19T17:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Spolková místnost MKS (Masarykovo nám. 325)",
-   "category": null,
-   "native_category": "porad-pro-deti",
-   "description": "Klasická pohádka o Popelce, která svého štěstí dojde a za krásného prince se provdá. A to i přes všechny nástrahy zlé macechy a nevlastní sestry.",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/o-popelce-8211-divadlo-u-stare-herecky.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=o-popelce-8211-divadlo-u-stare-herecky",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:06b142c4c603"
-  },
   {
    "title": "HOUBAŘI - divadelní loutková inscenace",
    "start": "2026-09-22T16:00:00+02:00",

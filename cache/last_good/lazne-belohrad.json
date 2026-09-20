@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-19T08:56:23+00:00",
+ "fetched_at": "2026-09-20T09:25:44+00:00",
  "events": [
   {
    "title": "Stand-up show Undeground Comedy Club",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:d89913f09fa5"
-  },
-  {
-   "title": "POCTA PÍSNIČCE - Koncert Miroslava Palečka",
-   "start": "2026-09-19T18:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/pocta-pisnicce-koncert-miroslava-palecka",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Koncert",
-   "description": "Koncert písničkáře Miroslava Palečka se stane poetickou tečkou za sérií akcí pořádaných k připomenutí 100. výročí úmrtí K. V. Raise. Jeho tvorba propojuje hudbu s českou literární tradicí.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13832710",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/pocta-pisnicce-koncert-miroslava-palecka",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:dbef96f8180c"
   },
   {
    "title": "KULTURNÍ PROGRAM - září/říjen",
@@ -168,30 +144,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:c1992a206bdf"
-  },
-  {
-   "title": "RAISOVÝM PODZVIČINSKEM - Turistický pochod malebným krajem",
-   "start": "2026-09-19T07:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/raisovym-podzvicinskem-turisticky-pochod-malebnym-krajem",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Pochod",
-   "description": "1. ročník turistického pochodu. Prezentace účastníků v CK Hoška Tour od 7:00 do 10:00.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13785532",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/raisovym-podzvicinskem-turisticky-pochod-malebnym-krajem",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:1b70403150ba"
   },
   {
    "title": "Karel Václav Rais: Komu bylo z Hůry dáno... - výstava",

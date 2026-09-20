@@ -1,29 +1,4 @@
 {
- "fetched_at": "2026-09-19T08:58:29+00:00",
- "events": [
-  {
-   "title": "2. ročník meziobecního klání",
-   "start": "2026-09-19T13:00:00+02:00",
-   "source": "bila-tremesna",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-bile-tremesne/2-rocnik-meziobecniho-klani-1910_1213cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Dne 19. září 2026 se na fotbalovém hřišti na Dubině v Bílé Třemešné uskuteční 2. ročník meziobecního klání Hry bez katastruOFF o putovní pohár. Akce zahrnuje také dílničky pro mladé, slackline a zábavné úkoly pro veřejnost.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3223&width=300",
-   "native_id": "event-1910",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna:ec13f8155fa6"
-  }
- ]
+ "fetched_at": "2026-09-20T09:26:33+00:00",
+ "events": []
 }

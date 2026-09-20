@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-19T08:56:20+00:00",
+ "fetched_at": "2026-09-20T09:25:41+00:00",
  "events": [
-  {
-   "title": "HRY BEZ KATASTRU - OFF",
-   "start": "2026-09-19T00:00:00+02:00",
-   "source": "mostek",
-   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/hry-bez-katastru-off-1573_367cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Areál autokempu",
-   "category": null,
-   "native_category": "akce pro veřejnost",
-   "description": "",
-   "image": "https://www.mostek.cz/evt_image.php?img=3854&width=500",
-   "native_id": "event-1573",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "mostek:d7ddc42c016f"
-  },
   {
    "title": "Sousedské setkání #3",
    "start": "2026-10-10T17:00:00+02:00",
