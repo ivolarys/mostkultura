@@ -17,8 +17,10 @@ from .hkinfo_program import HkinfoProgramSource
 from .josefa_events import JosefaEventsSource
 from .klaster_hostinne import KlasterHostinneSource
 from .klicperovo_program import KlicperovoProgramSource
+from .klub_kus import KlubKusSource
 from .koruna_program import KorunaProgramSource
 from .kultura_novapaka import KulturaNovaPakaSource
+from .kzmj_biograf import KzmjBiografSource
 from .lodzie import LodzieSource
 from .manual import ManualSource
 from .menu_music import MenuMusicSource
@@ -67,6 +69,8 @@ REGISTRY: dict[str, type[Source]] = {
     "simcal_calendar": SimcalCalendarSource,
     "klaster_hostinne": KlasterHostinneSource,
     "trut_program": TrutProgramSource,
+    "kzmj_biograf": KzmjBiografSource,
+    "klub_kus": KlubKusSource,
 }
 
 

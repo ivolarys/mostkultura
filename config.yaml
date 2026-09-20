@@ -44,6 +44,8 @@ places:
     aliases: [Hořicích, Hořic]
   - name: Trutnov
     aliases: [Trutnově, UFFO, Uffo, Bojiště]
+  - name: Turnov
+    aliases: [Turnově, Turnova, Klub Kus]
   - name: Jaroměř
     aliases: [Jaroměři]
   - name: Josefov
@@ -294,6 +296,24 @@ sources:
     place: Hořice
     priority: 9
     max_events: 60
+  - name: biograf-jicin
+    label: Biograf Český ráj – Jičín
+    type: kzmj_biograf
+    url: https://kzmj.cz/biograf/
+    page: https://kzmj.cz/biograf/
+    place: Jičín
+    priority: 9
+    enabled: true
+    venue: Biograf Český ráj
+  - name: klub-kus
+    label: Klub Kus – Turnov
+    type: klub_kus
+    url: https://www.kulturaturnov.cz/klub-kus
+    page: https://www.kulturaturnov.cz/klub-kus
+    place: Turnov
+    priority: 9
+    enabled: true
+    venue: Klub Kus
   - name: horice-galerie
     label: Galerie plastik Hořice – Kalendář událostí
     type: vismo6

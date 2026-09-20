@@ -11,7 +11,7 @@ def test_sources_czech_city_order_does_not_change_config(cfg):
         'Bílá Třemešná', 'Borovnice', 'Dolní Brusnice', 'Dvůr Králové nad Labem',
         'Horní Brusnice', 'Hořice', 'Hostinné', 'Hradec Králové', 'Choustníkovo Hradiště',
         'Jaroměř', 'Jičín', 'Jilemnice', 'Josefov', 'Kuks', 'Lázně Bělohrad', 'Mostek', 'Nemojov',
-        'Nová Paka', 'Pecka', 'Trutnov', 'Vítězná', 'Vrchlabí',
+        'Nová Paka', 'Pecka', 'Trutnov', 'Turnov', 'Vítězná', 'Vrchlabí',
         'Zvičina', 'Žireč',
     ]
     assert [p.name for p in cfg.places] == before

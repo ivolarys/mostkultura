@@ -27,14 +27,14 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 USER_AGENT = "mostek-kultura/0.1 (+https://github.com/ivolarys/mostkultura)"
 SLEEP_S = 1.1                       # Nominatim usage policy: max 1 request/second
 STALE_DAYS = 30
-BBOX = (50.15, 50.9, 15.2, 16.3)    # lat_min, lat_max, lon_min, lon_max (sanity check on results)
+BBOX = (50.15, 50.9, 15.1, 16.3)    # lat_min, lat_max, lon_min, lon_max (sanity check on results)
 
 # Most whitelisted places are in okres Trutnov, so appending it disambiguates them from
 # same-named settlements elsewhere in Czechia (e.g. there's an unrelated "Mostek" near Ústí nad
 # Orlicí that a bare query resolves to instead). These aren't in okres Trutnov though, so a plain
 # "<place>, Česko" is used instead, verified against the result's display_name (Jičín/Hořice/Nová
 # Paka/Lázně Bělohrad/Pecka: okres Jičín; Jaroměř: okres Náchod).
-_PLAIN_QUERY = {"Hradec Králové", "Jičín", "Jilemnice", "Hořice", "Nová Paka", "Lázně Bělohrad", "Pecka", "Jaroměř"}
+_PLAIN_QUERY = {"Hradec Králové", "Jičín", "Jilemnice", "Hořice", "Nová Paka", "Lázně Bělohrad", "Pecka", "Jaroměř", "Turnov"}
 # Josefov is a village within Jaroměř (okres Náchod); a bare "Josefov, Česko" resolves to an
 # unrelated same-named village in okres Hodonín, so it needs its containing town spelled out.
 _QUERY_OVERRIDE = {"Josefov": "Josefov, Jaroměř, Česko"}

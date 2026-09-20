@@ -27,6 +27,8 @@ samostatnými akcemi. Divadelní zájezdy, uzavřená a školní představení s
 Podzimní snění načítá z aktuální homepage jeden vícedenní festivalový záznam.
 Společenský dům Jilm v Jilemnici bere aktuální stránkovaný program včetně odkazů, obrázků,
 popisů a kategorií; Kino 70 je součástí téhož programu, nikoli samostatný zdroj.
+Výchozí zapnuté zdroje pokrývají také program kina Biograf Český ráj v Jičíně
+a kulturní program Klubu Kus v Turnově.
 
 Výběr „Další kultura v Hradci – HKinfo“ doplňuje zveřejněné akce PETROF Gallery,
 filharmonie, Galerie moderního umění, Muzea východních Čech, hvězdárny a planetária,

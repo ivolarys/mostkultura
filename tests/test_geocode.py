@@ -5,6 +5,7 @@ from mostek_kultura.config import Config, Place
 from mostek_kultura.dates import TZ
 from mostek_kultura.geocode import (
     _place_query,
+    _in_bbox,
     cache_key,
     geocode_events,
     load_cache,
@@ -139,6 +140,11 @@ def test_hradec_query_and_cinestar_inside_extended_bbox(tmp_path, monkeypatch):
 
 def test_jilemnice_uses_plain_query_outside_okres_trutnov():
     assert _place_query("Jilemnice") == "Jilemnice, Česko"
+
+
+def test_turnov_uses_plain_query_outside_okres_trutnov():
+    assert _place_query("Turnov") == "Turnov, Česko"
+    assert _in_bbox(50.58, 15.15)
 
 
 def test_venue_queries_try_institution_before_address_fallbacks():
