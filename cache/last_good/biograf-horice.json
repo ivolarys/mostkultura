@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-20T09:26:48+00:00",
+ "fetched_at": "2026-09-20T15:26:39+00:00",
  "events": [
-  {
-   "title": "Dívka v oblacích",
-   "start": "2026-09-20T16:00:00+02:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-839429",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Providence je desetiletá dívka, která žije v Paříži se svým strýcem Jasonem a morčetem Airbagem. Miluje knižní ságu Strážci Země. Její autor Octavius bydlí shodou okolností hned vedle – a Providence brzy zjistí, že jeho příběhy nejsou jen fikcí. Octavius totiž píše kouzelným perem, které dokáže proměnit fantazii ve skutečnost. Když se z knih nešťastnou náhodou osvobodí temná bytost Necato, původní tvůrce kouzelného pera, ocitá se v ohrožení svět fantazie i ten reálný. Spisovatle Octavius proto s",
-   "image": null,
-   "native_id": "5571871",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:c3dcc9021c0d"
-  },
   {
    "title": "LÉČIVÉ ÚČINKY SEBEKLAMU",
    "start": "2026-09-20T18:00:00+02:00",

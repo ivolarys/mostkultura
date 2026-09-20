@@ -496,6 +496,13 @@
   "q": "Dlouhá 99/9, Hradec Králové, Česko",
   "ts": "2026-09-12T10:25:41+00:00"
  },
+ "klub kus|turnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Klub Kus, Turnov, Česko",
+  "ts": "2026-09-20T15:28:30+00:00"
+ },
  "knihovna krystofa haranta|pecka": {
   "lat": 50.4811752,
   "lon": 15.6084019,
@@ -1132,6 +1139,13 @@
   "precision": "place",
   "q": "Trutnov, okres Trutnov, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "|turnov": {
+  "lat": 50.5874068,
+  "lon": 15.1574182,
+  "precision": "place",
+  "q": "Turnov, Česko",
+  "ts": "2026-09-20T15:28:30+00:00"
  },
  "|valdstejnska lodzie": {
   "lat": 50.449501,
