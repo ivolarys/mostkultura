@@ -71,6 +71,7 @@ def test_frontend_weekend_tab_uses_friday_to_sunday(today, expected_start):
         re.search(pattern, source).group(0)
         for pattern in (
             r"(?m)^const today=fmtDate\(new Date\(\)\);$",
+            r"(?m)^const dateRange=.*$",
             r"(?m)^const addDays=.*$",
             r"(?m)^const dow=.*$",
             r"(?m)^const weekendStart=.*$",
@@ -80,10 +81,14 @@ def test_frontend_weekend_tab_uses_friday_to_sunday(today, expected_start):
     declarations = declarations.replace(
         "const today=fmtDate(new Date());", "const today=globalThis.__TODAY__;"
     )
+    declarations = declarations.replace(
+        "const dateRange=MostkulturaDateRange;", "const dateRange=globalThis.__DATE_RANGE__;"
+    )
     script = (
         "const vm=require('node:vm');"
+        f"const range=require({json.dumps(str(ROOT / 'mostek_kultura/static/date-range.js'))});"
         f"const code={json.dumps(declarations + ';globalThis.__RESULT__=TABS;')};"
-        f"const context={{__TODAY__:{json.dumps(today)}}};"
+        f"const context={{__TODAY__:{json.dumps(today)},__DATE_RANGE__:range}};"
         "vm.runInNewContext(code,context);"
         "process.stdout.write(JSON.stringify(context.__RESULT__));"
     )
