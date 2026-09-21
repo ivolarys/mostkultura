@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-20T15:26:45+00:00",
+ "fetched_at": "2026-09-21T09:27:14+00:00",
  "events": [
   {
    "title": "Nová událost v kalendáři",
@@ -72,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "horice-galerie:67e37c696917"
+  },
+  {
+   "title": "Komentovaná prohlídka výstavy Návraty sochaře Jiřího Kačera za účasti autora",
+   "start": "2026-09-24T17:00:00+02:00",
+   "source": "horice-galerie",
+   "url": "https://galerie.horice.org/komentovana-prohlidka-vystavy-navraty-sochare-jiriho-kacera-za-ucasti-autora-2",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Doporučené, Volný čas, Společenské",
+   "description": "Galerie plastik Hořice zve ve čtvrtek 24. září 2026 od 17 hodin na komentovanou prohlídku výstavy Návraty sochaře Jiřího Kačera.",
+   "image": null,
+   "native_id": "4368397",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "horice-galerie:dd3ded6c55be"
   }
  ]
 }

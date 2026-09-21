@@ -636,6 +636,13 @@
   "q": "nábřeží Marie Kubátové, Vrchlabí, Česko",
   "ts": "2026-09-20T09:29:06+00:00"
  },
+ "namesti t. g. masaryka|dvur kralove nad labem": {
+  "lat": 50.4320774,
+  "lon": 15.8140196,
+  "precision": "venue",
+  "q": "náměstí T. G. Masaryka, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-21T09:32:38+00:00"
+ },
  "namesti tgm, vrchlabi|vrchlabi": {
   "lat": null,
   "lon": null,

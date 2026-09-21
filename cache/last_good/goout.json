@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-20T15:27:17+00:00",
+ "fetched_at": "2026-09-21T09:30:40+00:00",
  "events": [
   {
    "title": "Bez řečí: Monika Absolonová & Ondřej Hájek",
@@ -72,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "goout:5a11a563ea47"
+  },
+  {
+   "title": "Lucie Bílá – Recitál",
+   "start": "2027-04-29T19:00:00+02:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/lucie-bila-recital/szsdvmy/",
+   "end": "2027-04-29T23:59:59+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Trutnov – Střední Předměstí",
+   "venue": "UFFO Trutnov",
+   "category": null,
+   "native_category": "concerts, concerts",
+   "description": "Recitál několikanásobné zlaté slavice Lucie Bílé za klavírního doprovodu Petra Maláska. Návštěvníci se mohou těšit na jedinečný hudební zážitek v podání jednoho z předních hlasů české hudební scény.",
+   "image": null,
+   "native_id": "schedule:9575718",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:f6da9c778e18"
   },
   {
    "title": "Rock in Jaroměř 2027",
