@@ -61,11 +61,11 @@ def _bucket(events: list[Event], d_from: date, d_to: date) -> tuple[list[Event],
 
 def build_summary(events: list[Event], cfg: Config, statuses: list[SourceStatus]) -> dict:
     t = today()
-    weekend_start = t + timedelta(days=(5 - t.weekday()) % 7) if t.weekday() < 5 else t - timedelta(days=t.weekday() - 5)
+    weekend_start = t + timedelta(days=4 - t.weekday())
     ranges = {
         "today": (t, t),
         "tomorrow": (t + timedelta(days=1), t + timedelta(days=1)),
-        "weekend": (weekend_start, weekend_start + timedelta(days=1)),
+        "weekend": (weekend_start, weekend_start + timedelta(days=2)),
         "week": (t, t + timedelta(days=6)),
     }
     out = {"generated_at": now().isoformat(timespec="seconds"), "date": t.isoformat()}

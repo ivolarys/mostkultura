@@ -348,8 +348,8 @@ const fmtDate=d=>dateFormatter.format(d);
 const today=fmtDate(new Date());
 const addDays=(iso,n)=>{const d=new Date(iso+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
 const dow=iso=>(new Date(iso+'T12:00:00Z').getUTCDay()+6)%7;
-const weekendStart=addDays(today,5-dow(today));
-const TABS=[['today','Dnes',[today,today]],['tomorrow','Zítra',[addDays(today,1),addDays(today,1)]],['weekend','Víkend',[weekendStart,addDays(weekendStart,1)]],['week','Týden',[today,addDays(today,6)]],['all','Vše',[today,'9999-12-31']]];
+const weekendStart=addDays(today,4-dow(today));
+const TABS=[['today','Dnes',[today,today]],['tomorrow','Zítra',[addDays(today,1),addDays(today,1)]],['weekend','Pá–Ne',[weekendStart,addDays(weekendStart,2)]],['week','Týden',[today,addDays(today,6)]],['all','Vše',[today,'9999-12-31']]];
 const BAR_TABS=['today','tomorrow','weekend','date'];
 const CAT=Object.fromEntries(D.categories.map(c=>[c.slug,{label:c.label}]));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -460,9 +460,9 @@ function renderPlaceSearchPanel(snapshot,match){
 
 function renderPeriods(tabCounts){
   const desktopTabs=[...TABS,['date','Datum',[st.date,st.date]]];
-  const html=desktopTabs.map(t=>{const n=t[0]==='date'?(tabCounts.date??0):tabCounts[t[0]];const label=t[0]==='date'&&st.tab==='date'?shortDate(st.date):t[1];return `<button type="button" data-tab="${t[0]}" class="seg-btn${t[0]===st.tab?' on':''}" aria-pressed="${t[0]===st.tab}">${label} <span class="n">${n}</span></button>`}).join('');
+  const html=desktopTabs.map(t=>{const n=t[0]==='date'?(tabCounts.date??0):tabCounts[t[0]];const label=t[0]==='date'&&st.tab==='date'?shortDate(st.date):t[1];const aria=t[0]==='weekend'?` aria-label="Pátek až neděle, ${akceLabel(n)}"`:'';return `<button type="button" data-tab="${t[0]}" class="seg-btn${t[0]===st.tab?' on':''}" aria-pressed="${t[0]===st.tab}"${aria}>${label} <span class="n">${n}</span></button>`}).join('');
   document.getElementById('periodDesktop').innerHTML=html;
-  document.getElementById('tabbar').innerHTML=BAR_TABS.map(tab=>{const dateActive=!BAR_TABS.slice(0,3).includes(st.tab);const label=tab==='date'?(st.tab==='date'?shortDate(st.date):st.tab==='week'?'Týden':st.tab==='all'?'Vše':'Datum'):(TABS.find(x=>x[0]===tab)[1]);const active=tab==='date'?dateActive:tab===st.tab;const n=tab==='date'?(st.tab==='date'?(tabCounts.date??0):(tabCounts[st.tab]??0)):tabCounts[tab];return `<button type="button" data-tab="${tab}" class="tab-btn${active?' on':''}" aria-pressed="${active}" aria-haspopup="${tab==='date'?'dialog':'false'}" aria-label="${label}, ${akceLabel(n)}">${ICON[tab]}<span class="tab-label">${label}<span class="n"> ${n}</span></span></button>`}).join('');
+  document.getElementById('tabbar').innerHTML=BAR_TABS.map(tab=>{const dateActive=!BAR_TABS.slice(0,3).includes(st.tab);const label=tab==='date'?(st.tab==='date'?shortDate(st.date):st.tab==='week'?'Týden':st.tab==='all'?'Vše':'Datum'):(TABS.find(x=>x[0]===tab)[1]);const active=tab==='date'?dateActive:tab===st.tab;const n=tab==='date'?(st.tab==='date'?(tabCounts.date??0):(tabCounts[st.tab]??0)):tabCounts[tab];const ariaLabel=tab==='weekend'?`Pátek až neděle, ${akceLabel(n)}`:`${label}, ${akceLabel(n)}`;return `<button type="button" data-tab="${tab}" class="tab-btn${active?' on':''}" aria-pressed="${active}" aria-haspopup="${tab==='date'?'dialog':'false'}" aria-label="${ariaLabel}">${ICON[tab]}<span class="tab-label">${label}<span class="n"> ${n}</span></span></button>`}).join('');
 }
 function renderCategories(categoryCounts,categoryTotal){
   const el=document.getElementById('categories');

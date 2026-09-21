@@ -38,7 +38,7 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
 - Souhrn období zobrazuje datum před počtem; přepínač seznam/mapa používá pouze ikony.
 - Stav zdrojů je kompaktní odznak vedle odkazu „Zdroje“ v hlavičce; uvádí počet vybraných zdrojů z dostupných. Popisek uvádí i zdraví vybraných zdrojů a jantarové zvýraznění se použije, jen pokud má vybraný zdroj záložní data nebo chybu.
 - Výchozí období filtrů je „Dnes“ a výchozí kategorie „Vše“.
-- Spodní lišta má na všech běžných šířkách čtyři korálové ikonové položky Dnes/Zítra/Víkend/Datum. Datum otevírá nativní dialog s kalendářem; vlastní den ukládej jako `tab=date&date=YYYY-MM-DD` a datum vždy zpracovávej jako ISO den bez posunu časovým pásmem. Staré odkazy `tab=week` a `tab=all` zachovej.
+- Spodní lišta má na všech běžných šířkách čtyři korálové ikonové položky Dnes/Zítra/Pá–Ne/Datum. Pá–Ne zahrnuje pátek až neděli. Datum otevírá nativní dialog s kalendářem; vlastní den ukládej jako `tab=date&date=YYYY-MM-DD` a datum vždy zpracovávej jako ISO den bez posunu časovým pásmem. Staré odkazy `tab=week` a `tab=all` zachovej. (Upřesnění 2026-09-21.)
 - Značka je výraznější; aktualizace a počet akcí se v hlavičce nikdy nezalamují.
 - Hlavička má být kompaktní: Mostkultura a „Kultura okolo Mostku“ vlevo,
   „Zdroje“ vpravo na horním řádku a „Aktualizováno“ s počtem na druhém řádku.
