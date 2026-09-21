@@ -895,6 +895,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-17T05:06:39+00:00"
  },
+ "hradec-vyber:3b3283f9f85a": {
+  "category": "divadlo",
+  "confidence": 0.98,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-21T21:15:46+00:00"
+ },
  "hradec-vyber:3c4892de3c8f": {
   "category": "divadlo",
   "confidence": 0.95,
@@ -1663,6 +1671,14 @@
   "place": "Turnov",
   "ts": "2026-09-20T15:28:23+00:00"
  },
+ "klub-kus:a04932df70e5": {
+  "category": "koncert",
+  "confidence": 0.85,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Turnov",
+  "ts": "2026-09-21T21:15:46+00:00"
+ },
  "klub-kus:bcbeaa3aa610": {
   "category": "koncert",
   "confidence": 0.95,
@@ -1670,6 +1686,14 @@
   "needs_review": false,
   "place": "Turnov",
   "ts": "2026-09-20T15:28:29+00:00"
+ },
+ "klub-kus:be8e34be5798": {
+  "category": "koncert",
+  "confidence": 0.95,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Turnov",
+  "ts": "2026-09-21T21:15:46+00:00"
  },
  "klub-kus:d0ec2bd849d7": {
   "category": "koncert",
@@ -1686,6 +1710,14 @@
   "needs_review": false,
   "place": "Turnov",
   "ts": "2026-09-20T15:28:29+00:00"
+ },
+ "klub-kus:e92fd986cc4a": {
+  "category": "koncert",
+  "confidence": 0.95,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Turnov",
+  "ts": "2026-09-21T21:15:46+00:00"
  },
  "kuks-hospital:680acff30dcc": {
   "category": "slavnost",

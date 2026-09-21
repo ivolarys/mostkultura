@@ -426,6 +426,13 @@
   "q": "KD Střelnice – velký sál Vančurova 378, Vrchlabí, Česko",
   "ts": "2026-09-20T09:29:06+00:00"
  },
+ "kd strelnice – velky sal, vancurova 378, vrchlabi|vrchlabi": {
+  "lat": 50.6309963,
+  "lon": 15.6106488,
+  "precision": "venue",
+  "q": "Vančurova 378, Vrchlabí, Česko",
+  "ts": "2026-09-21T21:15:46+00:00"
+ },
  "kd strelnice, vancurova 378, vrchlabi|vrchlabi": {
   "lat": 50.6309963,
   "lon": 15.6106488,
@@ -755,6 +762,13 @@
   "q": "Komenského 1248, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "rodinne centrum kopretina|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Rodinné centrum Kopretina, Vrchlabí, Česko",
+  "ts": "2026-09-21T21:15:46+00:00"
+ },
  "safari park dvur kralove|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -866,6 +880,13 @@
   "precision": "none",
   "q": "Start a cíl: Vrchlabí – Podhůří, fotbalové hřiště, Vrchlabí, Česko",
   "ts": "2026-09-13T09:55:43+00:00"
+ },
+ "start: motorest kalan, horejsi vrchlabi|vrchlabi": {
+  "lat": 50.6587251,
+  "lon": 15.5972782,
+  "precision": "venue",
+  "q": "Hořejší Vrchlabí, Vrchlabí, Česko",
+  "ts": "2026-09-21T21:15:46+00:00"
  },
  "sterbova vila na prehrade les kralovstvi|dvur kralove nad labem": {
   "lat": null,
