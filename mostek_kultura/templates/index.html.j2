@@ -70,6 +70,10 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .period-desktop{display:none;margin:12px 0 0}
 .period-desktop .seg-btn{flex:1;min-width:0}
 .period-desktop .n{font-size:11px;color:var(--label3)}
+.place-search-panel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin:8px 0 2px;padding:10px 12px;border:1px solid var(--sep);border-radius:14px;background:var(--card);box-shadow:0 1px 2px rgba(40,25,35,.03)}
+.place-search-copy{min-width:0;color:var(--label2);font-size:13px;line-height:1.38}.place-search-panel strong{color:var(--label);font-weight:750}
+.place-search-action{flex:0 1 auto;max-width:100%;min-height:44px;padding:7px 12px;border-radius:11px;background:var(--tint);color:var(--tint-ink);font-size:13px;font-weight:750;line-height:1.15;white-space:normal;overflow-wrap:anywhere}
+@media (max-width:600px){.place-search-panel{align-items:flex-start;flex-direction:column;gap:8px}.place-search-action{width:100%}}
 
 .content-list{padding-top:2px}
 .time{width:54px;flex:0 0 54px;align-self:stretch;border-right:1px solid var(--sep);display:flex;flex-direction:column;justify-content:center}
@@ -222,7 +226,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
       <div class="searchbox">
         <label class="sr-only" for="search">Hledat akci nebo místo</label>
         <span id="searchIcon" aria-hidden="true"></span>
-        <input id="search" type="search" inputmode="search" autocomplete="off" placeholder="Hledat akci…">
+        <input id="search" type="search" inputmode="search" autocomplete="off" placeholder="Hledat akci nebo místo…">
         <button class="search-clear" id="searchClear" type="button" aria-label="Vymazat hledání" hidden></button>
       </div>
       <button class="filter-btn" id="filterBtn" type="button" aria-haspopup="dialog"><span id="filterIcon" aria-hidden="true"></span><span>Města</span><span class="filter-badge" id="filterBadge" hidden></span></button>
@@ -236,6 +240,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
     <div class="result-summary"><div class="range-label" id="rangeLabel"></div><div class="result-count" id="resultCount" aria-live="polite"></div></div>
     <div class="view-toggle seg" id="viewToggle" aria-label="Zobrazení"></div>
   </div>
+  <aside class="place-search-panel" id="placeSearchPanel" aria-live="polite" hidden></aside>
 
   <main id="list" class="content-list"></main>
   <div class="map-wrap" id="mapWrap">
@@ -280,6 +285,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
 
 <script type="application/json" id="data">{{ data_json|safe }}</script>
 <script src="source-preferences.js?v=mostkultura-4"></script>
+<script src="place-search.js?v=mostkultura-1"></script>
 <script>
 (function(){
 'use strict';
@@ -348,7 +354,7 @@ const TABS=[['today','Dnes',[today,today]],['tomorrow','Zítra',[addDays(today,1
 const BAR_TABS=['today','tomorrow','weekend','date'];
 const CAT=Object.fromEntries(D.categories.map(c=>[c.slug,{label:c.label}]));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('cs-CZ').trim();
+const norm=MostkulturaPlaceSearch.normalize;
 const collator=new Intl.Collator('cs',{sensitivity:'base'});
 
 D.events.forEach(e=>{e.sd=fmtDate(new Date(e.start));e.ed=e.end?fmtDate(new Date(e.end)):e.sd;e.time=e.all_day?null:timeFormatter.format(new Date(e.start));e.search=norm([e.title,e.place,e.venue].filter(Boolean).join(' '))});
@@ -441,6 +447,18 @@ function computeRenderSnapshot(){
   return {categoryCounts,categoryTotal,tabCounts,visible};
 }
 
+function placeSearchMatch(){return MostkulturaPlaceSearch.find(st.q,D.places,EVENTS)}
+function renderPlaceSearchPanel(snapshot,match){
+  const panel=document.getElementById('placeSearchPanel');
+  if(!match||!['today','tomorrow','weekend'].includes(st.tab)){panel.hidden=true;panel.innerHTML='';return}
+  const current=snapshot.visible.main.length+snapshot.visible.ongoing.length;
+  const state=MostkulturaPlaceSearch.panelState({match,tab:st.tab,currentCount:current,allCount:snapshot.tabCounts.all});
+  if(state.type==='empty'){panel.innerHTML=`<div class="place-search-copy">Pro <strong>„${esc(match.query)}“</strong> nemáme ve vybraných zdrojích a filtrech žádné akce.</div>`;panel.hidden=false;return}
+  const intro=state.currentCount?'Prohlédněte si celý dostupný program.':'V tomto období tu nic není.';
+  panel.innerHTML=`<div class="place-search-copy">${intro}</div><button type="button" class="place-search-action" data-show-all-place>Všechny akce pro „${esc(match.query)}“ · ${akceLabel(state.allCount)}</button>`;
+  panel.hidden=false;
+}
+
 function renderPeriods(tabCounts){
   const desktopTabs=[...TABS,['date','Datum',[st.date,st.date]]];
   const html=desktopTabs.map(t=>{const n=t[0]==='date'?(tabCounts.date??0):tabCounts[t[0]];const label=t[0]==='date'&&st.tab==='date'?shortDate(st.date):t[1];return `<button type="button" data-tab="${t[0]}" class="seg-btn${t[0]===st.tab?' on':''}" aria-pressed="${t[0]===st.tab}">${label} <span class="n">${n}</span></button>`}).join('');
@@ -462,12 +480,14 @@ function renderActiveFilters(){
   const el=document.getElementById('activeFilters');el.innerHTML=bits.join('');el.hidden=!bits.length;
   const n=st.cat.size+st.place.size+(st.q?1:0);document.getElementById('filterBadge').hidden=!n;document.getElementById('filterBadge').textContent=n;document.getElementById('filterBtn').classList.toggle('on',!!n);
 }
-function emptyState(){
+function emptyState(place){
   const sourceLink=sourcePrefs.disabledSources.length||sourcePrefs.disabledPlaces.length
     ? '<a class="empty-source-link" data-source-settings href="zdroje.html">Upravit zdroje</a>' : '';
+  if(st.tab==='all'&&place)return `<div class="empty">${ICON.search}<div class="empty-title">Pro „${esc(place.query)}“ nemáme žádné akce</div><div class="empty-sub">V rámci vybraných zdrojů a filtrů nejsou dostupné žádné termíny.</div>${sourceLink}</div>`;
+  if(['today','tomorrow','weekend'].includes(st.tab)&&place)return '';
   return `<div class="empty">${ICON.search}<div class="empty-title">Nic jsme nenašli</div><div class="empty-sub">Zkuste jiné období nebo upravte filtry.</div>${sourceLink}</div>`;
 }
-function renderList(main,ongoing){
+function renderList(main,ongoing,place){
   if(st.group==='category'){
     const groups={};
     [...main,...ongoing].forEach(e=>{
@@ -487,23 +507,24 @@ function renderList(main,ongoing){
         : '';
       return `<section aria-labelledby="grp-${esc(k)}"><h2 class="grp grp-title c-${esc(k)}" id="grp-${esc(k)}">${catIcon(k)}<span>${esc(label)}</span></h2>${ordinaryHtml}${ongoingHtml}</section>`;
     }).join('');
-    if(!keys.length)html=emptyState();
+    if(!keys.length)html=emptyState(place);
     document.getElementById('list').innerHTML=html;return;
   }
   const groups={};main.forEach(e=>(groups[e.sd]=groups[e.sd]||[]).push(e));
   const keys=Object.keys(groups).sort();
   let html=keys.map(k=>{const label=dayLabel(k);return `<section aria-labelledby="grp-${esc(k)}"><h2 class="grp grp-title" id="grp-${esc(k)}">${ICON.today}<span>${esc(label)}</span></h2><div class="list-card">${groups[k].sort((a,b)=>a.start.localeCompare(b.start)).map(e=>eventHtml(e,false)).join('')}</div></section>`}).join('');
-  if(!main.length&&!ongoing.length)html=emptyState();
+  if(!main.length&&!ongoing.length)html=emptyState(place);
   if(ongoing.length)html+=`<details class="ongoing"><summary>Právě probíhá · ${akceLabel(ongoing.length)}${ICON.chev}</summary><div class="list-card">${ongoing.sort((a,b)=>a.ed.localeCompare(b.ed)).map(e=>eventHtml(e,false)).join('')}</div></details>`;
   document.getElementById('list').innerHTML=html;
 }
 function render(){
   const snapshot=computeRenderSnapshot(),{main,ongoing}=snapshot.visible,count=main.length+ongoing.length;
-  document.body.classList.toggle('view-map',st.view==='map');renderPeriods(snapshot.tabCounts);renderCategories(snapshot.categoryCounts,snapshot.categoryTotal);renderActiveFilters();renderList(main,ongoing);
+  const place=placeSearchMatch();
+  document.body.classList.toggle('view-map',st.view==='map');renderPeriods(snapshot.tabCounts);renderCategories(snapshot.categoryCounts,snapshot.categoryTotal);renderActiveFilters();renderPlaceSearchPanel(snapshot,place);renderList(main,ongoing,place);
   const search=document.getElementById('search');if(search.value!==st.q)search.value=st.q;document.getElementById('searchClear').hidden=!st.q;
   document.getElementById('resultCount').textContent=akceLabel(count);document.getElementById('rangeLabel').textContent=rangeLabel();document.querySelector('.result-summary').classList.toggle('custom-date',st.tab==='date');
   document.getElementById('viewToggle').innerHTML=`<button type="button" data-view="list" class="seg-btn${st.view==='list'?' on':''}" aria-label="Zobrazit seznam" title="Seznam" aria-pressed="${st.view==='list'}">${ICON.list}</button><button type="button" data-view="map" class="seg-btn${st.view==='map'?' on':''}" aria-label="Zobrazit mapu" title="Mapa" aria-pressed="${st.view==='map'}">${ICON.map}</button>`;
-  if(st.view==='map')showMap([...main,...ongoing]);else mapRequest++;
+  if(st.view==='map')showMap([...main,...ongoing],place);else mapRequest++;
   restoreFocus();
 }
 
@@ -558,8 +579,10 @@ function renderMarkers(events){
   const bounds=[];Object.values(groups).forEach(g=>{const cc={};g.events.forEach(e=>cc[e.category]=(cc[e.category]||0)+1);const topCat=Object.keys(cc).sort((a,b)=>cc[b]-cc[a])[0]||'jine';const n=g.events.length,size=n>1?36:30,approx=g.geo==='place';const title=(g.geo==='venue'?(g.venue||g.place):g.place)||'Místo';const open=()=>openEventDialog(approx?title+' (přibližně)':title,g.events);const marker=L.marker([g.lat,g.lon],{icon:L.divIcon({html:`<div class="mk c-${esc(topCat)}${approx?' mk-approx':''}" style="width:${size}px;height:${size}px" aria-hidden="true">${n>1?n:''}</div>`,className:'mk-wrap',iconSize:[44,44],iconAnchor:[22,22]}),title:`${title}: ${akceLabel(n)}`,alt:`${title}: ${akceLabel(n)}`,keyboard:true}).addTo(markersLayer);marker.on('click',open);const markerEl=marker.getElement();if(markerEl)markerEl.addEventListener('keydown',ev=>{if(ev.key!=='Enter'&&ev.key!==' ')return;ev.preventDefault();ev.stopPropagation();open()});bounds.push([g.lat,g.lon])});
   const btn=document.getElementById('mapNopos');btn.hidden=!noPos.length;if(noPos.length){btn.textContent=`Bez polohy · ${akceLabel(noPos.length)}`;btn.onclick=()=>openEventDialog('Bez polohy',noPos)}return bounds;
 }
-function showMap(events){
-  const request=++mapRequest,msg=document.getElementById('mapMessage');msg.hidden=true;
+function showMap(events,place){
+  const request=++mapRequest,msg=document.getElementById('mapMessage'),retry=document.getElementById('mapRetry');
+  if(!events.length){if(markersLayer)markersLayer.clearLayers();const noPos=document.getElementById('mapNopos');noPos.hidden=true;noPos.onclick=null;retry.hidden=true;if(place&&['today','tomorrow','weekend'].includes(st.tab)){msg.hidden=true;return}msg.querySelector('p').textContent=st.tab==='all'&&place?`Pro „${place.query}“ nemáme ve vybraných zdrojích a filtrech žádné akce.`:'Pro toto období a vybrané filtry nejsou žádné akce.';msg.hidden=false;return}
+  retry.hidden=false;msg.querySelector('p').textContent='Mapu se nepodařilo načíst.';msg.hidden=true;
   loadLeaflet().then(()=>{if(request!==mapRequest||st.view!=='map')return;initMap();sizeMap();map.invalidateSize();const bounds=renderMarkers(events);const key=stateHash();if(bounds.length&&key!==lastMapKey)map.fitBounds(bounds,{padding:[34,34],maxZoom:13});lastMapKey=key}).catch(()=>{if(request===mapRequest&&st.view==='map')msg.hidden=false});
 }
 function openEventDialog(title,events){const dialog=document.getElementById('eventDialog');if(dialog.open)return;document.getElementById('eventTitle').innerHTML=`${esc(title)}<div class="sheet-subtitle">${akceLabel(events.length)}</div>`;document.getElementById('eventBody').innerHTML=`<div class="list-card">${events.slice().sort((a,b)=>a.start.localeCompare(b.start)).map(e=>eventHtml(e,true)).join('')}</div>`;openDialog(dialog)}
@@ -583,7 +606,7 @@ document.getElementById('calendarNext').addEventListener('click',()=>setCalendar
 document.getElementById('calendarDays').addEventListener('click',e=>{const b=e.target.closest('[data-calendar-date]');if(!b)return;draftDate=b.dataset.calendarDate;renderCalendar(draftDate)});
 document.getElementById('calendarDays').addEventListener('keydown',e=>{const b=e.target.closest('[data-calendar-date]');if(!b)return;const steps={ArrowLeft:-1,ArrowRight:1,ArrowUp:-7,ArrowDown:7};if(!(e.key in steps))return;e.preventDefault();const next=addDays(b.dataset.calendarDate,steps[e.key]);if(!validISODate(next))return;draftDate=next;calendarYear=Number(next.slice(0,4));calendarMonth=Number(next.slice(5,7))-1;renderCalendar(next)});
 document.getElementById('dateApply').addEventListener('click',()=>applyDate(draftDate));
-document.getElementById('mapRetry').addEventListener('click',()=>{const visible=visibleEvents();showMap([...visible.main,...visible.ongoing])});
+document.getElementById('mapRetry').addEventListener('click',()=>{const visible=visibleEvents();showMap([...visible.main,...visible.ongoing],placeSearchMatch())});
 document.addEventListener('click',e=>{if(!e.target.closest('[data-source-settings]'))return;try{sessionStorage.setItem('mostkultura.sourceReturnHash',location.hash)}catch(_){}});
 document.getElementById('filterDialog').addEventListener('cancel',e=>{e.preventDefault();cancelFilter()});
 document.getElementById('dateDialog').addEventListener('cancel',e=>{e.preventDefault();cancelDate()});
@@ -600,7 +623,7 @@ document.getElementById('categories').addEventListener('wheel',e=>{
   el.scrollLeft=next;
   if(el.scrollLeft!==before)e.preventDefault();
 },{passive:false});
-document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.closest('#filterDialog')||b.closest('#dateDialog'))return;if(b.dataset.tab==='date')openDateDialog(b);else if(b.dataset.tab)update(()=>st.tab=b.dataset.tab);else if(b.dataset.view)update(()=>st.view=b.dataset.view);else if(b.dataset.cat)update(()=>st.cat.has(b.dataset.cat)?st.cat.delete(b.dataset.cat):st.cat.add(b.dataset.cat));else if(b.hasAttribute('data-clear-cats'))update(()=>st.cat.clear());else if(b.hasAttribute('data-clear-q'))update(()=>st.q='');else if(b.dataset.removePlace)update(()=>st.place.delete(b.dataset.removePlace));else if(b.hasAttribute('data-reset'))update(()=>{st.cat.clear();st.place.clear();st.q=''})});
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.closest('#filterDialog')||b.closest('#dateDialog'))return;if(b.hasAttribute('data-show-all-place'))update(()=>st.tab='all',false,'#search');else if(b.dataset.tab==='date')openDateDialog(b);else if(b.dataset.tab)update(()=>st.tab=b.dataset.tab);else if(b.dataset.view)update(()=>st.view=b.dataset.view);else if(b.dataset.cat)update(()=>st.cat.has(b.dataset.cat)?st.cat.delete(b.dataset.cat):st.cat.add(b.dataset.cat));else if(b.hasAttribute('data-clear-cats'))update(()=>st.cat.clear());else if(b.hasAttribute('data-clear-q'))update(()=>st.q='');else if(b.dataset.removePlace)update(()=>st.place.delete(b.dataset.removePlace));else if(b.hasAttribute('data-reset'))update(()=>{st.cat.clear();st.place.clear();st.q=''})});
 window.addEventListener('hashchange',()=>{parseState();canonicalize();render()});
 function syncSourcePreferences(){
   const filters=document.getElementById('filterDialog');
