@@ -1175,6 +1175,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-15T04:52:40+00:00"
  },
+ "hradec-vyber:88f5e3216b6d": {
+  "category": "divadlo",
+  "confidence": 0.95,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-21T11:02:53+00:00"
+ },
  "hradec-vyber:8e00a430bfeb": {
   "category": "vystava",
   "confidence": 0.9,
