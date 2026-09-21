@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-21T11:09:42+00:00",
+ "fetched_at": "2026-09-21T20:40:12+00:00",
  "events": [
-  {
-   "title": "HitchBros",
-   "start": "2026-09-21T18:00:00+02:00",
-   "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/kino-70/prednaska/hitchbros-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kino 70",
-   "category": "prednaska",
-   "native_category": "Přednáška",
-   "description": "Co znamená stopovat v dnešní době? Chcete to opravdu vědět? Tady se to dozvíte.",
-   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6a9/7f8/b71/thumb_1631_250_250_0_0_auto.webp",
-   "native_id": "505|2026-09-21T18:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "sd-jilm:5cbef6fcdd24"
-  },
   {
    "title": "Lenka Husáriková a Tomáš Pekárek – Krajina v prožitcích věků",
    "start": "2026-09-23T18:00:00+02:00",
