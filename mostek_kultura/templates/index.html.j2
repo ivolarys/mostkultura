@@ -83,6 +83,7 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .thumb{width:50px;height:50px;border-radius:11px;object-fit:cover;flex:0 0 50px;background:var(--fill)}
 @media (max-width:359px){.thumb{display:none}}
 .event-row .chev{display:none}
+.event-row.category-day-start{border-top:3px solid var(--sep)}.event-row.category-day-start::after{display:none}
 .subline{display:flex;align-items:center;gap:6px;min-width:0;white-space:nowrap}
 .srcline{display:none;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ongoing{margin-top:26px}
@@ -411,13 +412,13 @@ const compactDateRange=(start,end)=>{if(start===end)return fullDateFormatter.for
 const dayLabel=iso=>{const d=new Date(iso+'T12:00:00Z');const s=dayFormatter.format(d);return iso===today?'Dnes · '+s:iso===addDays(today,1)?'Zítra · '+s:s};
 function rangeLabel(){const t=TABS.find(x=>x[0]===st.tab);if(st.tab==='date')return compactDateRange(st.date,st.dateEnd);if(st.tab==='all')return 'Od dneška dál';if(st.tab==='today'||st.tab==='tomorrow')return `${t[1]} · ${shortDate(t[2][0])}`;if(t[2][0]===t[2][1])return dayLabel(t[2][0]);return `${shortDate(t[2][0])}–${shortDate(t[2][1])}`}
 
-function eventHtml(e,showDate){
+function eventHtml(e,showDate,dayStart=false){
   const current=e.ongoing&&e.sd<today;
   const when=current?`<div class="time"><span class="do">probíhá do</span><span class="dd">${esc(shortDate(e.ed))}</span></div>`:`<div class="time">${e.time?`<span class="hm">${esc(e.time)}</span>`:'<span class="allday">celý den</span>'}${showDate?`<span class="dd">${esc(shortDate(e.sd))}</span>`:''}${e.ongoing?`<span class="do">do ${esc(shortDate(e.ed))}</span>`:''}</div>`;
   const img=!embed&&e.image?`<img class="thumb" src="${esc(e.image)}" alt="" loading="lazy">`:'';
   const where=[e.place,e.venue&&e.venue!==e.place?e.venue:null].filter(Boolean).join(' · ');
   const inner=`${when}<div class="content"><div class="title">${esc(e.title)}</div><div class="meta"><span class="where">${ICON.pin}<span class="where-text">${esc(where||'Místo neuvedeno')}</span></span></div><div class="subline"><span class="pill c-${esc(e.category)}">${esc((CAT[e.category]||{}).label||e.category)}</span><span class="srcline"> · ${esc((e.source_labels||e.sources||[]).join(', '))}</span></div></div>${img}${ICON.chev}`;
-  const cls=`row event-row c-${esc(e.category)}`;
+  const cls=`row event-row c-${esc(e.category)}${dayStart?' category-day-start':''}`;
   return e.url?`<a class="${cls}" href="${esc(e.url)}" target="_blank" rel="noopener">${inner}</a>`:`<div class="${cls}">${inner}</div>`;
 }
 function allPlaces(){const disabledPlaces=disabledPlaceSet();return [...new Set([...D.places,...eventPlaces])].filter(place=>!disabledPlaces.has(place)).sort((a,b)=>collator.compare(a==='?'?'zzzz':a,b==='?'?'zzzz':b))}
@@ -503,8 +504,9 @@ function renderList(main,ongoing,place){
       const label=(CAT[k]||{}).label||k;
       const regular=groups[k].main.sort((a,b)=>a.start.localeCompare(b.start));
       const live=groups[k].ongoing.sort((a,b)=>a.ed.localeCompare(b.ed)||a.start.localeCompare(b.start));
+      const multiDay=rangeFor()[0]!==rangeFor()[1];
       const ordinaryHtml=regular.length
-        ? `<div class="list-card">${regular.map(e=>eventHtml(e,true)).join('')}</div>`
+        ? `<div class="list-card">${regular.map((e,i)=>eventHtml(e,true,multiDay&&i>0&&e.sd!==regular[i-1].sd)).join('')}</div>`
         : '';
       const ongoingHtml=live.length
         ? `<div class="category-ongoing"><h3 class="category-ongoing-title"><span>Několikadenní akce, které právě probíhají</span></h3><div class="list-card">${live.map(e=>eventHtml(e,true)).join('')}</div></div>`
