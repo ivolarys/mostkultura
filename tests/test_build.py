@@ -28,6 +28,8 @@ def test_offline_build(root, tmp_path):
     assert "color-mix" not in html
     assert "source_labels" in html
     assert 'id="placeSearchPanel"' in html
+    assert 'id="sourcesBtn"' in html and 'data-source-settings' in html
+    assert 'id="filterDialog"' not in html
     assert 'src="place-search.js?v=mostkultura-1"' in html
     assert (tmp_path / "place-search.js").is_file()
     assert 'rel="manifest"' in html

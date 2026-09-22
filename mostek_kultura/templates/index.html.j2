@@ -49,9 +49,8 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .searchbox input::placeholder{color:var(--label3)}
 .search-clear{position:absolute;right:0;top:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:var(--label3);border-radius:12px}
 .search-clear .icon{position:static;width:18px;height:18px}
-.filter-btn{height:44px;padding:0 13px;border:1px solid var(--sep);border-radius:13px;background:var(--card);font-size:14px;font-weight:700;display:flex;align-items:center;gap:7px;white-space:nowrap}
-.filter-btn.on{color:var(--tint);border-color:rgba(228,94,61,.4);background:var(--active)}
-.filter-badge{min-width:19px;height:19px;padding:0 5px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;background:var(--tint);color:var(--tint-ink);font-size:11px}
+.sources-btn{height:44px;padding:0 13px;border:1px solid var(--sep);border-radius:13px;background:var(--card);color:var(--label);font-size:14px;font-weight:700;display:flex;align-items:center;gap:7px;white-space:nowrap}
+.sources-btn .icon{width:18px;height:18px}
 .category-row,.active-row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:8px 0 1px}
 .category-row::-webkit-scrollbar,.active-row::-webkit-scrollbar{display:none}
 .category-row .chip,.active-row .chip{min-height:44px}
@@ -170,7 +169,6 @@ dialog{color:var(--label)}
 .sheet-close .icon{width:21px;height:21px}
 .sheet-body{overflow-y:auto;padding:4px 16px 24px;overscroll-behavior:contain}
 .sheet-body .list-card{box-shadow:none;border-radius:14px}
-.filter-places .list-card + .list-card{margin-top:12px}
 .sheet-body .seg{margin-bottom:4px}
 .sheet-body .seg-btn{flex:1;min-height:44px}
 .sheet-footer{position:sticky;bottom:0;flex:0 0 auto;margin:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--sep);background:var(--elevated)}
@@ -202,7 +200,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
         <h1 class="brand"><span>Mostkultura</span></h1>
         <span class="hero-locality">Kultura okolo Mostku</span>
       </div>
-      <a class="source-link" data-source-settings href="zdroje.html" aria-label="Zdroje podle obce" title="Zdroje podle obce"><span id="sourceIcon" aria-hidden="true"></span><span class="source-link-label">Zdroje</span><span id="sourceHealthBadge" class="source-health-badge" aria-hidden="true" hidden></span></a>
+      <a class="source-link" id="headerSourcesLink" data-source-settings href="zdroje.html" aria-label="Zdroje podle obce" title="Zdroje podle obce"><span id="sourceIcon" aria-hidden="true"></span><span class="source-link-label">Zdroje</span><span id="sourceHealthBadge" class="source-health-badge" aria-hidden="true" hidden></span></a>
       <div class="hero-meta"><div class="hero-update">Aktualizováno <span id="gen"></span> · <span id="total"></span></div></div>
     </div>
   </header>
@@ -230,7 +228,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
         <input id="search" type="search" inputmode="search" autocomplete="off" placeholder="Hledat akci nebo místo…">
         <button class="search-clear" id="searchClear" type="button" aria-label="Vymazat hledání" hidden></button>
       </div>
-      <button class="filter-btn" id="filterBtn" type="button" aria-haspopup="dialog"><span id="filterIcon" aria-hidden="true"></span><span>Města</span><span class="filter-badge" id="filterBadge" hidden></span></button>
+      <a class="sources-btn" id="sourcesBtn" data-source-settings href="zdroje.html" aria-label="Vybrat zdroje, města a místa" title="Vybrat zdroje, města a místa"><span id="sourcesBtnIcon" aria-hidden="true"></span><span>Zdroje</span></a>
     </div>
     <div class="category-row" id="categories" aria-label="Kategorie akcí"></div>
     <div class="active-row" id="activeFilters" aria-label="Aktivní filtry" hidden></div>
@@ -256,15 +254,6 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
 </div>
 
 <nav class="tabbar" id="tabbar" aria-label="Období"></nav>
-
-<dialog class="sheet" id="filterDialog" aria-labelledby="filterTitle">
-  <div class="sheet-layout">
-    <div class="sheet-grabber" aria-hidden="true"></div>
-    <header class="sheet-header"><div class="sheet-title" id="filterTitle">Filtry<div class="sheet-subtitle">Výběr měst a obcí</div></div><button class="sheet-close" id="filterClose" type="button" aria-label="Zavřít bez použití změn"></button></header>
-    <div class="sheet-body" id="filterBody"></div>
-    <footer class="sheet-footer"><button class="apply-btn" id="filterApply" type="button"></button></footer>
-  </div>
-</dialog>
 
 <dialog class="sheet event-sheet" id="eventDialog" aria-labelledby="eventTitle">
   <div class="sheet-layout">
@@ -298,7 +287,7 @@ function updateSourceHealthBadge(){
   const health=`${summary.healthy} z ${summary.selected} vybraných zdrojů v pořádku`;
   const issues=summary.issues ? `. Problémové zdroje: ${summary.issueLabels.join(', ')}` : '';
   const label=`Vybrané zdroje: ${summary.selected} z ${summary.available} dostupných. Stav vybraných zdrojů: ${health}${issues}`;
-  const link=document.querySelector('[data-source-settings]'),badge=document.getElementById('sourceHealthBadge');
+  const link=document.getElementById('headerSourcesLink'),badge=document.getElementById('sourceHealthBadge');
   link.setAttribute('aria-label',label);link.title=label;
   badge.textContent=`${summary.selected}/${summary.available}`;
   badge.classList.toggle('source-health-badge--warning',summary.issues>0);
@@ -312,8 +301,6 @@ const svg=body=>`<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="curre
 const ICON={
   search:svg('<circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/>'),
   close:svg('<path d="m6 6 12 12M18 6 6 18"/>'),
-  filter:svg('<path d="M4 6h16M7 12h10M10 18h4"/>'),
-  check:svg('<path d="m5 12 4 4L19 6"/>'),
   pin:svg('<path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.3"/>'),
   list:svg('<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>'),
   map:svg('<path d="m3 6 5-3 8 3 5-3v15l-5 3-8-3-5 3V6Z"/><path d="M8 3v15M16 6v15"/>'),
@@ -390,7 +377,7 @@ function stateHash(){
 }
 function canonicalize(){const hash=stateHash();if(location.hash.slice(1)!==hash)history.replaceState(null,'','#'+hash)}
 let pendingFocus='';
-function focusKey(el){if(!el||el===document.body)return '';const parent=el.closest('[id]');if(el.dataset.tab)return `#${parent.id} [data-tab="${el.dataset.tab}"]`;if(el.dataset.view)return `#viewToggle [data-view="${el.dataset.view}"]`;if(el.dataset.cat)return `#categories [data-cat="${el.dataset.cat}"]`;if(el.hasAttribute('data-clear-cats'))return '#categories [data-clear-cats]';if(el.id==='searchClear'||el.hasAttribute('data-clear-q'))return '#search';if(el.matches('[data-remove-place],[data-reset]'))return '#filterBtn';return ''}
+function focusKey(el){if(!el||el===document.body)return '';const parent=el.closest('[id]');if(el.dataset.tab)return `#${parent.id} [data-tab="${el.dataset.tab}"]`;if(el.dataset.view)return `#viewToggle [data-view="${el.dataset.view}"]`;if(el.dataset.cat)return `#categories [data-cat="${el.dataset.cat}"]`;if(el.hasAttribute('data-clear-cats'))return '#categories [data-clear-cats]';if(el.id==='searchClear'||el.hasAttribute('data-clear-q'))return '#search';if(el.matches('[data-remove-place],[data-reset]'))return '#sourcesBtn';return ''}
 function restoreFocus(){if(!pendingFocus)return;const target=document.querySelector(pendingFocus)||document.getElementById('search');pendingFocus='';if(target)target.focus({preventScroll:true})}
 function update(mutator,replace,focusSelector){pendingFocus=focusSelector??focusKey(document.activeElement);mutator();const hash=stateHash();if(location.hash.slice(1)===hash){render();return}if(replace)history.replaceState(null,'','#'+hash),render();else location.hash=hash}
 
@@ -420,15 +407,6 @@ function eventHtml(e,showDate,dayStart=false){
   const inner=`${when}<div class="content"><div class="title">${esc(e.title)}</div><div class="meta"><span class="where">${ICON.pin}<span class="where-text">${esc(where||'Místo neuvedeno')}</span></span></div><div class="subline"><span class="pill c-${esc(e.category)}">${esc((CAT[e.category]||{}).label||e.category)}</span><span class="srcline"> · ${esc((e.source_labels||e.sources||[]).join(', '))}</span></div></div>${img}${ICON.chev}`;
   const cls=`row event-row c-${esc(e.category)}${dayStart?' category-day-start':''}`;
   return e.url?`<a class="${cls}" href="${esc(e.url)}" target="_blank" rel="noopener">${inner}</a>`:`<div class="${cls}">${inner}</div>`;
-}
-function allPlaces(){const disabledPlaces=disabledPlaceSet();return [...new Set([...D.places,...eventPlaces])].filter(place=>!disabledPlaces.has(place)).sort((a,b)=>collator.compare(a==='?'?'zzzz':a,b==='?'?'zzzz':b))}
-function placeCounts(query=norm(st.q)){
-  const out={},range=rangeFor(),noPlaceFilter=new Set();
-  EVENTS.forEach(e=>{
-    if(!relevant(e,range)||!matches(e,noPlaceFilter,query))return;
-    const place=e.place||'?';out[place]=(out[place]||0)+1;
-  });
-  return out;
 }
 function computeRenderSnapshot(){
   const query=norm(st.q),range=rangeFor(),tabCounts=Object.fromEntries([...TABS.map(t=>[t[0],0]),['date',0]]);
@@ -483,7 +461,6 @@ function renderActiveFilters(){
   [...st.place].sort(collator.compare).forEach(p=>bits.push(`<button type="button" class="chip chip-remove on" data-remove-place="${esc(p)}">${esc(p==='?'?'Místo neuvedeno':p)} <span class="x" aria-hidden="true">×</span></button>`));
   if(bits.length)bits.push('<button type="button" class="chip reset-btn" data-reset>Resetovat vše</button>');
   const el=document.getElementById('activeFilters');el.innerHTML=bits.join('');el.hidden=!bits.length;
-  const n=st.cat.size+st.place.size+(st.q?1:0);document.getElementById('filterBadge').hidden=!n;document.getElementById('filterBadge').textContent=n;document.getElementById('filterBtn').classList.toggle('on',!!n);
 }
 function emptyState(place){
   const sourceLink=sourcePrefs.disabledSources.length||sourcePrefs.disabledPlaces.length
@@ -534,17 +511,8 @@ function render(){
   restoreFocus();
 }
 
-let draftPlaces=new Set(),filterInvoker=null;
-function draftCount(query=norm(st.q)){const visible=visibleEvents(draftPlaces,query);return visible.main.length+visible.ongoing.length}
-function renderFilterDialog(){
-  const query=norm(st.q),pc=placeCounts(query),places=allPlaces(),allOn=!draftPlaces.size;
-  document.getElementById('filterBody').innerHTML=`<h2 class="grp">Město, obec</h2><div class="filter-places"><div class="list-card"><button type="button" class="list-row" data-all-places aria-pressed="${allOn}"><span class="lr-name">Všechna místa</span><span class="lr-count">${Object.values(pc).reduce((a,b)=>a+b,0)}</span><span class="lr-check">${allOn?ICON.check:''}</span></button></div><div class="list-card">${places.map(p=>{const on=draftPlaces.has(p);return `<button type="button" class="list-row" data-draft-place="${esc(p)}" aria-pressed="${on}"><span class="lr-name">${esc(p==='?'?'Místo neuvedeno':p)}</span><span class="lr-count">${pc[p]||0}</span><span class="lr-check">${on?ICON.check:''}</span></button>`}).join('')}</div></div>`;
-  document.getElementById('filterApply').textContent='Zobrazit '+akceLabel(draftCount(query));
-}
-function openFilterDialog(){filterInvoker=document.activeElement;draftPlaces=new Set(st.place);renderFilterDialog();openDialog(document.getElementById('filterDialog'));document.getElementById('filterBody').scrollTop=0}
 function openDialog(dialog){document.body.classList.add('dialog-open');dialog.showModal()}
 function closeDialog(dialog){dialog.close();document.body.classList.remove('dialog-open')}
-function cancelFilter(){closeDialog(document.getElementById('filterDialog'));if(filterInvoker)filterInvoker.focus()}
 
 let dateInvoker='',dateInvokerRoot='#tabbar',draftDate=today,draftDateEnd=today,draftSelectingEnd=false,calendarYear=Number(today.slice(0,4)),calendarMonth=Number(today.slice(5,7))-1,calendarPointer=null,keyboardAnchor=null,suppressCalendarClick=false;
 const monthFormatter=new Intl.DateTimeFormat('cs-CZ',{month:'long',year:'numeric',timeZone:'UTC'});
@@ -598,16 +566,13 @@ function showMap(events,place){
 }
 function openEventDialog(title,events){const dialog=document.getElementById('eventDialog');if(dialog.open)return;document.getElementById('eventTitle').innerHTML=`${esc(title)}<div class="sheet-subtitle">${akceLabel(events.length)}</div>`;document.getElementById('eventBody').innerHTML=`<div class="list-card">${events.slice().sort((a,b)=>a.start.localeCompare(b.start)).map(e=>eventHtml(e,true)).join('')}</div>`;openDialog(dialog)}
 
-document.getElementById('searchIcon').innerHTML=ICON.search;document.getElementById('searchClear').innerHTML=ICON.close;document.getElementById('filterIcon').innerHTML=ICON.filter;document.getElementById('filterClose').innerHTML=ICON.close;document.getElementById('eventClose').innerHTML=ICON.close;document.getElementById('dateClose').innerHTML=ICON.close;document.getElementById('calendarPrev').innerHTML=ICON.prev;document.getElementById('calendarNext').innerHTML=ICON.next;document.getElementById('sourceIcon').innerHTML=ICON.source;
+document.getElementById('searchIcon').innerHTML=ICON.search;document.getElementById('searchClear').innerHTML=ICON.close;document.getElementById('sourcesBtnIcon').innerHTML=ICON.source;document.getElementById('eventClose').innerHTML=ICON.close;document.getElementById('dateClose').innerHTML=ICON.close;document.getElementById('calendarPrev').innerHTML=ICON.prev;document.getElementById('calendarNext').innerHTML=ICON.next;document.getElementById('sourceIcon').innerHTML=ICON.source;
 document.getElementById('gen').textContent=generatedFormatter.format(new Date(D.generated_at));
 document.getElementById('total').textContent=akceLabel(EVENTS.filter(sourceAllowed).length);
 updateSourceHealthBadge();
 document.getElementById('search').addEventListener('input',e=>update(()=>st.q=e.target.value.trimStart().slice(0,120),true));
 document.getElementById('search').addEventListener('change',()=>canonicalize());
 document.getElementById('searchClear').addEventListener('click',()=>update(()=>st.q=''));
-document.getElementById('filterBtn').addEventListener('click',openFilterDialog);
-document.getElementById('filterClose').addEventListener('click',cancelFilter);
-document.getElementById('filterApply').addEventListener('click',()=>{st.place=new Set(draftPlaces);closeDialog(document.getElementById('filterDialog'));update(()=>{});if(filterInvoker)filterInvoker.focus()});
 document.getElementById('eventClose').addEventListener('click',()=>closeDialog(document.getElementById('eventDialog')));
 document.getElementById('dateClose').addEventListener('click',cancelDate);
 document.getElementById('calendarPrev').addEventListener('click',()=>setCalendarMonth(-1));
@@ -623,12 +588,10 @@ document.getElementById('calendarDays').addEventListener('keydown',e=>{const b=e
 document.getElementById('dateApply').addEventListener('click',()=>applyDate(draftDate,draftDateEnd));
 document.getElementById('mapRetry').addEventListener('click',()=>{const visible=visibleEvents();showMap([...visible.main,...visible.ongoing],placeSearchMatch())});
 document.addEventListener('click',e=>{if(!e.target.closest('[data-source-settings]'))return;try{sessionStorage.setItem('mostkultura.sourceReturnHash',location.hash)}catch(_){}});
-document.getElementById('filterDialog').addEventListener('cancel',e=>{e.preventDefault();cancelFilter()});
 document.getElementById('dateDialog').addEventListener('cancel',e=>{e.preventDefault();cancelDate()});
 document.getElementById('eventDialog').addEventListener('close',()=>document.body.classList.remove('dialog-open'));
-[document.getElementById('filterDialog'),document.getElementById('eventDialog'),document.getElementById('dateDialog')].forEach(d=>d.addEventListener('click',e=>{if(e.target===d){if(d.id==='filterDialog')cancelFilter();else if(d.id==='dateDialog')cancelDate();else closeDialog(d)}}));
-[document.getElementById('filterDialog'),document.getElementById('eventDialog'),document.getElementById('dateDialog')].forEach(d=>d.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const items=[...d.querySelectorAll('button:not([disabled]),a[href],input:not([disabled])')].filter(x=>x.offsetParent!==null);if(!items.length)return;const first=items[0],last=items[items.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}));
-document.getElementById('filterBody').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const body=document.getElementById('filterBody'),scroll=body.scrollTop;let selector='';if(b.hasAttribute('data-all-places')){draftPlaces.clear();selector='[data-all-places]'}else if(b.dataset.draftPlace){const p=b.dataset.draftPlace;draftPlaces.has(p)?draftPlaces.delete(p):draftPlaces.add(p);selector=`[data-draft-place="${CSS.escape(p)}"]`}else return;renderFilterDialog();body.scrollTop=scroll;const next=body.querySelector(selector);if(next)next.focus({preventScroll:true})});
+[document.getElementById('eventDialog'),document.getElementById('dateDialog')].forEach(d=>d.addEventListener('click',e=>{if(e.target===d){if(d.id==='dateDialog')cancelDate();else closeDialog(d)}}));
+[document.getElementById('eventDialog'),document.getElementById('dateDialog')].forEach(d=>d.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const items=[...d.querySelectorAll('button:not([disabled]),a[href],input:not([disabled])')].filter(x=>x.offsetParent!==null);if(!items.length)return;const first=items[0],last=items[items.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}));
 document.getElementById('categories').addEventListener('wheel',e=>{
   if(e.ctrlKey||Math.abs(e.deltaY)<=Math.abs(e.deltaX))return;
   const el=e.currentTarget,max=el.scrollWidth-el.clientWidth;
@@ -638,17 +601,14 @@ document.getElementById('categories').addEventListener('wheel',e=>{
   el.scrollLeft=next;
   if(el.scrollLeft!==before)e.preventDefault();
 },{passive:false});
-document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.closest('#filterDialog')||b.closest('#dateDialog'))return;if(b.hasAttribute('data-show-all-place'))update(()=>st.tab='all',false,'#search');else if(b.dataset.tab==='date')openDateDialog(b);else if(b.dataset.tab)update(()=>st.tab=b.dataset.tab);else if(b.dataset.view)update(()=>st.view=b.dataset.view);else if(b.dataset.cat)update(()=>st.cat.has(b.dataset.cat)?st.cat.delete(b.dataset.cat):st.cat.add(b.dataset.cat));else if(b.hasAttribute('data-clear-cats'))update(()=>st.cat.clear());else if(b.hasAttribute('data-clear-q'))update(()=>st.q='');else if(b.dataset.removePlace)update(()=>st.place.delete(b.dataset.removePlace));else if(b.hasAttribute('data-reset'))update(()=>{st.cat.clear();st.place.clear();st.q=''})});
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.closest('#dateDialog'))return;if(b.hasAttribute('data-show-all-place'))update(()=>st.tab='all',false,'#search');else if(b.dataset.tab==='date')openDateDialog(b);else if(b.dataset.tab)update(()=>st.tab=b.dataset.tab);else if(b.dataset.view)update(()=>st.view=b.dataset.view);else if(b.dataset.cat)update(()=>st.cat.has(b.dataset.cat)?st.cat.delete(b.dataset.cat):st.cat.add(b.dataset.cat));else if(b.hasAttribute('data-clear-cats'))update(()=>st.cat.clear());else if(b.hasAttribute('data-clear-q'))update(()=>st.q='');else if(b.dataset.removePlace)update(()=>st.place.delete(b.dataset.removePlace));else if(b.hasAttribute('data-reset'))update(()=>{st.cat.clear();st.place.clear();st.q=''})});
 window.addEventListener('hashchange',()=>{parseState();canonicalize();render()});
 function syncSourcePreferences(){
-  const filters=document.getElementById('filterDialog');
-  const focusedDraftPlace=filters.open&&document.activeElement?.dataset?.draftPlace;
   sourcePrefs=MostkulturaSources.read();
   sourceAllowed=MostkulturaSources.compile(sourcePrefs);
   const disabledPlaces=disabledPlaceSet();
   const previousPlaces=[...st.place];
   st.place=new Set(previousPlaces.filter(place=>!disabledPlaces.has(place)));
-  draftPlaces=new Set([...draftPlaces].filter(place=>!disabledPlaces.has(place)));
   const placeChanged=st.place.size!==previousPlaces.length;
   updateSourceHealthBadge();
   const dialog=document.getElementById('eventDialog');if(dialog.open)closeDialog(dialog);
@@ -656,8 +616,6 @@ function syncSourcePreferences(){
   document.getElementById('total').textContent=akceLabel(EVENTS.filter(sourceAllowed).length);
   if(placeChanged)canonicalize();
   render();
-  if(filters.open){const body=document.getElementById('filterBody'),scroll=body.scrollTop;renderFilterDialog();body.scrollTop=scroll;}
-  if(filters.open&&focusedDraftPlace&&disabledPlaces.has(focusedDraftPlace))document.querySelector('#filterBody [data-all-places]')?.focus({preventScroll:true});
 }
 window.addEventListener('storage',e=>{if(e.key===MostkulturaSources.KEY||e.key===null)syncSourcePreferences()});
 window.addEventListener('pageshow',syncSourcePreferences);

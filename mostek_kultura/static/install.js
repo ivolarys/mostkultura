@@ -124,7 +124,7 @@
     clearError();
     setFooterVisible();
     if (focusFallback && focusedInside) {
-      const target = document.getElementById('filterBtn') || document.getElementById('search');
+      const target = document.getElementById('sourcesBtn') || document.getElementById('search');
       if (target) target.focus({ preventScroll: true });
     }
   }
