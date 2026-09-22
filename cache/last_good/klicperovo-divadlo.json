@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T10:52:20+00:00",
+ "fetched_at": "2026-09-22T12:17:33+00:00",
  "events": [
   {
    "title": "Láska na první pohřeb",
@@ -301,7 +301,7 @@
    "venue": "Studio Beseda, Mýtská 126",
    "category": null,
    "native_category": "Divadlo",
-   "description": "Perníkář Studio Beseda · Hostuje Studio G Roman Pecha, Petr Motýl, Vojtěch Štěpánek · režie Vojtěch Štěpánek Hostuje Studio G Studio Beseda Čekání na Václava",
+   "description": "Perníkář Studio Beseda · Hostuje Studio G Roman Pecha, Petr Motýl, Vojtěch Štěpánek · režie Vojtěch Štěpánek Hostuje Studio G Zrušeno z provozních důvodů Studia G přesunuto na 15. října Více informací Studio Beseda Čekání na Václava",
    "image": "https://www.klicperovodivadlo.cz/media/493/gallery/pernikar-fotografie-01-145204",
    "native_id": "https://www.klicperovodivadlo.cz/inscenace/pernikar|2026-10-07T19:00:00+02:00",
    "ongoing": false,
@@ -552,6 +552,30 @@
    "lon": null,
    "geo": null,
    "id": "klicperovo-divadlo:466e8c27c486"
+  },
+  {
+   "title": "Perníkář",
+   "start": "2026-10-15T19:00:00+02:00",
+   "source": "klicperovo-divadlo",
+   "url": "https://www.klicperovodivadlo.cz/inscenace/pernikar",
+   "end": "2026-10-15T20:10:00+02:00",
+   "all_day": false,
+   "place": "Hradec Králové",
+   "place_raw": "Hradec Králové",
+   "venue": "Studio Beseda, Mýtská 126",
+   "category": null,
+   "native_category": "Divadlo",
+   "description": "Perníkář Studio Beseda · Hostuje Studio G Roman Pecha, Petr Motýl, Vojtěch Štěpánek · režie Vojtěch Štěpánek Hostuje Studio G Změna Přesunutý termín ze 7. října Více informací Studio Beseda",
+   "image": "https://www.klicperovodivadlo.cz/media/493/gallery/pernikar-fotografie-01-145204",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/pernikar|2026-10-15T19:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klicperovo-divadlo:5a7585d9b51c"
   },
   {
    "title": "O myších a lidech",

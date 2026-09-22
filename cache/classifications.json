@@ -655,6 +655,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-16T05:10:29+00:00"
  },
+ "hradec-vyber:0d883738d068": {
+  "category": "divadlo",
+  "confidence": 0.95,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-22T12:18:04+00:00"
+ },
  "hradec-vyber:0ffa0cc0cde5": {
   "category": "koncert",
   "confidence": 0.7,
@@ -1199,6 +1207,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-12T17:15:58+00:00"
  },
+ "hradec-vyber:7ad9f6756c21": {
+  "category": "koncert",
+  "confidence": 0.95,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-22T12:18:04+00:00"
+ },
  "hradec-vyber:7e70f7afd5d6": {
   "category": "koncert",
   "confidence": 0.95,
@@ -1646,6 +1662,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-09-15T04:52:40+00:00"
+ },
+ "hradec-vyber:f9da01ae3cd2": {
+  "category": "divadlo",
+  "confidence": 0.95,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-22T12:18:04+00:00"
  },
  "josefov-kolonie:54d7d1bf8a41": {
   "category": "vystava",
