@@ -172,6 +172,10 @@ dialog{color:var(--label)}
 .event-sheet .sheet-body{padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
 body.dialog-open{overflow:hidden}
 
+@media (min-width:600px){
+  .hero-grid{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"identity meta";align-items:center;column-gap:16px}.hero-meta{text-align:right}
+}
+
 @media (min-width:700px){
   .wrap{padding:0 28px 38px}.hero{min-height:92px;padding-top:14px}.brand{font-size:34px}.brand-logo{width:56px;height:50px;flex-basis:56px}.hero-locality{font-size:13px}.hero-meta{max-width:none;white-space:nowrap}
   .filters{position:relative;top:0;margin:0;padding:12px 0;background:transparent!important;border:0;-webkit-backdrop-filter:none;backdrop-filter:none}.category-row{padding-bottom:2px}.list-head{padding-top:17px}.content-list{padding-top:3px}.row{padding:14px 16px}.event-row .chev,.srcline{display:block}.map-wrap{margin:8px 0 0;border-radius:18px;overflow:hidden;border:1px solid var(--sep);box-shadow:var(--shadow)}#map{height:68vh;min-height:480px}.sheet{margin:auto;border-radius:22px}.sheet-layout{max-height:min(82vh,760px)}
