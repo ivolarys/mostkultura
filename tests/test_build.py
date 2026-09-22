@@ -28,7 +28,10 @@ def test_offline_build(root, tmp_path):
     assert "color-mix" not in html
     assert "source_labels" in html
     assert 'id="placeSearchPanel"' in html
-    assert 'id="sourcesBtn"' in html and 'data-source-settings' in html
+    sources_btn = re.search(r'<a class="sources-btn" id="sourcesBtn"[^>]*>(.*?)</a>', html)
+    assert sources_btn and 'data-source-settings' in sources_btn.group(0)
+    assert 'id="sourceHealthBadge"' in sources_btn.group(1)
+    assert 'id="headerSourcesLink"' not in html and 'id="sourceIcon"' not in html
     assert 'id="filterDialog"' not in html
     assert 'src="place-search.js?v=mostkultura-1"' in html
     assert (tmp_path / "place-search.js").is_file()

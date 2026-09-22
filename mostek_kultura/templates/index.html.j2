@@ -18,7 +18,7 @@
 body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .wrap{width:100%;max-width:900px;margin:0 auto;padding:0 20px 30px}
 .hero{position:relative;min-height:92px;padding:14px 2px 12px;display:flex;align-items:flex-start;overflow:hidden}
-.hero-grid{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"identity sources" "meta meta";align-items:start;column-gap:12px;row-gap:7px}
+.hero-grid{width:100%;display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"identity" "meta";align-items:start;row-gap:7px}
 .hero-identity{min-width:0;display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto auto;column-gap:8px;row-gap:0;align-items:center}
 .hero-identity{grid-area:identity}
 .brand{display:flex;align-items:center;gap:8px;font-size:24px;font-weight:800;letter-spacing:0;color:var(--label);line-height:1;margin:0}
@@ -28,10 +28,6 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .hero-meta{grid-area:meta;min-width:0;color:var(--label3);font-size:11.5px;line-height:1.4;margin:0;text-align:left;white-space:nowrap}
 .hero-update{white-space:nowrap}
 .empty-source-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:8px;color:var(--tint);font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
-.source-link{display:inline-flex;align-items:center;justify-content:flex-end;gap:6px;min-height:44px;padding:0 8px;color:var(--label2);font-size:13px;font-weight:650;white-space:nowrap;border-radius:8px}
-.source-link{grid-area:sources;align-self:center}
-.source-link:focus-visible{outline-offset:-3px}
-.source-link .icon{width:18px;height:18px}
 .source-health-badge{display:inline-flex;align-items:center;justify-content:center;min-width:3.5ch;height:22px;padding:0 6px;border-radius:999px;background:rgba(36,138,72,.13);color:#1d6e3a;font-size:11px;font-weight:750;font-variant-numeric:tabular-nums;line-height:1;white-space:nowrap}
 .source-health-badge--warning{background:rgba(182,106,0,.15);color:#8a5100}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .source-health-badge{background:rgba(88,209,123,.16);color:var(--ok)}:root:not([data-theme="light"]) .source-health-badge--warning{background:rgba(255,184,77,.18);color:var(--warn)}}
@@ -49,7 +45,7 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .searchbox input::placeholder{color:var(--label3)}
 .search-clear{position:absolute;right:0;top:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:var(--label3);border-radius:12px}
 .search-clear .icon{position:static;width:18px;height:18px}
-.sources-btn{height:44px;padding:0 13px;border:1px solid var(--sep);border-radius:13px;background:var(--card);color:var(--label);font-size:14px;font-weight:700;display:flex;align-items:center;gap:7px;white-space:nowrap}
+.sources-btn{height:44px;flex:0 0 auto;padding:0 13px;border:1px solid var(--sep);border-radius:13px;background:var(--card);color:var(--label);font-size:14px;font-weight:700;display:flex;align-items:center;gap:7px;white-space:nowrap}
 .sources-btn .icon{width:18px;height:18px}
 .category-row,.active-row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:8px 0 1px}
 .category-row::-webkit-scrollbar,.active-row::-webkit-scrollbar{display:none}
@@ -108,17 +104,16 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 @media (max-width:359px){.install-offer{grid-template-columns:42px minmax(0,1fr) 44px;gap:9px;padding:12px}.install-offer-icon{width:42px;height:42px}.install-actions{gap:6px}.install-primary,.install-guide-toggle{padding:0 10px;font-size:13px}.install-guide{grid-column:1 / -1}}
 
 @media (max-width:359px){
-  .hero-grid{column-gap:4px;row-gap:6px}
+  .hero-grid{row-gap:6px}
   .hero-identity{column-gap:6px}
   .brand{font-size:22px}
   .brand-logo{width:32px;height:32px;flex-basis:32px}
   .hero-meta{font-size:11px}
-  .source-link{font-size:12px;gap:4px;padding-inline:4px}
-  #sourceIcon{display:none}
+  .sources-btn{padding-inline:9px;gap:5px;font-size:13px}
+  .source-health-badge{padding-inline:4px}
 }
 @media (min-width:360px) and (max-width:419px){
   .hero-identity{column-gap:6px}
-  .source-link{gap:4px;padding-inline:4px}
 }
 @media (min-width:420px) and (max-width:699px){
   .brand{font-size:28px}
@@ -200,7 +195,6 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
         <h1 class="brand"><span>Mostkultura</span></h1>
         <span class="hero-locality">Kultura okolo Mostku</span>
       </div>
-      <a class="source-link" id="headerSourcesLink" data-source-settings href="zdroje.html" aria-label="Zdroje podle obce" title="Zdroje podle obce"><span id="sourceIcon" aria-hidden="true"></span><span class="source-link-label">Zdroje</span><span id="sourceHealthBadge" class="source-health-badge" aria-hidden="true" hidden></span></a>
       <div class="hero-meta"><div class="hero-update">Aktualizováno <span id="gen"></span> · <span id="total"></span></div></div>
     </div>
   </header>
@@ -228,7 +222,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
         <input id="search" type="search" inputmode="search" autocomplete="off" placeholder="Hledat akci nebo místo…">
         <button class="search-clear" id="searchClear" type="button" aria-label="Vymazat hledání" hidden></button>
       </div>
-      <a class="sources-btn" id="sourcesBtn" data-source-settings href="zdroje.html" aria-label="Vybrat zdroje, města a místa" title="Vybrat zdroje, města a místa"><span id="sourcesBtnIcon" aria-hidden="true"></span><span>Zdroje</span></a>
+      <a class="sources-btn" id="sourcesBtn" data-source-settings href="zdroje.html" aria-label="Vybrat zdroje, města a místa" title="Vybrat zdroje, města a místa"><span id="sourcesBtnIcon" aria-hidden="true"></span><span>Zdroje</span><span id="sourceHealthBadge" class="source-health-badge" aria-hidden="true" hidden></span></a>
     </div>
     <div class="category-row" id="categories" aria-label="Kategorie akcí"></div>
     <div class="active-row" id="activeFilters" aria-label="Aktivní filtry" hidden></div>
@@ -286,8 +280,8 @@ function updateSourceHealthBadge(){
   const summary=MostkulturaSources.summarizeSources(D.source_catalog,sourcePrefs);
   const health=`${summary.healthy} z ${summary.selected} vybraných zdrojů v pořádku`;
   const issues=summary.issues ? `. Problémové zdroje: ${summary.issueLabels.join(', ')}` : '';
-  const label=`Vybrané zdroje: ${summary.selected} z ${summary.available} dostupných. Stav vybraných zdrojů: ${health}${issues}`;
-  const link=document.getElementById('headerSourcesLink'),badge=document.getElementById('sourceHealthBadge');
+  const label=`Vybrat zdroje, města a místa. Vybrané zdroje: ${summary.selected} z ${summary.available} dostupných. Stav vybraných zdrojů: ${health}${issues}`;
+  const link=document.getElementById('sourcesBtn'),badge=document.getElementById('sourceHealthBadge');
   link.setAttribute('aria-label',label);link.title=label;
   badge.textContent=`${summary.selected}/${summary.available}`;
   badge.classList.toggle('source-health-badge--warning',summary.issues>0);
@@ -305,7 +299,7 @@ const ICON={
   list:svg('<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>'),
   map:svg('<path d="m3 6 5-3 8 3 5-3v15l-5 3-8-3-5 3V6Z"/><path d="M8 3v15M16 6v15"/>'),
   chev:svg('<path d="m9 5 7 7-7 7"/>').replace('class="icon"','class="icon chev"'),
-  source:svg('<path d="M5 5.5A2.5 2.5 0 0 1 7.5 3H20v15H7.5A2.5 2.5 0 0 0 5 20.5v-15Z"/><path d="M5 20.5A2.5 2.5 0 0 1 7.5 18H20v3H7.5A2.5 2.5 0 0 1 5 18.5"/>'),
+  source:svg('<path d="M3 7h4m4 0h10M3 17h10m4 0h4"/><circle cx="9" cy="7" r="2"/><circle cx="15" cy="17" r="2"/>'),
   today:svg('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 9h18"/><circle cx="12" cy="15" r="1.6" fill="currentColor" stroke="none"/>'),
   tomorrow:svg('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 9h18M9 15h6m0 0-2-2m2 2-2 2"/>'),
   weekend:svg('<circle cx="12" cy="12" r="4.5"/><path d="M12 2.5V5M12 19v2.5M4.2 4.2 6 6M18 18l1.8 1.8M2.5 12H5M19 12h2.5M4.2 19.8 6 18M18 6l1.8-1.8"/>'),
@@ -566,7 +560,7 @@ function showMap(events,place){
 }
 function openEventDialog(title,events){const dialog=document.getElementById('eventDialog');if(dialog.open)return;document.getElementById('eventTitle').innerHTML=`${esc(title)}<div class="sheet-subtitle">${akceLabel(events.length)}</div>`;document.getElementById('eventBody').innerHTML=`<div class="list-card">${events.slice().sort((a,b)=>a.start.localeCompare(b.start)).map(e=>eventHtml(e,true)).join('')}</div>`;openDialog(dialog)}
 
-document.getElementById('searchIcon').innerHTML=ICON.search;document.getElementById('searchClear').innerHTML=ICON.close;document.getElementById('sourcesBtnIcon').innerHTML=ICON.source;document.getElementById('eventClose').innerHTML=ICON.close;document.getElementById('dateClose').innerHTML=ICON.close;document.getElementById('calendarPrev').innerHTML=ICON.prev;document.getElementById('calendarNext').innerHTML=ICON.next;document.getElementById('sourceIcon').innerHTML=ICON.source;
+document.getElementById('searchIcon').innerHTML=ICON.search;document.getElementById('searchClear').innerHTML=ICON.close;document.getElementById('sourcesBtnIcon').innerHTML=ICON.source;document.getElementById('eventClose').innerHTML=ICON.close;document.getElementById('dateClose').innerHTML=ICON.close;document.getElementById('calendarPrev').innerHTML=ICON.prev;document.getElementById('calendarNext').innerHTML=ICON.next;
 document.getElementById('gen').textContent=generatedFormatter.format(new Date(D.generated_at));
 document.getElementById('total').textContent=akceLabel(EVENTS.filter(sourceAllowed).length);
 updateSourceHealthBadge();

@@ -28,20 +28,20 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
   nastavení `group` v URL zůstává podporované.
 - V kategorii zobraz běžné akce nejdřív a několikadenní právě probíhající akce
   až v oddělené, výchozím způsobem rozbalené podsekci.
-- Odkaz „Zdroje“ patří do hlavičky.
+- Odkaz „Zdroje“ patří vedle vyhledávání.
 - Kategorie se posouvají vodorovně a vybraná kategorie zůstává přímo v liště.
 - Horní štítky kategorií jsou řazené abecedně podle českých popisků; ve
   seskupeném seznamu zůstává konfigurované pořadí a Sport je vždy poslední.
-- V hlavičce jsou značka a odkaz „Zdroje“ na jednom horním řádku; metadata jsou jako menší druhý řádek pod nimi.
+- V hlavičce je značka na horním řádku; metadata jsou jako menší druhý řádek pod ní.
 - Respektuj safe area nahoře i po stranách; sticky prvky musí zohlednit horní inset.
 - Oddělení několikadenních akcí používá tenký cikcak se středovým textem a kompaktní mezery.
 - Souhrn období zobrazuje datum před počtem; přepínač seznam/mapa používá pouze ikony.
-- Stav zdrojů je kompaktní odznak vedle odkazu „Zdroje“ v hlavičce; uvádí počet vybraných zdrojů z dostupných. Popisek uvádí i zdraví vybraných zdrojů a jantarové zvýraznění se použije, jen pokud má vybraný zdroj záložní data nebo chybu.
+- Stav zdrojů je kompaktní odznak u odkazu „Zdroje“ vedle vyhledávání; uvádí počet vybraných zdrojů z dostupných. Popisek uvádí i zdraví vybraných zdrojů a jantarové zvýraznění se použije, jen pokud má vybraný zdroj záložní data nebo chybu.
 - Výchozí období filtrů je „Dnes“ a výchozí kategorie „Vše“.
 - Spodní lišta má na všech běžných šířkách čtyři korálové ikonové položky Dnes/Zítra/Pá–Ne/Datum. Pá–Ne zahrnuje pátek až neděli. Datum otevírá nativní dialog „Vybrat dny“ pro jeden den i souvislý rozsah; vlastní rozsah ukládej jako `tab=date&date=YYYY-MM-DD&end=YYYY-MM-DD`, oba konce vždy zpracovávej jako ISO den bez posunu časovým pásmem a při obráceném pořadí je normalizuj. Staré odkazy `tab=week` a `tab=all` zachovej. (Upřesnění 2026-09-21.)
 - Značka je výraznější; aktualizace a počet akcí se v hlavičce nikdy nezalamují.
-- Hlavička má být kompaktní: Mostkultura a „Kultura okolo Mostku“ vlevo,
-  „Zdroje“ vpravo na horním řádku a „Aktualizováno“ s počtem na druhém řádku.
+- Hlavička má být kompaktní: Mostkultura a „Kultura okolo Mostku“ vlevo na
+  horním řádku a „Aktualizováno“ s počtem na druhém řádku.
   Nevracej „Kam vyrazíme?“ ani původní slogan. U akcí bez
   barevné svislé čárky; zdroj na desktopu napravo od štítku kategorie.
 - Města a místa se vybírají přes Zdroje; po vypnutí města odstraň jeho výběr
