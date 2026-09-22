@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T14:29:41+00:00",
+ "fetched_at": "2026-09-22T16:17:52+00:00",
  "events": [
   {
    "title": "Christopherové",
@@ -1728,6 +1728,30 @@
    "lon": null,
    "geo": null,
    "id": "bio-central:a993f3937cdd"
+  },
+  {
+   "title": "Filmový kvíz",
+   "start": "2026-10-20T18:30:00+02:00",
+   "source": "bio-central",
+   "url": "https://biocentral.cz/?projection=55172",
+   "end": "2026-10-20T20:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bio Central",
+   "category": null,
+   "native_category": "Film",
+   "description": "\"Filmov&yacute; kv&iacute;z v nejlep&scaron;&iacute;m kině v Hradci Kr&aacute;lov&eacute; by si neměl nechat uj&iacute;t ž&aacute;dn&yacute; poř&aacute;dn&yacute; kinofil! Pravidelně jednou do měs&iacute;ce se na v&aacute;s budeme tě&scaron;it v na&scaron;em baru. Sv&eacute; filmov&eacute; znalosti si prověř&iacute;te během pěti nap&iacute;nav&yacute;ch kol o deseti t&eacute;matech. Kromě dobr&eacute;ho pocitu z v&yacute;hry na v&aacute;s čekaj&iacute; velmi sympatick&eacute; ceny. Minim&aacute;",
+   "image": "https://biocentral.cz/uploads/images/movies/2022/10/27/9ebbab6663e5bd36d7218e560933edeb.jpg",
+   "native_id": "55172",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bio-central:71dd52e639dc"
   },
   {
    "title": "Magická posedlost 2",
