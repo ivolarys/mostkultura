@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T12:28:52+00:00",
+ "fetched_at": "2026-09-22T13:10:40+00:00",
  "events": [
   {
    "title": "Christopherové",
@@ -170,30 +170,6 @@
    "id": "bio-central:60a445894e8e"
   },
   {
-   "title": "Tady Vary 1 | Milovník, ne bojovník",
-   "start": "2026-09-23T20:00:00+02:00",
-   "source": "bio-central",
-   "url": "https://biocentral.cz/?projection=54344",
-   "end": "2026-09-23T21:48:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": "Hradec Králové",
-   "venue": "Bio Central",
-   "category": null,
-   "native_category": "Film",
-   "description": "\"Mladistvě hrav&aacute; a hřejiv&aacute; romance o křehk&eacute; l&aacute;sce v &scaron;&iacute;len&eacute;m světě se stala absolutn&iacute; div&aacute;ckou srdečn&iacute; z&aacute;ležitost&iacute; leto&scaron;n&iacute;ho MFF Karlovy Vary. Andrej m&aacute; jednoduch&yacute; pl&aacute;n: tr&aacute;vit čas s babičkou a nel&eacute;zt v opilosti na stromy. Pak ale potk&aacute; M&iacute;&scaron;u a zač&iacute;n&aacute; boj o vztah, kter&eacute;mu nezb&yacute;v&aacute; než bezelstně fandit. Sn&iacute;",
-   "image": "https://biocentral.cz/uploads/images/movies/2026/08/26/f78cd6f314edb62b3b0789e343e66b70.webp",
-   "native_id": "54344",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bio-central:d6afe490c6c2"
-  },
-  {
    "title": "Tady Vary 2026/27 | Předplatné",
    "start": "2026-09-23T20:00:00+02:00",
    "source": "bio-central",
@@ -216,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "bio-central:a91619c80ca4"
+  },
+  {
+   "title": "Tady Vary 1 | Milovník, ne bojovník",
+   "start": "2026-09-23T20:00:00+02:00",
+   "source": "bio-central",
+   "url": "https://biocentral.cz/?projection=54344",
+   "end": "2026-09-23T21:48:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bio Central",
+   "category": null,
+   "native_category": "Film",
+   "description": "\"Mladistvě hrav&aacute; a hřejiv&aacute; romance o křehk&eacute; l&aacute;sce v &scaron;&iacute;len&eacute;m světě se stala absolutn&iacute; div&aacute;ckou srdečn&iacute; z&aacute;ležitost&iacute; leto&scaron;n&iacute;ho MFF Karlovy Vary. Andrej m&aacute; jednoduch&yacute; pl&aacute;n: tr&aacute;vit čas s babičkou a nel&eacute;zt v opilosti na stromy. Pak ale potk&aacute; M&iacute;&scaron;u a zač&iacute;n&aacute; boj o vztah, kter&eacute;mu nezb&yacute;v&aacute; než bezelstně fandit. Sn&iacute;",
+   "image": "https://biocentral.cz/uploads/images/movies/2026/08/26/f78cd6f314edb62b3b0789e343e66b70.webp",
+   "native_id": "54344",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bio-central:d6afe490c6c2"
   },
   {
    "title": "Rose",
