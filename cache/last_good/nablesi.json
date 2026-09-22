@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T13:19:47+00:00",
+ "fetched_at": "2026-09-22T14:28:02+00:00",
  "events": [
   {
    "title": "Nábleší 2026",
@@ -53,7 +53,7 @@
    "title": "Nábleší 2026",
    "start": "2026-11-29T09:00:00+01:00",
    "source": "nablesi",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=11&rok=2026#textdet2321",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=11&rok=2026#textdet2421",
    "end": "2026-11-29T12:00:00+01:00",
    "all_day": false,
    "place": null,
@@ -63,7 +63,7 @@
    "native_category": "Trhy a jarmarky",
    "description": "Otevřený bleší trh v centru Hradce Králové. Nábleší je volný bleší trh v centru Hradce otevřený všem bez předchozí rezervace či poplatků za místo. Dones věci z druhé ruky nebo vlastnorůčo vyrobené, rozbal si deku či stoličku a prodávej, seznamuj se a nasávej nedělní pohodu do obou nosních dírek. Všechny půdní poklady připlouvají po Labi vždy poslední neděli v měsíci od 9 do 12 hodin na náplavce pod Pražským mostem. Přines-prodej-potkej se-měj radost s náma. Organizátoři si vyhrazují právo nemít ",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2192130&x=2000&y=2000",
-   "native_id": "#textdet2321|2026-11-29",
+   "native_id": "#textdet2421|2026-11-29",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -71,7 +71,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "nablesi:97fff501a69b"
+   "id": "nablesi:e011b78260ae"
   }
  ]
 }
