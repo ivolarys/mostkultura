@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-22T13:19:10+00:00",
+ "fetched_at": "2026-09-22T16:41:33+00:00",
  "events": [
-  {
-   "title": "Čchi-kung ve Vrchlabí",
-   "start": "2026-09-21T19:00:00+02:00",
-   "source": "vrchlabi",
-   "url": "https://www.mestovrchlabi.cz/events/cchi-kung-ve-vrchlabi",
-   "end": "2026-09-21T20:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "TS Oliver, Komenského 616",
-   "category": null,
-   "native_category": "Sport",
-   "description": "Hledáte s příchodem podzimu nový rytmus? Máte chuť s něčím novým začít? Cítíte, že je čas věnovat pozornost sami sobě? Přidejte si společně zacvičit s Věrou Rutkayovou, certifikovanou lektorkou čchi-kungu. Čchi-kung je klidné, ale účinné cvičení, které spojuje jemný vědomý pohyb, dech a soustředění.",
-   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-09/cchi-kung-cviceni.jpg?h=ecbb19ac&itok=0VRjMcrx",
-   "native_id": "https://www.mestovrchlabi.cz/events/cchi-kung-ve-vrchlabi",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "vrchlabi:33e53272466d"
-  },
   {
    "title": "Úplňková muzikoterapie – křišťálové misky",
    "start": "2026-09-22T18:30:00+02:00",
@@ -1152,6 +1128,30 @@
    "lon": null,
    "geo": null,
    "id": "vrchlabi:719bde7fa052"
+  },
+  {
+   "title": "Farmářské trhy",
+   "start": "2026-10-23T08:00:00+02:00",
+   "source": "vrchlabi",
+   "url": "https://www.mestovrchlabi.cz/events/farmarske-trhy-58",
+   "end": "2026-10-23T16:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Náměstí TGM, Vrchlabí",
+   "category": null,
+   "native_category": "Trh, jarmark",
+   "description": "Tradiční farmářské trhy s nabídkou kvalitních českých plodin a produktů.",
+   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2023-09/vrchlabi-farmarske-trhy.JPG?h=9e8013a9&itok=DMPXtKFe",
+   "native_id": "https://www.mestovrchlabi.cz/events/farmarske-trhy-58",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "vrchlabi:66f50b83273d"
   }
  ]
 }

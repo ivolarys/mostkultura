@@ -4319,6 +4319,14 @@
   "place": "Trutnov",
   "ts": "2026-09-22T14:30:25+00:00"
  },
+ "uffo:27bba33af136": {
+  "category": null,
+  "confidence": 0.8,
+  "model": "gpt-5-mini",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-22T16:42:44+00:00"
+ },
  "uffo:28a52b8cce3d": {
   "category": "film",
   "confidence": 0.9,

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T16:12:50+00:00",
+ "fetched_at": "2026-09-22T16:41:44+00:00",
  "events": [
   {
    "title": "RYBIČKY 48",
@@ -1685,16 +1685,16 @@
    "title": "Magická posedlost 2",
    "start": "2026-09-22T18:30:00+02:00",
    "source": "uffo",
-   "url": "https://uffo.cz/magicka-posedlost-2-p6513/",
+   "url": "https://uffo.cz/program/",
    "end": "2026-09-22T20:30:00+02:00",
    "all_day": false,
    "place": null,
    "place_raw": null,
    "venue": "Kino Vesmír",
    "category": null,
-   "native_category": "Film",
+   "native_category": null,
    "description": "",
-   "image": "https://cdn.uffo.cz/images/0/9ac0dab307f37535/3/magicka-posedlost-2.jpg?hash=320733603",
+   "image": null,
    "native_id": "1790083434946-05bff8",
    "ongoing": false,
    "sources": [],
