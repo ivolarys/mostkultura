@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T06:48:45+00:00",
+ "fetched_at": "2026-09-22T10:37:40+00:00",
  "events": [
   {
    "title": "Lenka Husáriková a Tomáš Pekárek – Krajina v prožitcích věků",
@@ -1104,6 +1104,30 @@
    "lon": null,
    "geo": null,
    "id": "sd-jilm:f2331cbf3627"
+  },
+  {
+   "title": "Monkey Bussines",
+   "start": "2027-03-13T19:00:00+01:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/koncert/monkey-bussines-2027",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": "koncert",
+   "native_category": "Koncert",
+   "description": "Přijďte si užít pořádnou dávku funku, popu, energie a skvělé muziky!",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6ab/244/853/thumb_1729_250_250_0_0_auto.webp",
+   "native_id": "675|2027-03-13T19:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:b30202f14092"
   },
   {
    "title": "Thajsko",

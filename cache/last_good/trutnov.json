@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-22T06:47:01+00:00",
+ "fetched_at": "2026-09-22T10:37:22+00:00",
  "events": [
-  {
-   "title": "Výstava Spolku podkrkonošských výtvarníků Trutnov",
-   "start": "2026-09-22T09:00:00+02:00",
-   "source": "trutnov",
-   "url": "https://www.trutnov.cz/dre-cs/77992-vystava-spolku-podkrkonosskych-vytvarniku-trutnov.html",
-   "end": "2026-10-05T17:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Stará radnice (Krakonošovo náměstí 72, Trutnov)",
-   "category": null,
-   "native_category": "Ostatní",
-   "description": "",
-   "image": null,
-   "native_id": "https://www.trutnov.cz/dre-cs/77992-vystava-spolku-podkrkonosskych-vytvarniku-trutnov.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "trutnov:c6c3a249b2a8"
-  },
   {
    "title": "Fyzioholistika",
    "start": "2026-09-22T17:00:00+02:00",
@@ -242,6 +218,30 @@
    "id": "trutnov:3cd4b665cee7"
   },
   {
+   "title": "Perličkočtení - soutěž",
+   "start": "2026-01-05T00:00:00+01:00",
+   "source": "trutnov",
+   "url": "https://www.trutnov.cz/dre-cs/71012-perlickocteni-soutez.html",
+   "end": "2026-09-30T23:59:00+02:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "Městská knihovna Trutnov",
+   "category": null,
+   "native_category": "Ostatní",
+   "description": "",
+   "image": null,
+   "native_id": "https://www.trutnov.cz/dre-cs/71012-perlickocteni-soutez.html",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "trutnov:e15f47a64bde"
+  },
+  {
    "title": "EPO1: Letní výstavní cyklus 2026",
    "start": "2026-05-22T00:00:00+02:00",
    "source": "trutnov",
@@ -312,6 +312,30 @@
    "lon": null,
    "geo": null,
    "id": "trutnov:54daec881502"
+  },
+  {
+   "title": "Výstava Spolku podkrkonošských výtvarníků Trutnov",
+   "start": "2026-09-22T09:00:00+02:00",
+   "source": "trutnov",
+   "url": "https://www.trutnov.cz/dre-cs/77992-vystava-spolku-podkrkonosskych-vytvarniku-trutnov.html",
+   "end": "2026-10-05T17:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Stará radnice (Krakonošovo náměstí 72, Trutnov)",
+   "category": null,
+   "native_category": "Ostatní",
+   "description": "",
+   "image": null,
+   "native_id": "https://www.trutnov.cz/dre-cs/77992-vystava-spolku-podkrkonosskych-vytvarniku-trutnov.html",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "trutnov:c6c3a249b2a8"
   }
  ]
 }
