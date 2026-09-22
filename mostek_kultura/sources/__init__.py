@@ -5,6 +5,7 @@ from __future__ import annotations
 from .antee_rss import AnteeRssSource
 from .bajkazyl_program import BajkazylProgramSource
 from .base import Source
+from .bezdruzic import BezdruzicSource
 from .bio_central import BioCentralSource
 from .cinestar import CineStarSource
 from .drak_program import DrakProgramSource
@@ -28,6 +29,7 @@ from .mojekino import MojekinoSource
 from .naplavka_program import NaplavkaProgramSource
 from .npu_events import NpuEventsSource
 from .podzimni_sneni import PodzimniSneniSource
+from .poutova_pecka import PoutovaPeckaSource
 from .public4u import Public4uSource
 from .sd_jilm import SdJilmSource
 from .simcal_calendar import SimcalCalendarSource
@@ -71,6 +73,8 @@ REGISTRY: dict[str, type[Source]] = {
     "trut_program": TrutProgramSource,
     "kzmj_biograf": KzmjBiografSource,
     "klub_kus": KlubKusSource,
+    "bezdruzic": BezdruzicSource,
+    "poutova_pecka": PoutovaPeckaSource,
 }
 
 

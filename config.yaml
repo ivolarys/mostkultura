@@ -117,6 +117,9 @@ category_map:
   music: koncert
   vazna hudba: koncert
   divadlo: divadlo
+  loutkova pohadka: divadlo
+  divadelni pohadka: divadlo
+  divadleni pohadka: divadlo
   theatre: divadlo
   theater: divadlo
   kino: film
@@ -356,6 +359,31 @@ sources:
     page: https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/
     place: Pecka
     priority: 7
+  - name: hrad-pecka
+    label: Hrad Pecka – Akce
+    type: galileo
+    url: https://www.hradpecka.cz/cs/akce/
+    page: https://www.hradpecka.cz/cs/akce/
+    place: Pecka
+    priority: 9
+    enabled: true
+    venue: Hrad Pecka
+  - name: bezdruzic
+    label: Spolek Bezdružic – Pecka
+    type: bezdruzic
+    url: https://www.bezdruzic.cz/
+    page: https://www.bezdruzic.cz/
+    place: Pecka
+    priority: 9
+    enabled: true
+  - name: poutova-pecka
+    label: Pouťová Pecka
+    type: poutova_pecka
+    url: https://poutovapecka.cz/
+    page: https://poutovapecka.cz/
+    place: Pecka
+    priority: 9
+    enabled: true
   - name: josefov-kolonie
     label: Umělecká kolonie Bastion IV Josefov – Kalendář akcí
     type: simcal_calendar

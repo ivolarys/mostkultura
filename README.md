@@ -29,6 +29,7 @@ Společenský dům Jilm v Jilemnici bere aktuální stránkovaný program včetn
 popisů a kategorií; Kino 70 je součástí téhož programu, nikoli samostatný zdroj.
 Výchozí zapnuté zdroje pokrývají také program kina Biograf Český ráj v Jičíně
 a kulturní program Klubu Kus v Turnově.
+Zapnuté jsou také Hrad Pecka, Spolek Bezdružic a Pouťová Pecka pod obcí Pecka.
 
 Výběr „Další kultura v Hradci – HKinfo“ doplňuje zveřejněné akce PETROF Gallery,
 filharmonie, Galerie moderního umění, Muzea východních Čech, hvězdárny a planetária,

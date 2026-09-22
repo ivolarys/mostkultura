@@ -18,6 +18,10 @@ def test_offline_build(root, tmp_path):
     assert {"name", "label", "place", "status"} <= set(catalog["mostek"])
     assert catalog["mostek"]["place"] == "Mostek"
     assert catalog["goout"]["place"] is None
+    pecka_sources = {"hrad-pecka", "bezdruzic", "poutova-pecka"}
+    assert pecka_sources <= set(catalog)
+    assert all(catalog[name]["place"] == "Pecka" and catalog[name]["status"] == "ok"
+               for name in pecka_sources)
     summary = json.loads((tmp_path / "summary.json").read_text(encoding="utf-8"))
     for key in ("today", "tomorrow", "weekend", "week"):
         assert {"count", "ongoing_count", "events"} <= set(summary[key])
@@ -48,6 +52,8 @@ def test_offline_build(root, tmp_path):
     zdroje = (tmp_path / "zdroje.html").read_text(encoding="utf-8")
     assert "Vrchlabí" in zdroje and "Město Trutnov" in zdroje and "Regionální zdroje" in zdroje
     assert "Zatím bez vlastního zdroje" in zdroje  # e.g. Hostinné has no source yet
+    for name in pecka_sources:
+        assert f'data-source="{name}"' in zdroje
     status = json.loads((tmp_path / "status.json").read_text(encoding="utf-8"))
     assert {s["name"] for s in status["sources"]} >= {"mostek", "lazne-belohrad", "dvur-kralove", "trutnov"}
 
