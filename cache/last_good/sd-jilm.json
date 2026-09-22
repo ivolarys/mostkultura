@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-21T21:14:40+00:00",
+ "fetched_at": "2026-09-22T06:25:52+00:00",
  "events": [
   {
    "title": "Lenka Husáriková a Tomáš Pekárek – Krajina v prožitcích věků",
@@ -1200,6 +1200,30 @@
    "lon": null,
    "geo": null,
    "id": "sd-jilm:b2470365a965"
+  },
+  {
+   "title": "Martin Hranáč",
+   "start": "2027-05-17T19:00:00+02:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/stand-up/martin-hranac-2027",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": null,
+   "native_category": "Stand-up",
+   "description": "Chcete vstoupit do světa humoru a improvizace? Tak je tento první divadelní interaktivní sitcom právě pro vás!",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6ab/217/aff/thumb_1727_250_250_0_0_auto.webp",
+   "native_id": "674|2027-05-17T19:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:29819fc6615d"
   }
  ]
 }
