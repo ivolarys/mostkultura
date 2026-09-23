@@ -1591,6 +1591,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-17T05:06:39+00:00"
  },
+ "hradec-vyber:cfc67c292aea": {
+  "category": "prednaska",
+  "confidence": 0.87,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-23T13:58:56+00:00"
+ },
  "hradec-vyber:d0374e404454": {
   "category": "divadlo",
   "confidence": 0.95,
