@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-22T16:41:33+00:00",
+ "fetched_at": "2026-09-23T11:39:39+00:00",
  "events": [
-  {
-   "title": "Úplňková muzikoterapie – křišťálové misky",
-   "start": "2026-09-22T18:30:00+02:00",
-   "source": "vrchlabi",
-   "url": "https://www.mestovrchlabi.cz/events/uplnkova-muzikoterapie-kristalove-misky-0",
-   "end": "2026-09-22T20:30:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "ShanTea – čajovna a kavárna Zámecká 1456, Vrchlabí",
-   "category": null,
-   "native_category": "Ostatní",
-   "description": "Přijďte se ponořit to léčivých tónů křišťálových misek.",
-   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-09/muzikoterapie.jpg?h=9ddb8692&itok=Hm8K1bJ9",
-   "native_id": "https://www.mestovrchlabi.cz/events/uplnkova-muzikoterapie-kristalove-misky-0",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "vrchlabi:78446998c0ef"
-  },
   {
    "title": "Hořké svátky",
    "start": "2026-09-23T10:00:00+02:00",
@@ -1152,6 +1128,30 @@
    "lon": null,
    "geo": null,
    "id": "vrchlabi:66f50b83273d"
+  },
+  {
+   "title": "Dia De Los Muertos",
+   "start": "2026-10-28T11:00:00+01:00",
+   "source": "vrchlabi",
+   "url": "https://www.mestovrchlabi.cz/events/dia-de-los-muertos-0",
+   "end": "2026-10-28T15:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Nábřeží Marie Kubátové, Vrchlabí",
+   "category": null,
+   "native_category": "Ostatní",
+   "description": "Svátek mrtvých a svatých na náplavce u kiosku Dlabe.",
+   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-09/muertos%202026.jpg?h=61beef35&itok=mfnp1Ec9",
+   "native_id": "https://www.mestovrchlabi.cz/events/dia-de-los-muertos-0",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "vrchlabi:53b4e30f62bf"
   }
  ]
 }

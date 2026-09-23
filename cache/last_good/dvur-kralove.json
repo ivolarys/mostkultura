@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-23T06:52:28+00:00",
+ "fetched_at": "2026-09-23T11:39:22+00:00",
  "events": [
   {
    "title": "Tvořivé dílny v barvách babího léta",
@@ -458,6 +458,30 @@
    "id": "dvur-kralove:fb953f8ebf92"
   },
   {
+   "title": "Kurz pečení s celiaklubem a Schär",
+   "start": "2026-10-10T09:00:00+02:00",
+   "source": "dvur-kralove",
+   "url": "https://www.mudk.cz/dre-cs/78661-kurz-peceni-s-celiaklubem-a-schar.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Dvůr Králové nad Labem",
+   "category": null,
+   "native_category": "Jiný typ akce",
+   "description": "Podrobný popis: Přijďte si užít pečení pro celiaky. S sebou si vezměte zástěru a přezůvky. Registrace je nutná na e-mailu info@celiaklub.cz Cena 200 Kč.",
+   "image": "https://www.mudk.cz/galerie/2289205_500_500.jpg",
+   "native_id": "https://www.mudk.cz/dre-cs/78661-kurz-peceni-s-celiaklubem-a-schar.html",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "dvur-kralove:628ceffcb33a"
+  },
+  {
    "title": "Loutková pohádka: Malý pán",
    "start": "2026-10-10T15:00:00+02:00",
    "source": "dvur-kralove",
@@ -552,30 +576,6 @@
    "lon": null,
    "geo": null,
    "id": "dvur-kralove:a5d31bf27668"
-  },
-  {
-   "title": "Jazz Night",
-   "start": "2026-10-24T20:00:00+02:00",
-   "source": "dvur-kralove",
-   "url": "https://www.mudk.cz/dre-cs/78415-jazz-night.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Top Ten Rock Klub",
-   "category": null,
-   "native_category": "Jiný typ akce",
-   "description": "Podrobný popis: Královéhradecká kapela RH Factor, přijede zahrát songy žánru jazz, latin a pop. Na kytaru hraje Michal Koudelka z našeho města. Vstupné 250 Kč",
-   "image": "https://www.mudk.cz/galerie/2286041_351_500.jpg",
-   "native_id": "https://www.mudk.cz/dre-cs/78415-jazz-night.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "dvur-kralove:b85f05fdc915"
   },
   {
    "title": "Flerjarmark",

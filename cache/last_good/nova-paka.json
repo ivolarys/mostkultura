@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-23T06:54:09+00:00",
+ "fetched_at": "2026-09-23T11:39:50+00:00",
  "events": [
   {
    "title": "SVATOVÁCLAVSKÝ KONCERT – Pěvecký sbor Bona Vita Hořice",
@@ -96,30 +96,6 @@
    "lon": null,
    "geo": null,
    "id": "nova-paka:9f24866868c9"
-  },
-  {
-   "title": "Nová Paka – historické fotografie",
-   "start": "2026-10-01T17:00:00+02:00",
-   "source": "nova-paka",
-   "url": "https://www.munovapaka.cz/nova%2Dpaka%2Dhistoricke%2Dfotografie/a-2155",
-   "end": "2026-10-01T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Městská knihovna Nová Paka",
-   "category": null,
-   "native_category": "Ostatní",
-   "description": "O historické Nové Pace (ulice kolem náměstí) si s námi budou povídat André Matula a Ivan Tůma. Vstupné dobrovolné. Omezená kapacita míst – rezervace v Městské knihovně Nová Paka. Tel. 493 722 500, 607 512 180 email: info@knihovnanpaka.cz",
-   "image": "https://www.munovapaka.cz/assets/Image.ashx?id_org=10512&id_obrazky=23666",
-   "native_id": "https://www.munovapaka.cz/nova%2Dpaka%2Dhistoricke%2Dfotografie/a-2155",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "nova-paka:3ef89140ae9e"
   },
   {
    "title": "VERNISÁŽ VÝSTAVY PODKRKONOŠSKÝCH VÝTVARNÍKŮ",

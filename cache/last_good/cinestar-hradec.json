@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-23T06:59:23+00:00",
+ "fetched_at": "2026-09-23T11:40:45+00:00",
  "events": [
   {
    "title": "Tlapková patrola: Dinosauří film DABING",
@@ -6168,6 +6168,30 @@
    "lon": null,
    "geo": null,
    "id": "cinestar-hradec:5e42aff40d04"
+  },
+  {
+   "title": "Kluci to vidí jinak než holky: Předpremiéra s delegací CZ",
+   "start": "2026-10-06T19:00:00+02:00",
+   "source": "cinestar-hradec",
+   "url": "https://cinestar.cz/cz/hradec/filmy/movie/11378-kluci-to-vidi-jinak-nez-holky-predpremiera-s-delegaci-cz",
+   "end": "2026-10-06T21:22:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "CineStar Hradec Králové — Sál 1",
+   "category": null,
+   "native_category": "Film",
+   "description": "",
+   "image": null,
+   "native_id": "1767366",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "cinestar-hradec:19ab06403c48"
   },
   {
    "title": "QUEEN BUDAPEST TITULKY TDL",
