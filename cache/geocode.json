@@ -853,6 +853,13 @@
   "q": "Sportovní hala - Strž, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-20T09:29:06+00:00"
  },
+ "sportovni hala zs komenskeho|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Sportovní hala ZŠ Komenského, Trutnov, Česko",
+  "ts": "2026-09-23T07:00:57+00:00"
+ },
  "sportovni stadion|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -957,6 +964,13 @@
   "precision": "venue",
   "q": "UFFO Trutnov, Trutnov, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "uffo|trutnov": {
+  "lat": 50.5633347,
+  "lon": 15.9103561,
+  "precision": "venue",
+  "q": "UFFO, Trutnov, Česko",
+  "ts": "2026-09-23T07:00:57+00:00"
  },
  "valdstejnska lodzie|jicin": {
   "lat": 50.449501,

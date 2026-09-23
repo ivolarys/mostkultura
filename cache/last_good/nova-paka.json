@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-22T16:41:41+00:00",
+ "fetched_at": "2026-09-23T06:54:09+00:00",
  "events": [
-  {
-   "title": "HOUBAŘI - divadelní loutková inscenace",
-   "start": "2026-09-22T16:00:00+02:00",
-   "source": "nova-paka",
-   "url": "https://www.munovapaka.cz/houbari%2Ddivadelni%2Dloutkova%2Dinscenace/a-2170",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "http://zusnovapaka.cz",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Za pokladem s Červenou ... Děvčátko jménem Červená se vydává do lesa hledat poklad. Co všechno cestou objeví? Na koho narazí? A podaří se jí poklad najít? Přijď se podívat a uvidíš. Účinkuje: Tereza Magnan, scénografka loutkového a alternativního divadla DAMU O představení: Poetické, výtvarně bohaté vyprávění kombinující prvky japonského divadla kamishibai a loutkového divadla.",
-   "image": "https://www.munovapaka.cz/assets/Image.ashx?id_org=10512&id_obrazky=23770",
-   "native_id": "https://www.munovapaka.cz/houbari%2Ddivadelni%2Dloutkova%2Dinscenace/a-2170",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "nova-paka:d1277a72546a"
-  },
   {
    "title": "SVATOVÁCLAVSKÝ KONCERT – Pěvecký sbor Bona Vita Hořice",
    "start": "2026-09-24T00:00:00+02:00",

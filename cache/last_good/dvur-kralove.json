@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-22T16:41:21+00:00",
+ "fetched_at": "2026-09-23T06:52:28+00:00",
  "events": [
   {
    "title": "Tvořivé dílny v barvách babího léta",
@@ -24,30 +24,6 @@
    "lon": null,
    "geo": null,
    "id": "dvur-kralove:ac2df559feb1"
-  },
-  {
-   "title": "Mesiáš",
-   "start": "2026-09-22T19:00:00+02:00",
-   "source": "dvur-kralove",
-   "url": "https://www.mudk.cz/dre-cs/77948-mesias.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kino Svět",
-   "category": null,
-   "native_category": "Promítání",
-   "description": "Podrobný popis: Art kino Úžasná opera pro léto, fascinovala i Mozarta. Nejslavnější oratorium všech dob jako velkolepá zahradní slavnost plná magických světel a pohybu na Otáčivém hledišti Krumlovského zámku . Režie: T. O. Pilař, choreografie: M. Šinták, hrají: K. Janů, M. Klaudová ad . Oper a, ČR, 2025 . Délka 116 minut, titulky, přístupno, vstupné 130 Kč. Foto: www.kino-svet.cz",
-   "image": "https://www.mudk.cz/galerie/2279163_353_500.jpg",
-   "native_id": "https://www.mudk.cz/dre-cs/77948-mesias.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "dvur-kralove:aec24de0c8e8"
   },
   {
    "title": "Insidious: Jsou mezi námi",
@@ -288,6 +264,30 @@
    "lon": null,
    "geo": null,
    "id": "dvur-kralove:92e66b9082f6"
+  },
+  {
+   "title": "Bruslení s dětmi",
+   "start": "2026-09-12T15:00:00+02:00",
+   "source": "dvur-kralove",
+   "url": "https://www.mudk.cz/dre-cs/77971-brusleni-s-detmi.html",
+   "end": "2026-09-28T16:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Zimní stadion",
+   "category": null,
+   "native_category": "Jiný typ akce",
+   "description": "Podrobný popis: V září může využít i bruslení určené pro malé děti.",
+   "image": "https://www.mudk.cz/galerie/2279534_336_500.jpg",
+   "native_id": "https://www.mudk.cz/dre-cs/77971-brusleni-s-detmi.html",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "dvur-kralove:0096bd6e017d"
   },
   {
    "title": "Den seniorů 2026",
