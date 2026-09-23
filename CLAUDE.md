@@ -8,8 +8,8 @@ Denní agregátor kulturních akcí v okolí obce Mostek. GitHub Actions (hlavn�
 
 ## Delegování práce na subagenty (modely)
 
-- **GPT-6 Astra (`gpt-6-astra`)**: hlavní model pro návrhy, analýzy, přípravu zadání, review, testy, kontroly a orchestraci (preference uživatele pro celý projekt, 2026-09-12).
-- **Levnější modely**: samotné kódování delegovat na GPT-5.6 Luna, u složitější implementace na GPT-5.6 Terra nebo Sol. Výsledek kontroluje Astra. Použít všude, kde prostředí umožňuje volbu modelu; změnu modelu běžícího tahu nepředstírat.
+- **GPT-6 Astra (`gpt-6-astra`)**: hlavní model pro návrhy, analýzy, přípravu zadání, review, testy, kontroly a orchestraci (preference uživatele pro celý projekt, 2026-09-23).
+- **Levnější modely**: samotné kódování delegovat na GPT-6 Luna (`gpt-6-luna`), u složitější implementace na GPT-6 Sol (`gpt-6-sol`). Výsledek kontroluje Astra. Používat pouze rodinu GPT-6; při nedostupnosti preferovaného modelu zvolit jiný dostupný model GPT-6 odpovídající úloze. Použít všude, kde prostředí umožňuje volbu modelu; změnu modelu běžícího tahu nepředstírat.
 
 ## Jak pracovat
 

@@ -3,13 +3,15 @@
 Komunikuj česky. Respektuj projektové postupy a technické poznatky v `CLAUDE.md`;
 následující volba modelů má přednost před jeho staršími pokyny k modelům.
 
-## Modely (preference uživatele, 2026-09-12)
+## Modely (preference uživatele, 2026-09-23)
 
 - Hlavní model je GPT-6 Astra (`gpt-6-astra`): navrhuje, analyzuje, připravuje
   zadání, řídí práci, kontroluje, testuje a provádí UX/UI i code review.
-- Samotné kódování deleguj levnějším modelům: GPT-5.6 Luna pro jednoduché
-  úpravy, GPT-5.6 Terra nebo Sol pro složitější implementaci. Astra připraví
+- Samotné kódování deleguj levnějším modelům: GPT-6 Luna (`gpt-6-luna`) pro jednoduché
+  úpravy, GPT-6 Sol (`gpt-6-sol`) pro složitější implementaci. Astra připraví
   konkrétní zadání a výsledek zkontroluje a ověří.
+- Pro agenty používej pouze rodinu GPT-6. Pokud preferovaný model není dostupný,
+  zvol jiný dostupný model GPT-6 odpovídající úloze; nepřecházej automaticky na starší generace.
 - Preference platí pro celý tento projekt všude, kde lze model zvolit.
   Netvrď, že se model běžícího tahu přepnul, pokud se to skutečně nestalo.
 
