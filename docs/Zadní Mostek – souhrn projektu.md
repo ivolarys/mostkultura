@@ -28,7 +28,7 @@ Denní agregátor kulturních akcí kolem Mostku. Každé ráno GitHub Actions s
 1. `config.yaml` – jediné místo, kde se rozšiřuje rozsah: `places` (whitelist obcí + aliasy), `sources` (zdroje: `type`, `url`, `place`, `priority`), `categories`, `category_map`.
 2. `mostek_kultura/sources/*` – jeden modul na typ zdroje (CMS rodina nebo konkrétní web). Registr v `sources/__init__.py`.
 3. `normalize.py` – přiřazení obce (venue → place_raw → název → výchozí obec zdroje), filtr rozsahu, sloučení duplicit napříč zdroji (datum + normalizovaný název + obec, vyšší `priority` vyhrává).
-4. `classify.py` – kategorie: nativní kategorie zdroje → LLM (OpenAI `gpt-5-mini`, případně Anthropic) → klíčová slova. Výsledky v `cache/classifications.json` (commitované, každá akce jen jednou).
+4. `classify.py` – kategorie: nativní kategorie zdroje → LLM (OpenAI `gpt-6-luna`, případně Anthropic) → klíčová slova. Výsledky v `cache/classifications.json` (commitované, každá akce jen jednou).
 5. `geocode.py` – poloha přes Nominatim (OSM), cache `cache/geocode.json`. Přesnost `venue` / `place` (střed obce).
 6. `render.py` + `templates/` – `index.html` (data inline), `zdroje.html`, JSONy, `manifest.webmanifest`, `icon.svg`, přibalený Leaflet.
 7. `.github/workflows/build.yml` – testy → build → commit `cache/` zpět (`[skip ci]`) → deploy na Pages.
