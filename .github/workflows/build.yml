@@ -53,7 +53,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}   # volitelné: openai | anthropic (jinak podle klíče)
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}   # volitelné, výchozí gpt-5-mini
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}   # volitelné, výchozí gpt-6-luna
         run: python -m mostek_kultura build --out site
 
       - name: Commit cache

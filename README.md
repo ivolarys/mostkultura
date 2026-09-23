@@ -10,7 +10,7 @@ Mostkultura je denní přehled kulturních a společenských akcí v okolí obce
 ## Jak to funguje
 
 1. GitHub Actions každý den ráno stáhne akce ze zdrojů v `config.yaml` (obecní weby, kalendář Lázní Bělohrad, GoOut).
-2. Akce se namapují na obce z whitelistu, sloučí se duplicity napříč zdroji a doplní se kategorie (nativní kategorie zdroje → LLM → klíčová slova). LLM je OpenAI (`gpt-5-mini`) nebo Anthropic (Claude Haiku) podle toho, který klíč je nastavený.
+2. Akce se namapují na obce z whitelistu, sloučí se duplicity napříč zdroji a doplní se kategorie (nativní kategorie zdroje → LLM → klíčová slova). LLM je OpenAI (`gpt-6-luna`) nebo Anthropic (Claude Haiku) podle toho, který klíč je nastavený.
 3. Vygeneruje se statický web (`site/`) a nasadí se na GitHub Pages. Klasifikace se ukládá do `cache/` v repu, takže se každá akce klasifikuje jen jednou.
 
 Když nějaký zdroj spadne, použijí se jeho data z posledního úspěšného běhu (`cache/last_good/`), stav je vidět v hlavičce stránky a v `status.json`.
