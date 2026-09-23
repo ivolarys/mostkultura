@@ -19,6 +19,8 @@ Hlavní automatický běh je naplánovaný na 04:30 UTC. Protože GitHub negaran
 
 Na stránce **Zdroje** lze v každém prohlížeči samostatně skrýt celé obce i jednotlivé zdroje. Volba se ukládá jen lokálně do prohlížeče; neovlivní společná data ani Home Assistant.
 
+U každé akce lze hvězdičkou označit **Oblíbené**. Jejich přehled najdete ve spodní navigaci; zobrazuje dostupné oblíbené akce chronologicky bez ohledu na právě zvolené filtry. Výběr se ukládá pouze v daném prohlížeči a mezi zařízeními se nesynchronizuje.
+
 Základní hradecký výběr tvoří Bio Central, CineStar, Klicperovo divadlo,
 Divadlo DRAK, Náplavku, Nábleší a saunu NUUK. Kina, divadla a Náplavka
 se načítají z vlastních programů; Nábleší a NUUK z městského kalendáře HKinfo

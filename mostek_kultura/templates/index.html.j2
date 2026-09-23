@@ -78,6 +78,23 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 .thumb{width:50px;height:50px;border-radius:11px;object-fit:cover;flex:0 0 50px;background:var(--fill)}
 @media (max-width:359px){.thumb{display:none}}
 .event-row .chev{display:none}
+.row.event-row{gap:0;padding:0}
+.event-link{display:flex;align-items:center;gap:13px;flex:1;min-width:0;min-height:76px;padding:13px 4px 13px 14px;color:inherit;text-decoration:none}
+.event-link:hover,.event-link:active{background:var(--active)}
+.event-link:focus-visible{outline:3px solid var(--focus);outline-offset:-3px;border-radius:12px}
+.favorite-btn{flex:0 0 48px;width:48px;min-height:48px;margin:0 5px 0 0;display:flex;align-items:center;justify-content:center;border-radius:12px;color:var(--label2)}
+.favorite-btn:hover,.favorite-btn:active{background:var(--active);color:var(--tint)}
+.favorite-btn[aria-pressed="true"]{color:var(--tint)}
+.favorite-btn[aria-pressed="true"] .icon{fill:currentColor}
+.favorite-btn .icon{width:20px;height:20px}
+.favorite-btn:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
+.favorite-status-error{position:fixed;z-index:40;left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));bottom:calc(84px + env(safe-area-inset-bottom));max-width:540px;margin:auto;padding:12px 16px;border:1px solid var(--sep);border-radius:13px;background:var(--elevated);color:var(--label);font-size:13px;box-shadow:var(--shadow)}
+body.embed .favorite-status-error{bottom:12px}
+.favorites-note{margin:4px 0 10px;color:var(--label3);font-size:13px}
+.favorites-view .filters,.favorites-view .view-toggle,.favorites-view .place-search-panel{display:none!important}
+.favorites-view .list-head{padding-top:19px}
+.favorites-view .result-summary{align-items:baseline}
+@media (min-width:700px){.row.event-row{padding:0}.event-link{padding:14px 4px 14px 16px}}
 .subline{display:flex;align-items:center;gap:6px;min-width:0;white-space:nowrap}
 .srcline{display:none;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ongoing{margin-top:26px}
@@ -125,12 +142,18 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
   .list-head{gap:8px}
 }
 
-.tabbar{position:fixed;left:max(10px,env(safe-area-inset-left));right:max(10px,env(safe-area-inset-right));bottom:max(10px,env(safe-area-inset-bottom));max-width:600px;margin-inline:auto;z-index:25;display:flex;height:64px;padding:5px;background:#f46b45;border:1px solid rgba(120,40,20,.22);border-radius:21px;box-shadow:0 12px 35px rgba(157,57,28,.24)}
+.tabbar{position:fixed;left:max(10px,env(safe-area-inset-left));right:max(10px,env(safe-area-inset-right));bottom:max(10px,env(safe-area-inset-bottom));max-width:700px;margin-inline:auto;z-index:25;display:flex;gap:8px;height:64px}
+.date-tabs{display:flex;flex:1;min-width:0;height:64px;padding:5px;background:#f46b45;border:1px solid rgba(120,40,20,.22);border-radius:21px;box-shadow:0 12px 35px rgba(157,57,28,.24)}
+.favorite-tab{flex:0 0 68px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-height:64px;padding:3px;border:1px solid rgba(244,107,69,.33);border-radius:21px;background:var(--card);color:var(--tint);box-shadow:0 8px 25px rgba(60,32,30,.15)}
+.favorite-tab.on{background:#f46b45;color:#fff;border-color:rgba(120,40,20,.22)}
+.favorite-tab:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.favorite-tab .icon{width:22px;height:22px}
+.favorite-tab .tab-label{font-size:9px}
 .tab-btn{flex:1;min-width:0;min-height:52px;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;color:#fff}
 .tab-btn.on{color:#a93620;background:#fff;box-shadow:0 2px 8px rgba(157,57,28,.2)}
 .tab-btn:focus-visible{outline:3px solid #241420;outline-offset:0}
 .tab-btn .icon{width:21px;height:21px}
-.tab-label{font-size:10px;font-weight:650;line-height:1.1;white-space:nowrap}
+.tab-label{font-size:10px;font-weight:650;line-height:1.1;text-align:center}
 .tab-label .n{display:none}
 
 .date-sheet .sheet-body{padding:8px 16px 18px}.date-selection{min-height:20px;margin:0 0 10px;color:var(--tint);font-size:14px;font-weight:700;line-height:1.4;padding:10px 12px;border-radius:12px;background:var(--active)}.calendar-head{display:flex;align-items:center;justify-content:space-between;gap:4px}.calendar-title{font-size:16px;font-weight:750;text-align:center}.calendar-nav{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center}.calendar-nav .icon{width:21px;height:21px}.calendar-weekdays,.calendar-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));text-align:center}.calendar-days{touch-action:none}.calendar-weekdays{padding:7px 0 3px;color:var(--label3);font-size:12px;font-weight:650}.calendar-day{position:relative;min-width:0;height:44px;border-radius:0;font-size:15px}.calendar-day:hover{background:var(--active)}.calendar-day.in-range{background:var(--active);color:var(--tint);font-weight:700}.calendar-day.range-start,.calendar-day.range-end{z-index:1;border-radius:12px;background:var(--tint);color:var(--tint-ink);box-shadow:none;font-weight:800}.calendar-day.range-start:not(.range-end){border-radius:12px 0 0 12px}.calendar-day.range-end:not(.range-start){border-radius:0 12px 12px 0}.calendar-day[aria-current="date"]{font-weight:800;color:var(--tint)}.calendar-day.range-start[aria-current="date"],.calendar-day.range-end[aria-current="date"]{color:var(--tint-ink)}.calendar-day[aria-current="date"]::after{content:"";position:absolute;bottom:5px;left:calc(50% - 2px);width:4px;height:4px;border-radius:50%;background:currentColor}.calendar-blank{height:44px}@media (max-width:359px){.date-sheet .sheet-body{padding-left:6px;padding-right:6px}.date-sheet .sheet-footer{padding-left:10px;padding-right:10px}}
@@ -188,6 +211,8 @@ body.embed .filters{position:sticky;top:0;margin:-8px -8px 0;padding:8px;backgro
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.embed .filters{background:rgba(22,16,29,.94)!important}}
 :root[data-theme="dark"] body.embed .filters{background:rgba(22,16,29,.94)!important}
 body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-desktop .seg-btn{font-size:12px;padding:0 4px}body.embed .period-desktop .n{display:none}body.embed .thumb{display:none}body.embed .map-wrap{margin:4px -8px 0;border-radius:0;border:0}body.embed .list-head{padding-top:10px}body.embed .row{min-height:68px;padding:10px}body.embed .grp{margin-top:18px}
+body.embed .row.event-row{padding:0}body.embed .event-link{min-height:68px;padding:10px 0 10px 10px}
+body.embed .period-desktop{overflow-x:auto;scrollbar-width:none}body.embed .period-desktop .seg-btn{flex:0 0 auto;min-width:44px}
 </style>
 </head>
 <body>
@@ -237,6 +262,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
     <div class="result-summary"><div class="range-label" id="rangeLabel"></div><div class="result-count" id="resultCount" aria-live="polite"></div></div>
     <div class="view-toggle seg" id="viewToggle" aria-label="Zobrazení"></div>
   </div>
+  <p class="favorites-note" id="favoritesNote" hidden>Uložené v tomto prohlížeči.</p>
   <main id="list" class="content-list"></main>
   <aside class="place-search-panel" id="placeSearchPanel" aria-live="polite" hidden></aside>
   <div class="map-wrap" id="mapWrap">
@@ -252,6 +278,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
 </div>
 
 <nav class="tabbar" id="tabbar" aria-label="Období"></nav>
+<div class="sr-only" id="favoriteStatus" role="status" aria-live="polite"></div>
 
 <dialog class="sheet event-sheet" id="eventDialog" aria-labelledby="eventTitle">
   <div class="sheet-layout">
@@ -274,6 +301,7 @@ body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-deskto
 <script src="source-preferences.js?v=mostkultura-4"></script>
 <script src="place-search.js?v=mostkultura-1"></script>
 <script src="date-range.js?v=mostkultura-1"></script>
+<script src="favorites.js?v=mostkultura-1"></script>
 <script>
 (function(){
 'use strict';
@@ -312,6 +340,7 @@ const ICON={
   next:svg('<path d="m9 18 6-6-6-6"/>'),
   week:svg('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 9h18M8 13h2M12 13h2M16 13h1M8 17h2M12 17h2"/>'),
   all:svg('<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>'),
+  favorite:svg('<path d="m12 2.8 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17l-5.56 2.92 1.06-6.2L3 9.33l6.22-.9L12 2.8Z"/>'),
   concert:svg('<path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/>'),
   theatre:svg('<path d="M4 5c3 1 5 1 8 0v7c0 4-2 7-4 8-2-1-4-4-4-8V5Z"/><path d="M7 9h.01M10 9h.01M6.5 14c1 .8 2 .8 3 0M13 5c3 1 5 1 7 0v7c0 3-1 5-3 7M15 9h.01M18 9h.01"/>'),
   film:svg('<rect x="3" y="6" width="18" height="14" rx="2"/><path d="m3 10 18-4M7 7l2 3M13 5.5l2 3M8 14l5 3v-6l-5 3Z"/>'),
@@ -346,7 +375,8 @@ const collator=new Intl.Collator('cs',{sensitivity:'base'});
 
 D.events.forEach(e=>{e.sd=fmtDate(new Date(e.start));e.ed=e.end?fmtDate(new Date(e.end)):e.sd;e.time=e.all_day?null:timeFormatter.format(new Date(e.start));e.search=norm([e.title,e.place,e.venue].filter(Boolean).join(' '))});
 const EVENTS=D.events.filter(e=>!e.ongoing||e.ed>=today);
-const VALID={tab:new Set([...TABS.map(t=>t[0]),'date']),cat:new Set(D.categories.map(c=>c.slug)),group:new Set(['day','category']),view:new Set(['list','map'])};
+const VALID={tab:new Set([...TABS.map(t=>t[0]),'date','favorites']),cat:new Set(D.categories.map(c=>c.slug)),group:new Set(['day','category']),view:new Set(['list','map'])};
+let favoriteKeys=MostkulturaFavorites.read(),favoriteSaveFailed=false;
 const eventPlaces=new Set(EVENTS.map(e=>e.place||'?'));
 const validPlaces=new Set([...D.places,...eventPlaces]);
 const LEGACY_PLACE_MAP={'Valdštejnská lodžie':'Jičín'};
@@ -379,7 +409,7 @@ function focusKey(el){if(!el||el===document.body)return '';const parent=el.close
 function restoreFocus(){if(!pendingFocus)return;const target=document.querySelector(pendingFocus)||document.getElementById('search');pendingFocus='';if(target)target.focus({preventScroll:true})}
 function update(mutator,replace,focusSelector){pendingFocus=focusSelector??focusKey(document.activeElement);mutator();const hash=stateHash();if(location.hash.slice(1)===hash){render();return}if(replace)history.replaceState(null,'','#'+hash),render();else location.hash=hash}
 
-function rangeFor(tab=st.tab){return tab==='date'?[st.date,st.dateEnd]:TABS.find(t=>t[0]===tab)[2]}
+function rangeFor(tab=st.tab){return tab==='date'?[st.date,st.dateEnd]:tab==='favorites'?[today,'9999-12-31']:TABS.find(t=>t[0]===tab)[2]}
 function relevant(e,range=rangeFor()){return e.ongoing?(e.sd<=range[1]&&e.ed>=range[0]):(e.sd>=range[0]&&e.sd<=range[1])}
 function matches(e,places=st.place,query=norm(st.q)){return sourceAllowed(e)&&(!st.cat.size||st.cat.has(e.category))&&(!places.size||places.has(e.place||'?'))&&(!query||e.search.includes(query))}
 function visibleEvents(places=st.place,query=norm(st.q)){
@@ -395,16 +425,20 @@ const dniLabel=n=>n===1?'den':n>=2&&n<=4?'dny':'dní';
 const shortDate=iso=>{const [y,m,d]=iso.split('-');return `${Number(d)}. ${Number(m)}.`};
 const compactDateRange=(start,end)=>{if(start===end)return fullDateFormatter.format(new Date(start+'T12:00:00Z'));const sy=start.slice(0,4),ey=end.slice(0,4);return sy===ey?`${shortDate(start)}–${shortDate(end)} ${sy}`:`${shortDate(start)} ${sy}–${shortDate(end)} ${ey}`};
 const dayLabel=iso=>{const d=new Date(iso+'T12:00:00Z');const s=dayFormatter.format(d);return iso===today?'Dnes · '+s:iso===addDays(today,1)?'Zítra · '+s:s};
-function rangeLabel(){const t=TABS.find(x=>x[0]===st.tab);if(st.tab==='date')return compactDateRange(st.date,st.dateEnd);if(st.tab==='all')return 'Od dneška dál';if(st.tab==='today'||st.tab==='tomorrow')return `${t[1]} · ${shortDate(t[2][0])}`;if(t[2][0]===t[2][1])return dayLabel(t[2][0]);return `${shortDate(t[2][0])}–${shortDate(t[2][1])}`}
+function rangeLabel(){const t=TABS.find(x=>x[0]===st.tab);if(st.tab==='favorites')return 'Oblíbené';if(st.tab==='date')return compactDateRange(st.date,st.dateEnd);if(st.tab==='all')return 'Od dneška dál';if(st.tab==='today'||st.tab==='tomorrow')return `${t[1]} · ${shortDate(t[2][0])}`;if(t[2][0]===t[2][1])return dayLabel(t[2][0]);return `${shortDate(t[2][0])}–${shortDate(t[2][1])}`}
 
 function eventHtml(e,showDate,dayStart=false){
-  const current=e.ongoing&&e.sd<today;
+  const current=e.ongoing&&e.sd<(st.tab==='favorites'?fmtDate(new Date()):today);
   const when=current?`<div class="time"><span class="do">probíhá do</span><span class="dd">${esc(shortDate(e.ed))}</span></div>`:`<div class="time">${e.time?`<span class="hm">${esc(e.time)}</span>`:'<span class="allday">celý den</span>'}${showDate?`<span class="dd">${esc(shortDate(e.sd))}</span>`:''}${e.ongoing?`<span class="do">do ${esc(shortDate(e.ed))}</span>`:''}</div>`;
   const img=!embed&&e.image?`<img class="thumb" src="${esc(e.image)}" alt="" loading="lazy">`:'';
   const where=[e.place,e.venue&&e.venue!==e.place?e.venue:null].filter(Boolean).join(' · ');
   const inner=`${when}<div class="content"><div class="title">${esc(e.title)}</div><div class="meta"><span class="where">${ICON.pin}<span class="where-text">${esc(where||'Místo neuvedeno')}</span></span></div><div class="subline"><span class="pill c-${esc(e.category)}">${esc((CAT[e.category]||{}).label||e.category)}</span><span class="srcline"> · ${esc((e.source_labels||e.sources||[]).join(', '))}</span></div></div>${img}${ICON.chev}`;
   const cls=`row event-row c-${esc(e.category)}${dayStart?' category-day-start':''}`;
-  return e.url?`<a class="${cls}" href="${esc(e.url)}" target="_blank" rel="noopener">${inner}</a>`:`<div class="${cls}">${inner}</div>`;
+  const key=MostkulturaFavorites.key(e),saved=MostkulturaFavorites.has(favoriteKeys,e);
+  const action=`${saved?'Odebrat':'Přidat'} ${e.title} ${saved?'z':'do'} oblíbených`;
+  const star=`<button type="button" class="favorite-btn" data-favorite-key="${esc(key)}" aria-pressed="${saved}" aria-label="${esc(action)}" title="${esc(action)}">${ICON.favorite}</button>`;
+  const link=e.url?`<a class="event-link" href="${esc(e.url)}" target="_blank" rel="noopener">${inner}</a>`:`<div class="event-link">${inner}</div>`;
+  return `<div class="${cls}">${link}${star}</div>`;
 }
 function computeRenderSnapshot(){
   const query=norm(st.q),range=rangeFor(),tabCounts=Object.fromEntries([...TABS.map(t=>[t[0],0]),['date',0]]);
@@ -442,9 +476,13 @@ function renderPlaceSearchPanel(snapshot,match){
 
 function renderPeriods(tabCounts){
   const desktopTabs=[...TABS,['date','Datum',[st.date,st.dateEnd]]];
+  const favoriteCount=MostkulturaFavorites.selected(D.events,favoriteKeys,Date.now(),TZ).length;
+  const favoriteLabel=`Oblíbené, ${akceLabel(favoriteCount)}`;
+  const favoriteDesktop=`<button type="button" data-tab="favorites" class="seg-btn${st.tab==='favorites'?' on':''}" aria-pressed="${st.tab==='favorites'}" aria-label="${favoriteLabel}">${ICON.favorite}<span>Oblíbené</span> <span class="n">${favoriteCount}</span></button>`;
   const html=desktopTabs.map(t=>{const n=t[0]==='date'?(tabCounts.date??0):tabCounts[t[0]];const label=t[0]==='date'&&st.tab==='date'?(st.date===st.dateEnd?shortDate(st.date):`${shortDate(st.date)}–${shortDate(st.dateEnd)}`):t[1];const aria=t[0]==='weekend'?`Pátek až neděle, ${akceLabel(n)}`:t[0]==='date'&&st.tab==='date'?`${rangeLabel()}, ${akceLabel(n)}`:'';return `<button type="button" data-tab="${t[0]}" class="seg-btn${t[0]===st.tab?' on':''}" aria-pressed="${t[0]===st.tab}"${aria?` aria-label="${esc(aria)}"`:''}>${label} <span class="n">${n}</span></button>`}).join('');
-  document.getElementById('periodDesktop').innerHTML=html;
-  document.getElementById('tabbar').innerHTML=BAR_TABS.map(tab=>{const dateActive=!BAR_TABS.slice(0,3).includes(st.tab);const label=tab==='date'?(st.tab==='date'?(st.date===st.dateEnd?shortDate(st.date):`${dateRange.length(st.date,st.dateEnd)} ${dniLabel(dateRange.length(st.date,st.dateEnd))}`):st.tab==='week'?'Týden':st.tab==='all'?'Vybrat datum':'Datum'):(TABS.find(x=>x[0]===tab)[1]);const active=tab==='date'?dateActive:tab===st.tab;const n=tab==='date'?(st.tab==='date'?(tabCounts.date??0):(tabCounts[st.tab]??0)):tabCounts[tab];const ariaLabel=tab==='weekend'?`Pátek až neděle, ${akceLabel(n)}`:tab==='date'&&st.tab==='date'?`${rangeLabel()}, ${akceLabel(n)}`:`${label}, ${akceLabel(n)}`;return `<button type="button" data-tab="${tab}" class="tab-btn${active?' on':''}" aria-pressed="${active}" aria-haspopup="${tab==='date'?'dialog':'false'}" aria-label="${esc(ariaLabel)}">${ICON[tab]}<span class="tab-label">${label}<span class="n"> ${n}</span></span></button>`}).join('');
+  document.getElementById('periodDesktop').innerHTML=html+favoriteDesktop;
+  const dateTabs=BAR_TABS.map(tab=>{const dateActive=st.tab!=='favorites'&&!BAR_TABS.slice(0,3).includes(st.tab);const label=tab==='date'?(st.tab==='date'?(st.date===st.dateEnd?shortDate(st.date):`${dateRange.length(st.date,st.dateEnd)} ${dniLabel(dateRange.length(st.date,st.dateEnd))}`):st.tab==='week'?'Týden':st.tab==='all'?'Vybrat datum':'Datum'):(TABS.find(x=>x[0]===tab)[1]);const active=tab==='date'?dateActive:tab===st.tab;const n=tab==='date'?(st.tab==='date'?(tabCounts.date??0):(tabCounts[st.tab]??0)):tabCounts[tab];const ariaLabel=tab==='weekend'?`Pátek až neděle, ${akceLabel(n)}`:tab==='date'&&st.tab==='date'?`${rangeLabel()}, ${akceLabel(n)}`:`${label}, ${akceLabel(n)}`;return `<button type="button" data-tab="${tab}" class="tab-btn${active?' on':''}" aria-pressed="${active}" aria-haspopup="${tab==='date'?'dialog':'false'}" aria-label="${esc(ariaLabel)}">${ICON[tab]}<span class="tab-label">${label}<span class="n"> ${n}</span></span></button>`}).join('');
+  document.getElementById('tabbar').innerHTML=`<div class="date-tabs">${dateTabs}</div><button type="button" data-tab="favorites" class="favorite-tab${st.tab==='favorites'?' on':''}" aria-pressed="${st.tab==='favorites'}" aria-label="${favoriteLabel}">${ICON.favorite}<span class="tab-label">Oblíbené</span></button>`;
 }
 function renderCategories(categoryCounts,categoryTotal){
   const el=document.getElementById('categories');
@@ -498,14 +536,27 @@ function renderList(main,ongoing,place){
   if(ongoing.length)html+=`<details class="ongoing"><summary>Právě probíhá · ${akceLabel(ongoing.length)}${ICON.chev}</summary><div class="list-card">${ongoing.sort((a,b)=>a.ed.localeCompare(b.ed)).map(e=>eventHtml(e,false)).join('')}</div></details>`;
   document.getElementById('list').innerHTML=html;
 }
+let favoritesDayStamp='';
+function renderFavorites(events){
+  const list=document.getElementById('list');
+  favoritesDayStamp=fmtDate(new Date());
+  if(!events.length){list.innerHTML=`<div class="empty">${ICON.favorite}<div class="empty-title">Zatím žádné nadcházející oblíbené akce</div><div class="empty-sub">Akci si uložíte klepnutím na hvězdičku.</div></div>`;return}
+  const nowDay=favoritesDayStamp;
+  const favoriteDayLabel=day=>{const label=dayFormatter.format(new Date(day+'T12:00:00Z'));return day===nowDay?'Dnes · '+label:day===addDays(nowDay,1)?'Zítra · '+label:label};
+  const groups=new Map();
+  events.forEach(e=>{const day=e.sd<nowDay?nowDay:e.sd;if(!groups.has(day))groups.set(day,[]);groups.get(day).push(e)});
+  list.innerHTML=[...groups].sort(([a],[b])=>a.localeCompare(b)).map(([day,items])=>`<section aria-labelledby="favorite-${esc(day)}"><h2 class="grp grp-title" id="favorite-${esc(day)}">${ICON.today}<span>${esc(favoriteDayLabel(day))}</span></h2><div class="list-card">${items.map(e=>eventHtml(e,false)).join('')}</div></section>`).join('');
+}
 function render(){
   const snapshot=computeRenderSnapshot(),{main,ongoing}=snapshot.visible,count=main.length+ongoing.length;
+  const favorites=st.tab==='favorites',favoriteEvents=favorites?MostkulturaFavorites.selected(D.events,favoriteKeys,Date.now(),TZ):[];
   const place=placeSearchMatch();
-  document.body.classList.toggle('view-map',st.view==='map');renderPeriods(snapshot.tabCounts);renderCategories(snapshot.categoryCounts,snapshot.categoryTotal);renderActiveFilters();renderPlaceSearchPanel(snapshot,place);renderList(main,ongoing,place);
+  document.body.classList.toggle('favorites-view',favorites);
+  document.body.classList.toggle('view-map',!favorites&&st.view==='map');renderPeriods(snapshot.tabCounts);renderCategories(snapshot.categoryCounts,snapshot.categoryTotal);renderActiveFilters();renderPlaceSearchPanel(snapshot,place);if(favorites)renderFavorites(favoriteEvents);else renderList(main,ongoing,place);
   const search=document.getElementById('search');if(search.value!==st.q)search.value=st.q;document.getElementById('searchClear').hidden=!st.q;
-  document.getElementById('resultCount').textContent=akceLabel(count);document.getElementById('rangeLabel').textContent=rangeLabel();document.querySelector('.result-summary').classList.toggle('custom-date',st.tab==='date');
+  document.getElementById('resultCount').textContent=akceLabel(favorites?favoriteEvents.length:count);document.getElementById('rangeLabel').textContent=rangeLabel();document.querySelector('.result-summary').classList.toggle('custom-date',st.tab==='date');document.getElementById('favoritesNote').hidden=!favorites;
   document.getElementById('viewToggle').innerHTML=`<button type="button" data-view="list" class="seg-btn${st.view==='list'?' on':''}" aria-label="Zobrazit seznam" title="Seznam" aria-pressed="${st.view==='list'}">${ICON.list}</button><button type="button" data-view="map" class="seg-btn${st.view==='map'?' on':''}" aria-label="Zobrazit mapu" title="Mapa" aria-pressed="${st.view==='map'}">${ICON.map}</button>`;
-  if(st.view==='map')showMap([...main,...ongoing],place);else mapRequest++;
+  if(!favorites&&st.view==='map')showMap([...main,...ongoing],place);else mapRequest++;
   restoreFocus();
 }
 
@@ -536,7 +587,7 @@ function renderCalendar(focusISO=''){
 function setCalendarMonth(delta){let y=calendarYear,m=calendarMonth+delta;if(m<0){y--;m=11}if(m>11){y++;m=0}if(y<1||y>9999)return;calendarYear=y;calendarMonth=m;renderCalendar()}
 function selectCalendarDate(iso,startNew=false){keyboardAnchor=null;if(startNew||!draftSelectingEnd){setDraftRange(iso,iso);draftSelectingEnd=true}else{setDraftRange(draftDate,iso);draftSelectingEnd=false}renderCalendar(iso)}
 function calendarDateAtPoint(x,y){return document.elementFromPoint(x,y)?.closest?.('[data-calendar-date]')?.dataset.calendarDate||''}
-function openDateDialog(invoker){dateInvoker=focusKey(invoker)||'#tabbar [data-tab="date"]';dateInvokerRoot=dateInvoker.startsWith('#periodDesktop')?'#periodDesktop':'#tabbar';[draftDate,draftDateEnd]=st.tab==='all'?[today,today]:rangeFor();draftSelectingEnd=false;keyboardAnchor=null;calendarYear=Number(draftDate.slice(0,4));calendarMonth=Number(draftDate.slice(5,7))-1;renderCalendar();openDialog(document.getElementById('dateDialog'));document.getElementById('dateClose').focus({preventScroll:true})}
+function openDateDialog(invoker){dateInvoker=focusKey(invoker)||'#tabbar [data-tab="date"]';dateInvokerRoot=dateInvoker.startsWith('#periodDesktop')?'#periodDesktop':'#tabbar';[draftDate,draftDateEnd]=st.tab==='all'||st.tab==='favorites'?[today,today]:rangeFor();draftSelectingEnd=false;keyboardAnchor=null;calendarYear=Number(draftDate.slice(0,4));calendarMonth=Number(draftDate.slice(5,7))-1;renderCalendar();openDialog(document.getElementById('dateDialog'));document.getElementById('dateClose').focus({preventScroll:true})}
 function cancelDate(){closeDialog(document.getElementById('dateDialog'));if(dateInvoker)document.querySelector(dateInvoker)?.focus({preventScroll:true})}
 function applyDate(start,end){const [date,dateEnd]=dateRange.normalizeRange(start,end,today),tab=date===dateEnd&&date===today?'today':date===dateEnd&&date===addDays(today,1)?'tomorrow':'date';closeDialog(document.getElementById('dateDialog'));update(()=>{st.tab=tab;st.date=date;st.dateEnd=dateEnd},false,`${dateInvokerRoot} [data-tab="${tab}"]`)}
 
@@ -563,6 +614,28 @@ function showMap(events,place){
   loadLeaflet().then(()=>{if(request!==mapRequest||st.view!=='map')return;initMap();sizeMap();map.invalidateSize();const bounds=renderMarkers(events);const key=stateHash();if(bounds.length&&key!==lastMapKey)map.fitBounds(bounds,{padding:[34,34],maxZoom:13});lastMapKey=key}).catch(()=>{if(request===mapRequest&&st.view==='map')msg.hidden=false});
 }
 function openEventDialog(title,events){const dialog=document.getElementById('eventDialog');if(dialog.open)return;document.getElementById('eventTitle').innerHTML=`${esc(title)}<div class="sheet-subtitle">${akceLabel(events.length)}</div>`;document.getElementById('eventBody').innerHTML=`<div class="list-card">${events.slice().sort((a,b)=>a.start.localeCompare(b.start)).map(e=>eventHtml(e,true)).join('')}</div>`;openDialog(dialog)}
+function refreshStarButtons(){
+  document.querySelectorAll('[data-favorite-key]').forEach(button=>{
+    const event=D.events.find(item=>MostkulturaFavorites.key(item)===button.dataset.favoriteKey);
+    if(!event)return;
+    const saved=MostkulturaFavorites.has(favoriteKeys,event),action=`${saved?'Odebrat':'Přidat'} ${event.title} ${saved?'z':'do'} oblíbených`;
+    button.setAttribute('aria-pressed',String(saved));button.setAttribute('aria-label',action);button.title=action;
+  });
+}
+function toggleFavorite(button){
+  const key=button.dataset.favoriteKey,event=D.events.find(item=>MostkulturaFavorites.key(item)===key);
+  if(!event)return;
+  const wasSaved=MostkulturaFavorites.has(favoriteKeys,event),inDialog=!!button.closest('#eventDialog');
+  const previous=[...document.querySelectorAll('#list [data-favorite-key]')],index=previous.findIndex(item=>item===button);
+  const nextKey=st.tab==='favorites'&&wasSaved&&index>=0?(previous[index+1]||previous[index-1])?.dataset.favoriteKey:'';
+  favoriteKeys=MostkulturaFavorites.toggle(favoriteKeys,event);
+  const saved=MostkulturaFavorites.save(favoriteKeys);favoriteSaveFailed=!saved;
+  const status=document.getElementById('favoriteStatus');status.textContent=saved?(wasSaved?'Odebráno z oblíbených.':'Přidáno do oblíbených.'):'Výběr se nepodařilo uložit. Platí jen do zavření stránky.';status.classList.toggle('sr-only',saved);status.classList.toggle('favorite-status-error',!saved);
+  render();refreshStarButtons();
+  if(inDialog){button.focus({preventScroll:true});return}
+  const target=[...document.querySelectorAll('#list [data-favorite-key]')].find(item=>item.dataset.favoriteKey===(nextKey||key));
+  (target||document.querySelector(`${embed?'#periodDesktop':'#tabbar'} [data-tab="favorites"]`)).focus({preventScroll:true});
+}
 
 document.getElementById('searchIcon').innerHTML=ICON.search;document.getElementById('searchClear').innerHTML=ICON.close;document.getElementById('sourcesBtnIcon').innerHTML=ICON.source;document.getElementById('eventClose').innerHTML=ICON.close;document.getElementById('dateClose').innerHTML=ICON.close;document.getElementById('calendarPrev').innerHTML=ICON.prev;document.getElementById('calendarNext').innerHTML=ICON.next;
 document.getElementById('gen').textContent=generatedFormatter.format(new Date(D.generated_at));
@@ -599,7 +672,7 @@ document.getElementById('categories').addEventListener('wheel',e=>{
   el.scrollLeft=next;
   if(el.scrollLeft!==before)e.preventDefault();
 },{passive:false});
-document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.closest('#dateDialog'))return;if(b.hasAttribute('data-show-all-place'))update(()=>st.tab='all',false,'#search');else if(b.dataset.tab==='date')openDateDialog(b);else if(b.dataset.tab)update(()=>st.tab=b.dataset.tab);else if(b.dataset.view)update(()=>st.view=b.dataset.view);else if(b.dataset.cat)update(()=>st.cat.has(b.dataset.cat)?st.cat.delete(b.dataset.cat):st.cat.add(b.dataset.cat));else if(b.hasAttribute('data-clear-cats'))update(()=>st.cat.clear());else if(b.hasAttribute('data-clear-q'))update(()=>st.q='');else if(b.dataset.removePlace)update(()=>st.place.delete(b.dataset.removePlace));else if(b.hasAttribute('data-reset'))update(()=>{st.cat.clear();st.place.clear();st.q=''})});
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.closest('#dateDialog'))return;if(b.hasAttribute('data-favorite-key'))toggleFavorite(b);else if(b.hasAttribute('data-show-all-place'))update(()=>st.tab='all',false,'#search');else if(b.dataset.tab==='date')openDateDialog(b);else if(b.dataset.tab)update(()=>st.tab=b.dataset.tab);else if(b.dataset.view)update(()=>st.view=b.dataset.view);else if(b.dataset.cat)update(()=>st.cat.has(b.dataset.cat)?st.cat.delete(b.dataset.cat):st.cat.add(b.dataset.cat));else if(b.hasAttribute('data-clear-cats'))update(()=>st.cat.clear());else if(b.hasAttribute('data-clear-q'))update(()=>st.q='');else if(b.dataset.removePlace)update(()=>st.place.delete(b.dataset.removePlace));else if(b.hasAttribute('data-reset'))update(()=>{st.cat.clear();st.place.clear();st.q=''})});
 window.addEventListener('hashchange',()=>{parseState();canonicalize();render()});
 function syncSourcePreferences(){
   sourcePrefs=MostkulturaSources.read();
@@ -615,8 +688,23 @@ function syncSourcePreferences(){
   if(placeChanged)canonicalize();
   render();
 }
-window.addEventListener('storage',e=>{if(e.key===MostkulturaSources.KEY||e.key===null)syncSourcePreferences()});
-window.addEventListener('pageshow',syncSourcePreferences);
+function syncFavorites(){favoriteSaveFailed=false;favoriteKeys=MostkulturaFavorites.read();render();refreshStarButtons()}
+function refreshFavoriteTime(){
+  if(st.tab!=='favorites'||document.getElementById('dateDialog').open)return;
+  const keys=MostkulturaFavorites.selected(D.events,favoriteKeys,Date.now(),TZ).map(MostkulturaFavorites.key);
+  const buttons=[...document.querySelectorAll('#list [data-favorite-key]')],shown=buttons.map(button=>button.dataset.favoriteKey);
+  if(favoritesDayStamp===fmtDate(new Date())&&keys.length===shown.length&&keys.every((key,index)=>key===shown[index]))return;
+  const active=document.activeElement,index=buttons.indexOf(active),activeKey=index>=0?active.dataset.favoriteKey:null;
+  render();
+  if(index<0)return;
+  const remaining=[...document.querySelectorAll('#list [data-favorite-key]')];
+  const target=remaining.find(button=>button.dataset.favoriteKey===activeKey)||remaining[Math.min(index,remaining.length-1)]||document.querySelector(`${embed?'#periodDesktop':'#tabbar'} [data-tab="favorites"]`);
+  target?.focus({preventScroll:true});
+}
+window.addEventListener('storage',e=>{if(e.key===MostkulturaSources.KEY||e.key===null)syncSourcePreferences();if(e.key===MostkulturaFavorites.KEY||e.key===null)syncFavorites()});
+window.addEventListener('pageshow',()=>{syncSourcePreferences();if(!favoriteSaveFailed)syncFavorites();else refreshFavoriteTime()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshFavoriteTime()});
+setInterval(()=>{if(!document.hidden)refreshFavoriteTime()},60000);
 window.addEventListener('resize',()=>{if(st.view==='map'&&map){sizeMap();map.invalidateSize()}});
 parseState();canonicalize();render();
 })();
