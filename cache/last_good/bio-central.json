@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-24T10:17:24+00:00",
+ "fetched_at": "2026-09-24T12:50:55+00:00",
  "events": [
   {
    "title": "Kino nehraje",
@@ -1274,30 +1274,6 @@
    "id": "bio-central:43cfbe755308"
   },
   {
-   "title": "Tady Vary 2 | Fjord",
-   "start": "2026-10-14T20:00:00+02:00",
-   "source": "bio-central",
-   "url": "https://biocentral.cz/?projection=54345",
-   "end": "2026-10-14T22:26:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": "Hradec Králové",
-   "venue": "Bio Central",
-   "category": null,
-   "native_category": "Film",
-   "description": "\"Strhuj&iacute;c&iacute; mor&aacute;ln&iacute; a soudn&iacute; drama rumunsk&eacute;ho mistra Cristiana Mungia z&iacute;skalo Zlatou palmu na festivalu v Cannes 2026. Př&iacute;běh mlad&eacute; rodiny (rodiče ztv&aacute;rnili hvězdn&iacute; Renate Reinsve a Sebastian Stan), jej&iacute;ž poklidn&yacute; život v odlehl&eacute; norsk&eacute; vesnici rozvr&aacute;t&iacute; nečekan&eacute; obviněn&iacute; ze strany &uacute;řadu pro ochranu dět&iacute;, stav&iacute; proti sobě tradičn&iacute; rodinn&e",
-   "image": "https://biocentral.cz/uploads/images/movies/2026/08/26/3f53741188d114c3aa788e636a8c5802.jpg",
-   "native_id": "54345",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bio-central:21d598ba6134"
-  },
-  {
    "title": "Tady Vary 2026/27 | Předplatné",
    "start": "2026-10-14T20:00:00+02:00",
    "source": "bio-central",
@@ -1320,6 +1296,30 @@
    "lon": null,
    "geo": null,
    "id": "bio-central:a91619c80ca4"
+  },
+  {
+   "title": "Tady Vary 2 | Fjord",
+   "start": "2026-10-14T20:00:00+02:00",
+   "source": "bio-central",
+   "url": "https://biocentral.cz/?projection=54345",
+   "end": "2026-10-14T22:26:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bio Central",
+   "category": null,
+   "native_category": "Film",
+   "description": "\"Strhuj&iacute;c&iacute; mor&aacute;ln&iacute; a soudn&iacute; drama rumunsk&eacute;ho mistra Cristiana Mungia z&iacute;skalo Zlatou palmu na festivalu v Cannes 2026. Př&iacute;běh mlad&eacute; rodiny (rodiče ztv&aacute;rnili hvězdn&iacute; Renate Reinsve a Sebastian Stan), jej&iacute;ž poklidn&yacute; život v odlehl&eacute; norsk&eacute; vesnici rozvr&aacute;t&iacute; nečekan&eacute; obviněn&iacute; ze strany &uacute;řadu pro ochranu dět&iacute;, stav&iacute; proti sobě tradičn&iacute; rodinn&e",
+   "image": "https://biocentral.cz/uploads/images/movies/2026/08/26/3f53741188d114c3aa788e636a8c5802.jpg",
+   "native_id": "54345",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bio-central:21d598ba6134"
   },
   {
    "title": "Její soukromé peklo",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-24T10:01:49+00:00",
+ "fetched_at": "2026-09-24T12:49:51+00:00",
  "events": [
   {
    "title": "Zapomenutý ostrov",
@@ -336,6 +336,30 @@
    "lon": null,
    "geo": null,
    "id": "vrchlabi:680f283ea27b"
+  },
+  {
+   "title": "Staň se malířem / malířkou",
+   "start": "2026-09-27T13:00:00+02:00",
+   "source": "vrchlabi",
+   "url": "https://www.mestovrchlabi.cz/events/stan-se-malirem-malirkou-1",
+   "end": "2026-09-27T18:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kiosek dLabe, nábřeží M. Kubátové, Vrchlabí",
+   "category": null,
+   "native_category": "Ostatní",
+   "description": "Přijďte si opět užít kombinaci výborného jídla a kreativního programu pro děti.",
+   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-09/D%C3%ADlni%C4%8Dky_z%C3%A1%C5%99%C3%AD_kiosek.png?h=e8fde61b&itok=I0fkLLEY",
+   "native_id": "https://www.mestovrchlabi.cz/events/stan-se-malirem-malirkou-1",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "vrchlabi:68f9d522003e"
   },
   {
    "title": "Zapomenutý ostrov",
@@ -1128,30 +1152,6 @@
    "lon": null,
    "geo": null,
    "id": "vrchlabi:fd51d93b838f"
-  },
-  {
-   "title": "Miluj svůj hlas",
-   "start": "2026-11-01T10:00:00+01:00",
-   "source": "vrchlabi",
-   "url": "https://www.mestovrchlabi.cz/events/miluj-svuj-hlas",
-   "end": "2026-11-01T18:00:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "zámeček – Nádražní 471, Vrchlabí",
-   "category": null,
-   "native_category": "Workshop, kurz",
-   "description": "Hlasová dílna není určena primárně k tomu, abychom si zazpívali, ale abychom pronikli hlouběji do fungování hlasu. Je určena i pro ty, kteří nechtějí vyloženě zpívat, ale potřebují hlas používat při své každodenní práci.",
-   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-09/lenka-poctova.jpg?h=48dd7f9a&itok=MtJMgga_",
-   "native_id": "https://www.mestovrchlabi.cz/events/miluj-svuj-hlas",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "vrchlabi:1c2d286fcbcc"
   }
  ]
 }

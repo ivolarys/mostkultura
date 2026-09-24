@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-09-24T10:12:11+00:00",
+ "fetched_at": "2026-09-24T12:50:05+00:00",
  "events": [
   {
    "title": "SLAVNOST STROMŮ 2026",
-   "start": "2026-10-17T00:00:00+02:00",
+   "start": "2026-10-17T14:00:00+02:00",
    "source": "valdstejnska-lodzie",
    "url": "https://valdstejnskalodzie.cz/program/slavnost-stromu-2026",
    "end": null,
-   "all_day": true,
+   "all_day": false,
    "place": null,
    "place_raw": null,
    "venue": "Valdštejnská lodžie",

@@ -279,6 +279,13 @@
   "q": "Galerie Artičok, Hradec Králové, Česko",
   "ts": "2026-09-12T10:40:45+00:00"
  },
+ "galerie articok|hradec kralove": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Galerie Artičok, Hradec Králové, Česko",
+  "ts": "2026-09-24T12:51:56+00:00"
+ },
  "galerie mesta trutnova|trutnov": {
   "lat": null,
   "lon": null,
@@ -488,6 +495,13 @@
   "precision": "venue",
   "q": "Kino Vesmír, Trutnov, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "kiosek dlabe, nabrezi m. kubatove, vrchlabi|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kiosek dLabe, nábřeží M. Kubátové, Vrchlabí, Česko",
+  "ts": "2026-09-24T12:51:56+00:00"
  },
  "klasterni schody v nove pace|nova paka": {
   "lat": null,
@@ -1020,6 +1034,13 @@
   "precision": "none",
   "q": "Vinařství Byšičky - Nový Dvůr, Lázně Bělohrad, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "vinoteka in vino|hradec kralove": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Vinotéka IN VINO, Hradec Králové, Česko",
+  "ts": "2026-09-24T12:51:56+00:00"
  },
  "vrchlabi presna adresa bude sdelena pri prihlaseni.|vrchlabi": {
   "lat": null,
