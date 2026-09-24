@@ -41,7 +41,7 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
 - Kategorie se posouvají vodorovně a vybraná kategorie zůstává přímo v liště.
 - Horní štítky kategorií jsou řazené abecedně podle českých popisků; ve
   seskupeném seznamu zůstává konfigurované pořadí a Sport je vždy poslední.
-- V hlavičce jsou na širších displejích metadata vpravo ve stejné řádce jako značka; na úzkých displejích jsou pod značkou.
+- Metadata v hlavičce zůstávají vedle značky podle skutečné dostupné šířky obsahu a přejdou pod ni až tehdy, když se celý blok nevejde; nepoužívej pevný breakpoint.
 - Respektuj safe area nahoře i po stranách; sticky prvky musí zohlednit horní inset.
 - Oddělení několikadenních akcí používá tenký cikcak se středovým textem a kompaktní mezery.
 - Souhrn období zobrazuje datum před počtem; přepínač seznam/mapa používá pouze ikony.
