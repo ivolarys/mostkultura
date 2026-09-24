@@ -48,11 +48,18 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
   barevné svislé čárky; zdroj na desktopu napravo od štítku kategorie.
 - Města a místa se vybírají přes Zdroje; po vypnutí města odstraň jeho výběr
   z aktivních filtrů.
-- Karty akcí jsou kompaktní: obrázek nebo tónovaná ikona kategorie vlevo od
-  názvu, nad ním čas/datum a štítek kategorie, pod ním jednořádkové místo.
-  Vpravo zůstávají pouze samostatná tlačítka Oblíbené a Sdílet s dotykovou
-  plochou alespoň 44 px. V iframe se obrázek vynechává. Čas a rozsah trvání
-  musí zůstat čitelný i na úzkých displejích; zkracovat lze štítek či zdroj.
+- Karty akcí jsou kompaktní: obrázek nebo tónovaná ikona kategorie je vlevo,
+  zarovnaná s názvem; název má nejvýše dva řádky a pod ním je
+  jednořádkové místo. Dole je jednotně sázený termín (datum před časem,
+  13 px, střední řez, tabulkové číslice) a vpravo vedle sebe samostatná tlačítka
+  Oblíbené a Sdílet, každé s dotykovou plochou alespoň 44 × 44 px. Termín se
+  může zalomit mezi celými částmi, ale nesmí oříznout datum ani osamostatnit
+  oddělovací tečku. V denním výpisu stačí čas nebo „Celý den“; právě probíhající
+  akce uvádějí konec. Štítek kategorie nezdvojuj v seznamu seskupeném podle
+  kategorií, ale zachovej jej v denním výpisu, Oblíbených a mapovém detailu.
+  Na mobilu je termín s akcemi ve spodním řádku karty; na desktopu jsou vpravo
+  vedle hlavního obsahu. Zdroj zůstává v metadatech na desktopu. Mapový dialog
+  i kompaktní iframe zachovávají mobilní rozložení; v iframe se obrázek vynechává.
 
 ## Sdílení náhledů
 
