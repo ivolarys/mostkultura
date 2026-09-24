@@ -1679,6 +1679,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-12T14:53:43+00:00"
  },
+ "hradec-vyber:d61398d3d81f": {
+  "category": "vystava",
+  "confidence": 0.87,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T10:03:07+00:00"
+ },
  "hradec-vyber:d63736bf8671": {
   "category": "koncert",
   "confidence": 0.95,
@@ -1774,6 +1782,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-09-12T18:14:17+00:00"
+ },
+ "hradec-vyber:f539688177e0": {
+  "category": "deti",
+  "confidence": 0.78,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T10:03:07+00:00"
  },
  "hradec-vyber:f5584059ac81": {
   "category": "koncert",
