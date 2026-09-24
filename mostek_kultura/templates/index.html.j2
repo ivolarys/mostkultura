@@ -73,15 +73,26 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom));overflow-x:hidden}
 @media (max-width:600px){.place-search-panel{align-items:flex-start;flex-direction:column;gap:8px}.place-search-action{width:100%}}
 
 .content-list{padding-top:2px}
-.time{width:54px;flex:0 0 54px;align-self:stretch;border-right:1px solid var(--sep);display:flex;flex-direction:column;justify-content:center}
-.time .hm{font-weight:750;font-size:15px;font-variant-numeric:tabular-nums;color:var(--label)}
-.time .allday,.time .dd,.time .do{display:block;font-size:11px;color:var(--label3);line-height:1.35}
-.time .dd{font-size:12px;color:var(--label2);margin-top:2px}
-.thumb{width:50px;height:50px;border-radius:11px;object-fit:cover;flex:0 0 50px;background:var(--fill)}
-@media (max-width:359px){.thumb{display:none}}
-.event-row .chev{display:none}
+.event-when{display:flex;align-items:center;flex-wrap:wrap;gap:0 5px;flex:0 1 auto;max-width:100%;font-size:11px;line-height:1.3;font-variant-numeric:tabular-nums;color:var(--label2)}
+.event-when span{white-space:nowrap}
+.event-when .hm,.event-when .allday,.event-when .do{font-size:12px;font-weight:750;color:var(--label)}
+.event-when .dd{color:var(--label2)}
+.event-when .when-dot{color:var(--label3)}
+.thumb{width:52px;height:52px;border-radius:11px;object-fit:cover;flex:0 0 52px;background:var(--fill)}
+.thumb-placeholder{display:flex;align-items:center;justify-content:center;background:var(--cbg,var(--fill));color:var(--c,var(--label2))}
+.thumb-placeholder .icon{width:25px;height:25px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .thumb-placeholder{background:var(--cbg-dark,var(--fill));color:var(--cfg-dark,var(--label2))}}
+:root[data-theme="dark"] .thumb-placeholder{background:var(--cbg-dark,var(--fill));color:var(--cfg-dark,var(--label2))}
+@media (max-width:359px){.thumb{width:48px;height:48px;flex-basis:48px}}
 .row.event-row{gap:0;padding:0}
-.event-link{display:flex;align-items:center;gap:13px;flex:1;min-width:0;min-height:76px;padding:13px 4px 13px 14px;color:inherit;text-decoration:none}
+.event-link{display:flex;align-items:center;gap:10px;flex:1;min-width:0;min-height:88px;padding:8px 2px 8px 12px;color:inherit;text-decoration:none}
+.event-link .content{min-width:0}
+.event-topline{display:flex;align-items:center;flex-wrap:wrap;gap:2px 6px;min-width:0;margin-bottom:3px}
+.event-topline .subline{flex:1;min-width:0;margin:0;overflow:hidden}
+.event-topline .pill{flex:0 1 auto;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:2px 7px}
+.event-link .title{font-size:16px;line-height:1.23}
+.event-link .meta{margin-top:3px;font-size:13px}
+.event-link .where .icon{width:13px;height:13px;flex:0 0 13px}
 .event-link:hover,.event-link:active{background:var(--active)}
 .event-link:focus-visible{outline:3px solid var(--focus);outline-offset:-3px;border-radius:12px}
 .event-actions{flex:0 0 48px;width:48px;margin:0 5px 0 0;display:flex;flex-direction:column;align-self:stretch;justify-content:center}
@@ -106,7 +117,7 @@ body.embed .share-status{bottom:12px}
 .favorites-view .filters,.favorites-view .view-toggle,.favorites-view .place-search-panel{display:none!important}
 .favorites-view .list-head{padding-top:19px}
 .favorites-view .result-summary{align-items:baseline}
-@media (min-width:700px){.row.event-row{padding:0}.event-link{padding:14px 4px 14px 16px}}
+@media (min-width:700px){.row.event-row{padding:0}.event-link{padding-left:16px}}
 .subline{display:flex;align-items:center;gap:6px;min-width:0;white-space:nowrap}
 .srcline{display:none;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ongoing{margin-top:26px}
@@ -213,7 +224,7 @@ body.dialog-open{overflow:hidden}
 
 @media (min-width:700px){
   .wrap{padding:0 28px 38px}.hero{min-height:92px;padding-top:14px}.brand{font-size:34px}.brand-logo{width:56px;height:50px;flex-basis:56px}.hero-locality{font-size:13px}.hero-meta{max-width:none;white-space:nowrap}
-  .filters{position:relative;top:0;margin:0;padding:12px 0;background:transparent!important;border:0;-webkit-backdrop-filter:none;backdrop-filter:none}.category-row{padding-bottom:2px}.list-head{padding-top:17px}.content-list{padding-top:3px}.row{padding:14px 16px}.event-row .chev,.srcline{display:block}.map-wrap{margin:8px 0 0;border-radius:18px;overflow:hidden;border:1px solid var(--sep);box-shadow:var(--shadow)}#map{height:68vh;min-height:480px}.sheet{margin:auto;border-radius:22px}.sheet-layout{max-height:min(82vh,760px)}
+  .filters{position:relative;top:0;margin:0;padding:12px 0;background:transparent!important;border:0;-webkit-backdrop-filter:none;backdrop-filter:none}.category-row{padding-bottom:2px}.list-head{padding-top:17px}.content-list{padding-top:3px}.row{padding:14px 16px}.srcline{display:block}.map-wrap{margin:8px 0 0;border-radius:18px;overflow:hidden;border:1px solid var(--sep);box-shadow:var(--shadow)}#map{height:68vh;min-height:480px}.sheet{margin:auto;border-radius:22px}.sheet-layout{max-height:min(82vh,760px)}
   .date-sheet{width:min(440px,calc(100% - 32px));margin:auto;border-radius:22px}.date-sheet .sheet-layout{max-height:min(720px,82vh)}
 }
 body.embed{font-size:15px;padding-bottom:0}
@@ -222,7 +233,7 @@ body.embed .hero,body.embed .site-footer,body.embed .tabbar{display:none!importa
 body.embed .filters{position:sticky;top:0;margin:-8px -8px 0;padding:8px;background:rgba(251,247,241,.94)!important;border-bottom:1px solid var(--sep);-webkit-backdrop-filter:saturate(170%) blur(18px);backdrop-filter:saturate(170%) blur(18px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.embed .filters{background:rgba(22,16,29,.94)!important}}
 :root[data-theme="dark"] body.embed .filters{background:rgba(22,16,29,.94)!important}
-body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-desktop .seg-btn{font-size:12px;padding:0 4px}body.embed .period-desktop .n{display:none}body.embed .thumb{display:none}body.embed .map-wrap{margin:4px -8px 0;border-radius:0;border:0}body.embed .list-head{padding-top:10px}body.embed .row{min-height:68px;padding:10px}body.embed .grp{margin-top:18px}
+body.embed .period-desktop{display:flex;margin-top:8px}body.embed .period-desktop .seg-btn{font-size:12px;padding:0 4px}body.embed .period-desktop .n{display:none}body.embed .map-wrap{margin:4px -8px 0;border-radius:0;border:0}body.embed .list-head{padding-top:10px}body.embed .row{min-height:68px;padding:10px}body.embed .grp{margin-top:18px}
 body.embed .row.event-row{padding:0}body.embed .event-link{min-height:68px;padding:10px 0 10px 10px}
 body.embed .period-desktop{overflow-x:auto;scrollbar-width:none}body.embed .period-desktop .seg-btn{flex:0 0 auto;min-width:44px}
 </style>
@@ -451,10 +462,12 @@ function rangeLabel(){const t=TABS.find(x=>x[0]===st.tab);if(st.tab==='favorites
 
 function eventHtml(e,showDate,dayStart=false){
   const current=e.ongoing&&e.sd<(st.tab==='favorites'?fmtDate(new Date()):today);
-  const when=current?`<div class="time"><span class="do">probíhá do</span><span class="dd">${esc(shortDate(e.ed))}</span></div>`:`<div class="time">${e.time?`<span class="hm">${esc(e.time)}</span>`:'<span class="allday">celý den</span>'}${showDate?`<span class="dd">${esc(shortDate(e.sd))}</span>`:''}${e.ongoing?`<span class="do">do ${esc(shortDate(e.ed))}</span>`:''}</div>`;
-  const img=!embed&&e.image?`<img class="thumb" src="${esc(e.image)}" alt="" loading="lazy">`:'';
+  const when=current
+    ? `<span class="do">probíhá do</span><span class="dd">${esc(shortDate(e.ed))}</span>`
+    : `${e.ongoing||showDate?`<span class="dd">${esc(e.ongoing?`${shortDate(e.sd)}–${shortDate(e.ed)}`:shortDate(e.sd))}</span><span class="when-dot">·</span>`:''}${e.time?`<span class="hm">${esc(e.time)}</span>`:'<span class="allday">celý den</span>'}`;
+  const img=embed?'':e.image?`<img class="thumb" src="${esc(e.image)}" alt="" loading="lazy">`:`<span class="thumb thumb-placeholder" aria-hidden="true">${catIcon(e.category)}</span>`;
   const where=[e.place,e.venue&&e.venue!==e.place?e.venue:null].filter(Boolean).join(' · ');
-  const inner=`${when}<div class="content"><div class="title">${esc(e.title)}</div><div class="meta"><span class="where">${ICON.pin}<span class="where-text">${esc(where||'Místo neuvedeno')}</span></span></div><div class="subline"><span class="pill c-${esc(e.category)}">${esc((CAT[e.category]||{}).label||e.category)}</span><span class="srcline"> · ${esc((e.source_labels||e.sources||[]).join(', '))}</span></div></div>${img}${ICON.chev}`;
+  const inner=`${img}<div class="content"><div class="event-topline"><div class="event-when">${when}</div><div class="subline"><span class="pill c-${esc(e.category)}">${esc((CAT[e.category]||{}).label||e.category)}</span><span class="srcline"> · ${esc((e.source_labels||e.sources||[]).join(', '))}</span></div></div><div class="title">${esc(e.title)}</div><div class="meta"><span class="where">${ICON.pin}<span class="where-text">${esc(where||'Místo neuvedeno')}</span></span></div></div>`;
   const cls=`row event-row c-${esc(e.category)}${dayStart?' category-day-start':''}`;
   const key=MostkulturaFavorites.key(e),saved=MostkulturaFavorites.has(favoriteKeys,e);
   const action=`${saved?'Odebrat':'Přidat'} ${e.title} ${saved?'z':'do'} oblíbených`;

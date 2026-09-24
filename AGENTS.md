@@ -48,6 +48,11 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
   barevné svislé čárky; zdroj na desktopu napravo od štítku kategorie.
 - Města a místa se vybírají přes Zdroje; po vypnutí města odstraň jeho výběr
   z aktivních filtrů.
+- Karty akcí jsou kompaktní: obrázek nebo tónovaná ikona kategorie vlevo od
+  názvu, nad ním čas/datum a štítek kategorie, pod ním jednořádkové místo.
+  Vpravo zůstávají pouze samostatná tlačítka Oblíbené a Sdílet s dotykovou
+  plochou alespoň 44 px. V iframe se obrázek vynechává. Čas a rozsah trvání
+  musí zůstat čitelný i na úzkých displejích; zkracovat lze štítek či zdroj.
 
 ## Sdílení náhledů
 
