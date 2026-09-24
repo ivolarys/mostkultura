@@ -405,6 +405,14 @@ sources:
     page: https://naplavkahk.cz/program
     place: Hradec Králové
     priority: 8
+  - name: articok-hk
+    label: Artičok – Akce
+    type: articok
+    url: https://www.articok.cz/category/akce/
+    page: https://www.articok.cz/category/akce/
+    place: Hradec Králové
+    venue: Galerie Artičok
+    priority: 9
   - name: podzimni-sneni
     label: Podzimní snění – Festival
     type: podzimni_sneni

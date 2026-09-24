@@ -44,6 +44,8 @@ Bajkazyl HK má samostatný zdroj z veřejného datového rozhraní svého progr
 `bajkazylhk.cz/akce`. Načítají se začátky i konce akcí, popisy a dostupné obrázky.
 Časy v UTC se převádějí na český čas; staré akce vyřazuje společný časový filtr.
 
+Artičok (`articok-hk`) čte veřejné WordPress API kategorie Akce. Datum a čas akce bere z titulku článku, takže datum zveřejnění není vydáváno za termín konání.
+
 ## Lokální spuštění
 
 ```bash

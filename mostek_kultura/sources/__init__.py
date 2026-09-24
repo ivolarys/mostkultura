@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from .antee_rss import AnteeRssSource
+from .articok import ArticokSource
 from .bajkazyl_program import BajkazylProgramSource
 from .base import Source
 from .bezdruzic import BezdruzicSource
@@ -40,6 +41,7 @@ from .vismo6 import Vismo6Source
 from .webnode_program import WebnodeProgramSource
 
 REGISTRY: dict[str, type[Source]] = {
+    "articok": ArticokSource,
     "galileo": GalileoSource,
     "antee_rss": AnteeRssSource,
     "bio_central": BioCentralSource,
