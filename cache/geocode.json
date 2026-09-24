@@ -27,6 +27,13 @@
   "q": "Areál fotbalového hřiště v Mostku, Mostek, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
  },
+ "aula cla trutnov|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Aula ČLA Trutnov, Trutnov, Česko",
+  "ts": "2026-09-24T08:51:58+00:00"
+ },
  "aula spos|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -418,6 +425,13 @@
   "precision": "none",
   "q": "Kavárna UFFO a Hrádeček, Trutnov, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
+ },
+ "kd strelnice – koncert za oponou|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "KD Střelnice – Koncert za oponou, Vrchlabí, Česko",
+  "ts": "2026-09-24T08:51:58+00:00"
  },
  "kd strelnice – velky sal vancurova 378, vrchlabi|vrchlabi": {
   "lat": null,
@@ -1034,6 +1048,13 @@
   "precision": "none",
   "q": "Základní umělecká škola, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "zamecek – nadrazni 471, vrchlabi|vrchlabi": {
+  "lat": 50.6221424,
+  "lon": 15.6157629,
+  "precision": "venue",
+  "q": "zámeček – Nádražní 471, Vrchlabí, Česko",
+  "ts": "2026-09-24T08:51:58+00:00"
  },
  "zimni stadion nova paka|nova paka": {
   "lat": 50.4933497,
