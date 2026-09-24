@@ -1063,6 +1063,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-21T09:32:38+00:00"
  },
+ "hradec-vyber:4fcc457b15a4": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
  "hradec-vyber:52e097d5097e": {
   "category": "koncert",
   "confidence": 0.99,
@@ -1343,6 +1351,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-16T14:46:04+00:00"
  },
+ "hradec-vyber:8200bb78f491": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
  "hradec-vyber:83866e5464b0": {
   "category": "prednaska",
   "confidence": 0.95,
@@ -1486,6 +1502,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-09-12T10:49:18+00:00"
+ },
+ "hradec-vyber:a865d5561c25": {
+  "category": "koncert",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
  },
  "hradec-vyber:a8d7e5e8dc84": {
   "category": "prednaska",
@@ -2166,6 +2190,158 @@
   "needs_review": false,
   "place": "Pecka",
   "ts": "2026-09-16T05:09:27+00:00"
+ },
+ "muzeum-hk:0c41b5d573de": {
+  "category": "vystava",
+  "confidence": 0.96,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:2664c206999e": {
+  "category": "prednaska",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:36d64040f731": {
+  "category": "jine",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:388a751a4594": {
+  "category": "vystava",
+  "confidence": 0.96,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:3c20408ccd7c": {
+  "category": "prednaska",
+  "confidence": 0.88,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:4e38023a2f4a": {
+  "category": "prednaska",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:504db50882d2": {
+  "category": "vystava",
+  "confidence": 0.95,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:544a5ef3b727": {
+  "category": "vystava",
+  "confidence": 0.96,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:5b01d7de5b58": {
+  "category": "jine",
+  "confidence": 0.88,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:64ff0799c46d": {
+  "category": "slavnost",
+  "confidence": 0.94,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:833e3c6a387a": {
+  "category": "prednaska",
+  "confidence": 0.87,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:89d89e5773c4": {
+  "category": "jine",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:9be2e9927da4": {
+  "category": "jine",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:a0a82ebdd4a8": {
+  "category": "slavnost",
+  "confidence": 0.9,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:caadb19ad59d": {
+  "category": "jine",
+  "confidence": 0.9,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:de35bd727bde": {
+  "category": "jine",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:e4fb11694cd7": {
+  "category": "koncert",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:e900ef917978": {
+  "category": "jine",
+  "confidence": 0.9,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
+ "muzeum-hk:f6c851b89ddd": {
+  "category": "vystava",
+  "confidence": 0.95,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-09-24T13:57:33+00:00"
  },
  "naplavka-hk:3d6c02b3fa8a": {
   "category": "koncert",

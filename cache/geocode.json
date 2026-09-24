@@ -300,6 +300,13 @@
   "q": "Galerie moderního umění v Hradci Králové, Hradec Králové, Česko",
   "ts": "2026-09-12T10:40:45+00:00"
  },
+ "galerie moderniho umeni v hradci kralove|hradec kralove": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Galerie moderního umění v Hradci Králové, Hradec Králové, Česko",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
  "hankuv dum - sal|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -327,6 +334,13 @@
   "precision": "none",
   "q": "Hlavní odborné pracoviště Gayerova kasárna, Hradec Králové, Česko",
   "ts": "2026-09-12T10:40:45+00:00"
+ },
+ "hlavni odborne pracoviste gayerova kasarna|hradec kralove": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Hlavní odborné pracoviště Gayerova kasárna, Hradec Králové, Česko",
+  "ts": "2026-09-24T13:57:33+00:00"
  },
  "hlavni sal belohradske sypky|lazne belohrad": {
   "lat": null,
@@ -664,12 +678,26 @@
   "q": "Muzeum východních Čech - budova ARCHA, Hradec Králové, Česko",
   "ts": "2026-09-12T10:40:45+00:00"
  },
+ "muzeum vychodnich cech - budova archa|hradec kralove": {
+  "lat": 50.2124534,
+  "lon": 15.8314021,
+  "precision": "venue",
+  "q": "Muzeum východních Čech - budova ARCHA, Hradec Králové, Česko",
+  "ts": "2026-09-24T13:57:33+00:00"
+ },
  "muzeum vychodnich cech v hradci kralove, hradec kralove|hradec kralove": {
   "lat": 50.2117004,
   "lon": 15.8290109,
   "precision": "venue",
   "q": "Muzeum východních Čech v Hradci Králové, Hradec Králové, Česko",
   "ts": "2026-09-12T10:40:45+00:00"
+ },
+ "muzeum vychodnich cech v hradci kralove|hradec kralove": {
+  "lat": 50.2117004,
+  "lon": 15.8290109,
+  "precision": "venue",
+  "q": "Muzeum východních Čech v Hradci Králové, Hradec Králové, Česko",
+  "ts": "2026-09-24T13:57:33+00:00"
  },
  "nabrezi marie kubatove, vrchlabi|vrchlabi": {
   "lat": 50.6272512,
@@ -957,6 +985,13 @@
   "precision": "none",
   "q": "Štěrbova vila na přehradě Les Království, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "studijni a vedecka knihovna hradec kralove|hradec kralove": {
+  "lat": 50.2058374,
+  "lon": 15.8319376,
+  "precision": "venue",
+  "q": "Studijní a vědecká knihovna Hradec Králové, Hradec Králové, Česko",
+  "ts": "2026-09-24T13:57:33+00:00"
  },
  "studio beseda, mytska 126|hradec kralove": {
   "lat": 50.2104075,
