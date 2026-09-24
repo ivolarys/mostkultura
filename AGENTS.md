@@ -51,8 +51,10 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
 - Karty akcí jsou kompaktní: obrázek nebo tónovaná ikona kategorie je vlevo,
   zarovnaná s názvem; název má nejvýše dva řádky a pod ním je
   jednořádkové místo. Dole je jednotně sázený termín (datum před časem,
-  13 px, střední řez, tabulkové číslice) a vpravo vedle sebe samostatná tlačítka
-  Oblíbené a Sdílet, každé s dotykovou plochou alespoň 44 × 44 px. Termín se
+  13 px, tučný řez (700), tabulkové číslice a výraznější barvu textu) a vpravo
+  vedle sebe samostatná tlačítka
+  Oblíbené a Sdílet, každé s dotykovou plochou alespoň 44 × 44 px. Karty mají
+  zaoblení 12 px a náhledy 8 px. Termín se
   může zalomit mezi celými částmi, ale nesmí oříznout datum ani osamostatnit
   oddělovací tečku. V denním výpisu stačí čas nebo „Celý den“; právě probíhající
   akce uvádějí konec. Štítek kategorie nezdvojuj v seznamu seskupeném podle
