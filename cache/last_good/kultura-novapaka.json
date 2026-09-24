@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-23T14:09:20+00:00",
+ "fetched_at": "2026-09-24T05:05:39+00:00",
  "events": [
   {
    "title": "SVATOVÁCLAVSKÝ KONCERT – Pěvecký sbor Bona Vita Hořice",
@@ -144,6 +144,54 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:3d7a27573174"
+  },
+  {
+   "title": "Marek J. Vavřinec: MEZI PÍSKEM A HVĚZDAMI",
+   "start": "2026-10-08T18:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=marek-j-vavrinec-mezi-piskem-a-hvezdami",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kavárna Saky Paky, Mikulášská 209, Nová Paka",
+   "category": null,
+   "native_category": "ostatni",
+   "description": "Výtvarník a spisovatel nám představí svoji knihu.",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/marek-j-vavrinec-mezi-piskem-a-hvezdami.jpg",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=marek-j-vavrinec-mezi-piskem-a-hvezdami",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:9e2b21961506"
+  },
+  {
+   "title": "Wille & The Bandits /UK",
+   "start": "2026-10-08T19:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=wille--the-bandits--uk",
+   "end": "2026-10-08T21:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Novopacké sklepy. Půda",
+   "category": null,
+   "native_category": "koncert",
+   "description": "Vstupenky již v předprodeji na: https://goout.net/cs/wille-and-the-bandits/szvwxey/ Britská čtveřice s pověstí jedné z nejdynamičtějších bluesrockových skupin současnosti a koncertního zázraku bývá často přirovnávána k Led Zeppelin, lze ji ale též přirovnat k Brave Rival nebo The Cinelli Brothers. Wille and the Bandits byli vybráni, aby vystoupili na olympijských hrách v Londýně poté, co byli zvoleni jedním z nejlepších živých vystoupení ve Velké Británii. Kapela začínala kdysi v Cornwallu,",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/wille--the-bandits--uk.jpg",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=wille--the-bandits--uk",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:a7ee95617600"
   }
  ]
 }

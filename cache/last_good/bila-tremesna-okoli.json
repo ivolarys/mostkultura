@@ -1,29 +1,4 @@
 {
- "fetched_at": "2026-09-23T14:09:13+00:00",
- "events": [
-  {
-   "title": "Hudební večery v Jaroměři",
-   "start": "2026-06-03T00:00:00+02:00",
-   "source": "bila-tremesna-okoli",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/hudebni-vecery-v-jaromeri-1891_1195cs.html",
-   "end": "2026-09-23T23:59:00+02:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Každou středu od 17:00 hodin se na Náměstí ČSA v Jaroměři (vinotéka u sv. Mikuláše) konají hudební večery. Těšit se můžete na různé kapely, které vám nabídnou pestrý program. V červnu se můžete těšit na Vanillas, Milana a Bosorky, nebo Jarsen. V červenci vystoupí Crossroad, AltanTrio a další.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3204&width=300",
-   "native_id": "event-1891",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna-okoli:8ba72277c407"
-  }
- ]
+ "fetched_at": "2026-09-24T05:05:34+00:00",
+ "events": []
 }

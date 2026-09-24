@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-23T14:07:35+00:00",
+ "fetched_at": "2026-09-24T05:04:00+00:00",
  "events": [
-  {
-   "title": "Kurz točení na hrnčířském kruhu",
-   "start": "2026-09-24T00:00:00+02:00",
-   "source": "trutnov",
-   "url": "https://www.trutnov.cz/dre-cs/77991-kurz-toceni-na-hrncirskem-kruhu.html",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům pod jasanem, Voletiny 22",
-   "category": null,
-   "native_category": "Ostatní",
-   "description": "",
-   "image": null,
-   "native_id": "https://www.trutnov.cz/dre-cs/77991-kurz-toceni-na-hrncirskem-kruhu.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "trutnov:fb743e6a9a12"
-  },
   {
    "title": "Výroba keramických „štrůdláků“, keramických svícnů a podzimních dekorací",
    "start": "2026-09-24T16:00:00+02:00",

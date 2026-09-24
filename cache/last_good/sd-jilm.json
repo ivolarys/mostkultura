@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-23T14:09:26+00:00",
+ "fetched_at": "2026-09-24T05:05:45+00:00",
  "events": [
-  {
-   "title": "Lenka Husáriková a Tomáš Pekárek – Krajina v prožitcích věků",
-   "start": "2026-09-23T18:00:00+02:00",
-   "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/vystava/lenka-husarikova-a-tomas-pekarek-krajina-v-prozitcich-veku-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "SD Jilm",
-   "category": "vystava",
-   "native_category": "Výstava",
-   "description": "Výstava Krajina v prožitcích věků představuje obrazy Lenky Husárikové a Tomáše Pekárka, v nichž se hlavním tématem stává krajina a její proměnlivá atmosféra. Lenka Husáriková (*1975) je současná česká malířka, která ve své tvorbě obvykle propojuje klasickou malbu s principy origami a tangramu. Pro tuto výstavu však geometrickou abstrakci opouští a obrací se ke stylizované krajinomalbě inspirované především krkonošskou přírodou, kterou zachycuje volným a osobitým rukopisem. Vernisáž výstavy proběhne ve středu 23. 9. v 18 hod. v Galierii v Kotelně.",
-   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6a7/99d/a2e/thumb_1517_250_250_0_0_auto.webp",
-   "native_id": "571|2026-09-23T18:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "sd-jilm:36bb863ec73a"
-  },
   {
    "title": "Muzikálový koktejl",
    "start": "2026-09-24T19:00:00+02:00",
