@@ -1,0 +1,7 @@
+{
+ "POST https://www.galeriehk.cz/wp-admin/admin-ajax.php?action=get_all_month_program&mesic=09&rok=2026": "7ceac97225d4.html",
+ "POST https://www.galeriehk.cz/wp-admin/admin-ajax.php?action=get_all_month_program&mesic=10&rok=2026": "7a82829e2166.html",
+ "POST https://www.galeriehk.cz/wp-admin/admin-ajax.php?action=get_all_month_program&mesic=11&rok=2026": "702658ad4815.html",
+ "https://www.galeriehk.cz/soucasne-vystavy/": "628c73ac07db.html",
+ "https://www.galeriehk.cz/budouci-vystavy/": "12b7f1e657fc.html"
+}

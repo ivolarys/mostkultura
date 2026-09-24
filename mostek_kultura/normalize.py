@@ -32,6 +32,16 @@ def norm_title(s: str) -> str:
     return re.sub(r"\s+", " ", t).strip()[:40]
 
 
+def _full_exhibition_title(s: str) -> str:
+    """Normalize a whole title, ignoring only an exhibition label at either edge."""
+    words = re.sub(r"[^a-z0-9 ]+", " ", norm(s)).split()
+    if words and words[0] == "vystava":
+        words.pop(0)
+    if words and words[-1] == "vystava":
+        words.pop()
+    return " ".join(words)
+
+
 class PlaceResolver:
     def __init__(self, cfg: Config):
         pairs: list[tuple[str, str]] = []
@@ -119,11 +129,11 @@ def _similar(a: str, b: str) -> bool:
     return difflib.SequenceMatcher(None, a, b).ratio() >= 0.85
 
 
-def _merge(winner: Event, loser: Event) -> Event:
+def _merge(winner: Event, loser: Event, *, preserve_start: bool = False) -> Event:
     for f in ("end", "venue", "description", "image", "native_category", "place"):
         if not getattr(winner, f) and getattr(loser, f):
             setattr(winner, f, getattr(loser, f))
-    if winner.all_day and not loser.all_day:
+    if winner.all_day and not loser.all_day and not preserve_start:
         winner.start, winner.all_day = loser.start, False
     for s in [loser.source, *loser.sources]:
         if s not in winner.sources and s != winner.source:
@@ -134,10 +144,28 @@ def _merge(winner: Event, loser: Event) -> Event:
     return winner
 
 
+def _same_ongoing_exhibition(a: Event, b: Event) -> bool:
+    """Match source date discrepancies only for the same exhibition running now."""
+    if (a.source == b.source or not a.ongoing or not b.ongoing
+            or a.category != "vystava" or b.category != "vystava"
+            or not a.place or a.place != b.place
+            or a.start.date() == b.start.date()
+            or not a.end or not b.end
+            or max(a.start.date(), b.start.date()) > min(a.end.date(), b.end.date())):
+        return False
+    title = _full_exhibition_title(a.title)
+    if not title or title != _full_exhibition_title(b.title):
+        return False
+    va, vb, place = norm(a.venue), norm(b.venue), norm(a.place)
+    return bool(va and vb and va != place and vb != place
+                and (va in vb or vb in va))
+
+
 def dedupe(events: list[Event], priorities: dict[str, int]) -> list[Event]:
     """Merge the same event reported by several sources. Higher priority source wins."""
     events = sorted(events, key=lambda e: (-priorities.get(e.source, 0), e.start))
     buckets: dict[tuple[date, str | None], list[Event]] = {}
+    ongoing_exhibitions: dict[str, list[Event]] = {}
     out: list[Event] = []
     for e in events:
         key = (e.start.date(), e.place)
@@ -156,9 +184,18 @@ def dedupe(events: list[Event], priorities: dict[str, int]) -> list[Event]:
             if not timed_different and not venue_incompatible and _similar(nt, norm_title(cand.title)):
                 found = cand
                 break
+        cross_date = False
+        if not found and e.ongoing and e.category == "vystava" and e.place:
+            for cand in ongoing_exhibitions.get(e.place, []):
+                if _same_ongoing_exhibition(e, cand):
+                    found = cand
+                    cross_date = True
+                    break
         if found:
-            _merge(found, e)
+            _merge(found, e, preserve_start=cross_date)
         else:
             buckets.setdefault(key, []).append(e)
             out.append(e)
+            if e.ongoing and e.category == "vystava" and e.place:
+                ongoing_exhibitions.setdefault(e.place, []).append(e)
     return out

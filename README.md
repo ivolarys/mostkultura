@@ -46,6 +46,10 @@ Bajkazyl HK má samostatný zdroj z veřejného datového rozhraní svého progr
 
 Artičok (`articok-hk`) čte veřejné WordPress API kategorie Akce. Datum a čas akce bere z titulku článku, takže datum zveřejnění není vydáváno za termín konání.
 
+Galerie moderního umění v Hradci Králové (`galerie-hk`) načítá tři měsíce veřejného kalendáře a datované současné i budoucí výstavy. Stálou expozici, archiv a výstavy bez koncového termínu vynechává; shodné záznamy z HKinfo mají nižší prioritu.
+
+Muzeum východních Čech (`muzeum-hk`) čte tři měsíce kalendáře JEvents a detaily akcí s úplným termínem, místem a případným obrázkem. Opakované denní odkazy na výstavy sloučí; stálé expozice a programy určené výhradně školám vynechá. Shodné akce z HKinfo mají nižší prioritu.
+
 ## Lokální spuštění
 
 ```bash

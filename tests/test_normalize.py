@@ -106,5 +106,49 @@ def test_dedupe_merges_same_time_same_venue_across_sources():
     assert len(out) == 1 and out[0].sources == ["goout"]
 
 
+def test_dedupe_ongoing_exhibition_cross_source_year_discrepancy():
+    def show(title, year, source, *, place="Hradec Králové", venue="Muzeum východních Čech",
+             end_year=2027, ongoing=True, category="vystava"):
+        return Event(
+            title=title, start=datetime(year, 3, 7, tzinfo=TZ),
+            end=datetime(end_year, 12, 31, 23, 59, tzinfo=TZ),
+            source=source, place=place, venue=venue, category=category,
+            ongoing=ongoing, all_day=True, url=f"https://example.com/{source}/{year}",
+        )
+
+    authoritative = show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ - výstava", 2025, "muzeum-hk")
+    regional = show("Výstava: Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026,
+                    "hradec-vyber", venue="Muzeum východních Čech, Hradec Králové")
+    merged = dedupe([regional, authoritative], {"muzeum-hk": 9, "hradec-vyber": 6})
+    assert len(merged) == 1
+    assert merged[0].source == "muzeum-hk"
+    assert merged[0].start.year == 2025 and merged[0].end.year == 2027
+    assert merged[0].sources == ["hradec-vyber"]
+    assert regional.url in merged[0].urls
+
+    timed_regional = show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "hradec-vyber")
+    timed_regional.all_day = False
+    timed_regional.start = timed_regional.start.replace(hour=14)
+    timed_merge = dedupe([show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ - výstava",
+                               2025, "muzeum-hk"), timed_regional],
+                         {"muzeum-hk": 9, "hradec-vyber": 6})
+    assert len(timed_merge) == 1
+    assert timed_merge[0].start.year == 2025 and timed_merge[0].all_day
+
+    variants = [
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ druhá část", 2026, "other"),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "other", place="Trutnov"),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "other", venue="Galerie Artičok"),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "other", ongoing=False),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2023, "other", end_year=2024),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "other", category="koncert"),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "muzeum-hk"),
+        show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ", 2026, "other", venue=None),
+    ]
+    for candidate in variants:
+        assert len(dedupe([show("Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ - výstava",
+                                2025, "muzeum-hk"), candidate], {"muzeum-hk": 9})) == 2
+
+
 def test_norm_title_strips_prefix_and_accents():
     assert norm_title("Koncert: Věra Špinarová!") == "vera spinarova"

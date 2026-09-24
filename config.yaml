@@ -449,6 +449,21 @@ sources:
     venue_map:
       "Sál Soni Červené, Hradec": "Sál Soni Červené, Filharmonie Hradec Králové"
       "Sál Soni Červené, Hradec Králové": "Sál Soni Červené, Filharmonie Hradec Králové"
+  - name: galerie-hk
+    label: Galerie moderního umění v Hradci Králové – Program
+    type: galerie_hk
+    url: https://www.galeriehk.cz/
+    page: https://www.galeriehk.cz/program/
+    place: Hradec Králové
+    priority: 9
+  - name: muzeum-hk
+    label: Muzeum východních Čech – Program
+    type: muzeum_hk
+    url: https://www.muzeumhk.cz/program/kalendar-akci
+    page: https://www.muzeumhk.cz/program/kalendar-akci.html
+    place: Hradec Králové
+    priority: 9
+    months: 3
   - name: klicperovo-divadlo
     label: Klicperovo divadlo – Program
     type: klicperovo_program

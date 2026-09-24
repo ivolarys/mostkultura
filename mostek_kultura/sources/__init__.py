@@ -13,6 +13,7 @@ from .drak_program import DrakProgramSource
 from .drupal_events import DrupalEventsSource
 from .epo1_calendar import Epo1CalendarSource
 from .epo1_exhibitions import Epo1ExhibitionsSource
+from .galerie_hk import GalerieHkSource
 from .galileo import GalileoSource
 from .goout import GoOutSource
 from .hkinfo_program import HkinfoProgramSource
@@ -27,6 +28,7 @@ from .lodzie import LodzieSource
 from .manual import ManualSource
 from .menu_music import MenuMusicSource
 from .mojekino import MojekinoSource
+from .muzeum_hk import MuzeumHkSource
 from .naplavka_program import NaplavkaProgramSource
 from .npu_events import NpuEventsSource
 from .podzimni_sneni import PodzimniSneniSource
@@ -43,6 +45,7 @@ from .webnode_program import WebnodeProgramSource
 REGISTRY: dict[str, type[Source]] = {
     "articok": ArticokSource,
     "galileo": GalileoSource,
+    "galerie_hk": GalerieHkSource,
     "antee_rss": AnteeRssSource,
     "bio_central": BioCentralSource,
     "bajkazyl_program": BajkazylProgramSource,
@@ -65,6 +68,7 @@ REGISTRY: dict[str, type[Source]] = {
     "manual": ManualSource,
     "menu_music": MenuMusicSource,
     "mojekino": MojekinoSource,
+    "muzeum_hk": MuzeumHkSource,
     "naplavka_program": NaplavkaProgramSource,
     "epo1_calendar": Epo1CalendarSource,
     "epo1_exhibitions": Epo1ExhibitionsSource,
