@@ -671,6 +671,13 @@
   "q": "náměstí T. G. Masaryka, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-21T09:32:38+00:00"
  },
+ "namesti t. g. masaryka|hradec kralove": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "náměstí T. G. Masaryka, Hradec Králové, Česko",
+  "ts": "2026-09-24T09:23:23+00:00"
+ },
  "namesti tgm, vrchlabi|vrchlabi": {
   "lat": null,
   "lon": null,
