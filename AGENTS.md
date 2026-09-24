@@ -17,6 +17,13 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
 
 ## UX/UI
 
+- Společné CSS role v `_base.css.j2`: popisek 11 px, vedlejší text 12 px,
+  metadata 13 px, ovládání a běžný text 14 px, názvy karet 16 px, dialogové
+  nadpisy 18 px. Řezy 400/600/700; 800 patří značce. Základní rozestupy
+  používej po 4 px (4/8/12/16/20/24/32), karty mají zaoblení 12 px a
+  vodorovné odsazení stránky 16 px na mobilu, 24 px na desktopu. Technické
+  rozměry ikon, safe area a dotykové plochy jsou výjimkou; ovládání má alespoň
+  44 × 44 px.
 - Nabídku přidání aplikace ukaž jen jednou na prohlížeč; nezobrazuj ji v iframe ani v samostatně spuštěné aplikaci. Na desktopu ji nabízej jen po skutečném nativním instalačním eventu prohlížeče.
 - Schválená značka (2026-09-12): **Mostkultura**. Repo a veřejná URL používají
   název `mostkultura` (`https://ivolarys.github.io/mostkultura/`). Logo propojuje malé m,
@@ -50,7 +57,8 @@ následující volba modelů má přednost před jeho staršími pokyny k model�
   z aktivních filtrů.
 - Karty akcí jsou kompaktní: obrázek nebo tónovaná ikona kategorie je vlevo,
   zarovnaná s názvem; název má nejvýše dva řádky a pod ním je
-  jednořádkové místo. Dole je jednotně sázený termín (datum před časem,
+  jednořádkové místo. Obrázek má nahoře a vlevo odsazení 12 px. Dole je
+  jednotně sázený termín (datum před časem,
   13 px, tučný řez (700), tabulkové číslice a výraznější barvu textu) a vpravo
   vedle sebe samostatná tlačítka
   Oblíbené a Sdílet, každé s dotykovou plochou alespoň 44 × 44 px. Karty mají
