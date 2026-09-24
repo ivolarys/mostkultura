@@ -21,6 +21,8 @@ Na stránce **Zdroje** lze v každém prohlížeči samostatně skrýt celé obc
 
 U každé akce lze hvězdičkou označit **Oblíbené**. Jejich přehled najdete ve spodní navigaci; zobrazuje dostupné oblíbené akce chronologicky bez ohledu na právě zvolené filtry. Výběr se ukládá pouze v daném prohlížeči a mezi zařízeními se nesynchronizuje.
 
+Ikona sdílení u akce otevře systémovou nabídku sdílení. Když není dostupná, zkopíruje odkaz do schránky; při neúspěchu zobrazí odkaz k ručnímu zkopírování. Sdílí se odkaz pořadatele, případně veřejný odkaz na vyhledání akce bez osobních filtrů.
+
 Základní hradecký výběr tvoří Bio Central, CineStar, Klicperovo divadlo,
 Divadlo DRAK, Náplavku, Nábleší a saunu NUUK. Kina, divadla a Náplavka
 se načítají z vlastních programů; Nábleší a NUUK z městského kalendáře HKinfo
