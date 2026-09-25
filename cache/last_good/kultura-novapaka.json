@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-24T13:55:59+00:00",
+ "fetched_at": "2026-09-25T05:04:28+00:00",
  "events": [
-  {
-   "title": "SVATOVÁCLAVSKÝ KONCERT – Pěvecký sbor Bona Vita Hořice",
-   "start": "2026-09-24T18:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=svatovaclavsky-koncert-8211-pevecky-sbor-bona-vita-horice",
-   "end": "2026-09-24T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Refektář kláštera (severní vchod)",
-   "category": null,
-   "native_category": "koncert",
-   "description": "Smíšený pěvecký sbor pod vedením Jaromíra Soukupa se nám představí s pestrým programem sakrálních skladeb, modernějších melodií i písní, které nesmí chybět v žádném sborovém repertoáru. To vše v jedinečné akustice barokního refektáře.",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/svatovaclavsky-koncert-8211-pevecky-sbor-bona-vita-horice.png",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=svatovaclavsky-koncert-8211-pevecky-sbor-bona-vita-horice",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:121767670e9a"
-  },
   {
    "title": "Martin Bartoš: HISTORIE KRKONOŠSKÝCH BUD",
    "start": "2026-09-25T18:00:00+02:00",
@@ -192,6 +168,30 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:a7ee95617600"
+  },
+  {
+   "title": "Radek Jaroš - horolezec",
+   "start": "2026-10-09T19:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=radek-jaros---horolezec",
+   "end": "2026-10-09T21:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "KINO60 Nová Paka",
+   "category": null,
+   "native_category": "prednaska",
+   "description": "Český profesionální himalájský horolezec Radek Jaroš, specialista na expedice v malém počtu členů, který výstupy absolvuje výhradně bez použití kyslíkového přístroje a pomoci výškových nosičů. V roce 2014 Radek úspěšně vystoupil na poslední, čtrnáctou osmitisícovku – K2 a zapsal se do síně slávy světového horolezectví. Stal se prvním Čechem a teprve 15. člověkem na světě, který tímto způsobem získal Korunu Himálaje. Jeho další naplněnou výzvou se stala Koruna světa, zdolání nejvyšších",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/radek-jaros---horolezec.jpg",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=radek-jaros---horolezec",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:811e34353fed"
   }
  ]
 }

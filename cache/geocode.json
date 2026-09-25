@@ -27,6 +27,13 @@
   "q": "Areál fotbalového hřiště v Mostku, Mostek, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
  },
+ "areal zirec|zirec": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Areál Žireč, Žireč, Česko",
+  "ts": "2026-09-25T05:06:51+00:00"
+ },
  "aula cla trutnov|trutnov": {
   "lat": null,
   "lon": null,
@@ -510,6 +517,13 @@
   "q": "Kino Vesmír, Trutnov, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
  },
+ "kino60 nova paka|nova paka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "KINO60 Nová Paka, Nová Paka, Česko",
+  "ts": "2026-09-25T05:06:51+00:00"
+ },
  "kiosek dlabe, nabrezi m. kubatove, vrchlabi|vrchlabi": {
   "lat": null,
   "lon": null,
@@ -565,6 +579,13 @@
   "precision": "venue",
   "q": "Knihovna Slavoj, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "koclerov|vitezna": {
+  "lat": 50.4906728,
+  "lon": 15.7765643,
+  "precision": "venue",
+  "q": "Kocléřov, Vítězná, Česko",
+  "ts": "2026-09-25T05:06:51+00:00"
  },
  "kostel cirkve ceskoslovenske husitske|dvur kralove nad labem": {
   "lat": null,
@@ -1076,6 +1097,13 @@
   "precision": "none",
   "q": "Vinotéka IN VINO, Hradec Králové, Česko",
   "ts": "2026-09-24T12:51:56+00:00"
+ },
+ "vrch zvicina|zvicina": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "vrch Zvičina, Zvičina, Česko",
+  "ts": "2026-09-25T05:06:51+00:00"
  },
  "vrchlabi presna adresa bude sdelena pri prihlaseni.|vrchlabi": {
   "lat": null,

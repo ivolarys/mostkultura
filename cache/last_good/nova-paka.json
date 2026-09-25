@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-24T13:55:59+00:00",
+ "fetched_at": "2026-09-25T05:04:28+00:00",
  "events": [
-  {
-   "title": "SVATOVÁCLAVSKÝ KONCERT – Pěvecký sbor Bona Vita Hořice",
-   "start": "2026-09-24T00:00:00+02:00",
-   "source": "nova-paka",
-   "url": "https://www.munovapaka.cz/svatovaclavsky%2Dkoncert%2Dpevecky%2Dsbor%2Dbona%2Dvita%2Dhorice/a-2020",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Refektář kláštera (severní vchod)",
-   "category": null,
-   "native_category": "Kulturní akce",
-   "description": "vstupné 100 Kč Smíšený pěvecký sbor pod vedením Jaromíra Soukupa se nám představí s pestrým programem sakrálních skladeb, modernějších melodií i písní, které nesmí chybět v žádném sborovém repertoáru. To vše v jedinečné akustice barokního refektáře.",
-   "image": "https://www.munovapaka.cz/assets/Image.ashx?id_org=10512&id_obrazky=23624",
-   "native_id": "https://www.munovapaka.cz/svatovaclavsky%2Dkoncert%2Dpevecky%2Dsbor%2Dbona%2Dvita%2Dhorice/a-2020",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "nova-paka:52b95fb1edb3"
-  },
   {
    "title": "Martin Bartoš: HISTORIE KRKONOŠSKÝCH BUD",
    "start": "2026-09-25T18:00:00+02:00",

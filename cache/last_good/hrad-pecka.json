@@ -1,4 +1,29 @@
 {
- "fetched_at": "2026-09-24T13:56:26+00:00",
- "events": []
+ "fetched_at": "2026-09-25T05:04:46+00:00",
+ "events": [
+  {
+   "title": "Tajuplný hrad Pecka",
+   "start": "2026-10-03T14:38:00+02:00",
+   "source": "hrad-pecka",
+   "url": "https://www.hradpecka.cz/cs/akce/tajuplny-hrad-pecka-208_156cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hrad Pecka, Pecka",
+   "category": null,
+   "native_category": null,
+   "description": "netradiční večerní kostýmované prohlídky peckovského hradu",
+   "image": "https://www.hradpecka.cz/evt_image.php?img=1029&width=300",
+   "native_id": "event-208",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "hrad-pecka:ca21e4a0f356"
+  }
+ ]
 }
