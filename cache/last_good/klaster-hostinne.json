@@ -1,29 +1,4 @@
 {
- "fetched_at": "2026-09-25T05:04:50+00:00",
- "events": [
-  {
-   "title": "Křest knihy: Hostinné-Proměny města ve fotografiích",
-   "start": "2026-09-25T00:00:00+02:00",
-   "source": "klaster-hostinne",
-   "url": "https://www.klasterhostinne.cz/aktuality-muzeum/krest-knihy-hostinne-promeny-mesta-ve-fotografiich",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": "Muzeum",
-   "description": "Přijměte pozvání na slavnostní křest knihy Tomáše Anděla \"Hostinné-Proměny města ve fotografiích\". Kniha v pevné vazbě obsahuje 120 dvojic...",
-   "image": "https://www.klasterhostinne.cz/media/photos/articlem/item/images-601/krest-knihy-hostinne-promeny-mesta-ve-fotografiich-t2.jpg",
-   "native_id": "https://www.klasterhostinne.cz/aktuality-muzeum/krest-knihy-hostinne-promeny-mesta-ve-fotografiich",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klaster-hostinne:8d4a45a7664a"
-  }
- ]
+ "fetched_at": "2026-09-26T05:04:52+00:00",
+ "events": []
 }

@@ -314,6 +314,13 @@
   "q": "Galerie moderního umění v Hradci Králové, Hradec Králové, Česko",
   "ts": "2026-09-24T13:57:33+00:00"
  },
+ "hala zs rudolfa frimla, trutnov|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Hala ZŠ Rudolfa Frimla, Trutnov, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
+ },
  "hankuv dum - sal|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -439,6 +446,13 @@
   "precision": "none",
   "q": "Kavárna Bělohradské sýpky, Lázně Bělohrad, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "kavarna klubicko|dvur kralove nad labem": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kavárna Klubíčko, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
  },
  "kavarna saky paky, mikulasska 209, nova paka|nova paka": {
   "lat": 50.49463,
@@ -587,6 +601,13 @@
   "q": "Kocléřov, Vítězná, Česko",
   "ts": "2026-09-25T05:06:51+00:00"
  },
+ "koncertni sin bohuslava martinu|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Koncertní síň Bohuslava Martinů, Trutnov, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
+ },
  "kostel cirkve ceskoslovenske husitske|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -601,12 +622,26 @@
   "q": "Kostel Nejsvětější Trojice, Kuks, Česko",
   "ts": "2026-09-16T14:46:04+00:00"
  },
+ "kostel sv. vavrince, nam. miru|vrchlabi": {
+  "lat": 50.6292468,
+  "lon": 15.6083404,
+  "precision": "venue",
+  "q": "nám. Míru, Vrchlabí, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
+ },
  "kulturni dum strelnice, vancurova 378|vrchlabi": {
   "lat": 50.6309963,
   "lon": 15.6106488,
   "precision": "venue",
   "q": "Vančurova 378, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "l art cafe|dvur kralove nad labem": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "L´Art Café, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
  },
  "letiste vrchlabi|vrchlabi": {
   "lat": null,
@@ -762,6 +797,13 @@
   "q": "Náplavka Labe, Hradec Králové, Česko",
   "ts": "2026-09-12T10:20:25+00:00"
  },
+ "narodni dum, trutnov|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Národní dům, Trutnov, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
+ },
  "novopacke sklepy. puda|nova paka": {
   "lat": null,
   "lon": null,
@@ -859,6 +901,13 @@
   "precision": "none",
   "q": "restaurace Novopacké sklepy - půda, Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "restaurace za mostem, mostek|mostek": {
+  "lat": 50.4832085,
+  "lon": 15.6920014,
+  "precision": "venue",
+  "q": "Restaurace Za Mostem, Mostek, Česko",
+  "ts": "2026-09-26T05:06:53+00:00"
  },
  "rodinne centrum kopretina, komenskeho 1248, vrchlabi|vrchlabi": {
   "lat": 50.6182463,

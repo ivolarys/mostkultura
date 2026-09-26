@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-25T05:04:39+00:00",
+ "fetched_at": "2026-09-26T05:04:36+00:00",
  "events": [
-  {
-   "title": "Čmukařská 50",
-   "start": "2026-09-25T16:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/cmukarska-50",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Loutkové divadlo Čmukaři Turnov slaví 50 let existence!",
-   "image": "https://www.kulturaturnov.cz/data/photogallery/cmukari_thumb_42866.jpg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/cmukarska-50|2026-09-25T16:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:1f16a507acc9"
-  },
   {
    "title": "NeseHraní + Duo K2",
    "start": "2026-10-02T20:00:00+02:00",

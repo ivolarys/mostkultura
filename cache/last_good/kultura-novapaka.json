@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-25T05:04:28+00:00",
+ "fetched_at": "2026-09-26T05:04:24+00:00",
  "events": [
-  {
-   "title": "Martin Bartoš: HISTORIE KRKONOŠSKÝCH BUD",
-   "start": "2026-09-25T18:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=martin-bartos-historie-krkonosskych-bud",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kavárna Saky Paky, Mikulášská 209, Nová Paka",
-   "category": null,
-   "native_category": "prednaska",
-   "description": "https://www.nase-knihkupectvi.cz/inpage/pozvanky/",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/martin-bartos-historie-krkonosskych-bud.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=martin-bartos-historie-krkonosskych-bud",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:e4773161d1a0"
-  },
   {
    "title": "Schodcross 2026",
    "start": "2026-09-28T14:00:00+02:00",

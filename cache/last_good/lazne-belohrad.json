@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-09-25T05:03:36+00:00",
+ "fetched_at": "2026-09-26T05:03:36+00:00",
  "events": [
+  {
+   "title": "Bělohrad pod hvězdami",
+   "start": "2026-10-03T15:00:00+02:00",
+   "source": "lazne-belohrad",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/belohrad-pod-hvezdami",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Filmové promítání, Koncert, Pro děti, Zábava",
+   "description": "V sobotu 3. října ožije areál letního kina v Horní Nové Vsi hudbou, zábavou a filmem pod širým nebem.",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13896777",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/belohrad-pod-hvezdami",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "lazne-belohrad:99f478e736e7"
+  },
   {
    "title": "Stand-up show Undeground Comedy Club",
    "start": "2026-10-14T19:00:00+02:00",

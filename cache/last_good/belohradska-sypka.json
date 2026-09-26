@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-25T05:04:44+00:00",
+ "fetched_at": "2026-09-26T05:04:41+00:00",
  "events": [
   {
    "title": "Jemná Hatha Jóga s Yvetou Rücklovou",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:61fb53c724aa"
-  },
-  {
-   "title": "Kavárenský kvíz",
-   "start": "2026-09-24T19:00:00+02:00",
-   "source": "belohradska-sypka",
-   "url": "https://www.belohradskasypka.cz/l/pozvanka-na-pub-kviz-v-kavarne-belohradske-sypky/",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kavárna Bělohradské sýpky",
-   "category": null,
-   "native_category": null,
-   "description": "Zábavný večer plný vědomostních otázek, občerstvení a cen. Kapacita je omezená, proto si své místo rezervujte předem.",
-   "image": null,
-   "native_id": "https://www.belohradskasypka.cz/l/pozvanka-na-pub-kviz-v-kavarne-belohradske-sypky/|2026-09-24T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "belohradska-sypka:69ebffe41fad"
   },
   {
    "title": "Svatováclavské vinobraní na Byšičkách 2026",
@@ -144,6 +120,30 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:fcaff541e2e8"
+  },
+  {
+   "title": "Koncert Pěveckého sboru HRON z Náchoda",
+   "start": "2026-10-18T14:00:00+02:00",
+   "source": "belohradska-sypka",
+   "url": "https://www.belohradskasypka.cz/l/koncert-peveckeho-spolku-hron-z-nachoda/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hlavní sál Bělohradské sýpky",
+   "category": null,
+   "native_category": null,
+   "description": "Sbor tento rok oslaví neuvěřitelné 165. výročí svého vzniku. Přijďte společně oslavit krásné jubileum. Vstupné dobrovolné.",
+   "image": null,
+   "native_id": "https://www.belohradskasypka.cz/l/koncert-peveckeho-spolku-hron-z-nachoda/|2026-10-18T14:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "belohradska-sypka:6d72d9598400"
   },
   {
    "title": "Kavárenský kvíz",

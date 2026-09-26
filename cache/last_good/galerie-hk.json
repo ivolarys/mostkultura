@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-25T05:05:05+00:00",
+ "fetched_at": "2026-09-26T05:05:07+00:00",
  "events": [
   {
    "title": "Umění zblízka | Kruh výtvarných umělkyň",
@@ -266,6 +266,30 @@
    "id": "galerie-hk:5d7c7e0f56fa"
   },
   {
+   "title": "Vernisáž dvou výstav",
+   "start": "2026-10-08T18:00:00+02:00",
+   "source": "galerie-hk",
+   "url": "https://www.galeriehk.cz/nepravidelne-akce/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Galerie moderního umění v Hradci Králové",
+   "category": null,
+   "native_category": "Jiné",
+   "description": "Na podzim zahájíme výstavu Co všechno máme Evy a Jakuba Horských, která představí nejen jejich volnou tvorbu, autorské knihy a textil, ale bude též pomyslným vhledem do možností starobylé techniky tisku z výšky a knihtisku, tzv. letterpressu. V Černé kostce bude k vidění instalace Minulosť ťa nepustí Veroniky a Petera Rónaiových, jejímž cílem je představit mediálně rozdílné přístupy v rámci umělecké tvorby dvou výrazných slovenských autorů.",
+   "image": null,
+   "native_id": "https://www.galeriehk.cz/nepravidelne-akce/|2026-10-08|18:00:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "galerie-hk:da3b54d6b8e0"
+  },
+  {
    "title": "EDU naproti | Augusta Nekolová a Jaroslav Jareš",
    "start": "2026-10-13T15:00:00+02:00",
    "source": "galerie-hk",
@@ -360,6 +384,30 @@
    "lon": null,
    "geo": null,
    "id": "galerie-hk:c27ffb5d6aa0"
+  },
+  {
+   "title": "Vernisáž obměnných výstav",
+   "start": "2026-10-22T18:00:00+02:00",
+   "source": "galerie-hk",
+   "url": "https://www.galeriehk.cz/nepravidelne-akce/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Galerie moderního umění v Hradci Králové",
+   "category": null,
+   "native_category": "Jiné",
+   "description": "Vernisáž výstav ve třech obměnných částech stálé expozice České umění 20. století a jeho škatulky . Nově se v prostoru vyhrazeném pro nejmladší generaci autorů a autorek zvaném Na bidýlku II představí Matouš Hrbek, sekce Na zdi , zaměřená na první polovinu 20. století, bude věnovaná kubistickému období Jana Trampoty a část prezentující umění druhé poloviny 20. století s názvem Za zdí uvede tvorbu Eriky Pfeifferové.",
+   "image": null,
+   "native_id": "https://www.galeriehk.cz/nepravidelne-akce/|2026-10-22|18:00:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "galerie-hk:a2532e132ddd"
   },
   {
    "title": "Umění zblízka | Skupina 42",
