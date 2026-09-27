@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-26T05:03:36+00:00",
+ "fetched_at": "2026-09-27T10:10:24+00:00",
  "events": [
   {
    "title": "Bělohrad pod hvězdami",
@@ -144,30 +144,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:a7afdacb0626"
-  },
-  {
-   "title": "PODZIMNÍ JARMARK 2026",
-   "start": "2026-09-26T10:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/podzimni-jarmark-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Jarmark",
-   "description": "Přijďte prožít podzimní den plný vůně dobrot, ručně vyráběných výrobků a živé hudby. Nebudou chybět ani ukázky činnosti místních spolků, pro nejmenší budou připraveny tvořivé dílny a dospělí si užijí příjemnou atmosféru mezi stánky.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13795682",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/podzimni-jarmark-2026",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:c1992a206bdf"
   },
   {
    "title": "Karel Václav Rais: Komu bylo z Hůry dáno... - výstava",

@@ -258,6 +258,13 @@
   "q": "z. s., Trutnov, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "farma nova amerika|dvur kralove nad labem": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Farma Nová Amerika, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-27T10:19:54+00:00"
+ },
  "farma nova amerika|kuks": {
   "lat": 50.3802408,
   "lon": 15.8596891,
@@ -1048,6 +1055,13 @@
   "precision": "venue",
   "q": "Hořejší Vrchlabí, Vrchlabí, Česko",
   "ts": "2026-09-21T21:15:46+00:00"
+ },
+ "stary pivovar|dvur kralove nad labem": {
+  "lat": 50.4313188,
+  "lon": 15.8170163,
+  "precision": "venue",
+  "q": "Starý pivovar, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-09-27T10:19:54+00:00"
  },
  "sterbova vila na prehrade les kralovstvi|dvur kralove nad labem": {
   "lat": null,
