@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-27T10:16:07+00:00",
+ "fetched_at": "2026-09-28T11:12:35+00:00",
  "events": [
   {
    "title": "VLADIMÍR JAVORSKÝ & BOČEMUNI",
    "start": "2026-09-29T19:30:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet641",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet301",
    "end": "2026-09-29T21:00:00+02:00",
    "all_day": false,
    "place": null,
@@ -15,7 +15,7 @@
    "native_category": "Koncert",
    "description": "Koncertní řada MODRÁ /M1/ Autorské písně a básně herce a hudebníka Vladimíra Javorského v produkci Mariana Friedla, mající šansonový a folklórní hudební háv, zaranžoval Radek Doležal pro Filharmonii Hradec Králové. Vzniká tak jedinečné spojení, které dodává hlubokým, něžným a syrovým básním Vladimíra Javorského další rozměr. Buď te svědky setkání, které se bezpochyby dotkne Vaší duše. Společně s koncertem proběhne ve foyer i výstava grafik Vladimíra Javorského, které jsou dalším potvrzením autor",
    "image": null,
-   "native_id": "#textdet641|2026-09-29",
+   "native_id": "#textdet301|2026-09-29",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -23,13 +23,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:3803879cd31f"
+   "id": "hradec-vyber:e009a444fc02"
   },
   {
    "title": "HRATELIÉR | Se dřevem / 10:00",
    "start": "2026-09-30T10:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet681",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet341",
    "end": null,
    "all_day": false,
    "place": null,
@@ -39,7 +39,7 @@
    "native_category": "Pro děti",
    "description": "Zkoumáním dřeva a jeho vlastností začne podzimní cyklus Hrateliérů zaměřený na jednotlivé materiály. Jakou má dřevo strukturu, tvrdost nebo jaký vydává zvuk? Přijďte s námi objevit jeho možnosti. Koná se od 10 a od 15 hodin. Cena 50 Kč za dítě, doprovod zdarma, nutnost rezervace na edukace@galeriehk.cz. Další informace naleznete na https://www.galeriehk.cz/edukace/rodiny-s-detmi/",
    "image": null,
-   "native_id": "#textdet681|2026-09-30",
+   "native_id": "#textdet341|2026-09-30",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -47,13 +47,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:c4872095794c"
+   "id": "hradec-vyber:308535b604f8"
   },
   {
    "title": "HRATELIÉR | Se dřevem / 15:00",
    "start": "2026-09-30T15:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet721",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet381",
    "end": null,
    "all_day": false,
    "place": null,
@@ -63,7 +63,7 @@
    "native_category": "Pro děti",
    "description": "Zkoumáním dřeva a jeho vlastností začne podzimní cyklus Hrateliérů zaměřený na jednotlivé materiály. Jakou má dřevo strukturu, tvrdost nebo jaký vydává zvuk? Přijďte s námi objevit jeho možnosti. Koná se od 10 a od 15 hodin. Cena 50 Kč za dítě, doprovod zdarma, nutnost rezervace na edukace@galeriehk.cz. Další informace naleznete na https://www.galeriehk.cz/edukace/rodiny-s-detmi/",
    "image": null,
-   "native_id": "#textdet721|2026-09-30",
+   "native_id": "#textdet381|2026-09-30",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -71,13 +71,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:2ae512c8458d"
+   "id": "hradec-vyber:01d11e0cce89"
   },
   {
    "title": "Komentovaná prohlídka nové budovy ARCHA (nutná rezervace)",
    "start": "2026-09-30T17:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet761",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet421",
    "end": null,
    "all_day": false,
    "place": null,
@@ -87,7 +87,7 @@
    "native_category": null,
    "description": "Více než jeden rok trvala rekonstrukce budovy Archa v Gayerových kasárnách, v níž bude v blízké budoucnosti zpřístupněna přírodovědecká a archeologická expozice Muzea východních Čech v Hradci Králové. Zveme vás na další komentovanou prohlídku, kterou povede zoolog a jeden z kurátorů budoucí expozice Martin Paclík. Uvidíte proměnu celé budovy, také se seznámíte s plány připravované přírodovědecké expozice a dozvíte se i o historii jejího vzniku. Sraz účastníků je před novou budovou Archa, Českosl",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2279987&x=1920&y=1080",
-   "native_id": "#textdet761|2026-09-30",
+   "native_id": "#textdet421|2026-09-30",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -95,13 +95,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:410d43d04f9c"
+   "id": "hradec-vyber:69d3880d027b"
   },
   {
    "title": "Koncert DASHA A PAJKY PAJK QUINTET",
    "start": "2026-09-30T19:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet841",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet501",
    "end": "2026-09-30T20:30:00+02:00",
    "all_day": false,
    "place": null,
@@ -111,7 +111,7 @@
    "native_category": null,
    "description": "Pořadatel: Agentura Butterfly s.r.o. Charismatická, osobitá a nezaměnitelná. V novém koncertním programu zapívá Dasha své oblíbené skladby všech žánrů od popu přes funky, soul až k muzikálovým melodiím. Dokonalý hudební zážitek zaručuje kromě zpěvu také výběr skvělých hudebníků, kteří Dashu doprovází. Martin Kumžák - piano, Martin Lehký - basa, Tomáš Brožek - bicí, Pavel Plánka - perkuse, Peter Binder - kytara. Dasha patří mezi zpěvačky s nezaměnitelným hlasem. Je držitelkou Ceny Thálie za roli ",
    "image": null,
-   "native_id": "#textdet841|2026-09-30",
+   "native_id": "#textdet501|2026-09-30",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -119,13 +119,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:0146232e9bf0"
+   "id": "hradec-vyber:29eb93cde309"
   },
   {
    "title": "Biostory",
    "start": "2026-09-30T19:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet861",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet521",
    "end": "2026-09-30T20:30:00+02:00",
    "all_day": false,
    "place": null,
@@ -135,7 +135,7 @@
    "native_category": "Divadlo",
    "description": "\"Biostory\" je komedie! Komedie ze života. Z dnešního života. Řešíme vztahy, řešíme kdo jsme a proč jsme tady… Hledáme… Dříve jsme hledali smysl života v materiálním světě a nenašli. Teď se obracíme do duchovních oblastí. Navštěvujeme kurzy a komunity stejně \"hledajících\" a občas se dostaneme do spárů těch, kteří našeho hledání chtějí využít. To se právě stane našim třem hrdinkám. Hra vychází z reálného života, tedy i reálných situací. Je určena pro všechny, kdo jsou ochotni podívat se na sebe tr",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2249964&x=1200&y=1697",
-   "native_id": "#textdet861|2026-09-30",
+   "native_id": "#textdet521|2026-09-30",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -143,13 +143,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:16937f0a0e21"
+   "id": "hradec-vyber:a439bfd392e2"
   },
   {
    "title": "Velehory v Hradci Králové - MAGICKÝ HIMÁLAJ",
    "start": "2026-03-07T00:00:00+01:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet901",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet561",
    "end": "2026-10-25T23:59:59+01:00",
    "all_day": true,
    "place": null,
@@ -159,7 +159,7 @@
    "native_category": "Výstava",
    "description": "Unikátní výstava je obrazem mnohaletého putování cestovatele Rudolfa Švaříčka do různých částí Himálaje. Unikátní výstava je obrazem mnohaletého putování cestovatele Rudolfa Švaříčka do různých částí Himálaje. V Muzeu východních Čech v Hradci Králové budete vtaženi do nejvyššího pohoří světa, hlavně do oblasti Tibetu. Prostřednictvím velkoformátových fotografií i autentických předmětů se seznámíte s životem v okolí ledových vrcholů. Himálaj bude ve výstavě představen z pohledu horolezců a šerpů,",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2055626&x=1200&y=800",
-   "native_id": "#textdet901|2026-03-07",
+   "native_id": "#textdet561|2026-03-07",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -167,13 +167,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:42342f310616"
+   "id": "hradec-vyber:b6144bac1f3e"
   },
   {
    "title": "Dušan Zahoranský | Přání",
    "start": "2026-04-24T00:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet921",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet581",
    "end": "2026-10-11T23:59:59+02:00",
    "all_day": true,
    "place": null,
@@ -183,7 +183,7 @@
    "native_category": "Výstava",
    "description": "před budovou GMU Umístěním díla Přání (2015) do veřejného prostoru navazuje GMU na předchozí projekty, prostřednictvím kterých se snaží obohacovat prostor na Velkém náměstí v Hradci Králové. Interaktivní socha je sestavena ze dvou sloupů, mezi nimiž je vypnuto pět ocelových lanek. Na těchto lankách visí písmena abecedy. Písmena jsou volně pohyblivá, což návštěvníkům umožňuje s nimi manipulovat a sestavovat libovolná sdělení v konkrétní konfiguraci slova na pět písmen. Více na: https://www.galeri",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2220538&x=600&y=600",
-   "native_id": "#textdet921|2026-04-24",
+   "native_id": "#textdet581|2026-04-24",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -191,13 +191,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:33149cdb78c6"
+   "id": "hradec-vyber:98a9ac10640e"
   },
   {
    "title": "Co je doma, to se počítá",
    "start": "2026-04-24T00:00:00+02:00",
    "source": "hradec-vyber",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet941",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=9&rok=2026#textdet601",
    "end": "2026-11-01T23:59:59+01:00",
    "all_day": true,
    "place": null,
@@ -207,7 +207,7 @@
    "native_category": "Výstava",
    "description": "kurátorka: Anna Horák Zemanová | Prostor Hlavní výstava letní sezóny s názvem Co je doma, to se počítá zkoumá jedinečný fenomén tvorby partnerů ve výtvarném umění – vztah manželských či životních dvojic, jejichž osobní i profesní dráhy se odehrávaly na pozadí dějinných zvratů 20. století. Návštěvník má možnost sledovat, jak se vztahy promítaly do výběru témat, technik, stylu i do způsobu, jak umělci reflektovali realitu doby. Od secese a moderny přes socialistický realismus až po konceptuální um",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2220537&x=2320&y=2772",
-   "native_id": "#textdet941|2026-04-24",
+   "native_id": "#textdet601|2026-04-24",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -215,7 +215,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "hradec-vyber:5fbb986853d1"
+   "id": "hradec-vyber:491cd638ff30"
   },
   {
    "title": "Přírodou Austrálie - s biologickou expedicí od Cairns po Sydney",

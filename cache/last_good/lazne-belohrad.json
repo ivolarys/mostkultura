@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-27T10:10:24+00:00",
+ "fetched_at": "2026-09-28T11:11:02+00:00",
  "events": [
   {
    "title": "Bělohrad pod hvězdami",
@@ -216,30 +216,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:8b651eeb08d5"
-  },
-  {
-   "title": "Výstava: Ostrovy Svatopluka Hrnčíře",
-   "start": "2026-05-22T00:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/vystava-ostrovy-svatopluka-hrncire",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Výstava",
-   "description": "Ostrov – to není jen dobrodružství, objevování tajuplných míst, ale i útočiště, kde se lze o samotě skrýt jen se svou fantazií.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13528781",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/vystava-ostrovy-svatopluka-hrncire",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:501a97b1b480"
   },
   {
    "title": "POSLECHOVÝ POŘAD - VÁŽNÁ HUDBA NENÍ VÁŽNÁ - PRO DĚTI",
