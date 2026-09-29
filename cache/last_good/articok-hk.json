@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-28T11:12:26+00:00",
+ "fetched_at": "2026-09-29T06:40:49+00:00",
  "events": [
   {
-   "title": "Zlatovláska",
-   "start": "2026-09-13T16:00:00+02:00",
+   "title": "Společné pletení",
+   "start": "2026-10-17T13:00:00+02:00",
    "source": "articok-hk",
-   "url": "https://www.articok.cz/zlatovlaska-13-9-1600/",
+   "url": "https://www.articok.cz/spolecne-pleteni-17-10-1300/",
    "end": null,
    "all_day": false,
    "place": null,
@@ -13,9 +13,9 @@
    "venue": "Galerie Artičok",
    "category": null,
    "native_category": null,
-   "description": "Byl jeden Jiřík a ten neměl nic. A byl jednou jeden král , ten měl všechno, a chtěl víc! A byl jednou jeden zlatý vlas a ten vším pořádně zamíchal! Loutkový příběh na motivy klasické české pohádky v originálním zpracování, kde se loutkami stává i mnoho věcí z běžného zařízení kuchyně. Tuto půvabnou pohádku vám zahraje Divadlo jednoho Edy, za nímž stojí Miroslava Bělohlávková , dlouholetá členka Naivního divadla Liberec, ale i Divadla Disk či Husy na provázku. V příjemném prostředí naší kavárny p",
-   "image": "https://www.articok.cz/wp-content/uploads/2026/09/Zlatovlaska-web.jpg",
-   "native_id": "10455|2026-09-13T16:00:00+02:00",
+   "description": "Další společné pletení v Hradci Králové je tady. Sejdeme se opět v kavárně Artičok v sobotu 17.10.2026 ve 13.00 hodin. Moc se na vás těším. Určitě si to zase moc užijeme . Bude Kavárna se nachází v centru Hradce Králové na třídě Karla IV. 493/13. Potvrďte prosím účast.",
+   "image": "https://www.articok.cz/wp-content/uploads/2026/09/796746868_1976305093711251_335649132925478322_n-2.jpg",
+   "native_id": "10460|2026-10-17T13:00:00+02:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -23,7 +23,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "articok-hk:8355540041e2"
+   "id": "articok-hk:781748dc5008"
   },
   {
    "title": "Svatomartinská slavnost s muzikou",
@@ -72,30 +72,6 @@
    "lon": null,
    "geo": null,
    "id": "articok-hk:8910b534470c"
-  },
-  {
-   "title": "Záříjový Swap",
-   "start": "2026-09-12T10:00:00+02:00",
-   "source": "articok-hk",
-   "url": "https://www.articok.cz/zarijovy-swap-12-zari-10-15-hodin/",
-   "end": "2026-09-12T15:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": "Hradec Králové",
-   "venue": "Galerie Artičok",
-   "category": null,
-   "native_category": null,
-   "description": "Další velký SWAP v Artičoku se blíží, tak si pište termíny. Budeme opět swapovat, upcyklovat, opravovat, stylovat:) A dobrý kafíčko a něco na zub k tomu už je samozřejmostí. DOPROVODNÝ PROGRAM (postupně doplňujeme) : 10.00 –⁠⁠⁠⁠⁠⁠ 14.00 OPRAVÁRNA –⁠⁠⁠⁠⁠⁠ švadlenka Ivča opraví vaše oblečení a bižuterii 11.00 a 13.00 SLOW-FASHION STYLISTKA: jak na udržitelný a funkční šatník? 10.00 – 14.00⁠⁠⁠⁠⁠⁠ DĚTSKÝ KOUTEK S VÍLOU ELIŠKOU a RECY KREATIVNÍ DÍLNIČKOU – nechte vaše děti bavit se a tvořit, zatímco ",
-   "image": "https://www.articok.cz/wp-content/uploads/2026/08/763263120_1072468148677753_9165894719696655757_n-1.jpg",
-   "native_id": "10420|2026-09-12T10:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "articok-hk:552ca6c54992"
   }
  ]
 }

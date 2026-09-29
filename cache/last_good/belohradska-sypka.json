@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-28T11:12:13+00:00",
+ "fetched_at": "2026-09-29T06:40:36+00:00",
  "events": [
   {
    "title": "Jemná Hatha Jóga s Yvetou Rücklovou",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:61fb53c724aa"
-  },
-  {
-   "title": "Svatováclavské vinobraní na Byšičkách 2026",
-   "start": "2026-09-28T13:00:00+02:00",
-   "source": "belohradska-sypka",
-   "url": "https://www.belohradskasypka.cz/l/zveme-vas-na-druhy-rocnik-fejkoveho-vinobrani-na-zkousku-2026/",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Vinařství Byšičky - Nový Dvůr",
-   "category": null,
-   "native_category": null,
-   "description": "Přijďte si užít sváteční odpoledne plné vína, hudby a zábavy! Jedinečný zážitek v kouzelném prostředí zelenajícího se vinohradu!",
-   "image": null,
-   "native_id": "https://www.belohradskasypka.cz/l/zveme-vas-na-druhy-rocnik-fejkoveho-vinobrani-na-zkousku-2026/|2026-09-28T13:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "belohradska-sypka:e27ab6170bc3"
   },
   {
    "title": "Kavárenský kvíz",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-28T11:11:49+00:00",
+ "fetched_at": "2026-09-29T06:40:10+00:00",
  "events": [
   {
    "title": "Konference: Člověk v centru péče",
@@ -408,30 +408,6 @@
    "lon": null,
    "geo": null,
    "id": "zirec-domov:4d7e6986e671"
-  },
-  {
-   "title": "Bylinkobraní",
-   "start": "2026-09-27T00:00:00+02:00",
-   "source": "zirec-domov",
-   "url": "https://www.domovsvatehojosefa.cz/bylinkobrani-2026",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Domov sv. Josefa",
-   "category": null,
-   "native_category": null,
-   "description": "Bylinkobraní v Žirči nabídne příjemný den v Bylinkové zahradě Domova sv. Josefa plný bylinek, přednášek, workshopů, hudby, pohádky pro děti i tematického jarmarku. Výtěžek z akce podpoří dokončení Bylinkária, nového prostoru pro setkávání, vzdělávání a pomoc lidem s roztroušenou sklerózou.",
-   "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/2171-6.png",
-   "native_id": "2026-09-27|Bylinkobraní",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "zirec-domov:32772d1e6446"
   }
  ]
 }

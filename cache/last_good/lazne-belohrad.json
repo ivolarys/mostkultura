@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-28T11:11:02+00:00",
+ "fetched_at": "2026-09-29T06:39:31+00:00",
  "events": [
   {
    "title": "Bělohrad pod hvězdami",
@@ -120,30 +120,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:1f4d5d03a703"
-  },
-  {
-   "title": "Svatováclavské vinobraní 2026",
-   "start": "2026-09-28T13:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/svatovaclavske-vinobrani-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Bělohradská sýpka",
-   "category": null,
-   "native_category": null,
-   "description": "V pondělí 28. září 2026 vás od 13 hodin srdečně zveme na příjemné sváteční odpoledne do Vinařství Byšičky, kde se snoubí nadšení z nově vznikajícího projektu s živou hudbou a pohodovou atmosférou.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13822514",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/svatovaclavske-vinobrani-2026",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:a7afdacb0626"
   },
   {
    "title": "Karel Václav Rais: Komu bylo z Hůry dáno... - výstava",

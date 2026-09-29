@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-28T11:13:49+00:00",
+ "fetched_at": "2026-09-29T06:42:04+00:00",
  "events": [
-  {
-   "title": "DREKKA (US) + B°TONG (CH/S)",
-   "start": "2026-09-27T20:00:00+02:00",
-   "source": "menumusic-hk",
-   "url": "https://menumusic.cz/post/828675925089599488",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Hradec Králové",
-   "venue": "Hradecká sýpka",
-   "category": null,
-   "native_category": null,
-   "description": "",
-   "image": "https://64.media.tumblr.com/36074824bd61df01c172156dc2b5af76/bd97e9d722117716-b6/s640x960/909b2f65ba3bb57e511c4ecaa5237e019a6646a6.jpg",
-   "native_id": "https://menumusic.cz/post/828675925089599488|2026-09-27T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "menumusic-hk:c8d6754ef85c"
-  },
   {
    "title": "SÍLA SILA",
    "start": "2026-10-02T19:00:00+02:00",

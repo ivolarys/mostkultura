@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-28T11:11:55+00:00",
+ "fetched_at": "2026-09-29T06:40:16+00:00",
  "events": [
-  {
-   "title": "Schodcross 2026",
-   "start": "2026-09-28T14:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=schodcross-2026",
-   "end": "2026-09-28T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "klášterní schody v Nové Pace",
-   "category": null,
-   "native_category": "porad-pro-deti",
-   "description": "Schodcross 2026 dětský závod ve výběhu klášterních schodů v Nové Pace Zveme Tě a tvoje rodiče na dětský \"adrenalinový\" závod Schodcross 2026 ve výběhu klášterních schodů v Nové Pace. pondělí 28.9. 2026 od 14:00 hod.- klášterní schody v Nové Pace Pro ročníky 2021 – 2011 Kategorie: pro žáky základních škol 1. 2011 -2012-2013 2. 2014-2015 3. 2016-2017 4. 2018-2019 5. 2020-2021 místo: kryté klášterní schody v Nové Pace, akce se koná za každého počasí, občerstvení",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/schodcross-2026.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=schodcross-2026",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:66b5f65eae6f"
-  },
   {
    "title": "Srí Lanka - perla indického oceánu",
    "start": "2026-09-29T17:00:00+02:00",
