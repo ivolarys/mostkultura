@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-29T06:42:04+00:00",
+ "fetched_at": "2026-09-30T05:18:47+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1346,6 +1346,30 @@
    "id": "bajkazyl-hk:05e4080258d6"
   },
   {
+   "title": "Dreimal Punk Rock aus Leipzig - THE SLEAZIES + BAMBI SHOOTS BACK + KOPROLITH",
+   "start": "2026-10-03T20:00:00+02:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/dreimal-punk-rock-aus-leipzig-the-sleazies-bambi-shoots-back-koprolith-20261003-1800",
+   "end": "2026-10-03T23:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Událost: https://facebook.com/events/s/-dreimal-punk-rock-aus-leipzig/2150075195854448/ Tři kapely, jedno město. Kořeny mají všechny v d.i.y./punku, každá míří ale trochu jiným směrem. Zatímco KOPROLITH zaujmou surovým garážovým zvukem, chvílemi zní jako osmdesátkový raw punk, THE SLEAZIES sází na jemnou melancholii a propracovanější rock'n'rollové melodie. BAMBI SHOOTS BACK sami v biu uvádí inspiraci Descendents a Propagandhi; ty se toho prostě nebojí a bez nějakých zdržovaček sypou z rukávu je",
+   "image": "https://i.ibb.co/XfYG9rwX/fb-e-VENT-lipsko0.jpg",
+   "native_id": "64s38pb46gq6abb26kq3cb9kc8sj4b9p60o62b9k6gs68c9ockq6cd9j6s@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:7880bc99c3f9"
+  },
+  {
    "title": "Festival RecyUpcy",
    "start": "2026-10-10T10:00:00+02:00",
    "source": "bajkazyl-hk",
@@ -1382,7 +1406,7 @@
    "category": null,
    "native_category": null,
    "description": "Událost: fb://event/2051538479582117 𝐅𝐎𝐑𝐄𝐒𝐓 𝐑𝐀𝐘 🇺🇸 Analogoví kaubojové FOREST RAY po roce zpátky v Bajkazylu! Stejně jako loni, i tentokrát nám tahle parta sympaťáků ze Seattlu namíchá svůj pestrobarevný cocktail Americana, v němž se píseň od písně v různých poměrech prolíná folk, rock, country, indie a blues. Čeká nás tak žánrově u nás ne zrovna obvyklý, o to víc zajímavý a osvěžující hudební zážitek, u něhož si budeme moct připomenout, že i přese všechno absurdno, které teď za velkou louží sle",
-   "image": null,
+   "image": "https://i.ibb.co/JFzMttFs/fb-e-VENT-forestray-kasanax.jpg",
    "native_id": "6pij4d9h6gqj0b9pc9hj2b9kc8q62bb16co66b9hchh66phkcphmccpock@google.com",
    "ongoing": false,
    "sources": [],

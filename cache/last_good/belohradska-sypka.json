@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-29T06:40:36+00:00",
+ "fetched_at": "2026-09-30T05:13:45+00:00",
  "events": [
   {
    "title": "Jemná Hatha Jóga s Yvetou Rücklovou",
@@ -192,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:45adf92960cf"
+  },
+  {
+   "title": "Svatováclavské vinobraní na Byšičkách 2027",
+   "start": "2027-09-28T13:00:00+02:00",
+   "source": "belohradska-sypka",
+   "url": "https://www.belohradskasypka.cz/program/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Vinařství Byšičky - Nový Dvůr",
+   "category": null,
+   "native_category": null,
+   "description": "Přijďte si užít sváteční odpoledne plné vína, hudby a zábavy! Jedinečný zážitek v kouzelném prostředí zelenajícího se vinohradu!",
+   "image": null,
+   "native_id": "https://www.belohradskasypka.cz/program/|2027-09-28T13:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "belohradska-sypka:c4ff7bd7c6a8"
   }
  ]
 }

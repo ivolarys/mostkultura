@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-29T06:40:37+00:00",
+ "fetched_at": "2026-09-30T05:13:46+00:00",
  "events": [
-  {
-   "title": "Hodinka se Svatoplukem Hrnčířem",
-   "start": "2026-09-29T17:00:00+02:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/hodinka-se-svatoplukem-hrncirem-1492_880cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Knihovna Kryštofa Haranta",
-   "category": null,
-   "native_category": null,
-   "description": "Vyprávění Jitky Mečířové o bělohradském rodákovi, od jehož narození letos uplynulo 100 let.",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5245&width=300",
-   "native_id": "event-1492",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:88e492cb0026"
-  },
   {
    "title": "8. cyklovýzva Jiřího Styblíka",
    "start": "2026-09-01T00:00:00+02:00",

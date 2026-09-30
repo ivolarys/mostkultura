@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-29T06:40:16+00:00",
+ "fetched_at": "2026-09-30T05:09:10+00:00",
  "events": [
-  {
-   "title": "Srí Lanka - perla indického oceánu",
-   "start": "2026-09-29T17:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=sri-lanka---perla-indickeho-oceanu",
-   "end": "2026-09-29T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Městská knihovna Nová Paka",
-   "category": null,
-   "native_category": "prednaska",
-   "description": "Země Ayurvédy, cejlonského čaje a nádherné tropické přírody. Přednášející: Eva Šiška Filipová. Srí Lanka je kouzelný ostrov v Indickém oceánu, který okouzluje tropickou přírodou, čajovými plantážemi, oceánem, pestrou kulturou i hluboce zakořeněnou tradicí Ayurvédy. Eva Šiška Filipová je velkou milovnicí Srí Lanky a pravidelně se na ostrov vrací. Již šestým rokem zde pořádá ayurvédské pobyty a část roku – přibližně od prosince do května – na Srí Lance také žije. Díky tomu",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/sri-lanka---perla-indickeho-oceanu.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=sri-lanka---perla-indickeho-oceanu",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:b77f9483ee18"
-  },
   {
    "title": "HEREC DO DOMU, HŮL DO RUKY!!! – Divadelní agentura Fanny",
    "start": "2026-09-30T19:00:00+02:00",

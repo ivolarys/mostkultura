@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-09-29T06:39:31+00:00",
+ "fetched_at": "2026-09-30T05:04:07+00:00",
  "events": [
+  {
+   "title": "Koncert pěveckého sboru Hron z Náchoda",
+   "start": "2026-10-18T14:00:00+02:00",
+   "source": "lazne-belohrad",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/koncert-peveckeho-sboru-hron-z-nachoda",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Bělohradská sýpka",
+   "category": null,
+   "native_category": null,
+   "description": "Čeká vás výjimečné hudební odpoledne v podání pěveckého spolku HRON z Náchoda. Přijďte si vychutnat krásu sborového zpěvu, bohatou tradici tohoto tělesa a příjemnou atmosféru u kávy či sklenky vína.",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13903303",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/koncert-peveckeho-sboru-hron-z-nachoda",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "lazne-belohrad:5d795a0b8d98"
+  },
   {
    "title": "Bělohrad pod hvězdami",
    "start": "2026-10-03T15:00:00+02:00",
