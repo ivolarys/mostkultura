@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-30T05:09:15+00:00",
+ "fetched_at": "2026-10-01T05:07:45+00:00",
  "events": [
   {
    "title": "Vojta Nedvěd",
@@ -219,7 +219,7 @@
   },
   {
    "title": "Moderní kaligrafie - \"Mezi prsty\"",
-   "start": "2026-10-10T16:00:00+02:00",
+   "start": "2026-10-10T16:30:00+02:00",
    "source": "sd-jilm",
    "url": "https://www.sdjilm.cz/sd-jilm/workshop/moderni-kaligrafie-mezi-prsty-2026",
    "end": null,
@@ -231,7 +231,7 @@
    "native_category": "Workshop",
    "description": "Kurz moderní KALIGRAFIE se Šárkou Lankovou, která vás naučí krásně psát. Začátky krasopisu, psaní brush penem a další vychytávky. Pro předem přihlášené.",
    "image": "https://www.sdjilm.cz/storage/app/uploads/public/6a8/c07/657/thumb_1603_250_250_0_0_auto.webp",
-   "native_id": "603|2026-10-10T16:00:00+02:00",
+   "native_id": "603|2026-10-10T16:30:00+02:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -239,7 +239,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "sd-jilm:a00221f62f19"
+   "id": "sd-jilm:623e1e2badd9"
   },
   {
    "title": "Na poslední koleji",

@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-09-30T05:04:07+00:00",
+ "fetched_at": "2026-10-01T05:04:01+00:00",
  "events": [
+  {
+   "title": "Za lípami svobody - 1. ročník pochodu",
+   "start": "2026-10-28T09:00:00+01:00",
+   "source": "lazne-belohrad",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/za-lipami-svobody-1-rocnik-pochodu",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "MKS Lázně Bělohrad",
+   "category": null,
+   "native_category": "Pochod",
+   "description": "Připomeňme si výročí vzniku samostatné republiky společným pochodem Za lípami svobody. Tyto stromy se vysazovaly na paměť vzniku Československa i při jeho pozdějších výročích.",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13909294",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/za-lipami-svobody-1-rocnik-pochodu",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "lazne-belohrad:8fc08dbac462"
+  },
   {
    "title": "Koncert pěveckého sboru Hron z Náchoda",
    "start": "2026-10-18T14:00:00+02:00",

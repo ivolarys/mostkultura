@@ -1,4 +1,53 @@
 {
- "fetched_at": "2026-09-30T05:06:08+00:00",
- "events": []
+ "fetched_at": "2026-10-01T05:04:40+00:00",
+ "events": [
+  {
+   "title": "Svatohubertské slavnosti na hospitálu Kuks",
+   "start": "2026-10-03T10:00:00+02:00",
+   "source": "kuks-hospital",
+   "url": "https://www.hospital-kuks.cz/cs/akce/49747-svatohubertske-slavnosti-na-hospitalu-kuks",
+   "end": "2026-10-03T17:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "hospitál Kuks",
+   "category": null,
+   "native_category": "Kulturní akce",
+   "description": "",
+   "image": "https://www.hospital-kuks.cz/pamatky/hospital-kuks/fotogalerie/Akce---ilustracni-a-plakaty/Huberti/image-thumb__53894__EventPreviewImage/img_5757.jpg",
+   "native_id": "https://www.hospital-kuks.cz/cs/akce/49747-svatohubertske-slavnosti-na-hospitalu-kuks",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kuks-hospital:b4379a2cf847"
+  },
+  {
+   "title": "Koncert Jany Veberové na Kuksu",
+   "start": "2026-10-16T17:00:00+02:00",
+   "source": "kuks-hospital",
+   "url": "https://www.hospital-kuks.cz/cs/akce/75067-koncert-jany-veberove-na-kuksu",
+   "end": "2026-10-16T18:30:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "hospitál Kuks",
+   "category": null,
+   "native_category": "Kulturní akce",
+   "description": "",
+   "image": "https://www.hospital-kuks.cz/pamatky/hospital-kuks/fotogalerie/Akce---ilustracni-a-plakaty/Koncert%20Jany%20Veberove/image-thumb__174668__EventPreviewImage/img_7061.webp",
+   "native_id": "https://www.hospital-kuks.cz/cs/akce/75067-koncert-jany-veberove-na-kuksu",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kuks-hospital:6832c3370217"
+  }
+ ]
 }

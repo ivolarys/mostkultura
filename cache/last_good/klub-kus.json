@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-29T06:40:31+00:00",
+ "fetched_at": "2026-10-01T05:09:17+00:00",
  "events": [
   {
    "title": "NeseHraní + Duo K2",
@@ -192,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "klub-kus:a04932df70e5"
+  },
+  {
+   "title": "Makule & Mandragora",
+   "start": "2026-11-06T20:00:00+01:00",
+   "source": "klub-kus",
+   "url": "https://www.kulturaturnov.cz/program/kus/makule_mandragora",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Turnov",
+   "venue": "Klub Kus",
+   "category": null,
+   "native_category": null,
+   "description": "Kapela, která je vždycky na koni se vrací! A tentokrát i s hostem.",
+   "image": "https://www.kulturaturnov.cz/data/photogallery-shows/img_5528_thumb_16683.JPG",
+   "native_id": "https://www.kulturaturnov.cz/program/kus/makule_mandragora|2026-11-06T20:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klub-kus:b827faded708"
   },
   {
    "title": "Beata Hlavenková & Monodie 2.0",
