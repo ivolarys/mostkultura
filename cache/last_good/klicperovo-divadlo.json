@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-01T05:11:35+00:00",
+ "fetched_at": "2026-10-02T05:10:01+00:00",
  "events": [
-  {
-   "title": "Malé chytré lži",
-   "start": "2026-10-01T19:00:00+02:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/male-chytre-lzi",
-   "end": "2026-10-01T21:00:00+02:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Malé chytré lži Hlavní scéna · Hostuje Divadlo Kalich Joe DiPietro · režie Pavel Khek Hostuje Divadlo Kalich Hlavní scéna Čekání na Václava",
-   "image": "https://www.klicperovodivadlo.cz/media/432/gallery/male-chytre-lzi-fotografie-01-145101",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/male-chytre-lzi|2026-10-01T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:bf1fb94e05bb"
-  },
   {
    "title": "Sluha dvou pánů",
    "start": "2026-10-02T19:00:00+02:00",

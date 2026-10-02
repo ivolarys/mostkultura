@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-10-01T05:11:00+00:00",
+ "fetched_at": "2026-10-02T05:09:22+00:00",
  "events": [
   {
    "title": "Nábleší 2026",
    "start": "2026-10-25T09:00:00+01:00",
    "source": "nablesi",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=10&rok=2026#textdet5701",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=10&rok=2026#textdet5581",
    "end": "2026-10-25T12:00:00+01:00",
    "all_day": false,
    "place": null,
@@ -15,7 +15,7 @@
    "native_category": "Trhy a jarmarky",
    "description": "Otevřený bleší trh v Hradci Králové. Nábleší je volný bleší trh v centru Hradce otevřený všem bez předchozí rezervace či poplatků za místo. Dones věci z druhé ruky nebo vlastnorůčo vyrobené, rozbal si deku či stoličku a prodávej, seznamuj se a nasávej nedělní pohodu do obou nosních dírek. Všechny půdní poklady připlouvají po Labi vždy poslední neděli v měsíci od 9 do 12 hodin na náplavce pod Pražským mostem. Přines-prodej-potkej se-měj radost s náma. Organizátoři si vyhrazují právo nemít na Nábl",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2192128&x=2000&y=2000",
-   "native_id": "#textdet5701|2026-10-25",
+   "native_id": "#textdet5581|2026-10-25",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -23,13 +23,13 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "nablesi:d31321a75a6c"
+   "id": "nablesi:3f3f3af6591d"
   },
   {
    "title": "Nábleší 2026",
    "start": "2026-11-29T09:00:00+01:00",
    "source": "nablesi",
-   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=11&rok=2026#textdet2841",
+   "url": "https://www.hkinfo.cz/cs/kalendar-akci.html?mesic=11&rok=2026#textdet2881",
    "end": "2026-11-29T12:00:00+01:00",
    "all_day": false,
    "place": null,
@@ -39,7 +39,7 @@
    "native_category": "Trhy a jarmarky",
    "description": "Otevřený bleší trh v centru Hradce Králové. Nábleší je volný bleší trh v centru Hradce otevřený všem bez předchozí rezervace či poplatků za místo. Dones věci z druhé ruky nebo vlastnorůčo vyrobené, rozbal si deku či stoličku a prodávej, seznamuj se a nasávej nedělní pohodu do obou nosních dírek. Všechny půdní poklady připlouvají po Labi vždy poslední neděli v měsíci od 9 do 12 hodin na náplavce pod Pražským mostem. Přines-prodej-potkej se-měj radost s náma. Organizátoři si vyhrazují právo nemít ",
    "image": "https://www.hkregion.cz/galerie/obrazky/imager.php?img=2192130&x=2000&y=2000",
-   "native_id": "#textdet2841|2026-11-29",
+   "native_id": "#textdet2881|2026-11-29",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -47,7 +47,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "nablesi:904061fa52c2"
+   "id": "nablesi:9568749ded2a"
   }
  ]
 }

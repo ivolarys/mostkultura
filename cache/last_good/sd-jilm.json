@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-01T05:07:45+00:00",
+ "fetched_at": "2026-10-02T05:07:24+00:00",
  "events": [
-  {
-   "title": "Vojta Nedvěd",
-   "start": "2026-10-01T19:00:00+02:00",
-   "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/koncert/vojta-nedved-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "SD Jilm",
-   "category": "koncert",
-   "native_category": "Koncert",
-   "description": "Vojta Nedvěd přináší svůj nezaměnitelný „nedvědovský“ repertoár do Jilemnice a jen potvrzuje, že současný folk nepatří zdaleka jen k táborákům. 1. října se odehraje jedinečný koncert, kde Vojta Nedvěd představí svou tvorbu, a to nejen z posledního alba Maluju na nebe. Koncert vkusně doplní nezapomenutelnými písněmi svého otce Františka Nedvěda, strýce Honzy Nedvěda a jejich kamaráda Wabiho Daňka.",
-   "image": "https://www.sdjilm.cz/storage/app/uploads/public/698/eef/ffc/thumb_821_250_250_0_0_auto.webp",
-   "native_id": "324|2026-10-01T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "sd-jilm:22938fb29550"
-  },
   {
    "title": "Kurz taneční a společenské výchovy 2026",
    "start": "2026-10-02T20:00:00+02:00",
