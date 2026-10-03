@@ -104,6 +104,13 @@
   "q": "Biograf Na Špici, Hořice, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
  },
+ "bukovina - u hriste za bytovkou, pecka|pecka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Bukovina - u hřiště za bytovkou, Pecka, Česko",
+  "ts": "2026-10-03T05:09:54+00:00"
+ },
  "cafe epo1, trutnov|trutnov": {
   "lat": 50.57752,
   "lon": 15.9582609,
@@ -649,6 +656,13 @@
   "precision": "venue",
   "q": "Trutnov), Trutnov, Česko",
   "ts": "2026-09-30T05:19:47+00:00"
+ },
+ "kulturni dum strelnice, vancurova 378, vrchlabi|vrchlabi": {
+  "lat": 50.6309963,
+  "lon": 15.6106488,
+  "precision": "venue",
+  "q": "Vančurova 378, Vrchlabí, Česko",
+  "ts": "2026-10-03T05:09:54+00:00"
  },
  "kulturni dum strelnice, vancurova 378|vrchlabi": {
   "lat": 50.6309963,

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-02T05:07:32+00:00",
+ "fetched_at": "2026-10-03T05:06:36+00:00",
  "events": [
-  {
-   "title": "NeseHraní + Duo K2",
-   "start": "2026-10-02T20:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/nesehrani-duok2",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Folk, country a pohodový večer.",
-   "image": "https://www.kulturaturnov.cz/data/photogallery-shows/img_0734_thumb_43469.JPG",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/nesehrani-duok2|2026-10-02T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:7ab173f7d7f3"
-  },
   {
    "title": "Bratři Orffové",
    "start": "2026-10-03T20:00:00+02:00",

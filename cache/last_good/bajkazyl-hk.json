@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-02T05:10:14+00:00",
+ "fetched_at": "2026-10-03T05:09:18+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1368,6 +1368,30 @@
    "lon": null,
    "geo": null,
    "id": "bajkazyl-hk:7880bc99c3f9"
+  },
+  {
+   "title": "Schůzka Cyklokomunity HNK",
+   "start": "2026-10-06T19:00:00+02:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/schuzka-cyklokomunity-hnk-20261006-1700",
+   "end": "2026-10-06T21:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "https://hradecnakole.cz Nenechme se zmást neaktuálními stránkami. Hradecká cyklokomunita žije offline!",
+   "image": "https://i.ibb.co/xdSggVj/260402-hnk.jpg",
+   "native_id": "6kqj2cpockpjcb9ncgq6ab9kc4p3cb9p6kq6cb9ochh3cd1hc8o3eeb46c@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:cedfac44fb47"
   },
   {
    "title": "Festival RecyUpcy",

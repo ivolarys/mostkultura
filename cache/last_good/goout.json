@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-02T05:10:18+00:00",
+ "fetched_at": "2026-10-03T05:09:21+00:00",
  "events": [
   {
    "title": "Bez řečí: Monika Absolonová & Ondřej Hájek",
@@ -72,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "goout:5a11a563ea47"
+  },
+  {
+   "title": "Úvěr",
+   "start": "2027-01-22T19:00:00+01:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/uver/szpghny/",
+   "end": "2027-01-22T23:59:59+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Jaroměř",
+   "venue": "Městské kulturní středisko Jaroměř",
+   "category": null,
+   "native_category": "play, play",
+   "description": "**Komedie o tom, že o peníze se dá žádat mnoha způsoby.**\n\nŘeditel banky Gregorio má skvělý život, lukrativní místo a krásnou ženu. A právě ve chvíli, kdy se cítí možná až příliš pevně v sedle, objeví se nesolventní žadatel o úvěr Antonio. Gregorio mu žádost o úvěr razantně zamítne. Antonio je ale neodbytný a vyhrožuje mu, že když nedostane úvěr, svede mu ženu. Má totiž obrovské svůdcovské schopnosti a nikdy mu žádná neodolala. Gregorio mu úvěr nedá, ale raději zavolá své manželce, aby si dala n",
+   "image": null,
+   "native_id": "schedule:9582665",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:e50ffcf8fb06"
   },
   {
    "title": "Lucie Bílá – Recitál",
