@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-03T05:09:18+00:00",
+ "fetched_at": "2026-10-04T05:16:18+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1333,7 +1333,7 @@
    "venue": "Bajkazyl Hradec Králové",
    "category": null,
    "native_category": null,
-   "description": "Předmětná beseda nabídne veřejnosti v neformální atmosféře vzácné setkání s opomíjeným tématem potřeby a vlastnictví automobilu ve městě. FB: https://facebook.com/events/s/beseda-jak-se-zije-v-hradci-be/1076529605097192/",
+   "description": "Předmětná beseda nabídne veřejnosti v neformální atmosféře vzácné setkání s opomíjeným tématem potřeby a vlastnictví automobilu ve městě. https://witter.cz/@BajkazylHK/117304116973095686 FB: https://facebook.com/events/s/beseda-jak-se-zije-v-hradci-be/1076529605097192/",
    "image": "https://i.ibb.co/dXHst78/BA260918.png",
    "native_id": "60s3acb26ti68b9jc4oj4b9k6tgjcb9p6hgj2bb1c8qjgchm6kqj2dpkco@google.com",
    "ongoing": false,
@@ -1344,6 +1344,30 @@
    "lon": null,
    "geo": null,
    "id": "bajkazyl-hk:05e4080258d6"
+  },
+  {
+   "title": "Stammtisch/Fosílie",
+   "start": "2026-10-01T18:00:00+02:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/stammtisch-fosilie-20261001-1600",
+   "end": "2026-10-01T21:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Více fotek zde: https://drive.google.com/drive/folders/13LtzQoi76xr5_RlAcDq5QdR6dwogrUiS",
+   "image": "https://i.ibb.co/8nrhHg3T/20261001-123535-1.jpg",
+   "native_id": "cgp3id1jc8pjab9mcli32b9kc4s34bb16sp30b9icdijicr365hm4p9nc4@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:efc41174ec55"
   },
   {
    "title": "Dreimal Punk Rock aus Leipzig - THE SLEAZIES + BAMBI SHOOTS BACK + KOPROLITH",
