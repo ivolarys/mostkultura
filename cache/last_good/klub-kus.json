@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-03T05:06:36+00:00",
+ "fetched_at": "2026-10-05T05:07:14+00:00",
  "events": [
-  {
-   "title": "Bratři Orffové",
-   "start": "2026-10-03T20:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/bratri-orffove",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Oceňovaná česká alternativní kapela, která dlouhodobě oslovuje nové generace posluchačů, v Turnově.",
-   "image": "https://www.kulturaturnov.cz/data/photogallery/bratri_orffove_2024_2_thumb_37679.jpg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/bratri-orffove|2026-10-03T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:45f3c799d15a"
-  },
   {
    "title": "Lukáš Houdek: Jsem jinej",
    "start": "2026-10-08T18:00:00+02:00",
