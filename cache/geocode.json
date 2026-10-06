@@ -335,6 +335,13 @@
   "q": "Galerie moderního umění v Hradci Králové, Hradec Králové, Česko",
   "ts": "2026-09-24T13:57:33+00:00"
  },
+ "hala zs komenskeho|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Hala ZŠ Komenského, Trutnov, Česko",
+  "ts": "2026-10-06T05:19:19+00:00"
+ },
  "hala zs rudolfa frimla, trutnov|trutnov": {
   "lat": null,
   "lon": null,
@@ -481,6 +488,13 @@
   "precision": "venue",
   "q": "Mikulášská 209, Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "kavarna saky paky|nova paka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kavárna Saky Paky, Nová Paka, Česko",
+  "ts": "2026-10-06T05:19:19+00:00"
  },
  "kavarna uffo a hradecek|trutnov": {
   "lat": null,
