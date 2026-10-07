@@ -1,4 +1,53 @@
 {
- "fetched_at": "2026-10-05T05:08:52+00:00",
- "events": []
+ "fetched_at": "2026-10-07T05:08:57+00:00",
+ "events": [
+  {
+   "title": "Výstava výtvarné skupiny G21: Podhorské rozjímání",
+   "start": "2026-11-06T00:00:00+01:00",
+   "source": "klaster-hostinne",
+   "url": "https://www.klasterhostinne.cz/aktuality-muzeum/vystava-vytvarne-skupiny-g21-podhorske-rozjimani",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Muzeum",
+   "description": "Zveme na vernisáž společné putovní výstavy G21 PODHORSKÉ ROZJÍMÁNÍ, která se uskuteční v pátek 6. listopadu 2026 od 17:00 v klášteře....",
+   "image": "https://www.klasterhostinne.cz/media/photos/articlem/item/images-604/vystava-vytvarne-skupiny-g21-podhorske-rozjimani-t2.jpg",
+   "native_id": "https://www.klasterhostinne.cz/aktuality-muzeum/vystava-vytvarne-skupiny-g21-podhorske-rozjimani",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klaster-hostinne:7f8f2a79db6b"
+  },
+  {
+   "title": "Beseda: Krkonošské boudy",
+   "start": "2026-10-15T00:00:00+02:00",
+   "source": "klaster-hostinne",
+   "url": "https://www.klasterhostinne.cz/aktuality-knihovna/beseda-krkonosske-boudy",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Knihovna",
+   "description": "Ve čtvrtek 15. října zveme na besedu Krkonošské boudy . Přednášet bude Martin Bartoš - pedagog, amatérský historik a v...",
+   "image": "https://www.klasterhostinne.cz/media/photos/articlek/item/images-603/beseda-krkonosske-boudy-t2.jpg",
+   "native_id": "https://www.klasterhostinne.cz/aktuality-knihovna/beseda-krkonosske-boudy",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klaster-hostinne:faa761f738c1"
+  }
+ ]
 }
