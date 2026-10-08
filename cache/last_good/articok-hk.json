@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-10-07T05:09:02+00:00",
+ "fetched_at": "2026-10-08T05:10:19+00:00",
  "events": [
+  {
+   "title": "Pohádka Příběh o lásce od 16 hod",
+   "start": "2026-10-11T00:00:00+02:00",
+   "source": "articok-hk",
+   "url": "https://www.articok.cz/pohadka-pribeh-o-lasce-11-10-od-16-hod/",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Galerie Artičok",
+   "category": null,
+   "native_category": null,
+   "description": "Co všechno byste udělali, abyste získali opravdovou lásku ? V této dobrodružné loutkové pohádce se vydá jeden princ právě takovou lásku hledat a potká princeznu hezkou jako obrázek. Získat ji ale nebude jen tak, protože v cestě mu stojí zlý rytíř i drak. Ale jak už to tak bývá, ne všechno je takové, jaké se na první pohled zdá. Děti se v tomto příběhu naučí, že dobré skutky se v dobrém vrátí a pomoci se člověku často dostane tam, kde by ji nejméně čekal. Originální autorskou pohádku s písničkami",
+   "image": "https://www.articok.cz/wp-content/uploads/2026/10/O-lasce-web.jpg",
+   "native_id": "10471|2026-10-11T00:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "articok-hk:783df690a721"
+  },
   {
    "title": "Svatomartinská slavnost s muzikou",
    "start": "2026-11-13T16:00:00+01:00",

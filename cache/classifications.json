@@ -15,6 +15,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-29T06:42:46+00:00"
  },
+ "articok-hk:783df690a721": {
+  "category": "deti",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-10-08T05:11:37+00:00"
+ },
  "bajkazyl-hk:05e4080258d6": {
   "category": "prednaska",
   "confidence": 0.95,
@@ -1287,6 +1295,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-22T12:18:04+00:00"
  },
+ "hradec-vyber:0e3b093105c8": {
+  "category": "deti",
+  "confidence": 0.92,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-10-08T05:11:37+00:00"
+ },
  "hradec-vyber:0e96f3a794a8": {
   "category": "divadlo",
   "confidence": 0.99,
@@ -2167,6 +2183,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-21T11:16:16+00:00"
  },
+ "hradec-vyber:8c104d7eb09f": {
+  "category": "slavnost",
+  "confidence": 0.87,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-10-08T05:11:37+00:00"
+ },
  "hradec-vyber:8e00a430bfeb": {
   "category": "vystava",
   "confidence": 0.9,
@@ -2190,6 +2214,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-10-02T05:10:47+00:00"
+ },
+ "hradec-vyber:913b7604055e": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-10-08T05:11:37+00:00"
  },
  "hradec-vyber:919a5e45160d": {
   "category": "koncert",
@@ -2615,6 +2647,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-24T05:11:55+00:00"
  },
+ "hradec-vyber:d40ad2d30750": {
+  "category": "jine",
+  "confidence": 0.87,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-10-08T05:11:37+00:00"
+ },
  "hradec-vyber:d4a41be70a49": {
   "category": "prednaska",
   "confidence": 0.95,
@@ -2782,6 +2822,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-09-12T18:14:17+00:00"
+ },
+ "hradec-vyber:f667a3267c32": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-10-08T05:11:37+00:00"
  },
  "hradec-vyber:f8a1e7268965": {
   "category": "slavnost",
@@ -3783,6 +3831,14 @@
   "place": "Pecka",
   "ts": "2026-09-29T06:42:46+00:00"
  },
+ "pecka:2b7bda39968b": {
+  "category": "sport",
+  "confidence": 0.79,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Pecka",
+  "ts": "2026-10-08T05:11:37+00:00"
+ },
  "pecka:2cf1e46fa192": {
   "category": "jine",
   "confidence": 0.8,
@@ -3903,6 +3959,14 @@
   "place": "Trutnov",
   "ts": "2026-09-16T21:28:29+00:00"
  },
+ "trutnov:01f7f601c2ed": {
+  "category": "vystava",
+  "confidence": 0.66,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-10-08T05:11:37+00:00"
+ },
  "trutnov:0b0d34cc4cae": {
   "category": "koncert",
   "confidence": 0.99,
@@ -3934,6 +3998,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-11T18:58:32+00:00"
+ },
+ "trutnov:1b8d14936893": {
+  "category": "slavnost",
+  "confidence": 0.82,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-10-08T05:11:37+00:00"
  },
  "trutnov:2a965c98f49e": {
   "category": "vystava",

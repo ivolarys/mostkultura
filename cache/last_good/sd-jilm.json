@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-07T05:07:09+00:00",
+ "fetched_at": "2026-10-08T05:08:29+00:00",
  "events": [
   {
    "title": "Kyanotypie kreativní workshop",
@@ -854,7 +854,7 @@
    "category": "deti",
    "native_category": "Dětský pořad",
    "description": "Divadelní adaptace známé bajky Rudyarda Kiplinga.",
-   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6aa/116/656/thumb_1672_250_250_0_0_auto.webp",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6ac/5f5/0c3/thumb_1801_250_250_0_0_auto.webp",
    "native_id": "637|2027-01-17T15:00:00+01:00",
    "ongoing": false,
    "sources": [],
@@ -1010,10 +1010,34 @@
    "id": "sd-jilm:f2331cbf3627"
   },
   {
+   "title": "O chytrém Honzovi",
+   "start": "2027-03-06T15:00:00+01:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/detsky-porad/o-chytrem-honzovi-2026",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": "deti",
+   "native_category": "Dětský pořad",
+   "description": "Pohádkový příběh s humorem, nadsázkou a lehkou ironií si pohrává s tradičními motivy a ukazuje je z úplně nového pohledu. Představení je doplněno o autorské písničky a nabízí živou hereckou atmosféru, zábavu i překvapení pro celou rodinu.",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6ac/5f4/4e0/thumb_1799_250_250_0_0_auto.webp",
+   "native_id": "692|2027-03-06T15:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:b9936a96e801"
+  },
+  {
    "title": "Monkey Bussines",
    "start": "2027-03-13T19:00:00+01:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/koncert/monkey-bussines-2027",
+   "url": "https://www.sdjilm.cz/index.php/sd-jilm/koncert/monkey-bussines-2027",
    "end": null,
    "all_day": false,
    "place": null,

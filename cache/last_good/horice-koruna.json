@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-07T05:08:46+00:00",
+ "fetched_at": "2026-10-08T05:10:05+00:00",
  "events": [
-  {
-   "title": "Rudy Linka",
-   "start": "2026-10-07T19:00:00+02:00",
-   "source": "horice-koruna",
-   "url": "https://www.dum-kultury-koruna.cz/rudy-linka",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům kultury Koruna",
-   "category": null,
-   "native_category": null,
-   "description": "DK Koruna 7.10.2026 v 19.00 h. vstupenky v pokladně DK Koruna nebo na goout.net za 350,- Kč vstupenky na goout.net : https://goout.net/cs/listky/rudy-linka-trio/rdxmb/?_gl=1*dbvpx6*_up*MQ..*_gs*MQ..*_ga*NTU2MTE3ODI4LjE3ODUxMzQ2MTc.*_ga_1NH4XYLBBD*czE3ODUxMzQ2MTYkbzEkZzEkdDE3ODUxMzQ2MTYkajYwJGwwJGgw&gclid=Cj0KCQjw4JbTBhCoARIsALWUaBvEIYCyErq9OMzgAxoTL2GjRath_YOIWl4V8rd_ll0PP5-nS2IyV8IaApLmEALw_wcB Rudy ...",
-   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01062/posters/Rudy-Linka.jpg",
-   "native_id": "https://www.dum-kultury-koruna.cz/rudy-linka",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "horice-koruna:e90ca3137fca"
-  },
   {
    "title": "Václav Koubek",
    "start": "2026-10-14T19:00:00+02:00",

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-07T05:09:53+00:00",
+ "fetched_at": "2026-10-08T05:11:13+00:00",
  "events": [
-  {
-   "title": "Jazz Goes to Town – Olie Brice Quartet + In Cahoots feat. Ingrid Laubrock",
-   "start": "2026-10-07T19:00:00+02:00",
-   "source": "divadlo-drak",
-   "url": "https://draktheatre.cz/repertoar/jazz-goes-to-town-olie-brice-quartet-in-cahoots-feat-ingrid-laubrock/",
-   "end": null,
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Divadlo DRAK – Studio",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "",
-   "image": "https://draktheatre.cz/wp-content/uploads/2026/08/JGTT_Black_White-320x320.jpg",
-   "native_id": "https://draktheatre.cz/repertoar/jazz-goes-to-town-olie-brice-quartet-in-cahoots-feat-ingrid-laubrock/|2026-10-07T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "divadlo-drak:c7965f5ebe6f"
-  },
   {
    "title": "Jazz Goes to Town – Max Johnson Trio + Jeppe Zeeberg and the Absolute Pinnacle of Human Achievement",
    "start": "2026-10-08T19:00:00+02:00",
