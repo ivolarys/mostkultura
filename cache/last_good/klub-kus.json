@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-08T05:08:36+00:00",
+ "fetched_at": "2026-10-09T11:32:55+00:00",
  "events": [
-  {
-   "title": "Lukáš Houdek: Jsem jinej",
-   "start": "2026-10-08T18:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/lukas-houdek",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Diskuse s novinářem, dokumentaristou, fotografem a také aktivistou Lukášem Houdkem.",
-   "image": "https://www.kulturaturnov.cz/data/photogallery/0k4a5759_web_thumb_43436.jpg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/lukas-houdek|2026-10-08T18:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:56f243c73b43"
-  },
   {
    "title": "Lédl Jazz Q",
    "start": "2026-10-09T20:00:00+02:00",

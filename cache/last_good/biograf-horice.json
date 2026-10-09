@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-08T05:08:33+00:00",
+ "fetched_at": "2026-10-09T11:32:51+00:00",
  "events": [
-  {
-   "title": "Šipkaři",
-   "start": "2026-10-08T19:00:00+02:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-841598",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Šipkaři kombinují černý humor, akci a kriminální zápletku s pořádnou dávkou absurdity. Jejich svět je plný postav, které mají vlastní plány, něco skrývají a jsou přesvědčené, že právě ony mají všechno pod kontrolou. Hlavní hrdina Pepé (Tomáš Maštalír) věří, že tentokrát to konečně vyjde. Stačí udělat několik správných rozhodnutí, najít ty správné lidi, nepanikařit a hlavně nic nepokazit. Jenže jeho život nikdy úplně podle plánu nešel. Když se po roce znovu setká s Milánkem (Jakub Štáfek), rozběh",
-   "image": "https://storage.cinemaware.eu/katalogy/images/1/8/18b5993e-bf17-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5587390",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:a5825e0b2750"
-  },
   {
    "title": "Milovník, ne bojovník",
    "start": "2026-10-09T19:00:00+02:00",
