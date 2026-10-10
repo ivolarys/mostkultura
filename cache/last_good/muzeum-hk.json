@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-09T11:33:46+00:00",
+ "fetched_at": "2026-10-10T10:51:31+00:00",
  "events": [
   {
    "title": "Ať žije řemeslo!",
@@ -504,6 +504,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:504db50882d2"
+  },
+  {
+   "title": "Restaurátorská poradna pro veřejnost",
+   "start": "2026-11-05T12:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1710/-/restauratorska-poradna-pro-verejnost.html",
+   "end": "2026-11-05T17:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Hlavní odborné pracoviště Gayerova kasárna",
+   "category": null,
+   "native_category": null,
+   "description": "Pravidelná restaurátorská poradna pro veřejnost je určená všem, kteří doma opatrují starožitnosti, rodinné památky či předměty s osobitým příběhem a citovou hodnotou. Restaurátorská poradna nabízí poradenství našich konzervátorů-restaurátorů, kteří posoudí stav předmětu. Dozvíte se, jak o své poklady správně pečovat, jak zamezit jejich dalšímu poškození. Předměty, lze přinést přímo s sebou a v případě, že jsou větších rozměrů či vyšší váhy, postačí pro konzultaci alespoň jejich detailní fotograf",
+   "image": null,
+   "native_id": "1710",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:d2df16bee9d3"
   }
  ]
 }

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-09T11:32:55+00:00",
+ "fetched_at": "2026-10-10T10:50:30+00:00",
  "events": [
-  {
-   "title": "Lédl Jazz Q",
-   "start": "2026-10-09T20:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/ledl-jazz",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Turnovská jazzová stálice zahraje autorské skladby i známé jazzové standardy.",
-   "image": "https://www.kulturaturnov.cz/data/photogallery-shows/20230922_194448_1web_thumb_18088.jpg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/ledl-jazz|2026-10-09T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:be8e34be5798"
-  },
   {
    "title": "Albert Frost",
    "start": "2026-10-15T20:00:00+02:00",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-09T11:33:21+00:00",
+ "fetched_at": "2026-10-10T10:50:59+00:00",
  "events": [
   {
    "title": "Workshop figurální kresby",
@@ -384,6 +384,30 @@
    "lon": null,
    "geo": null,
    "id": "galerie-hk:7122f4b4497c"
+  },
+  {
+   "title": "Vernisáž výstavy: Černá díra ve výtvarném umění",
+   "start": "2026-11-26T18:00:00+01:00",
+   "source": "galerie-hk",
+   "url": "https://www.galeriehk.cz/vystavy/cerna-dira-ve-vytvarnem-umeni/",
+   "end": "2026-11-26T21:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Galerie moderního umění v Hradci Králové",
+   "category": null,
+   "native_category": "Jiné",
+   "description": "Hlavní výstava podzimní sezóny v GMU Černá díra ve výtvarném umění představí díla, která se věnují tomuto širokému spektru „nezobrazitelných“ děr. Vedle malířských, sochařských, konceptuálních a audiovizuálních prací zahrne i ilustrace z odborných knih, popularizačních magazínů a sci-fi literatury.",
+   "image": null,
+   "native_id": "https://www.galeriehk.cz/vystavy/cerna-dira-ve-vytvarnem-umeni/|2026-11-26|18:00:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "galerie-hk:725c92a6ee65"
   },
   {
    "title": "Co je doma, to se počítá",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-09T11:33:01+00:00",
+ "fetched_at": "2026-10-10T10:50:39+00:00",
  "events": [
   {
    "title": "Uspávání broučků",
@@ -216,6 +216,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:2b7bda39968b"
+  },
+  {
+   "title": "DEN PRO DĚTSKOU KNIHU",
+   "start": "2026-11-27T14:00:00+01:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/den-pro-detskou-knihu-1535_912cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Knihovna Kryštofa Haranta",
+   "category": null,
+   "native_category": null,
+   "description": "Hádanky a soutěže pro děti prvního stupně ZŠ. Vánoční výtvarná dílna. Prodej nových dětských knih s vánoční tematikou (Naše knihkupectví) - probíhá v knihovně od pondělí 23. 11. do pátku 27. 11. 2026.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5402&width=300",
+   "native_id": "event-1535",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:2107f31eb4ed"
   },
   {
    "title": "Rozsvícení vánočního stromku",

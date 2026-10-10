@@ -685,6 +685,13 @@
   "q": "nám. Míru, Vrchlabí, Česko",
   "ts": "2026-09-26T05:06:53+00:00"
  },
+ "krkonosska 6, vrchlabi|vrchlabi": {
+  "lat": 50.628376,
+  "lon": 15.6092686,
+  "precision": "venue",
+  "q": "Krkonošská 6, Vrchlabí, Česko",
+  "ts": "2026-10-10T10:52:24+00:00"
+ },
  "kryty bazen v trutnove ( na lukach 432, trutnov)|trutnov": {
   "lat": 50.5650371,
   "lon": 15.9169614,
@@ -950,6 +957,13 @@
   "precision": "none",
   "q": "Pivovar Nová Paka a.s., Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "rajska zahrada – hrbitovni sad|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Rajská zahrada – hřbitovní sad, Vrchlabí, Česko",
+  "ts": "2026-10-10T10:52:24+00:00"
  },
  "refektar klastera (severni vchod)|horice": {
   "lat": null,

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-09T11:32:43+00:00",
+ "fetched_at": "2026-10-10T10:50:19+00:00",
  "events": [
-  {
-   "title": "Radek Jaroš - horolezec",
-   "start": "2026-10-09T19:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=radek-jaros---horolezec",
-   "end": "2026-10-09T21:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "KINO60 Nová Paka",
-   "category": null,
-   "native_category": "prednaska",
-   "description": "Český profesionální himalájský horolezec Radek Jaroš, specialista na expedice v malém počtu členů, který výstupy absolvuje výhradně bez použití kyslíkového přístroje a pomoci výškových nosičů. V roce 2014 Radek úspěšně vystoupil na poslední, čtrnáctou osmitisícovku – K2 a zapsal se do síně slávy světového horolezectví. Stal se prvním Čechem a teprve 15. člověkem na světě, který tímto způsobem získal Korunu Himálaje. Jeho další naplněnou výzvou se stala Koruna světa, zdolání nejvyšších",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/radek-jaros---horolezec.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=radek-jaros---horolezec",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:811e34353fed"
-  },
   {
    "title": "KONCERT PODKRKONOŠSKÉ DECHOVKY",
    "start": "2026-10-10T16:00:00+02:00",
@@ -216,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:01b19bc13cac"
+  },
+  {
+   "title": "SHREK",
+   "start": "2026-10-22T17:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=shrek",
+   "end": "2026-10-22T18:30:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Nová Paka",
+   "category": null,
+   "native_category": "film",
+   "description": "Zlobr Shrek žije sice sám, ale zato šťastně ve svém domku v bažině. Pak ho ale vyruší nejen upovídaný osel, ale i zástupy pohádkových bytostí, které do bažiny vyhostil Lord Farquaad. Výměnou za navrácení klidu slíbí Shrek Farquaadovi, že místo něj zachrání ze spárů draka krásnou princeznu Fionu. Vše se ale nakonec zvrtne, zamotá a příběh skončí docela jinak. Přijďte si užít kultovní klasiku na velkém plátně.",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/shrek.jpg",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=shrek",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:e1c698003262"
   }
  ]
 }
