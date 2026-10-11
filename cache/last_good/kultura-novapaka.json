@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-10T10:50:19+00:00",
+ "fetched_at": "2026-10-11T11:03:08+00:00",
  "events": [
-  {
-   "title": "KONCERT PODKRKONOŠSKÉ DECHOVKY",
-   "start": "2026-10-10T16:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=koncert-podkrkonosske-dechovky6",
-   "end": "2026-10-10T17:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Hotel Centrál",
-   "category": null,
-   "native_category": "koncert",
-   "description": "Srdečně Vás zveme na podzimní koncert Podkrkonošské dechovky. Můžete se těšit na své známé a oblíbené písničky, které Vám zazpívají Jana Kopecká, Vladimíra Rolfová a Stanislav Švanda. To vše za doprovodu dechové hudby pod svižnou taktovkou uměleckého vedoucího Petra Kvíčaly.",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/koncert-podkrkonosske-dechovky6.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=koncert-podkrkonosske-dechovky6",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:03e8150c0176"
-  },
   {
    "title": "GUBERNÁTOR – Bažantova loutkářská družina Poniklá",
    "start": "2026-10-14T18:00:00+02:00",
@@ -216,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:e1c698003262"
+  },
+  {
+   "title": "LÉTO S EVŽENEM",
+   "start": "2026-10-23T17:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=leto-s-evzenem",
+   "end": "2026-10-23T18:30:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Nová Paka",
+   "category": null,
+   "native_category": "film",
+   "description": "Tatínkové se rozhodnou zachránit pro děti letní tábor, děti se rozhodnou zachránit hrad – navzdory svéráznému kastelánovi, který je nejšťastnější, když žádní turisté na prohlídku hradu nepřijdou. Komedie, na kterou se mohou s chutí podívat rodiče společně s dětmi.",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/leto-s-evzenem.png",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=leto-s-evzenem",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:0756bb1c3cbe"
   }
  ]
 }

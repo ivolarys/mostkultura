@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-10T10:51:33+00:00",
+ "fetched_at": "2026-10-11T11:04:22+00:00",
  "events": [
-  {
-   "title": "A pak usnu a vstanu",
-   "start": "2026-10-10T19:00:00+02:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/a-pak-usnu-a-vstanu?t=42",
-   "end": "2026-10-10T20:55:00+02:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "A pak usnu a vstanu Hlavní scéna · Khek, Smrčková, Marešová Khek, Smrčková, Marešová · režie Pavel Khek Hlavní scéna Hudební",
-   "image": "https://www.klicperovodivadlo.cz/media/137/gallery/a-pak-usnu-a-vstanu-fotografie-01-20237",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/a-pak-usnu-a-vstanu?t=42|2026-10-10T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:b71590d04679"
-  },
   {
    "title": "Cyrano",
    "start": "2026-10-12T19:00:00+02:00",
