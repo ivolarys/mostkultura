@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-11T11:04:38+00:00",
+ "fetched_at": "2026-10-12T12:28:24+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1488,6 +1488,54 @@
    "lon": null,
    "geo": null,
    "id": "bajkazyl-hk:ce1bce3187d6"
+  },
+  {
+   "title": "Critilal Mass HK",
+   "start": "2026-11-12T18:00:00+01:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/critilal-mass-hk-20261112-1700",
+   "end": "2026-11-12T19:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "[Decentralizované Eventy - Critical Mass HK](https://devent.cz/event/critical-mass-hk-6)",
+   "image": "https://i.ibb.co/gMJnG1gZ/cm-HK.jpg",
+   "native_id": "0pd9dpldj1lt4vdg4f8pv3e6i5@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:82bc5327bc5d"
+  },
+  {
+   "title": "Critilal Mass HK",
+   "start": "2026-12-10T18:00:00+01:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/critilal-mass-hk-20261210-1700",
+   "end": "2026-12-10T19:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Sejdeme se v 17 h na Velkém náměstí před prostorem 𝒽𝓇𝒶𝓃𝓎, kde celou akci uvedeme, povíme si základní pravidla společné jízdy a seznámíme se s trasou... [Decentralizované Eventy - Critical Mass HK](https://devent.cz/event/critical-mass-hk-6)",
+   "image": "https://i.ibb.co/gMJnG1gZ/cm-HK.jpg",
+   "native_id": "0pd9dpldj1lt4vdg4f8pv3e6i5_R20261210T160000@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:3a3fef6bcd2a"
   }
  ]
 }

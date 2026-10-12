@@ -4,7 +4,7 @@
   "lon": null,
   "precision": "none",
   "q": "AC klub, Hradec Králové, Česko",
-  "ts": "2026-09-12T10:40:45+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "adalbertinum, hradec kralove|hradec kralove": {
   "lat": 50.2109175,
@@ -221,7 +221,7 @@
   "lon": null,
   "precision": "none",
   "q": "Domov sv. Josefa, Žireč, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "dopravni hriste|dvur kralove nad labem": {
   "lat": 50.4398285,
@@ -242,7 +242,7 @@
   "lon": null,
   "precision": "none",
   "q": "Dům kultury Koruna, Hořice, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "dum pod jasanem, voletiny 22|trutnov": {
   "lat": null,
@@ -312,7 +312,7 @@
   "lon": null,
   "precision": "none",
   "q": "Galerie Artičok, Hradec Králové, Česko",
-  "ts": "2026-09-12T10:40:45+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "galerie articok|hradec kralove": {
   "lat": null,
@@ -333,7 +333,7 @@
   "lon": null,
   "precision": "none",
   "q": "Galerie města Trutnova, Trutnov, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "galerie moderniho umeni v hradci kralove, hradec kralove|hradec kralove": {
   "lat": null,
@@ -403,7 +403,7 @@
   "lon": null,
   "precision": "none",
   "q": "Hlavní sál Bělohradské sýpky, Lázně Bělohrad, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "hospital kuks|kuks": {
   "lat": 50.3977711,
@@ -459,21 +459,21 @@
   "lon": null,
   "precision": "none",
   "q": "Hudební divadlo Karlín, Nová Paka, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "hudebni klub top ten rock|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Hudební klub Top Ten Rock, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "hvezdarna a planetarium v hradci kralove, hradec kralove|hradec kralove": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Hvězdárna a planetárium v Hradci Králové, Hradec Králové, Česko",
-  "ts": "2026-09-12T10:40:45+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "ic novopacko, klenotnice drahych kamenu|nova paka": {
   "lat": null,
@@ -487,7 +487,7 @@
   "lon": null,
   "precision": "none",
   "q": "Kavárna Bělohradské sýpky, Lázně Bělohrad, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "kavarna klubicko|dvur kralove nad labem": {
   "lat": null,
@@ -746,7 +746,7 @@
   "lon": null,
   "precision": "none",
   "q": "Mateřská škola Pecka, Pecka, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "mc zirafa|dvur kralove nad labem": {
   "lat": null,
@@ -760,14 +760,14 @@
   "lon": null,
   "precision": "none",
   "q": "Městská knihovna Nová Paka, Nová Paka, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "mestska knihovna trutnov - pobocka hsm|trutnov": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Městská knihovna Trutnov - pobočka HSM, Trutnov, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "mestska knihovna trutnov|trutnov": {
   "lat": 50.5607197,
@@ -816,14 +816,14 @@
   "lon": null,
   "precision": "none",
   "q": "MKS Lázně Bělohrad, Lázně Bělohrad, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "muzeum podkrkonosi v trutnove|trutnov": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Muzeum Podkrkonoší v Trutnově, Trutnov, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "muzeum vychodnich cech - budova archa, hradec kralove|hradec kralove": {
   "lat": 50.2124534,
@@ -879,14 +879,14 @@
   "lon": null,
   "precision": "none",
   "q": "Náměstí TGM, Vrchlabí, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "naplavka kulturni klub|hradec kralove": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Náplavka kulturní klub, Hradec Králové, Česko",
-  "ts": "2026-09-12T10:20:25+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "naplavka labe, hradec kralove|hradec kralove": {
   "lat": 50.2097411,
@@ -956,7 +956,7 @@
   "lon": null,
   "precision": "none",
   "q": "Petrof Gallery, Hradec Králové, Česko",
-  "ts": "2026-09-12T10:40:45+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "pivovar nova paka a.s.|nova paka": {
   "lat": null,
@@ -1000,6 +1000,13 @@
   "q": "nám. Míru 210, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "regionalni turisticke informacni centrum krkonose, nam. miru 210|vrchlabi": {
+  "lat": 50.6294327,
+  "lon": 15.6086194,
+  "precision": "venue",
+  "q": "nám. Míru 210, Vrchlabí, Česko",
+  "ts": "2026-10-12T12:29:11+00:00"
+ },
  "restaurace novopacke sklepy - puda|nova paka": {
   "lat": null,
   "lon": null,
@@ -1040,7 +1047,7 @@
   "lon": null,
   "precision": "none",
   "q": "hasičské zbrojnice v Pecce, Pecka, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "sal soni cervene, filharmonie hradec kralove|hradec kralove": {
   "lat": 50.2138168,
@@ -1062,6 +1069,13 @@
   "precision": "none",
   "q": "ShanTea – čajovna a kavárna Zámecká 1456, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "shantea – cajovna a kavarna|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "ShanTea – čajovna a kavárna, Vrchlabí, Česko",
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "sloupovy sal klastera|nova paka": {
   "lat": null,
@@ -1201,7 +1215,7 @@
   "lon": null,
   "precision": "none",
   "q": "Tábor Jana Ámose Komenského, Běleč nad Orlicí, Hradec Králové, Česko",
-  "ts": "2026-09-12T11:31:40+00:00"
+  "ts": "2026-10-12T12:29:11+00:00"
  },
  "terapeuticka zahrada, ul. chelcickeho, vrchlabi|vrchlabi": {
   "lat": 50.619854,
