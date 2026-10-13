@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-12T12:27:06+00:00",
+ "fetched_at": "2026-10-13T12:09:28+00:00",
  "events": [
   {
    "title": "Neokosmos — Pavel Holeček",
@@ -26,30 +26,6 @@
    "id": "epo1-vystavy:33926565c531"
   },
   {
-   "title": "Vzpomeň sobě, že není všechno štěstí — Vladimír 518",
-   "start": "2026-05-22T00:00:00+02:00",
-   "source": "epo1-vystavy",
-   "url": "https://www.epo1.cz/vystavy/vzpomen-sobe",
-   "end": "2026-11-01T23:59:00+01:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "EPO1, Trutnov",
-   "category": null,
-   "native_category": "Výstava",
-   "description": "Rozvodna II. Hudba, komentář a archiv ve formě prostorové instalace. Kurátorka: Denisa Václavová.",
-   "image": null,
-   "native_id": "https://www.epo1.cz/vystavy/vzpomen-sobe",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "epo1-vystavy:ca3cfd7d4159"
-  },
-  {
    "title": "Rekreace — Ondřej Mestek",
    "start": "2026-05-22T00:00:00+02:00",
    "source": "epo1-vystavy",
@@ -72,6 +48,30 @@
    "lon": null,
    "geo": null,
    "id": "epo1-vystavy:53153fcebde2"
+  },
+  {
+   "title": "Vzpomeň sobě, že není všechno štěstí — Vladimír 518",
+   "start": "2026-05-22T00:00:00+02:00",
+   "source": "epo1-vystavy",
+   "url": "https://www.epo1.cz/vystavy/vzpomen-sobe",
+   "end": "2026-10-04T23:59:00+02:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "EPO1, Trutnov",
+   "category": null,
+   "native_category": "Výstava",
+   "description": "Rozvodna II. Hudba, komentář a archiv ve formě prostorové instalace. Kurátorka: Denisa Václavová.",
+   "image": null,
+   "native_id": "https://www.epo1.cz/vystavy/vzpomen-sobe",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "epo1-vystavy:ca3cfd7d4159"
   }
  ]
 }

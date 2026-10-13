@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-12T12:21:29+00:00",
+ "fetched_at": "2026-10-13T12:05:09+00:00",
  "events": [
   {
    "title": "Výstava Cesty Michala Halvy (Obrazy z let 1993-2026)",
@@ -120,30 +120,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:5d795a0b8d98"
-  },
-  {
-   "title": "Stand-up show Undeground Comedy Club",
-   "start": "2026-10-14T19:00:00+02:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/stand-up-show-undeground-comedy-club",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Bělohradská sýpka",
-   "category": null,
-   "native_category": null,
-   "description": "Do Bělohradské sýpky míří ve středu 14. října stand-up comedy večer plný ostrého, nekorektního a místy pořádně sprostého humoru. Vystoupí Jaroslav Cerman, Martin Jirman a Tereza Bonaventurová.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13843046",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/stand-up-show-undeground-comedy-club",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:83ff1cfceca1"
   },
   {
    "title": "KULTURNÍ PROGRAM - září/říjen",

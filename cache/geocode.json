@@ -340,7 +340,7 @@
   "lon": null,
   "precision": "none",
   "q": "Galerie moderního umění v Hradci Králové, Hradec Králové, Česko",
-  "ts": "2026-09-12T10:40:45+00:00"
+  "ts": "2026-10-13T12:11:33+00:00"
  },
  "galerie moderniho umeni v hradci kralove|hradec kralove": {
   "lat": null,
@@ -558,6 +558,13 @@
   "precision": "venue",
   "q": "Kino 70, Jilemnice, Česko",
   "ts": "2026-09-13T12:35:20+00:00"
+ },
+ "kino kartonka 1904, vancurova 407, vrchlabi|vrchlabi": {
+  "lat": 50.6282213,
+  "lon": 15.6127925,
+  "precision": "venue",
+  "q": "Vančurova 407, Vrchlabí, Česko",
+  "ts": "2026-10-13T12:11:33+00:00"
  },
  "kino nova paka|nova paka": {
   "lat": 50.4962597,
@@ -1293,6 +1300,20 @@
   "precision": "none",
   "q": "Vrchlabí Přesná adresa bude sdělena při přihlášení., Vrchlabí, Česko",
   "ts": "2026-09-16T14:46:04+00:00"
+ },
+ "vykopanej pes – music bar, krkonosska 153|vrchlabi": {
+  "lat": 50.6257962,
+  "lon": 15.6125983,
+  "precision": "venue",
+  "q": "Krkonošská 153, Vrchlabí, Česko",
+  "ts": "2026-10-13T12:11:33+00:00"
+ },
+ "vystavni sin muzea krkonos|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Výstavní síň Muzea Krkonoš, Vrchlabí, Česko",
+  "ts": "2026-10-13T12:11:33+00:00"
  },
  "vystavy|trutnov": {
   "lat": null,
