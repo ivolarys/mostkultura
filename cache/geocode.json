@@ -251,6 +251,13 @@
   "q": "Dům pod jasanem, Voletiny 22, Trutnov, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "dum s pecovatelskou sluzbou, pecka|pecka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Dům s pečovatelskou službou, Pecka, Česko",
+  "ts": "2026-10-14T09:47:47+00:00"
+ },
  "ekocentrum krtek|vrchlabi": {
   "lat": null,
   "lon": null,
@@ -1047,7 +1054,7 @@
   "lon": null,
   "precision": "none",
   "q": "Safari Park Dvůr Králové, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-14T07:29:42+00:00"
+  "ts": "2026-10-14T09:47:47+00:00"
  },
  "sal hasicske zbrojnice v pecce|pecka": {
   "lat": null,

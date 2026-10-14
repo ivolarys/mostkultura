@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-13T12:10:29+00:00",
+ "fetched_at": "2026-10-14T09:47:00+00:00",
  "events": [
-  {
-   "title": "Víkend ve výtahu",
-   "start": "2026-10-13T19:00:00+02:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/vikend-ve-vytahu",
-   "end": "2026-10-13T20:30:00+02:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Víkend ve výtahu Hlavní scéna · Hostuje Divadelní společnost Indigo Jean-Christophe Barc · režie Ondřej Rychlý Hostuje Divadelní společnost Indigo Hlavní scéna Čekání na Václava",
-   "image": "https://www.klicperovodivadlo.cz/media/457/gallery/vikend-ve-vytahu-fotografie-01-145172",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/vikend-ve-vytahu|2026-10-13T19:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:1351c824aad7"
-  },
   {
    "title": "Valčík náhody",
    "start": "2026-10-14T19:00:00+02:00",

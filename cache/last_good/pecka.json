@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-13T12:09:30+00:00",
+ "fetched_at": "2026-10-14T09:46:08+00:00",
  "events": [
   {
    "title": "Uspávání broučků",
@@ -205,7 +205,7 @@
    "venue": "Sál hasičské zbrojnice v Pecce",
    "category": null,
    "native_category": null,
-   "description": "a oslavu 30. výročí existence cykloodílu při TJ Harant.",
+   "description": "Vyhlášení výsledků Cyklovýzvy a oslava 30. výročí existence cykloodílu při TJ Harant. Občerstvení zajištěno.",
    "image": "https://www.mestys-pecka.cz/evt_image.php?img=5393&width=300",
    "native_id": "event-1530",
    "ongoing": false,
@@ -216,6 +216,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:2b7bda39968b"
+  },
+  {
+   "title": "Hudební odpoledne v DPS",
+   "start": "2026-11-26T16:00:00+01:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/hudebni-odpoledne-v-dps-1537_913cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Dům s pečovatelskou službou, Pecka",
+   "category": null,
+   "native_category": null,
+   "description": "Vystoupení oblíbené zpěvačky Markéty ve společenské místnosti. Připraveno malé občerstvení.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5406&width=300",
+   "native_id": "event-1537",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:542f33fe17b7"
   },
   {
    "title": "DEN PRO DĚTSKOU KNIHU",
@@ -230,7 +254,7 @@
    "category": null,
    "native_category": null,
    "description": "Hádanky a soutěže pro děti prvního stupně ZŠ. Vánoční výtvarná dílna. Prodej nových dětských knih s vánoční tematikou (Naše knihkupectví) - probíhá v knihovně od pondělí 23. 11. do pátku 27. 11. 2026.",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5402&width=300",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5405&width=300",
    "native_id": "event-1535",
    "ongoing": false,
    "sources": [],
