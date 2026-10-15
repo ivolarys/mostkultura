@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-14T09:45:50+00:00",
+ "fetched_at": "2026-10-15T09:23:52+00:00",
  "events": [
-  {
-   "title": "GUBERNÁTOR – Bažantova loutkářská družina Poniklá",
-   "start": "2026-10-14T18:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=gubernator-8211-bazantova-loutkarska-druzina-ponikla",
-   "end": "2026-10-14T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kavárna Saky Paky",
-   "category": null,
-   "native_category": "divadlo",
-   "description": "Mrazivý příběh z mrazivého Ruska roku 1905 sleduje neradostný úděl gubernátora jedné zapadlé oblasti. Ten během lidových bouří po prohrané rusko-japonské válce udělá krok, který se nedá odestát a který roztáčí kolo nepříjemných událostí. Představení oceněné na Loutkářské Chrudimi v podání Tomáše Hájka.",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/gubernator-8211-bazantova-loutkarska-druzina-ponikla.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=gubernator-8211-bazantova-loutkarska-druzina-ponikla",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:e17b96770f14"
-  },
   {
    "title": "MARIÁNSKÉ A JINÉ KRAJINY BAROKA - PhDr. Lucie Rychnová, PhD.",
    "start": "2026-10-16T18:00:00+02:00",
@@ -216,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:0756bb1c3cbe"
+  },
+  {
+   "title": "DĚTSKÝ BIJÁSEK",
+   "start": "2026-10-24T15:00:00+02:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=detsky-bijasek38",
+   "end": "2026-10-24T16:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Nová Paka",
+   "category": null,
+   "native_category": "film",
+   "description": "Pásmo kreslených pohádek a večerníčků.",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/detsky-bijasek38.png",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=detsky-bijasek38",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:d195a3c517e7"
   }
  ]
 }

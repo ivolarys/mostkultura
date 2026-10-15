@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-14T09:46:58+00:00",
+ "fetched_at": "2026-10-15T09:25:06+00:00",
  "events": [
   {
    "title": "Ať žije řemeslo!",
@@ -362,6 +362,30 @@
    "id": "muzeum-hk:388a751a4594"
   },
   {
+   "title": "ErasmusDays 2026",
+   "start": "2026-10-15T09:30:00+02:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1711/-/erasmusdays-2026.html",
+   "end": "2026-10-15T14:15:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech - budova ARCHA",
+   "category": null,
+   "native_category": null,
+   "description": "Při letošním setkání se zaměříme na prezentaci zkušeností z evropských výjezdů a především projektů. Program : 9:30 Zahájení 9:45 – 10:15 Brave Spaces - Mgr. Aneta Jasná, Ph.D. (Broumov 2028+) 10:20 – 10:50 Metoda Slow Looking - Mgr. et MgA. Oldřich Bystřický a Mgr. et Mgr. Anna Zajícová (Národní galerie Praha) 11:00 – 11:30 Projekt Synergie napříč sektory – Mgr. Ivana Valášková (Centrum kreativního muzejnictví KHK) 13:00 – 13:30 Projekt In-Touch - Mgr. Denisa Tessenyi (Muzeum umění Olomouc) 13:",
+   "image": null,
+   "native_id": "1711",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:737e60bcda32"
+  },
+  {
    "title": "Den Živého dědictví",
    "start": "2026-10-17T10:00:00+02:00",
    "source": "muzeum-hk",
@@ -528,6 +552,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:d2df16bee9d3"
+  },
+  {
+   "title": "Moderní byt 1960 ̵̶̶ Panelový systém HK 60, 65, 69",
+   "start": "2026-11-20T10:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1712/-/moderni-byt-1960-panelovy-system-hk-60-65-69.html",
+   "end": "2027-05-30T18:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": "Výstava",
+   "description": "Panelové domy dnes vnímáme jako samozřejmost. Na p řelomu 50. a 60. let však p ředstavovaly vrchol moderního inženýrství a p říslib nového bydlení. Výstava Moderní byt 1960 p ředstavuje p říběh královéhradecké konstrukční soustavy HK, vyvinuté královéhradeckým Stavoprojektem, která se p ostupně rozšířila p o celém bývalém Východočeském kraji. Expozice rozdělená do tří tematických částí – P lánování, Stavba a Bydlení – vás p rovede celým p rocesem zrodu sídlišť. Objevíte architekturu a konstrukčn",
+   "image": null,
+   "native_id": "1712",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:aab7f20827e5"
   }
  ]
 }

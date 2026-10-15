@@ -46,7 +46,7 @@
   "lon": null,
   "precision": "none",
   "q": "Aula SPOŠ, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-15T04:52:40+00:00"
+  "ts": "2026-10-15T09:26:01+00:00"
  },
  "bajkazyl hradec kralove|hradec kralove": {
   "lat": 50.212324,
@@ -649,6 +649,13 @@
   "precision": "venue",
   "q": "Knihovna Kryštofa Haranta, Pecka, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "knihovna lazne belohrad|lazne belohrad": {
+  "lat": 50.4309436,
+  "lon": 15.578422,
+  "precision": "venue",
+  "q": "Knihovna Lázně Bělohrad, Lázně Bělohrad, Česko",
+  "ts": "2026-10-15T09:26:01+00:00"
  },
  "knihovna slavoj|dvur kralove nad labem": {
   "lat": 50.4343025,

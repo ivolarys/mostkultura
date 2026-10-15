@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-14T09:46:05+00:00",
+ "fetched_at": "2026-10-15T09:24:09+00:00",
  "events": [
-  {
-   "title": "Václav Koubek",
-   "start": "2026-10-14T19:00:00+02:00",
-   "source": "horice-koruna",
-   "url": "https://www.dum-kultury-koruna.cz/vaclav-koubek",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům kultury Koruna",
-   "category": null,
-   "native_category": null,
-   "description": "Koncert Klubu přátel hudby sál radnice 14.10.2026 v 19.00 Václav Koubek Duo Václav Koubek, český písničkář a harmonikář, spisovatel, herec, režisér, milovník života, ...",
-   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01063/posters/plakat_Koubek_2025.jpg",
-   "native_id": "https://www.dum-kultury-koruna.cz/vaclav-koubek",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "horice-koruna:475db0d7bc4c"
-  },
   {
    "title": "IMAGES OF LOVE",
    "start": "2026-10-15T19:00:00+02:00",
