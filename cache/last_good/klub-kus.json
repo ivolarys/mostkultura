@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-15T09:24:05+00:00",
+ "fetched_at": "2026-10-16T09:18:00+00:00",
  "events": [
-  {
-   "title": "Albert Frost",
-   "start": "2026-10-15T20:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/albert-frost",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Jihoafrický bluesový zpěvák a rockový kytarista míří do Kusu.",
-   "image": "https://www.kulturaturnov.cz/data/photogallery/albertfrosttriozennethsteyn5_thumb_42870.jpeg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/albert-frost|2026-10-15T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:d0ec2bd849d7"
-  },
   {
    "title": "Trijo",
    "start": "2026-10-17T20:00:00+02:00",

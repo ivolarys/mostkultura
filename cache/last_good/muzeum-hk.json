@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-15T09:25:06+00:00",
+ "fetched_at": "2026-10-16T09:20:52+00:00",
  "events": [
   {
    "title": "Ať žije řemeslo!",
@@ -554,6 +554,54 @@
    "id": "muzeum-hk:d2df16bee9d3"
   },
   {
+   "title": "Restaurátorská poradna pro veřejnost",
+   "start": "2026-11-05T12:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1715/-/restauratorska-poradna-pro-verejnost.html",
+   "end": "2026-11-05T17:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Hlavní odborné pracoviště Gayerova kasárna",
+   "category": null,
+   "native_category": null,
+   "description": "BEZPLATNÁ PORADNA PRO VEŘEJNOST Restaurátorská poradna nabízí poradenství našich odborných pracovníků, kteří posoudí stav předmětu. Na setkání můžete přijít bez předchozí domluvy. Dozvíte se, jak o své poklady správně pečovat, jak zamezit jejich dalšímu poškození. Předměty lze přinést přímo s sebou a v případě, že jsou větších rozměrů či vyšší váhy, postačí pro konzultaci alespoň jejich fotografie. Dejte svým rodinným pokladům šanci dál vyprávět svůj příběh! Vstup je zdarma.",
+   "image": null,
+   "native_id": "1715",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:7b6a3377d757"
+  },
+  {
+   "title": "Život v Salonu republiky – město na pohlednicích",
+   "start": "2026-11-12T10:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1713/-/zivot-v-salonu-republiky-mesto-na-pohlednicich.html",
+   "end": "2026-11-12T12:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Studijní a vědecká knihovna Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "PŘEDNÁŠKA V SVK HK Přednáška historičky Pavly Koritenské představí každodenní život prvorepublikového Hradce Králové zobrazený na pohlednicích a tiskovinách. Dále se dozvíte, jak vypadaly pohlednice, dopisnice, jak fungovala pošta a co si lidé psali. Vstup pro členy klubu je zdarma",
+   "image": null,
+   "native_id": "1713",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:d27296c89abc"
+  },
+  {
    "title": "Moderní byt 1960 ̵̶̶ Panelový systém HK 60, 65, 69",
    "start": "2026-11-20T10:00:00+01:00",
    "source": "muzeum-hk",
@@ -576,6 +624,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:aab7f20827e5"
+  },
+  {
+   "title": "Život v Salonu republiky – beseda nad publikací",
+   "start": "2026-11-26T10:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1714/-/zivot-v-salonu-republiky-beseda-nad-publikaci.html",
+   "end": "2026-11-26T12:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Studijní a vědecká knihovna Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "BESEDA V EXPOZICI Publikace „Život v Salonu republiky“ je nahlédnutím do života obyvatel ve městě Hadec Králové ve 20. až 40. letech 20. století. Jedná se o hravou prezentaci představující unikátní sbírkové předměty, fotografie a tiskoviny. Knihu představí její autorka Pavla Koritenská. Vstup pro členy klubu je zdarma",
+   "image": null,
+   "native_id": "1714",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:ba25a89e39e0"
   }
  ]
 }

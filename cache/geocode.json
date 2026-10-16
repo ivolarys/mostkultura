@@ -923,6 +923,13 @@
   "q": "Národní dům, Trutnov, Česko",
   "ts": "2026-09-26T05:06:53+00:00"
  },
+ "natura herbal spa a wellness, krkonosska 153|vrchlabi": {
+  "lat": 50.6258851,
+  "lon": 15.6124975,
+  "precision": "venue",
+  "q": "Krkonošská 153, Vrchlabí, Česko",
+  "ts": "2026-10-16T09:22:02+00:00"
+ },
  "novopacke sklepy. puda|nova paka": {
   "lat": null,
   "lon": null,
@@ -1250,7 +1257,7 @@
   "lon": null,
   "precision": "none",
   "q": "Top Ten Rock Klub, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-16T05:10:30+00:00"
+  "ts": "2026-10-16T09:22:02+00:00"
  },
  "ts oliver, komenskeho 616|vrchlabi": {
   "lat": 50.6189055,
