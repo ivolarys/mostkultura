@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-16T09:19:37+00:00",
+ "fetched_at": "2026-10-17T08:50:17+00:00",
  "events": [
   {
    "title": "vlněný ateliér",
@@ -240,6 +240,30 @@
    "lon": null,
    "geo": null,
    "id": "josefov-kolonie:d746e1003547"
+  },
+  {
+   "title": "knižní klub",
+   "start": "2026-10-20T17:30:00+02:00",
+   "source": "josefov-kolonie",
+   "url": "https://umeleckakoloniejosefov.cz/kalendar-akci/",
+   "end": "2026-10-20T18:30:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "MW10aWJiMDc4MzM0M3JxYnYxMnA2MTRpZ2QgYmFzdGlvbml2Lmpvc2Vmb3ZAbQ",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "josefov-kolonie:98a65087ef35"
   },
   {
    "title": "Večerní kreslení",

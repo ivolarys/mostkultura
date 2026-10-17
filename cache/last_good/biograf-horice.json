@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-16T09:17:56+00:00",
+ "fetched_at": "2026-10-17T08:50:00+00:00",
  "events": [
-  {
-   "title": "Fjord",
-   "start": "2026-10-16T19:00:00+02:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-841608",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Mladá rumunsko-norská rodina Gheorgiových (Renate Reinsve a Sebastian Stan) se usadí v odlehlé vesnici u norských fjordů, kde začíná nový život. Vřelé přijetí novými sousedy však naruší nečekané obvinění a rozvrátí její poklidný život. Rozbíhá se vyšetřování a soudní proces, které proti sobě staví tradiční rodinné hodnoty a přísná pravidla norské organizace na ochranu dětí. Strhující morální drama Cristiana Mungia o střetu kultur, rodičovské lásce a právu rozhodovat o osudu vlastních dětí získal",
-   "image": null,
-   "native_id": "5587447",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:4ab4059761fd"
-  },
   {
    "title": "Pravda, nebo lež",
    "start": "2026-10-17T19:00:00+02:00",

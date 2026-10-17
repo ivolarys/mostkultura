@@ -370,6 +370,13 @@
   "q": "Hala ZŠ Rudolfa Frimla, Trutnov, Česko",
   "ts": "2026-09-26T05:06:53+00:00"
  },
+ "hala zs skolni, ul. skolni 1336, vrchlabi|vrchlabi": {
+  "lat": 50.6145653,
+  "lon": 15.6105755,
+  "precision": "venue",
+  "q": "Školní 1336, Vrchlabí, Česko",
+  "ts": "2026-10-17T08:52:26+00:00"
+ },
  "hankuv dum - sal|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -432,6 +439,13 @@
   "precision": "none",
   "q": "Hotel Centrál, Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "hotel za vodou|dvur kralove nad labem": {
+  "lat": 50.4288785,
+  "lon": 15.8066428,
+  "precision": "venue",
+  "q": "Hotel Za Vodou, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-10-17T08:52:26+00:00"
  },
  "hrad pecka, pecka|pecka": {
   "lat": 50.4789852,
@@ -557,7 +571,7 @@
   "lon": null,
   "precision": "none",
   "q": "KD Vidonice, Pecka, Česko",
-  "ts": "2026-09-16T14:46:04+00:00"
+  "ts": "2026-10-17T08:52:26+00:00"
  },
  "kino 70|jilemnice": {
   "lat": 50.6044839,
@@ -754,6 +768,13 @@
   "precision": "none",
   "q": "Letiště Vrchlabí, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "masarykovo divadlo jicin|jicin": {
+  "lat": 50.4357182,
+  "lon": 15.3580052,
+  "precision": "venue",
+  "q": "Masarykovo divadlo Jičín, Jičín, Česko",
+  "ts": "2026-10-17T08:52:26+00:00"
  },
  "masarykovo namesti|nova paka": {
   "lat": 50.4944694,
@@ -1341,7 +1362,7 @@
   "lon": null,
   "precision": "none",
   "q": "Výstavy, Trutnov, Česko",
-  "ts": "2026-09-16T14:46:04+00:00"
+  "ts": "2026-10-17T08:52:26+00:00"
  },
  "zahrada za historickymi domky, vstup na akci z husovy ulice|vrchlabi": {
   "lat": null,
@@ -1391,6 +1412,13 @@
   "precision": "venue",
   "q": "ZŠ Husitská, Nová Paka, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "zs schulzovy sady|dvur kralove nad labem": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "ZŠ Schulzovy sady, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-10-17T08:52:26+00:00"
  },
  "zvicina, trebihost|zvicina": {
   "lat": 50.4549823,

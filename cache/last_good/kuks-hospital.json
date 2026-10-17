@@ -1,29 +1,4 @@
 {
- "fetched_at": "2026-10-16T09:14:45+00:00",
- "events": [
-  {
-   "title": "Koncert Jany Veberové na Kuksu",
-   "start": "2026-10-16T17:00:00+02:00",
-   "source": "kuks-hospital",
-   "url": "https://www.hospital-kuks.cz/cs/akce/75067-koncert-jany-veberove-na-kuksu",
-   "end": "2026-10-16T18:30:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "hospitál Kuks",
-   "category": null,
-   "native_category": "Kulturní akce",
-   "description": "",
-   "image": "https://www.hospital-kuks.cz/pamatky/hospital-kuks/fotogalerie/Akce---ilustracni-a-plakaty/Koncert%20Jany%20Veberove/image-thumb__174668__EventPreviewImage/img_7061.webp",
-   "native_id": "https://www.hospital-kuks.cz/cs/akce/75067-koncert-jany-veberove-na-kuksu",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kuks-hospital:6832c3370217"
-  }
- ]
+ "fetched_at": "2026-10-17T08:46:48+00:00",
+ "events": []
 }

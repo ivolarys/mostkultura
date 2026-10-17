@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-16T09:21:08+00:00",
+ "fetched_at": "2026-10-17T08:51:30+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1491,10 +1491,10 @@
   },
   {
    "title": "Critilal Mass HK",
-   "start": "2026-11-12T18:00:00+01:00",
+   "start": "2026-11-12T17:00:00+01:00",
    "source": "bajkazyl-hk",
-   "url": "https://bajkazylhk.cz/akce/critilal-mass-hk-20261112-1700",
-   "end": "2026-11-12T19:00:00+01:00",
+   "url": "https://bajkazylhk.cz/akce/critilal-mass-hk-20261112-1600",
+   "end": "2026-11-12T18:00:00+01:00",
    "all_day": false,
    "place": null,
    "place_raw": "Hradec Králové",
@@ -1515,10 +1515,10 @@
   },
   {
    "title": "Critilal Mass HK",
-   "start": "2026-12-10T18:00:00+01:00",
+   "start": "2026-12-10T17:00:00+01:00",
    "source": "bajkazyl-hk",
-   "url": "https://bajkazylhk.cz/akce/critilal-mass-hk-20261210-1700",
-   "end": "2026-12-10T19:00:00+01:00",
+   "url": "https://bajkazylhk.cz/akce/critilal-mass-hk-20261210-1600",
+   "end": "2026-12-10T18:00:00+01:00",
    "all_day": false,
    "place": null,
    "place_raw": "Hradec Králové",

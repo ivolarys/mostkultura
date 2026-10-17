@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-16T09:20:52+00:00",
+ "fetched_at": "2026-10-17T08:51:16+00:00",
  "events": [
   {
    "title": "Ať žije řemeslo!",
@@ -386,6 +386,30 @@
    "id": "muzeum-hk:737e60bcda32"
   },
   {
+   "title": "XXXVII. Muzejní adventní trh",
+   "start": "2026-10-16T08:00:00+02:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1718/-/xxxvii-muzejni-adventni-trh.html",
+   "end": "2026-10-16T17:00:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": null,
+   "description": "27. až 29. listopadu 2026 Pátek 15–20 hodin, sobota 10–20 hodin, neděle 10–16 hodin Těsné okolí muzejní budovy na Eliščině nábřeží a část ulice Palackého bude patřit téměř stovce producentů, řemeslníků a prodejců s širokou nabídkou adventních věnců, dekorací, perníků, šperků, svíček z včelího vosku, mýdla či perličkových ozdob z Poniklé a dalších produktů. Samozřejmostí se stalo zastoupení řemeslníků oceněných titulem „Nositel tradice lidových řemesel České republiky“ a také výrobců dodržujících",
+   "image": null,
+   "native_id": "1718",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:564fd4f69574"
+  },
+  {
    "title": "Den Živého dědictví",
    "start": "2026-10-17T10:00:00+02:00",
    "source": "muzeum-hk",
@@ -554,20 +578,20 @@
    "id": "muzeum-hk:d2df16bee9d3"
   },
   {
-   "title": "Restaurátorská poradna pro veřejnost",
-   "start": "2026-11-05T12:00:00+01:00",
+   "title": "Mezinárodní den archeologie",
+   "start": "2026-11-07T10:00:00+01:00",
    "source": "muzeum-hk",
-   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1715/-/restauratorska-poradna-pro-verejnost.html",
-   "end": "2026-11-05T17:00:00+01:00",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1716/-/mezinarodni-den-archeologie.html",
+   "end": "2026-11-07T15:00:00+01:00",
    "all_day": false,
    "place": null,
    "place_raw": "Hradec Králové",
-   "venue": "Hlavní odborné pracoviště Gayerova kasárna",
+   "venue": "Muzeum východních Čech v Hradci Králové",
    "category": null,
    "native_category": null,
-   "description": "BEZPLATNÁ PORADNA PRO VEŘEJNOST Restaurátorská poradna nabízí poradenství našich odborných pracovníků, kteří posoudí stav předmětu. Na setkání můžete přijít bez předchozí domluvy. Dozvíte se, jak o své poklady správně pečovat, jak zamezit jejich dalšímu poškození. Předměty lze přinést přímo s sebou a v případě, že jsou větších rozměrů či vyšší váhy, postačí pro konzultaci alespoň jejich fotografie. Dejte svým rodinným pokladům šanci dál vyprávět svůj příběh! Vstup je zdarma.",
+   "description": "ARCHEOLOGICKÝ PROGRAM VE VÝSTAVĚ NENÍ KÁMEN JAKO KÁMEN Každoroční akce určená primárně rodinám s dětmi. Tématem letošního roku je doba kamenná. Návštěvníci se tak mohou těšit na řadu úkolů, které je seznámí s obyvateli osady v době před více než šesti tisíci lety. Ti nejúspěšnější se mohou těšit i na malou odměnu od náčelníka pravěkého kmene, ale chybět nebude ani šaman nebo lovec. Akce je vhodná pro děti prvního stupně základní školy. Vstup je zdarma.",
    "image": null,
-   "native_id": "1715",
+   "native_id": "1716",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -575,7 +599,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "muzeum-hk:7b6a3377d757"
+   "id": "muzeum-hk:3e1e61f0c7bc"
   },
   {
    "title": "Život v Salonu republiky – město na pohlednicích",
@@ -600,6 +624,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:d27296c89abc"
+  },
+  {
+   "title": "Sametový Hradec 2026",
+   "start": "2026-11-17T17:11:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1717/-/sametovy-hradec-2026.html",
+   "end": "2026-11-17T18:45:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Muzeum východních Čech v Hradci Králové se spolu s dalšími kulturními institucemi, pod vedením Univerzity Hradec Králové, podílí na vzpomínkových akcích k 17. listopadu 1989. Muzeum se stane jedním ze zastavení na cestě průvodu se svíčkami (cca v 18:30 – 18:45 hod.). Účastníci si budou moci prohlédnout na plášti historické budovy na Eliščině nábřeží projekci připomínající klíčové události listopadových dní v roce 1989. Program odstartuje v odpoledních hodinách přímo v kampusu Univerzity Hradec K",
+   "image": null,
+   "native_id": "1717",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:af2941a60e26"
   },
   {
    "title": "Moderní byt 1960 ̵̶̶ Panelový systém HK 60, 65, 69",
@@ -648,6 +696,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:ba25a89e39e0"
+  },
+  {
+   "title": "XXXVII. Muzejní adventní trh",
+   "start": "2026-11-27T15:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1719/-/xxxvii-muzejni-adventni-trh.html",
+   "end": "2026-11-29T16:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Pátek 15–20 hodin Sobota 10–20 hodin Neděle 10–16 hodin Těsné okolí muzejní budovy na Eliščině nábřeží a část ulice Palackého bude patřit téměř stovce producentů, řemeslníků a prodejců s širokou nabídkou adventních věnců, dekorací, perníků, šperků, svíček z včelího vosku, mýdla či perličkových ozdob z Poniklé a dalších produktů. Samozřejmostí se stalo zastoupení řemeslníků oceněných titulem „Nositel tradice lidových řemesel České republiky“ a také výrobců dodržujících tradiční výrobní postupy za",
+   "image": null,
+   "native_id": "1719",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:b46a1da474c7"
   }
  ]
 }
