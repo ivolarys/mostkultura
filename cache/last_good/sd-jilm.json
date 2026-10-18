@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-17T08:49:55+00:00",
+ "fetched_at": "2026-10-18T09:05:08+00:00",
  "events": [
   {
    "title": "Pohádka tak trochu na hlavu",
@@ -365,7 +365,7 @@
    "title": "Václav Noid Bárta",
    "start": "2026-11-25T19:00:00+01:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/index.php/sd-jilm/koncert/vaclav-noid-barta-2026",
+   "url": "https://www.sdjilm.cz/sd-jilm/koncert/vaclav-noid-barta-2026",
    "end": null,
    "all_day": false,
    "place": null,
@@ -725,7 +725,7 @@
    "title": "Varieté Krhut",
    "start": "2027-01-27T19:00:00+01:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/index.php/sd-jilm/divadelni-hra/variete-krhut-2026",
+   "url": "https://www.sdjilm.cz/sd-jilm/divadelni-hra/variete-krhut-2026",
    "end": null,
    "all_day": false,
    "place": null,

@@ -839,6 +839,13 @@
   "q": "Městské informační centrum, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "mestske kulturni stredisko jaromer|jaromer": {
+  "lat": 50.3527607,
+  "lon": 15.9185329,
+  "precision": "venue",
+  "q": "Městské kulturní středisko Jaroměř, Jaroměř, Česko",
+  "ts": "2026-10-18T09:06:54+00:00"
+ },
  "mestske muzeum - spychar|dvur kralove nad labem": {
   "lat": 50.4350231,
   "lon": 15.8161382,
