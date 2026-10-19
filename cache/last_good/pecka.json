@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-18T09:05:21+00:00",
+ "fetched_at": "2026-10-19T10:16:18+00:00",
  "events": [
   {
    "title": "Posvícenská taneční zábava",
@@ -72,30 +72,6 @@
    "lon": null,
    "geo": null,
    "id": "pecka:612d41bfbabc"
-  },
-  {
-   "title": "9. cyklovýzva Jiřího Styblíka",
-   "start": "2026-10-01T00:00:00+02:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/9-cyklovyzva-jiriho-styblika-1411_811cs.html",
-   "end": "2026-10-18T23:59:00+02:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Pecka",
-   "category": null,
-   "native_category": null,
-   "description": "Trasa na měsíc říjen končí již 18. 10. 2026. 6. a 7. cyklovýzva je prodloužena do konce 18.října. Odkaz na registraci v plakátu v příloze. Organizátor: TJ Harant Pecka",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5392&width=300",
-   "native_id": "event-1411",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:4b9edacbdfb5"
   },
   {
    "title": "Smyslohraní",

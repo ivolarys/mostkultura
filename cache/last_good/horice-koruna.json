@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-18T09:05:18+00:00",
+ "fetched_at": "2026-10-19T10:16:15+00:00",
  "events": [
   {
    "title": "Hořice JazzNights 2026",
@@ -72,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "horice-koruna:448ced9290de"
+  },
+  {
+   "title": "Retro Disko Ples 2026",
+   "start": "2026-11-28T20:00:00+01:00",
+   "source": "horice-koruna",
+   "url": "https://www.dum-kultury-koruna.cz/retro-disko-ples-2026",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Dům kultury Koruna",
+   "category": null,
+   "native_category": null,
+   "description": "28.11.2026 ...",
+   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01072/posters/retro-disco-ples.jpg",
+   "native_id": "https://www.dum-kultury-koruna.cz/retro-disko-ples-2026",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "horice-koruna:a74cad47b59a"
   },
   {
    "title": "(Moje) budoucí tchyně",

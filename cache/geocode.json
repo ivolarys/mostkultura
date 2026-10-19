@@ -25,7 +25,7 @@
   "lon": null,
   "precision": "none",
   "q": "Areál fotbalového hřiště v Mostku, Mostek, Česko",
-  "ts": "2026-09-18T09:14:13+00:00"
+  "ts": "2026-10-19T10:18:16+00:00"
  },
  "areal zirec|zirec": {
   "lat": null,
@@ -853,6 +853,13 @@
   "q": "Městské muzeum - Špýchar, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-19T09:04:09+00:00"
  },
+ "mestske muzeum - spychar|zvicina": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Městské muzeum - Špýchar, Zvičina, Česko",
+  "ts": "2026-10-19T10:18:16+00:00"
+ },
  "mestske muzeum|dvur kralove nad labem": {
   "lat": 50.4350231,
   "lon": 15.8161382,
@@ -1390,7 +1397,7 @@
   "lon": null,
   "precision": "none",
   "q": "Základní umělecká škola, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-19T10:18:16+00:00"
  },
  "zamecek – nadrazni 471, vrchlabi|vrchlabi": {
   "lat": 50.6221424,
