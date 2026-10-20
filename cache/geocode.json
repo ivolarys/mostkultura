@@ -550,7 +550,7 @@
   "lon": null,
   "precision": "none",
   "q": "KD Střelnice – velký sál Vančurova 378, Vrchlabí, Česko",
-  "ts": "2026-09-20T09:29:06+00:00"
+  "ts": "2026-10-20T09:42:14+00:00"
  },
  "kd strelnice – velky sal, vancurova 378, vrchlabi|vrchlabi": {
   "lat": 50.6309963,
@@ -1097,6 +1097,13 @@
   "precision": "none",
   "q": "Rodinné centrum Kopretina, Vrchlabí, Česko",
   "ts": "2026-09-21T21:15:46+00:00"
+ },
+ "rtic krkonose, husova 210, vrchlabi|vrchlabi": {
+  "lat": 50.6289229,
+  "lon": 15.6079342,
+  "precision": "venue",
+  "q": "Husova 210, Vrchlabí, Česko",
+  "ts": "2026-10-20T09:42:14+00:00"
  },
  "safari park dvur kralove|dvur kralove nad labem": {
   "lat": null,

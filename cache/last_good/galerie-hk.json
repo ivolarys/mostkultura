@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T10:16:44+00:00",
+ "fetched_at": "2026-10-20T09:40:10+00:00",
  "events": [
   {
    "title": "Workshop figurální kresby",
@@ -446,7 +446,7 @@
    "category": null,
    "native_category": "Výstava",
    "description": "",
-   "image": null,
+   "image": "https://www.galeriehk.cz/wp-content/uploads/2026/01/Eva-Horska_Jakub-Horsky_Co-vsechno-mame_GMUHK_ph_Jan_Kolsky_01-760x415.jpg",
    "native_id": "https://www.galeriehk.cz/vystavy/eva-horska-jakub-horsky/",
    "ongoing": false,
    "sources": [],
@@ -470,7 +470,7 @@
    "category": null,
    "native_category": "Výstava",
    "description": "",
-   "image": null,
+   "image": "https://www.galeriehk.cz/wp-content/uploads/2026/01/Vernika-Ronai_Peter-Ronai_Minulost-ta-nepusti_GMUHK_ph_Jan_Kolsky_01-760x415.jpg",
    "native_id": "https://www.galeriehk.cz/vystavy/veronika-ronaiova-peter-ronai/",
    "ongoing": false,
    "sources": [],

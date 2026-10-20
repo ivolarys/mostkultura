@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T10:17:30+00:00",
+ "fetched_at": "2026-10-20T09:40:54+00:00",
  "events": [
   {
    "title": "Ať žije řemeslo!",
@@ -698,7 +698,31 @@
    "id": "muzeum-hk:af2941a60e26"
   },
   {
-   "title": "Moderní byt 1960 ̵̶̶ Panelový systém HK 60, 65, 69",
+   "title": "Hostina českého designu 07",
+   "start": "2026-11-19T14:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1722/-/hostina-ceskeho-designu-07.html",
+   "end": "2026-11-22T18:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech - budova ARCHA",
+   "category": null,
+   "native_category": "Výstava",
+   "description": "Čtyřdenní prodejní výstava, kterou připravila architektka, designérka a kurátorka Helena Dařbujánová z děl 22 českých designérů, designérek a designových značek, kteří pracují v oborech šperk, sklo, porcelán, fashion, kniha, hračky, papír, nábytek. Seznamte se s talentem českých designérů, jejichž práci obdivuje svět. V sedmém ročníku vás čekají díla, která vytvořili Hana Hillerová, František Jungvirt, Kateřina Reich, Andrea Vytlačilová, Veronika Jiroušková Velčovská, PRIM, Tyformy, Klimchi, Sha",
+   "image": null,
+   "native_id": "1722",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:8b2eda986add"
+  },
+  {
+   "title": "Moderní byt 1960 – Panelový systém HK 60, 65, 69",
    "start": "2026-11-20T10:00:00+01:00",
    "source": "muzeum-hk",
    "url": "https://www.muzeumhk.cz/program/kalendar-akci/1712/-/moderni-byt-1960-panelovy-system-hk-60-65-69.html",

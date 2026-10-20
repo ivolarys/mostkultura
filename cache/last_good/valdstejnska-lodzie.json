@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T10:15:56+00:00",
+ "fetched_at": "2026-10-20T09:39:34+00:00",
  "events": [
   {
    "title": "DIMITRI BOEKHOORN (FR)",
@@ -168,6 +168,30 @@
    "lon": null,
    "geo": null,
    "id": "valdstejnska-lodzie:808b4ae6aee3"
+  },
+  {
+   "title": "PAVEL SZABO",
+   "start": "2027-03-26T20:00:00+01:00",
+   "source": "valdstejnska-lodzie",
+   "url": "https://valdstejnskalodzie.cz/program/pavel-szabo",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Valdštejnská lodžie",
+   "category": null,
+   "native_category": null,
+   "description": "Koncert klavíristy a skladatele, hrajícího vlastní autorskou hudbu na pomezí neoklasiky, minimalismu a jazzu.",
+   "image": "https://valdstejnskalodzie.cz/media/pages/program/pavel-szabo/cb38da009b-1792406963/530255725-1232306138908085-9151647760101571065-n-200x200-crop-50-50-q60.jpg",
+   "native_id": "https://valdstejnskalodzie.cz/program/pavel-szabo",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "valdstejnska-lodzie:86105772c672"
   },
   {
    "title": "ČARODĚNÍ 2027",

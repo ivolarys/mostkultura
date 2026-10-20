@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T10:15:55+00:00",
+ "fetched_at": "2026-10-20T09:39:33+00:00",
  "events": [
   {
    "title": "PŘEDNÁŠKA MUDr. MARKA DVOŘÁKA",
@@ -168,6 +168,30 @@
    "lon": null,
    "geo": null,
    "id": "kultura-novapaka:8af6fa874b6d"
+  },
+  {
+   "title": "Kraj pro zdraví",
+   "start": "2026-11-03T17:30:00+01:00",
+   "source": "kultura-novapaka",
+   "url": "http://www.kultura-novapaka.cz/index.php?detail=kraj-pro-zdravi",
+   "end": "2026-11-03T19:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Městská knihovna Nová Paka",
+   "category": null,
+   "native_category": "prednaska",
+   "description": "Výživa a pohyb patří mezi základní pilíře zdravého životního stylu, ale největší smysl dávají tehdy, když fungují společně. Zaměříme se na to, jak strava ovlivňuje výkon, únavu, chuť k pohybu i schopnost regenerace a proč pravidelný pohyb zpětně pomáhá lépe pracovat s energií, chutěmi, stresem a dlouhodobou péčí o tělo. Součástí budou praktické tipy, jak výživu a pohyb nastavit realisticky v běžném dni, bez zbytečných extrémů, zákazů a módních zkratek. Přednáší MUDr. Tomáš Soukup, Ph.D.,",
+   "image": "http://www.kultura-novapaka.cz/akce-thumbs/kraj-pro-zdravi.jpg",
+   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=kraj-pro-zdravi",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kultura-novapaka:8dd92a273018"
   }
  ]
 }

@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-10-19T10:16:26+00:00",
+ "fetched_at": "2026-10-20T09:39:56+00:00",
  "events": [
+  {
+   "title": "Cestopisná přednška: Skotsko",
+   "start": "2026-11-25T00:00:00+01:00",
+   "source": "klaster-hostinne",
+   "url": "https://www.klasterhostinne.cz/aktuality-knihovna/cestopisna-prednska-skotsko",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Knihovna",
+   "description": "Skotsko – země drsné přírody i jedinečných památek Zveme vás na cestopisný večer. Své zážitky z cest po Skotsku nám přiblíží...",
+   "image": "https://www.klasterhostinne.cz/media/photos/articlek/item/images-605/cestopisna-prednska-skotsko-t2.jpg",
+   "native_id": "https://www.klasterhostinne.cz/aktuality-knihovna/cestopisna-prednska-skotsko",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klaster-hostinne:e976b4c955c3"
+  },
   {
    "title": "Výstava: Podhorské rozjímání",
    "start": "2026-11-06T00:00:00+01:00",
@@ -24,6 +48,30 @@
    "lon": null,
    "geo": null,
    "id": "klaster-hostinne:7f8f2a79db6b"
+  },
+  {
+   "title": "Nové tituly v knihovně",
+   "start": "2026-10-26T00:00:00+01:00",
+   "source": "klaster-hostinne",
+   "url": "https://www.klasterhostinne.cz/aktuality-knihovna/nove-tituly-v-knihovne",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Knihovna",
+   "description": "Výběr z nových titulů v knihovně: Javůrek, Štěpán: Ve stínu jeřabiny - Prokop 1938-1940...",
+   "image": "https://www.klasterhostinne.cz/media/photos/articlek/item/images-606/nove-tituly-v-knihovne-t2.jpg",
+   "native_id": "https://www.klasterhostinne.cz/aktuality-knihovna/nove-tituly-v-knihovne",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klaster-hostinne:3c8617f08f45"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T10:16:15+00:00",
+ "fetched_at": "2026-10-20T09:39:48+00:00",
  "events": [
   {
    "title": "Hořice JazzNights 2026",
@@ -74,6 +74,30 @@
    "id": "horice-koruna:448ced9290de"
   },
   {
+   "title": "Dalibor - koncert ke 145. výročí založení hudebního spolku",
+   "start": "2026-11-18T19:00:00+01:00",
+   "source": "horice-koruna",
+   "url": "https://www.dum-kultury-koruna.cz/dalibor-koncert-ke-145-vyroci-zalozeni-hudebniho-spolku",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Dům kultury Koruna",
+   "category": null,
+   "native_category": null,
+   "description": "DK Koruna 18.11.2026 v 19.00 Hudební spolek, založený v roce 1881 v Hořicích v Podkrkonoší, dostal vlastenecké jméno Dalibor. Při svém vzniku čítal 31 nadšených hudebníků, ...",
+   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01073/posters/DSC_1076.jpg",
+   "native_id": "https://www.dum-kultury-koruna.cz/dalibor-koncert-ke-145-vyroci-zalozeni-hudebniho-spolku",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "horice-koruna:38bac815afbb"
+  },
+  {
    "title": "Retro Disko Ples 2026",
    "start": "2026-11-28T20:00:00+01:00",
    "source": "horice-koruna",
@@ -120,6 +144,30 @@
    "lon": null,
    "geo": null,
    "id": "horice-koruna:01290c990b0b"
+  },
+  {
+   "title": "Vánoční burza - gramofonové desky, kazety, CD a DVD",
+   "start": "2026-12-05T10:00:00+01:00",
+   "source": "horice-koruna",
+   "url": "https://www.dum-kultury-koruna.cz/vanocni-burza-gramofonove-desky-kazety-cd-a-dvd",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Dům kultury Koruna",
+   "category": null,
+   "native_category": null,
+   "description": "DK Koruna 5.12.2026 od 10.00 do 14.00 h. Vstupné 20,- Kč, rezervace stolů pro prodejce na tel.: 731 783 027 ...",
+   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01074/posters/burza-12-26.jpg",
+   "native_id": "https://www.dum-kultury-koruna.cz/vanocni-burza-gramofonove-desky-kazety-cd-a-dvd",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "horice-koruna:ec8c8a62d085"
   },
   {
    "title": "DASHA A PAJKY PAJK",

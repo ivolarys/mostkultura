@@ -1,4 +1,29 @@
 {
- "fetched_at": "2026-10-19T10:16:20+00:00",
- "events": []
+ "fetched_at": "2026-10-20T09:39:51+00:00",
+ "events": [
+  {
+   "title": "Zavírání hradu",
+   "start": "2026-10-24T10:00:00+02:00",
+   "source": "hrad-pecka",
+   "url": "https://www.hradpecka.cz/cs/akce/zavirani-hradu-209_157cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hrad Pecka, Pecka",
+   "category": null,
+   "native_category": null,
+   "description": "ukončení turistické sezóny s Kryštofem Harantem a šermířskou skupinou Sinister",
+   "image": "https://www.hradpecka.cz/evt_image.php?img=1030&width=300",
+   "native_id": "event-209",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "hrad-pecka:684017562808"
+  }
+ ]
 }
