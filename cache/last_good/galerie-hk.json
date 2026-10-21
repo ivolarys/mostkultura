@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-20T09:40:10+00:00",
+ "fetched_at": "2026-10-21T09:38:07+00:00",
  "events": [
   {
    "title": "Workshop figurální kresby",
@@ -318,7 +318,7 @@
    "start": "2026-11-21T10:00:00+01:00",
    "source": "galerie-hk",
    "url": "https://www.galeriehk.cz/edukace/rodiny-s-detmi/",
-   "end": "2026-11-21T12:00:00+01:00",
+   "end": null,
    "all_day": false,
    "place": null,
    "place_raw": null,
@@ -336,6 +336,30 @@
    "lon": null,
    "geo": null,
    "id": "galerie-hk:c258ac6f4d5d"
+  },
+  {
+   "title": "Ateliér s Evou a Jakubem Horskými | Co všechno máme",
+   "start": "2026-11-21T14:00:00+01:00",
+   "source": "galerie-hk",
+   "url": "https://www.galeriehk.cz/edukace/rodiny-s-detmi/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Galerie moderního umění v Hradci Králové",
+   "category": null,
+   "native_category": "Workshop",
+   "description": "Ateliér s Evou a Jakubem Horskými | Co všechno máme Workshop pro rodiny s dětmi 5–12 let, kde se pustíme do tisku z výšky a prozkoumáme možnosti vrstvení různých tiskových matric s knihtiskovými literami. Obraz budeme skládat z bodů, linií a ploch, jejichž vrstvením a překrýváním budeme vytvářet nové struktury. K tisku využijeme nátiskový lis a tiskařské barvy. Díky společné práci rodičů a dětí na závěr vznikne jedinečný experimentální grafický list.",
+   "image": null,
+   "native_id": "https://www.galeriehk.cz/edukace/rodiny-s-detmi/|2026-11-21|14:00:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "galerie-hk:218734aa1f56"
   },
   {
    "title": "Hrateliér | Se sklem",

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-20T09:39:33+00:00",
+ "fetched_at": "2026-10-21T09:37:25+00:00",
  "events": [
-  {
-   "title": "PŘEDNÁŠKA MUDr. MARKA DVOŘÁKA",
-   "start": "2026-10-20T18:00:00+02:00",
-   "source": "kultura-novapaka",
-   "url": "http://www.kultura-novapaka.cz/index.php?detail=prednaska-mudr-marka-dvoraka",
-   "end": "2026-10-20T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kino Nová Paka",
-   "category": null,
-   "native_category": "prednaska",
-   "description": "Přednáška lékaře urgentní medicíny a záchranáře nabízí autentický pohled do situací, kdy jde o vteřiny a správné rozhodnutí může zachránit život. Přednášku opakujeme po mimořádném zájmu v loňském roce.",
-   "image": "http://www.kultura-novapaka.cz/akce-thumbs/prednaska-mudr-marka-dvoraka.jpg",
-   "native_id": "http://www.kultura-novapaka.cz/index.php?detail=prednaska-mudr-marka-dvoraka",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "kultura-novapaka:ea57e1028768"
-  },
   {
    "title": "Jak na chytrý telefon a tablet",
    "start": "2026-10-21T08:00:00+02:00",

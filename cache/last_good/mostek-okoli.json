@@ -1,4 +1,29 @@
 {
- "fetched_at": "2026-10-20T09:35:43+00:00",
- "events": []
+ "fetched_at": "2026-10-21T09:31:42+00:00",
+ "events": [
+  {
+   "title": "Zavírání hradu",
+   "start": "2026-10-24T10:00:00+02:00",
+   "source": "mostek-okoli",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/akce-v-okoli/zavirani-hradu-209_157cs1708.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hrad Pecka, Pecka",
+   "category": null,
+   "native_category": "historický šerm, historický tanec",
+   "description": "",
+   "image": "https://www.hradpecka.cz/evt_image.php?img=1030&width=500",
+   "native_id": "event-209",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek-okoli:684017562808"
+  }
+ ]
 }

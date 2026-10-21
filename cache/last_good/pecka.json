@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-10-20T09:39:50+00:00",
+ "fetched_at": "2026-10-21T09:37:45+00:00",
  "events": [
+  {
+   "title": "Zavírání hradu",
+   "start": "2026-10-24T10:00:00+02:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/zavirani-hradu-1539_914cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hrad Pecka, Pecka",
+   "category": null,
+   "native_category": null,
+   "description": "Ukončení turistické sezóny s Kryštofem Harantem a šermířskou skupinou Sinister",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5410&width=300",
+   "native_id": "event-1539",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:e1e5361036f0"
+  },
   {
    "title": "Posvícenská taneční zábava",
    "start": "2026-10-24T20:00:00+02:00",
@@ -267,7 +291,7 @@
   },
   {
    "title": "Pochod KČT",
-   "start": "2026-12-04T06:43:00+01:00",
+   "start": "2026-12-04T09:15:00+01:00",
    "source": "pecka",
    "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/pochod-kct-1050_494cs.html",
    "end": null,

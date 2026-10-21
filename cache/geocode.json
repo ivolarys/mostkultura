@@ -230,6 +230,13 @@
   "q": "Dopravní hřiště, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
  },
+ "dubenec|dvur kralove nad labem": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Dubenec, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-10-21T09:39:53+00:00"
+ },
  "dukelske namesti|nova paka": {
   "lat": 50.4940405,
   "lon": 15.5144864,
@@ -655,7 +662,7 @@
   "lon": null,
   "precision": "none",
   "q": "Klub Kus, Turnov, Česko",
-  "ts": "2026-09-20T15:28:30+00:00"
+  "ts": "2026-10-21T09:39:53+00:00"
  },
  "knihovna krystofa haranta|pecka": {
   "lat": 50.4811752,

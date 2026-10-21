@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-20T09:41:11+00:00",
+ "fetched_at": "2026-10-21T09:39:15+00:00",
  "events": [
-  {
-   "title": "Bez řečí: Monika Absolonová & Ondřej Hájek",
-   "start": "2026-10-20T19:00:00+02:00",
-   "source": "goout",
-   "url": "https://goout.net/cs/bez-reci-monika-absolonova-and-ondrej-hajek/szrpbey/",
-   "end": "2026-10-20T23:59:59+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": "Jaroměř",
-   "venue": "Městské divadlo Jaroměř",
-   "category": null,
-   "native_category": "concerts, concerts",
-   "description": "Monika Absolonová vystoupí za doprovodu pianisty Ondřeje Hájka a vokalistů Andrey Holé a Ondřeje Izdného. V rámci tohoto hudebního setkání zazní skladby z muzikálových představení, kterých se držitelka Cen Thálie zhostila nejen na pražských divadelních prknech. Chybět nebudou ani důvěrně známé a oblíbené skladby z *Evity* a *Funny Girl*, které Monika doplní o hity ze svého repertoáru.",
-   "image": null,
-   "native_id": "schedule:9438517",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "goout:852b756665c8"
-  },
   {
    "title": "FACE TOur FACE: Rybičky 48 + host: Wotazník",
    "start": "2026-11-20T19:00:00+01:00",
