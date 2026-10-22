@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-21T09:34:27+00:00",
+ "fetched_at": "2026-10-22T09:37:12+00:00",
  "events": [
-  {
-   "title": "Přednáška o psychice v mateřství",
-   "start": "2026-10-21T17:00:00+02:00",
-   "source": "bila-tremesna-okoli",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/prednaska-o-psychice-v-materstvi-1942_1242cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Přednáška o psychických obtížích v těhotenství, po porodu a v dalších fázích mateřství.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3256&width=300",
-   "native_id": "event-1942",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna-okoli:f0a9486e6790"
-  },
   {
    "title": "Přednáška o hledání pokladů",
    "start": "2026-10-22T16:00:00+02:00",

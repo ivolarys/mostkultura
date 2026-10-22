@@ -118,6 +118,13 @@
   "q": "Café EPO1, Trutnov, Trutnov, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
  },
+ "centrum obce mostek, mostek|mostek": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Centrum obce Mostek, Mostek, Česko",
+  "ts": "2026-10-22T09:47:45+00:00"
+ },
  "cinestar hradec kralove — sal 1|hradec kralove": {
   "lat": 50.1969228,
   "lon": 15.8477146,
@@ -509,6 +516,13 @@
   "precision": "none",
   "q": "IC Novopacko, Klenotnice drahých kamenů, Nová Paka, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
+ },
+ "kaple sv. anny|mostek": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kaple sv. Anny, Mostek, Česko",
+  "ts": "2026-10-22T09:47:45+00:00"
  },
  "kavarna belohradske sypky|lazne belohrad": {
   "lat": null,
@@ -1091,6 +1105,13 @@
   "q": "Restaurace Za Mostem, Mostek, Česko",
   "ts": "2026-09-26T05:06:53+00:00"
  },
+ "rimskokatolicka farnost lazne belohrad|lazne belohrad": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Římskokatolická farnost Lázně Bělohrad, Lázně Bělohrad, Česko",
+  "ts": "2026-10-22T09:47:45+00:00"
+ },
  "rodinne centrum kopretina, komenskeho 1248, vrchlabi|vrchlabi": {
   "lat": 50.6182463,
   "lon": 15.6091238,
@@ -1103,7 +1124,7 @@
   "lon": null,
   "precision": "none",
   "q": "Rodinné centrum Kopretina, Vrchlabí, Česko",
-  "ts": "2026-09-21T21:15:46+00:00"
+  "ts": "2026-10-22T09:47:45+00:00"
  },
  "rtic krkonose, husova 210, vrchlabi|vrchlabi": {
   "lat": 50.6289229,

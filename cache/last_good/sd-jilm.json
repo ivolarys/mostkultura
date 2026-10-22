@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T09:37:30+00:00",
+ "fetched_at": "2026-10-22T09:40:24+00:00",
  "events": [
   {
    "title": "Kurz taneční a společenské výchovy 2026",
@@ -317,7 +317,7 @@
    "title": "Milonga v Jilemnice",
    "start": "2026-11-21T18:00:00+01:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/index.php/sd-jilm/tanecni/milonga-v-jilemnice-2026",
+   "url": "https://www.sdjilm.cz/sd-jilm/tanecni/milonga-v-jilemnice-2026",
    "end": null,
    "all_day": false,
    "place": null,
@@ -1061,7 +1061,7 @@
    "title": "O Balince, dobrém štěněti",
    "start": "2027-05-12T08:30:00+02:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/detsky-porad/o-balince-dobrem-steneti-2025",
+   "url": "https://www.sdjilm.cz/index.php/sd-jilm/detsky-porad/o-balince-dobrem-steneti-2025",
    "end": null,
    "all_day": false,
    "place": null,
@@ -1085,7 +1085,7 @@
    "title": "O Balince, dobrém štěněti",
    "start": "2027-05-12T10:00:00+02:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/detsky-porad/o-balince-dobrem-steneti-2025",
+   "url": "https://www.sdjilm.cz/index.php/sd-jilm/detsky-porad/o-balince-dobrem-steneti-2025",
    "end": null,
    "all_day": false,
    "place": null,
@@ -1109,7 +1109,7 @@
    "title": "Martin Hranáč",
    "start": "2027-05-17T19:00:00+02:00",
    "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/stand-up/martin-hranac-2027",
+   "url": "https://www.sdjilm.cz/index.php/sd-jilm/stand-up/martin-hranac-2027",
    "end": null,
    "all_day": false,
    "place": null,

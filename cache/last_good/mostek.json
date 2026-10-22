@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T09:31:41+00:00",
+ "fetched_at": "2026-10-22T09:35:00+00:00",
  "events": [
   {
    "title": "Strašidelná noc v Mostku - 24. 10. 2026",
@@ -96,6 +96,54 @@
    "lon": null,
    "geo": null,
    "id": "mostek:7bb393217266"
+  },
+  {
+   "title": "Rozsvícení vánočního stromu v Mostku",
+   "start": "2026-11-29T16:30:00+01:00",
+   "source": "mostek",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/rozsviceni-vanocniho-stromu-v-mostku-1640_385cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Centrum obce Mostek, Mostek",
+   "category": null,
+   "native_category": "akce pro děti",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4148&width=500",
+   "native_id": "event-1640",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek:bf45c0f2d121"
+  },
+  {
+   "title": "Vánoční koncert v Mostku",
+   "start": "2026-12-18T18:00:00+01:00",
+   "source": "mostek",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/vanocni-koncert-v-mostku-1641_386cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kaple sv. Anny",
+   "category": null,
+   "native_category": "akce pro veřejnost",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4149&width=500",
+   "native_id": "event-1641",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek:7ad8bbae4c08"
   }
  ]
 }

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-21T09:39:00+00:00",
+ "fetched_at": "2026-10-22T09:46:53+00:00",
  "events": [
-  {
-   "title": "Vítání občánků",
-   "start": "2026-10-21T15:00:00+02:00",
-   "source": "divadlo-drak",
-   "url": "https://draktheatre.cz/repertoar/vitani-obcanku/",
-   "end": null,
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Divadlo DRAK – Hlavní scéna",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "",
-   "image": "https://draktheatre.cz/wp-content/uploads/2014/11/2026-9-Vitani-obcanku-15-1-320x320.jpg",
-   "native_id": "https://draktheatre.cz/repertoar/vitani-obcanku/|2026-10-21T15:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "divadlo-drak:446fbbb7e048"
-  },
   {
    "title": "Příběh Draku 1958 – 2018",
    "start": "2026-10-24T10:00:00+02:00",
@@ -314,7 +290,7 @@
    "id": "divadlo-drak:ed9d72a3aca8"
   },
   {
-   "title": "Akce G.N.O.M.E",
+   "title": "Akce G.N.O.M.E.",
    "start": "2026-10-30T16:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/akce-gnome/",
@@ -338,7 +314,7 @@
    "id": "divadlo-drak:d25d8d87c9c2"
   },
   {
-   "title": "Akce G.N.O.M.E",
+   "title": "Akce G.N.O.M.E.",
    "start": "2026-10-30T18:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/akce-gnome/",
@@ -362,7 +338,7 @@
    "id": "divadlo-drak:805ca3a13aaf"
   },
   {
-   "title": "Akce G.N.O.M.E",
+   "title": "Akce G.N.O.M.E.",
    "start": "2026-10-31T18:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/akce-gnome/",
@@ -458,7 +434,7 @@
    "id": "divadlo-drak:c71c09ae4ea9"
   },
   {
-   "title": "Akce G.N.O.M.E",
+   "title": "Akce G.N.O.M.E.",
    "start": "2026-11-02T18:00:00+01:00",
    "source": "divadlo-drak",
    "url": "https://draktheatre.cz/repertoar/akce-gnome/",
