@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-22T09:40:28+00:00",
+ "fetched_at": "2026-10-23T09:35:29+00:00",
  "events": [
-  {
-   "title": "Kluci to vidí jinak než holky",
-   "start": "2026-10-22T19:00:00+02:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-841617",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Kluci to vidí jinak než holky je autorská komedie o lidech v současné Praze, kteří se v různých fázích života snaží zjistit, kým jsou, co vlastně chtějí a zda naplnili své sny. Film s humorem, drsností i nadhledem reflektuje mezigenerační vztahy, krizi identity i tlak konzumní doby a přináší řadu nečekaných zvratů. Praha je město sedmi mostů, jež spojují břehy i lidské osudy. Pulzující místo, kde jste obklopeni lidmi, a přesto v něm lze být až bolestně sám. V jeho rytmu se protínají životy sedmi",
-   "image": null,
-   "native_id": "5587465",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:7553a99209a7"
-  },
   {
    "title": "Ovečka Shaun ve filmu: Příšera z Mossy Bottom",
    "start": "2026-10-23T17:00:00+02:00",

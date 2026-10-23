@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-21T09:34:21+00:00",
+ "fetched_at": "2026-10-23T09:32:08+00:00",
  "events": [
-  {
-   "title": "Tereza Barešová – acoustic",
-   "start": "2026-10-21T18:00:00+02:00",
-   "source": "vrchlabi",
-   "url": "https://www.mestovrchlabi.cz/events/tereza-baresova-acoustic",
-   "end": "2026-10-21T19:30:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kino Kartonka 1904, Vančurova 407, Vrchlabí",
-   "category": null,
-   "native_category": "Hudba, koncerty",
-   "description": "Přijďte si užít výjimečný hudební večer se zpěvačkou Terezou Barešovou, která má za sebou řadu zajímavých hudebních zkušeností.",
-   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-10/tereza-baresova.JPG?itok=DV-cucfN",
-   "native_id": "https://www.mestovrchlabi.cz/events/tereza-baresova-acoustic",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "vrchlabi:47d7063230f4"
-  },
   {
    "title": "Divočina",
    "start": "2026-10-22T17:00:00+02:00",
@@ -1152,6 +1128,30 @@
    "lon": null,
    "geo": null,
    "id": "vrchlabi:fd51d93b838f"
+  },
+  {
+   "title": "Wildwood: Tajemství zakázaného lesa",
+   "start": "2026-10-31T17:00:00+01:00",
+   "source": "vrchlabi",
+   "url": "https://www.mestovrchlabi.cz/events/wildwood-tajemstvi-zakazaneho-lesa",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": "Kino",
+   "description": "",
+   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-10/wildwood-tajemstvi-zakazan%C3%A9ho-lesa.jpeg?h=33df86f7&itok=njy_tfxv",
+   "native_id": "https://www.mestovrchlabi.cz/events/wildwood-tajemstvi-zakazaneho-lesa",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "vrchlabi:fb6fc9bba9e7"
   }
  ]
 }

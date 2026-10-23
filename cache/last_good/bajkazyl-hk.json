@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-22T09:47:04+00:00",
+ "fetched_at": "2026-10-23T09:37:06+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1512,6 +1512,30 @@
    "lon": null,
    "geo": null,
    "id": "bajkazyl-hk:82bc5327bc5d"
+  },
+  {
+   "title": "BENEFIT PRO FOOD NOT BOMBS HK 🥕 REMDIK (🇸🇰)+ DEATH IN YOUR YARD + HATERS",
+   "start": "2026-11-14T20:00:00+01:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/benefit-pro-food-not-bombs-hk-remdik-death-in-your-yard-haters-20261114-1900",
+   "end": "2026-11-14T21:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Událost: fb://event/1115712014184534 Zveme na koncert tři hardcore kapel, který se 14. listopadu sejdou v Bajkazylu, aby společně zahrály a podpořily 𝐅𝐎𝐎𝐃 𝐍𝐎𝐓 𝐁𝐎𝐌𝐁𝐒 𝐇𝐑𝐀𝐃𝐄𝐂 𝐊𝐑𝐀́𝐋𝐎𝐕𝐄́ 🔥 𝐑𝐄𝐌𝐃𝐈𝐊 🇸🇰 Straight edge hardcore skins zo Žiliny. V květnu vydali novou desku s názvem Potkany patria do diery, kterou stvrdili, že kdepak krev, ale to hardcore a punk jim koluje v žilách! A taky že jejich skutečným domovem je Boston a New York před čtyřiceti lety 🙅 Veliká část jejich koncertů jsou benefice na dobr",
+   "image": "https://i.ibb.co/PzMySTsr/fb-e-VENT-remdik.jpg",
+   "native_id": "c4pj6cpm6tgm4bb271gmcb9k68r3abb26go68bb56sqmcd9jcgqj6c316k@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:4ba4a7682d42"
   },
   {
    "title": "Critilal Mass HK",
