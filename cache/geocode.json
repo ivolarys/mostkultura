@@ -398,6 +398,13 @@
   "q": "Hankův dům - sál, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "hankuv dum, dvur kralove nad labem|dvur kralove nad labem": {
+  "lat": 50.4309307,
+  "lon": 15.8119324,
+  "precision": "venue",
+  "q": "Hankův dům, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-10-24T09:09:39+00:00"
+ },
  "hankuv dum|dvur kralove nad labem": {
   "lat": 50.4309307,
   "lon": 15.8119324,
@@ -564,7 +571,7 @@
   "lon": null,
   "precision": "none",
   "q": "KD Střelnice – Koncert za oponou, Vrchlabí, Česko",
-  "ts": "2026-09-24T08:51:58+00:00"
+  "ts": "2026-10-24T09:09:39+00:00"
  },
  "kd strelnice – velky sal vancurova 378, vrchlabi|vrchlabi": {
   "lat": null,

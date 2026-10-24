@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-23T09:30:58+00:00",
+ "fetched_at": "2026-10-24T09:03:27+00:00",
  "events": [
   {
    "title": "Strašidelná noc v Mostku - 24. 10. 2026",
@@ -72,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "mostek:14224fb6418b"
+  },
+  {
+   "title": "Noc venku 2026 ve Dvoře Králové",
+   "start": "2026-11-19T09:00:00+01:00",
+   "source": "mostek",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/noc-venku-2026-ve-dvore-kralove-1642_387cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Hankův dům, Dvůr Králové nad Labem",
+   "category": null,
+   "native_category": "akce pro veřejnost",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4151&width=500&v=1792749533",
+   "native_id": "event-1642",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek:12f03299f2da"
   },
   {
    "title": "Vepřové hody v restauraci Za Mostem",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-23T09:32:13+00:00",
+ "fetched_at": "2026-10-24T09:04:22+00:00",
  "events": [
   {
    "title": "Třemešenský bleší trh",
@@ -24,6 +24,54 @@
    "lon": null,
    "geo": null,
    "id": "bila-tremesna:1753cc8af518"
+  },
+  {
+   "title": "Koncert ve středu 28. října",
+   "start": "2026-10-28T18:00:00+01:00",
+   "source": "bila-tremesna",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-bile-tremesne/koncert-ve-stredu-28-rijna-1973_1266cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "28. října od 18 h se ve Sboru J. A. Komenského vystoupí folklórní soubor Horal z Vrchlabí, který je známý tím, že se věnuje především písním v podkrkonošském nářečí a tím pádem z podkrkonošského kraje.",
+   "image": "https://www.bilatremesna.cz/evt_image.php?img=3293&width=300&v=1792756537",
+   "native_id": "event-1973",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna:592c01b3318a"
+  },
+  {
+   "title": "Taneční v Bílé Třemešné",
+   "start": "2027-01-29T17:15:00+01:00",
+   "source": "bila-tremesna",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-bile-tremesne/tanecni-v-bile-tremesne-1974_1267cs.html",
+   "end": "2027-04-09T23:59:00+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "Již nyní je možné se přihlásit do taneční kurzu pro dospělé, který začíná 29. ledna.",
+   "image": "https://www.bilatremesna.cz/evt_image.php?img=3295&width=300&v=1792758733",
+   "native_id": "event-1974",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna:7e854d20637f"
   }
  ]
 }

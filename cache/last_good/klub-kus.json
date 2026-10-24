@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-23T09:35:33+00:00",
+ "fetched_at": "2026-10-24T09:07:38+00:00",
  "events": [
-  {
-   "title": "Tygroo",
-   "start": "2026-10-23T20:00:00+02:00",
-   "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/tygroo",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Turnov",
-   "venue": "Klub Kus",
-   "category": null,
-   "native_category": null,
-   "description": "Bizár free jazz/techno Balkán show na Básnících ticha!",
-   "image": "https://www.kulturaturnov.cz/data/photogallery/tygroo__thumb_38843.jpg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/tygroo|2026-10-23T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klub-kus:d92c5ad82812"
-  },
   {
    "title": "Jen tak na pohodu",
    "start": "2026-10-24T20:00:00+02:00",
