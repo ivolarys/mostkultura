@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-25T09:25:36+00:00",
+ "fetched_at": "2026-10-26T10:31:42+00:00",
  "events": [
-  {
-   "title": "Kytice",
-   "start": "2026-10-26T10:00:00+01:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/kytice?t=64",
-   "end": "2026-10-26T12:10:00+01:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Kytice Hlavní scéna · Karel Jaromír Erben - Karel Brožek Karel Jaromír Erben - Karel Brožek · režie Karel Brožek Hlavní scéna Hudební Literární adaptace Dopolední představení Volné sezení",
-   "image": "https://www.klicperovodivadlo.cz/media/373/gallery/kytice-fotografie-01-67322",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/kytice?t=64|2026-10-26T10:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:1de7c7e7a7d2"
-  },
   {
    "title": "Winterbergova poslední cesta",
    "start": "2026-10-27T19:00:00+01:00",

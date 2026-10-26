@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-25T09:24:02+00:00",
+ "fetched_at": "2026-10-26T10:30:06+00:00",
  "events": [
-  {
-   "title": "DIMITRI BOEKHOORN (FR)",
-   "start": "2026-10-25T18:00:00+01:00",
-   "source": "valdstejnska-lodzie",
-   "url": "https://valdstejnskalodzie.cz/program/dimitri-boekhoorn-fr",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Valdštejnská lodžie",
-   "category": null,
-   "native_category": null,
-   "description": "Harfový virtuoz z Bretaně.",
-   "image": "https://valdstejnskalodzie.cz/media/pages/program/dimitri-boekhoorn-fr/f3252d8348-1791721719/dimitri-boekhoorn-photo-youenn-chapalain5-copie-200x200-crop-60-41-q60.jpg",
-   "native_id": "https://valdstejnskalodzie.cz/program/dimitri-boekhoorn-fr",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "valdstejnska-lodzie:509265839a16"
-  },
   {
    "title": "MY SISTER GRENADINE (D)",
    "start": "2026-11-13T20:00:00+01:00",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-25T09:19:47+00:00",
+ "fetched_at": "2026-10-26T10:25:46+00:00",
  "events": [
   {
    "title": "Zvěřinové hody v restauraci Za Mostem",
@@ -24,6 +24,30 @@
    "lon": null,
    "geo": null,
    "id": "mostek:fe3f0bbfd01e"
+  },
+  {
+   "title": "Pozvánka na setkání sousedů",
+   "start": "2026-11-06T18:00:00+01:00",
+   "source": "mostek",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/pozvanka-na-setkani-sousedu-1643_388cs.html",
+   "end": "2026-11-06T19:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Obecní úřad Mostek - zasedací místnost",
+   "category": null,
+   "native_category": "akce pro veřejnost",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4160&width=500&v=1793010105",
+   "native_id": "event-1643",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek:4299bafa405e"
   },
   {
    "title": "Svatomartinské hody v restauraci Za Mostem",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-25T09:24:27+00:00",
+ "fetched_at": "2026-10-26T10:30:26+00:00",
  "events": [
   {
    "title": "Cesty Michala Halvy (Obrazy z let 1993-2026)",
@@ -72,30 +72,6 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:61fb53c724aa"
-  },
-  {
-   "title": "Oldies Party s DJ Jirkou v Bělohradské sýpce",
-   "start": "2026-10-24T20:00:00+02:00",
-   "source": "belohradska-sypka",
-   "url": "https://www.belohradskasypka.cz/l/oldies-party-s-dj-jirkou-v-belohradske-sypce/",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Hlavní sál Bělohradské sýpky",
-   "category": null,
-   "native_category": null,
-   "description": "Nejlepší české i světové hity od 90. let až po současnost. Skvělá atmosféra, plný parket, výborné pití a noc plná vzpomínek!",
-   "image": null,
-   "native_id": "https://www.belohradskasypka.cz/l/oldies-party-s-dj-jirkou-v-belohradske-sypce/|2026-10-24T20:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "belohradska-sypka:9951213caf1c"
   },
   {
    "title": "Kavárenský kvíz",

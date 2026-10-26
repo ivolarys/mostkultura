@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-10-25T09:20:54+00:00",
+ "fetched_at": "2026-10-26T10:26:59+00:00",
  "events": [
+  {
+   "title": "Prodej vepřových půlek",
+   "start": "2026-10-26T08:14:00+01:00",
+   "source": "bila-tremesna-okoli",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/prodej-veprovych-pulek-1975_1268cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "Karsit Agro Dubenec nabízí prodej vepřových půlek. Závazné objednávky přijímá do 17.11.2026.",
+   "image": null,
+   "native_id": "event-1975",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna-okoli:c679fcccadf3"
+  },
   {
    "title": "Světový den pro rozvoj informací",
    "start": "2026-10-26T00:00:00+01:00",
