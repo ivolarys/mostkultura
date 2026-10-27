@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-10-26T10:25:48+00:00",
+ "fetched_at": "2026-10-27T09:59:48+00:00",
  "events": [
+  {
+   "title": "KULTURNÍ PROGRAM - listopad/prosinec",
+   "start": "2026-11-01T08:44:00+01:00",
+   "source": "lazne-belohrad",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/kulturni-program-listopadprosinec",
+   "end": "2026-12-31T08:44:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "MKS Lázně Bělohrad",
+   "category": null,
+   "native_category": "Doporučujeme, Program",
+   "description": "S příchodem chladnějších dnů přichází i nový kulturní program. Na listopad a prosinec jsme pro vás připravili pestrou nabídku akcí, ze které si určitě vyberete. Mrkněte na plakát a naplánujte si, kam vyrazíte.",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14010844",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/kulturni-program-listopadprosinec",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "lazne-belohrad:7815d644e30e"
+  },
   {
    "title": "PŮLNOČNÍ MŠE SVATÁ",
    "start": "2026-12-24T22:00:00+01:00",
@@ -456,30 +480,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:5b602dcd8909"
-  },
-  {
-   "title": "Výstava Cesty Michala Halvy (Obrazy z let 1993-2026)",
-   "start": "2026-11-07T00:00:00+01:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/vystava-cesty-michala-halvy-obrazy-z-let-1993-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Bělohradská sýpka",
-   "category": null,
-   "native_category": null,
-   "description": "Galerie Bělohradská sýpka vás zve na mimořádnou soubornou výstavu brněnského malíře Michala Halvy s názvem CESTY MICHALA HALVY (Obrazy z let 1993–2026).",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13948201",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/vystava-cesty-michala-halvy-obrazy-z-let-1993-2026",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:9823187e0f8b"
   }
  ]
 }

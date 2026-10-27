@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-26T10:30:19+00:00",
+ "fetched_at": "2026-10-27T10:04:16+00:00",
  "events": [
-  {
-   "title": "Talkshow Vítka Martince s hosty: Vanda Hybnerová a Zdeněk Barnett - ZRUŠENO! (hledáme nový termín)",
-   "start": "2026-10-26T19:00:00+01:00",
-   "source": "biograf-jicin",
-   "url": "https://kzmj.cz/sekce-nefilmova/talkshow-vitka-martince-s-hosty-vanda-hybnerova-a/",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": "Jičín",
-   "venue": "Biograf Český ráj",
-   "category": "prednaska",
-   "native_category": "Talkshow",
-   "description": "",
-   "image": "https://kzmj.cz/wp-content/uploads/2026/10/Vitek-Martinec-web-A4-141x200.png",
-   "native_id": "https://kzmj.cz/sekce-nefilmova/talkshow-vitka-martince-s-hosty-vanda-hybnerova-a/|2026-10-26T19:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-jicin:ef9703d30329"
-  },
   {
    "title": "Kluci to vidí jinak než holky /DOLBY ATMOS/ (pozor změna času začátku promítání)",
    "start": "2026-10-27T17:00:00+01:00",

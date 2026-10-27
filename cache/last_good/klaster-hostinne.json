@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-26T10:30:35+00:00",
+ "fetched_at": "2026-10-27T10:04:32+00:00",
  "events": [
   {
    "title": "Cestopisná přednška: Skotsko",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "klaster-hostinne:7f8f2a79db6b"
-  },
-  {
-   "title": "Nové tituly v knihovně",
-   "start": "2026-10-26T00:00:00+01:00",
-   "source": "klaster-hostinne",
-   "url": "https://www.klasterhostinne.cz/aktuality-knihovna/nove-tituly-v-knihovne",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": "Knihovna",
-   "description": "Výběr z nových titulů v knihovně: Javůrek, Štěpán: Ve stínu jeřabiny - Prokop 1938-1940...",
-   "image": "https://www.klasterhostinne.cz/media/photos/articlek/item/images-606/nove-tituly-v-knihovne-t2.jpg",
-   "native_id": "https://www.klasterhostinne.cz/aktuality-knihovna/nove-tituly-v-knihovne",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klaster-hostinne:3c8617f08f45"
   }
  ]
 }
