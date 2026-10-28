@@ -195,6 +195,13 @@
   "q": "Husova 212, Vrchlabí, Česko",
   "ts": "2026-10-07T05:10:39+00:00"
  },
+ "ddm – tanecni studio oliver, komenskeho 616|vrchlabi": {
+  "lat": 50.6189055,
+  "lon": 15.6125726,
+  "precision": "venue",
+  "q": "Komenského 616, Vrchlabí, Česko",
+  "ts": "2026-10-28T10:53:12+00:00"
+ },
  "divadlo drak – hlavni scena|hradec kralove": {
   "lat": 50.2077064,
   "lon": 15.8384837,
@@ -312,7 +319,7 @@
   "lon": null,
   "precision": "none",
   "q": "Farma Nová Amerika, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-27T10:19:54+00:00"
+  "ts": "2026-10-28T10:53:12+00:00"
  },
  "farma nova amerika|kuks": {
   "lat": 50.3802408,
@@ -579,6 +586,13 @@
   "precision": "none",
   "q": "KD Střelnice – Koncert za oponou, Vrchlabí, Česko",
   "ts": "2026-10-24T09:09:39+00:00"
+ },
+ "kd strelnice – maly sal|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "KD Střelnice – malý sál, Vrchlabí, Česko",
+  "ts": "2026-10-28T10:53:12+00:00"
  },
  "kd strelnice – velky sal vancurova 378, vrchlabi|vrchlabi": {
   "lat": null,
@@ -1215,7 +1229,7 @@
   "lon": null,
   "precision": "none",
   "q": "ShanTea – čajovna a kavárna Zámecká 1456, Vrchlabí, Česko",
-  "ts": "2026-09-12T06:34:41+00:00"
+  "ts": "2026-10-28T10:53:12+00:00"
  },
  "shantea – cajovna a kavarna|vrchlabi": {
   "lat": null,

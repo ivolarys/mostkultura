@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-27T10:00:59+00:00",
+ "fetched_at": "2026-10-28T10:47:28+00:00",
  "events": [
   {
    "title": "Asistivní technologie",
-   "start": "2026-11-03T00:00:00+01:00",
+   "start": "2026-11-02T00:00:00+01:00",
    "source": "zirec-domov",
    "url": "https://www.domovsvatehojosefa.cz/asistivni-technologie",
    "end": null,
@@ -15,7 +15,7 @@
    "native_category": null,
    "description": "Seminář o moderních technologiích, které přispívají k větší soběstačnosti klientů; přednáší pracovníci CITAK z DSJ",
    "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/2465-fyzioterapie-02.jpg",
-   "native_id": "2026-11-03|Asistivní technologie",
+   "native_id": "2026-11-02|Asistivní technologie",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -23,7 +23,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "zirec-domov:3c00c7dfc0f3"
+   "id": "zirec-domov:355e8e03ef88"
   },
   {
    "title": "Vánoční jarmark🎄",

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-27T10:00:49+00:00",
+ "fetched_at": "2026-10-28T10:47:09+00:00",
  "events": [
-  {
-   "title": "Vesmírné středy",
-   "start": "2026-10-14T10:00:00+02:00",
-   "source": "trutnov",
-   "url": "https://www.trutnov.cz/dre-cs/78859-vesmirne-stredy.html",
-   "end": "2026-10-28T10:00:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Muzeum Podkrkonoší v Trutnově",
-   "category": null,
-   "native_category": "Ostatní",
-   "description": "",
-   "image": "https://www.trutnov.cz/galerie/2290872_150_94.jpg",
-   "native_id": "https://www.trutnov.cz/dre-cs/78859-vesmirne-stredy.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "trutnov:71e2df6ba279"
-  },
   {
    "title": "The power game",
    "start": "2026-10-28T19:00:00+01:00",

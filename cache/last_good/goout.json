@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-27T10:05:55+00:00",
+ "fetched_at": "2026-10-28T10:52:26+00:00",
  "events": [
   {
    "title": "FACE TOur FACE: Rybičky 48 + host: Wotazník",
@@ -72,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "goout:e50ffcf8fb06"
+  },
+  {
+   "title": "Lucie Bílá – Recitál",
+   "start": "2027-04-29T16:30:00+02:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/lucie-bila-recital/szdsroy/",
+   "end": "2027-04-29T23:59:59+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Trutnov – Střední Předměstí",
+   "venue": "UFFO Trutnov",
+   "category": null,
+   "native_category": "concerts, concerts",
+   "description": "Recitál několikanásobné zlaté slavice Lucie Bílé za klavírního doprovodu Petra Maláska. Návštěvníci se mohou těšit na jedinečný hudební zážitek v podání jednoho z předních hlasů české hudební scény.",
+   "image": null,
+   "native_id": "schedule:9604828",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:ea60129cccb3"
   },
   {
    "title": "Lucie Bílá – Recitál",
