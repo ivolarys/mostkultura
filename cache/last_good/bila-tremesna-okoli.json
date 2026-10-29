@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-28T10:47:30+00:00",
+ "fetched_at": "2026-10-29T11:04:04+00:00",
  "events": [
   {
    "title": "Halloweenské tvoření",
@@ -26,30 +26,6 @@
    "id": "bila-tremesna-okoli:112cba61caa9"
   },
   {
-   "title": "Výroba Halloween masky",
-   "start": "2026-10-27T00:00:00+01:00",
-   "source": "bila-tremesna-okoli",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/vyroba-halloween-masky-1950_1250cs.html",
-   "end": "2026-11-01T23:59:00+01:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Přijďte si vyzkoušet výrobu šablonových masek na našem workshopu. Akce je určena pro všechny zájemce o textilní tisk a kreativní činnost. Budete mít příležitost vytvořit si originální masku, která se skvěle hodí na Halloween.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3264&width=300&v=1791188726",
-   "native_id": "event-1950",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna-okoli:2de7aeebde60"
-  },
-  {
    "title": "Hudební večer s DJ Plhákem",
    "start": "2026-10-31T21:00:00+01:00",
    "source": "bila-tremesna-okoli",
@@ -72,6 +48,30 @@
    "lon": null,
    "geo": null,
    "id": "bila-tremesna-okoli:24f516dac389"
+  },
+  {
+   "title": "Výroba Halloween masky",
+   "start": "2026-10-27T00:00:00+01:00",
+   "source": "bila-tremesna-okoli",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/vyroba-halloween-masky-1950_1250cs.html",
+   "end": "2026-11-01T23:59:00+01:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "Přijďte si vyzkoušet výrobu šablonových masek na našem workshopu. Akce je určena pro všechny zájemce o textilní tisk a kreativní činnost. Budete mít příležitost vytvořit si originální masku, která se skvěle hodí na Halloween.",
+   "image": "https://www.bilatremesna.cz/evt_image.php?img=3264&width=300&v=1791188726",
+   "native_id": "event-1950",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna-okoli:2de7aeebde60"
   },
   {
    "title": "Program kina Svět v říjnu",

@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-10-28T10:47:28+00:00",
+ "fetched_at": "2026-10-29T11:04:02+00:00",
  "events": [
+  {
+   "title": "Česká mše vánoční",
+   "start": "2026-12-12T00:00:00+01:00",
+   "source": "zirec-domov",
+   "url": "https://www.domovsvatehojosefa.cz/ceska-mse-vanocni",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "Domov sv. Josefa",
+   "category": null,
+   "native_category": null,
+   "description": "Zastavte se na chvíli v předvánočním shonu a nechte se unést hudbou, která neodmyslitelně patří k českým Vánocům.",
+   "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/2883-bonus.jpg",
+   "native_id": "2026-12-12|Česká mše vánoční",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "zirec-domov:c132adff9132"
+  },
   {
    "title": "Asistivní technologie",
    "start": "2026-11-02T00:00:00+01:00",
