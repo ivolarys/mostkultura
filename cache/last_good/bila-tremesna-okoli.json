@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-29T11:04:04+00:00",
+ "fetched_at": "2026-10-30T11:00:55+00:00",
  "events": [
-  {
-   "title": "Halloweenské tvoření",
-   "start": "2026-10-29T08:00:00+01:00",
-   "source": "bila-tremesna-okoli",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/halloweenske-tvoreni-1952_1252cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Přijďte si užít halloweenské tvoření plné zábavy a kreativity. Můžete se těšit na společné dlabání dýní a různé strašidelné hry.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3266&width=300&v=1791188949",
-   "native_id": "event-1952",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna-okoli:112cba61caa9"
-  },
   {
    "title": "Hudební večer s DJ Plhákem",
    "start": "2026-10-31T21:00:00+01:00",

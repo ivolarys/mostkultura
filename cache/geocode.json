@@ -312,7 +312,7 @@
   "lon": null,
   "precision": "none",
   "q": "Expozice textilního tisku, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-30T05:19:47+00:00"
+  "ts": "2026-10-30T11:06:40+00:00"
  },
  "farma nova amerika|dvur kralove nad labem": {
   "lat": null,
@@ -1160,6 +1160,13 @@
   "precision": "none",
   "q": "restaurace Novopacké sklepy - půda, Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "restaurace svejk, vancurova 378, vrchlabi|vrchlabi": {
+  "lat": 50.6309963,
+  "lon": 15.6106488,
+  "precision": "venue",
+  "q": "Vančurova 378, Vrchlabí, Česko",
+  "ts": "2026-10-30T11:06:40+00:00"
  },
  "restaurace za mostem, mostek|mostek": {
   "lat": 50.4832085,
