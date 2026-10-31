@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-30T11:04:04+00:00",
+ "fetched_at": "2026-10-31T10:37:51+00:00",
  "events": [
-  {
-   "title": "4 Tenoři",
-   "start": "2026-10-30T19:00:00+01:00",
-   "source": "sd-jilm",
-   "url": "https://www.sdjilm.cz/sd-jilm/koncert/4-tenori-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "SD Jilm",
-   "category": "koncert",
-   "native_category": "Koncert",
-   "description": "Mnohokrát oceněné seskupení 4 Tenoři zazpívá v doprovodu 6 špičkových hudebníků.Čtyři hlasy, jeden nezapomenutelný večer!",
-   "image": "https://www.sdjilm.cz/storage/app/uploads/public/698/ef3/786/thumb_824_250_250_0_0_auto.webp",
-   "native_id": "326|2026-10-30T19:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "sd-jilm:30dacd76d78e"
-  },
   {
    "title": "Monika Absolonová & Ondřej Hájek",
    "start": "2026-11-02T19:00:00+01:00",
@@ -986,6 +962,30 @@
    "id": "sd-jilm:29819fc6615d"
   },
   {
+   "title": "Ivo Šmoldas a jeho hosté",
+   "start": "2027-05-24T19:00:00+02:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/talk-show/ivo-smoldas-a-jeho-hoste-2026",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": "prednaska",
+   "native_category": "Talk show",
+   "description": "Zábavný pořad filozofa, básníka, kulturního publicisty, scenáristy Ivo Šmoldase, který je mistr inteligentního humoru, často využívá ironii a nadsázku.",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6ae/487/b5c/thumb_1962_250_250_0_0_auto.webp",
+   "native_id": "738|2027-05-24T19:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:862ca420f221"
+  },
+  {
    "title": "Aconcagua 6 962m – Vrcholy pro život",
    "start": "2027-06-07T18:00:00+02:00",
    "source": "sd-jilm",
@@ -1008,6 +1008,30 @@
    "lon": null,
    "geo": null,
    "id": "sd-jilm:4ae1849cec33"
+  },
+  {
+   "title": "Sirény na cestách 2",
+   "start": "2027-06-10T19:00:00+02:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/talk-show/sireny-na-cestach-2-2026",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": "prednaska",
+   "native_category": "Talk show",
+   "description": "Volné pokračováním své úspěšné talk show Sandry Pogodové, Jitky Asterové a Lindy Finkové.",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6ae/488/be9/thumb_1963_250_250_0_0_auto.webp",
+   "native_id": "739|2027-06-10T19:00:00+02:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:e352ddf15c67"
   }
  ]
 }

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-30T11:04:27+00:00",
+ "fetched_at": "2026-10-31T10:38:14+00:00",
  "events": [
-  {
-   "title": "vlněný ateliér",
-   "start": "2026-10-01T16:00:00+02:00",
-   "source": "josefov-kolonie",
-   "url": "https://umeleckakoloniejosefov.cz/vlneny-atelier-3/",
-   "end": "2026-10-01T19:00:00+02:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "",
-   "image": null,
-   "native_id": "MW1xNm0zOG02NzM2Ymo3ZDk0bGN0N2NsaW5fMjAyNjEwMDFUMTQwMDAwWiBiYXN0aW9uaXYuam9zZWZvdkBt",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "josefov-kolonie:c13d94723752"
-  },
   {
    "title": "Vlněný kroužek",
    "start": "2026-10-05T16:00:00+02:00",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-30T11:04:15+00:00",
+ "fetched_at": "2026-10-31T10:37:57+00:00",
  "events": [
   {
    "title": "Makule & Mandragora",
@@ -74,10 +74,10 @@
    "id": "klub-kus:bcbeaa3aa610"
   },
   {
-   "title": "HTH: Tomáš Hradil, Eva Turnová a Jiří Hradil",
-   "start": "2026-11-18T20:00:00+01:00",
+   "title": "Vysmátej",
+   "start": "2026-11-21T20:00:00+01:00",
    "source": "klub-kus",
-   "url": "https://www.kulturaturnov.cz/program/kus/hth:-tomas-eva-jiri",
+   "url": "https://www.kulturaturnov.cz/program/kus/vysmatej-mds",
    "end": null,
    "all_day": false,
    "place": null,
@@ -85,9 +85,9 @@
    "venue": "Klub Kus",
    "category": null,
    "native_category": null,
-   "description": "Koncert k nedožitým devadesátinám Václava Havla i výročí Sametovky.",
-   "image": "https://www.kulturaturnov.cz/data/photogallery/photo20261001153205_1_thumb_44033.jpg",
-   "native_id": "https://www.kulturaturnov.cz/program/kus/hth:-tomas-eva-jiri|2026-11-18T20:00:00+01:00",
+   "description": "Turnovská kapela, která příští rok oslaví 5 let od svého založení, vystoupí v rámci Malé (domácí) scény.",
+   "image": "https://www.kulturaturnov.cz/data/photogallery-shows/2ce0c79a7f544db3a564b18d300b4cd0_thumb_44729.jpg",
+   "native_id": "https://www.kulturaturnov.cz/program/kus/vysmatej-mds|2026-11-21T20:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -95,7 +95,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klub-kus:2ab11ded3788"
+   "id": "klub-kus:e86c78218412"
   },
   {
    "title": "Digitální zdraví dětí: hry a sítě",
