@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-31T10:39:37+00:00",
+ "fetched_at": "2026-11-01T11:32:37+00:00",
  "events": [
   {
    "title": "FACE TOur FACE: Rybičky 48 + host: Wotazník",
@@ -168,6 +168,30 @@
    "lon": null,
    "geo": null,
    "id": "goout:77883a7eca9f"
+  },
+  {
+   "title": "Tady Vary 2026/27 – jarní předplatné",
+   "start": "2027-01-06T12:00:01+01:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/tady-vary-2026-27-jarni-predplatne/szlusoy/",
+   "end": "2027-06-09T23:59:00+02:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": "Jičín – Pražské Předměstí",
+   "venue": "Biograf Český ráj",
+   "category": null,
+   "native_category": "festivals, festivals",
+   "description": "Předplaťte si sedačku na jarní část sezony Tady Vary 2025/26 a užijte si 6 filmových předpremiér s festivalovou atmosférou! Z 82 zapojených kin si vyberte to nejbližší nebo nejoblíbenější. Pořiďte si výhodné předplatné (1 z 6 filmů budete mít zdarma). V kalendáři si vyznačte 6 večerů mezi lednem a červnem 2027. Jednou měsíčně se projdete po červeném koberci a užijete si předpremiéru jednoho z nejzajímavějších současných snímků. Spolu s vámi budou film ve stejnou chvíli sledovat diváci po celé ČR",
+   "image": null,
+   "native_id": "schedule:9605511",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:aee22441f586"
   },
   {
    "title": "Brutal Assault 2027",

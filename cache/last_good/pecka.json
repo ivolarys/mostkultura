@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-31T10:38:04+00:00",
+ "fetched_at": "2026-11-01T11:31:37+00:00",
  "events": [
-  {
-   "title": "Bukovská světýlka",
-   "start": "2026-10-31T10:00:00+01:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/bukovska-svetylka-1518_895cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Bukovina - u hřiště za bytovkou, Pecka",
-   "category": null,
-   "native_category": null,
-   "description": "Stezka odvahy. Tématické dětské dílny. Fotokoutek. Čarodějná laboratoř. Občerstvení zajištěno. Masky vítány.",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5381&width=300&v=1790946630",
-   "native_id": "event-1518",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:612d41bfbabc"
-  },
   {
    "title": "Smyslohraní",
    "start": "2026-11-05T09:00:00+01:00",

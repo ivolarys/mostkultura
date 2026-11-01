@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-31T10:34:31+00:00",
+ "fetched_at": "2026-11-01T11:28:06+00:00",
  "events": [
-  {
-   "title": "Monster of Metal and Hardcore XX | Benefiční koncert",
-   "start": "2026-10-31T16:00:00+01:00",
-   "source": "trutnov",
-   "url": "https://www.trutnov.cz/dre-cs/78763-monster-of-metal-and-hardcore-xx-beneficni-koncert.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Národní dům, Trutnov",
-   "category": null,
-   "native_category": "Kulturní akce",
-   "description": "",
-   "image": null,
-   "native_id": "https://www.trutnov.cz/dre-cs/78763-monster-of-metal-and-hardcore-xx-beneficni-koncert.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "trutnov:0b0d34cc4cae"
-  },
   {
    "title": "14. ročník výstavy patchworku",
    "start": "2026-11-02T09:00:00+01:00",

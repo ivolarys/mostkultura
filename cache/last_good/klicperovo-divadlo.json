@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-10-31T10:39:14+00:00",
+ "fetched_at": "2026-11-01T11:32:17+00:00",
  "events": [
-  {
-   "title": "O myších a lidech",
-   "start": "2026-10-31T19:00:00+01:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=69",
-   "end": "2026-10-31T21:25:00+01:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "O myších a lidech 5 nej Hlavní scéna · John Steinbeck John Steinbeck · režie Pavel Khek Hlavní scéna 5 nej Drama",
-   "image": "https://www.klicperovodivadlo.cz/media/20235/gallery/at-0741-2-c88cb8fd5587",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=69|2026-10-31T19:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:004c9f8e436d"
-  },
   {
    "title": "Láska na první pohřeb",
    "start": "2026-11-04T19:00:00+01:00",
