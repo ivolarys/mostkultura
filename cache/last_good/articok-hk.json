@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-01T11:31:46+00:00",
+ "fetched_at": "2026-11-02T12:52:29+00:00",
  "events": [
   {
    "title": "JITKA SEDLÁČKOVÁ & PAVEL TÖPFER TALKSHOW od 19.hodin",
@@ -96,30 +96,6 @@
    "lon": null,
    "geo": null,
    "id": "articok-hk:f430f6f894d9"
-  },
-  {
-   "title": "YOGA & BRUNCH vol. 3 s Danielou – .hod",
-   "start": "2026-10-31T09:00:00+01:00",
-   "source": "articok-hk",
-   "url": "https://www.articok.cz/yoga-brunch-vol-3-s-danielou-31-10-2026-9-13-hod/",
-   "end": "2026-10-31T13:00:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": "Hradec Králové",
-   "venue": "Galerie Artičok",
-   "category": null,
-   "native_category": null,
-   "description": "Ahoj Hradec, už potřetí Vás zvu do krásného Artičoku – kávarny a galerie na třídě Karla IV, na spojení funkčního pohybu a skvělého jídla: YOGA & BRUNCH. Těšit se můžete na speciální prodlouženou lekci jógy a pak na společné posezení s novými dobrotami z domácí kuchyně kavárny Artičok. Praxe bude směsí hatha jógy a jin jógy okořeněná jako vždy dotekem aromaterapie s vůní podzimu protažení těla, budování síly v delší výdrži i vydechnutí v delším zastavení jinových ásan. Hloubku závěrečné relaxace ",
-   "image": "https://www.articok.cz/wp-content/uploads/2026/10/825351369_122212985840543026_158981695086132363_n.jpg",
-   "native_id": "10483|2026-10-31T09:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "articok-hk:064fa4db7fac"
   },
   {
    "title": "Tomáš Jacko, Vždycky je všechno jinak – křest nové knihy",

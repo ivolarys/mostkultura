@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-01T11:31:36+00:00",
+ "fetched_at": "2026-11-02T12:52:17+00:00",
  "events": [
   {
    "title": "Cesty Michala Halvy (Obrazy z let 1993-2026)",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:38b70bf6ef41"
-  },
-  {
-   "title": "K. V. Rais: Komu bylo z Hůry dáno?",
-   "start": "2026-07-09T00:00:00+02:00",
-   "source": "belohradska-sypka",
-   "url": "https://www.belohradskasypka.cz/l/karel-vaclav-rais-komu-bylo-z-hury-dano-nova-vystava-v-belohradske-sypce/",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Galerie Bělohradské sýpky",
-   "category": null,
-   "native_category": null,
-   "description": "100 let od úmrtí významného bělohradského rodáka a spisovatele. Výstava potrvá až do 31. října 2026.",
-   "image": null,
-   "native_id": "https://www.belohradskasypka.cz/l/karel-vaclav-rais-komu-bylo-z-hury-dano-nova-vystava-v-belohradske-sypce/|2026-07-09T00:00:00+02:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "belohradska-sypka:61fb53c724aa"
   },
   {
    "title": "Kavárenský kvíz",

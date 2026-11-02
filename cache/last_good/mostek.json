@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-01T11:27:34+00:00",
+ "fetched_at": "2026-11-02T12:48:06+00:00",
  "events": [
   {
    "title": "Pozvánka na setkání sousedů",
@@ -120,30 +120,6 @@
    "lon": null,
    "geo": null,
    "id": "mostek:bf45c0f2d121"
-  },
-  {
-   "title": "Zvěřinové hody v restauraci Za Mostem",
-   "start": "2026-10-30T13:00:00+01:00",
-   "source": "mostek",
-   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/zverinove-hody-v-restauraci-za-mostem-1633_381cs.html",
-   "end": "2026-11-01T23:59:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Restaurace Za Mostem, Mostek",
-   "category": null,
-   "native_category": "hody",
-   "description": "",
-   "image": "https://www.mostek.cz/evt_image.php?img=4141&width=500&v=1792411590",
-   "native_id": "event-1633",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "mostek:fe3f0bbfd01e"
   },
   {
    "title": "Vánoční koncert v Mostku",

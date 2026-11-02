@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-01T11:31:54+00:00",
+ "fetched_at": "2026-11-02T12:52:39+00:00",
  "events": [
   {
    "title": "Umění zblízka | Skupina 42",
@@ -264,30 +264,6 @@
    "lon": null,
    "geo": null,
    "id": "galerie-hk:ef6832ae7830"
-  },
-  {
-   "title": "Co je doma, to se počítá",
-   "start": "2026-04-24T00:00:00+02:00",
-   "source": "galerie-hk",
-   "url": "https://www.galeriehk.cz/vystavy/co-je-doma-to-se-pocita/",
-   "end": "2026-11-01T23:59:59+01:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Galerie moderního umění v Hradci Králové",
-   "category": null,
-   "native_category": "Výstava",
-   "description": "",
-   "image": "https://www.galeriehk.cz/wp-content/uploads/2025/12/Co-je-doma_to-se-pocita_GMUHK_ph_Jan_Kolsky_03-760x415.jpg",
-   "native_id": "https://www.galeriehk.cz/vystavy/co-je-doma-to-se-pocita/",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "galerie-hk:6ae80866765b"
   },
   {
    "title": "Eva Horská & Jakub Horský | Co všechno máme",
