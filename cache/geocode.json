@@ -244,6 +244,13 @@
   "q": "Domov sv. Josefa, Žireč, Česko",
   "ts": "2026-10-12T12:29:11+00:00"
  },
+ "domov svateho josefa zirec|zirec": {
+  "lat": 50.4135836,
+  "lon": 15.8540766,
+  "precision": "venue",
+  "q": "Domov svatého Josefa Žireč, Žireč, Česko",
+  "ts": "2026-11-03T12:22:34+00:00"
+ },
  "dopravni hriste|dvur kralove nad labem": {
   "lat": 50.4398285,
   "lon": 15.8138784,
@@ -775,6 +782,13 @@
   "precision": "venue",
   "q": "Kostel Nejsvětější Trojice, Kuks, Česko",
   "ts": "2026-09-16T14:46:04+00:00"
+ },
+ "kostel sv. anny, zirec u dvora kralove nad labem|zirec": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kostel sv. Anny, Žireč u Dvora Králové nad Labem, Žireč, Česko",
+  "ts": "2026-11-03T12:22:34+00:00"
  },
  "kostel sv. jana krtitele ve vidonicich, pecka|pecka": {
   "lat": null,

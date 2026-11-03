@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-02T12:52:18+00:00",
+ "fetched_at": "2026-11-03T12:20:47+00:00",
  "events": [
   {
    "title": "Smyslohraní",
@@ -109,7 +109,7 @@
    "venue": "Dům s pečovatelskou službou, Pecka",
    "category": null,
    "native_category": null,
-   "description": "Vystoupení oblíbené zpěvačky Markéty ve společenské místnosti. Připraveno malé občerstvení.",
+   "description": "Vystoupení oblíbené zpěvačky Markéty ve společenské místnosti. Připraveno malé občerstvení. Vstupné dobrovolné.",
    "image": "https://www.mestys-pecka.cz/evt_image.php?img=5406&width=300&v=1791970399",
    "native_id": "event-1537",
    "ongoing": false,
@@ -240,6 +240,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:89bfafaf4bf5"
+  },
+  {
+   "title": "Mikulášská nadílka",
+   "start": "2026-12-04T16:00:00+01:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/mikulasska-nadilka-1549_916cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Sál hasičské zbrojnice v Pecce",
+   "category": null,
+   "native_category": null,
+   "description": "SDH Pecka zvou všechny děti na setkání s Mikulášem, andělem a čerty. Čeká vás spousta zábavy, soutěže, občerstvení, hudba a samozřejmě pro hodné děti i nadílka.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5436&width=300&v=1793703753",
+   "native_id": "event-1549",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:b00844556ec7"
   },
   {
    "title": "Mikulášská besídka s nadílkou",
