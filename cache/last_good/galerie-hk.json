@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T12:21:09+00:00",
+ "fetched_at": "2026-11-04T12:31:14+00:00",
  "events": [
   {
    "title": "Umění zblízka | Skupina 42",
@@ -326,7 +326,7 @@
    "category": null,
    "native_category": "Výstava",
    "description": "",
-   "image": null,
+   "image": "https://www.galeriehk.cz/wp-content/uploads/2026/01/2-DSC_6891-760x415.jpg",
    "native_id": "https://www.galeriehk.cz/vystavy/jan-trampota/",
    "ongoing": false,
    "sources": [],
@@ -350,7 +350,7 @@
    "category": null,
    "native_category": "Výstava",
    "description": "",
-   "image": null,
+   "image": "https://www.galeriehk.cz/wp-content/uploads/2026/01/1-DSC_6907-760x415.jpg",
    "native_id": "https://www.galeriehk.cz/vystavy/erika-pfeifferova/",
    "ongoing": false,
    "sources": [],
@@ -374,7 +374,7 @@
    "category": null,
    "native_category": "Výstava",
    "description": "",
-   "image": null,
+   "image": "https://www.galeriehk.cz/wp-content/uploads/2026/01/7-DSC_6919-760x415.jpg",
    "native_id": "https://www.galeriehk.cz/vystavy/matous-hrbek/",
    "ongoing": false,
    "sources": [],

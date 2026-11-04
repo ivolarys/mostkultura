@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T12:14:44+00:00",
+ "fetched_at": "2026-11-04T12:26:39+00:00",
  "events": [
   {
    "title": "Pozvánka na setkání sousedů",
@@ -120,6 +120,30 @@
    "lon": null,
    "geo": null,
    "id": "mostek:bf45c0f2d121"
+  },
+  {
+   "title": "Mikulášská zábava pro děti",
+   "start": "2026-12-04T16:00:00+01:00",
+   "source": "mostek",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/mikulasska-zabava-pro-deti-1651_390cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Restaurace Za Mostem, Mostek",
+   "category": null,
+   "native_category": "akce pro celou rodinu, akce pro děti",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4169&width=500&v=1793777054",
+   "native_id": "event-1651",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek:e8ce1ef359d3"
   },
   {
    "title": "Rybova mše v kostele sv. Anny v Žirči",

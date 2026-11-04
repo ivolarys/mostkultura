@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T12:17:17+00:00",
+ "fetched_at": "2026-11-04T12:27:28+00:00",
  "events": [
   {
    "title": "Česká mše vánoční",
@@ -24,30 +24,6 @@
    "lon": null,
    "geo": null,
    "id": "zirec-domov:c132adff9132"
-  },
-  {
-   "title": "Asistivní technologie",
-   "start": "2026-11-02T00:00:00+01:00",
-   "source": "zirec-domov",
-   "url": "https://www.domovsvatehojosefa.cz/asistivni-technologie",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Domov sv. Josefa",
-   "category": null,
-   "native_category": null,
-   "description": "Seminář o moderních technologiích, které přispívají k větší soběstačnosti klientů; přednáší pracovníci CITAK z DSJ",
-   "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/2465-fyzioterapie-02.jpg",
-   "native_id": "2026-11-02|Asistivní technologie",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "zirec-domov:355e8e03ef88"
   },
   {
    "title": "Vánoční jarmark🎄",

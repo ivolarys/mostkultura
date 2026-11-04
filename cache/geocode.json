@@ -1595,6 +1595,13 @@
   "q": "ZŠ Schulzovy sady, Dvůr Králové nad Labem, Česko",
   "ts": "2026-10-17T08:52:26+00:00"
  },
+ "zs strz|dvur kralove nad labem": {
+  "lat": 50.4141059,
+  "lon": 15.8510941,
+  "precision": "venue",
+  "q": "ZŠ Strž, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-11-04T12:32:33+00:00"
+ },
  "zus karla halire vrchlabi, sal a1|vrchlabi": {
   "lat": null,
   "lon": null,

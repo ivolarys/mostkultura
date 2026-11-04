@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T12:21:33+00:00",
+ "fetched_at": "2026-11-04T12:31:35+00:00",
  "events": [
   {
    "title": "Není kámen jako kámen",
@@ -288,6 +288,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:b46a1da474c7"
+  },
+  {
+   "title": "Tradiční české Vánoce – pečivo, zvyky a dobroty",
+   "start": "2026-12-15T17:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1724/-/tradicni-ceske-vanoce-pecivo-zvyky-a-dobroty.html",
+   "end": "2026-12-15T19:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": null,
+   "description": "Beseda o tradičních českých Vánocích Zveme vás na další „voňavé setkání“ s besedou o adventních a vánočních dobrotách. Do muzejní kavárny opět zavítají herečka Národního divadla v Praze, autorka televizního pořadu Herbář a mnoha kuchařek Kateřina Winterová se svou editorkou Kristinou Šemberovou , která v projektu Retrovaření zkoumá prvorepublikové zvyky a stravování. Přivezou s sebou také svou novou knihu Tradičně a oblíbené kuchařky Sladká první republika a Herbář ze zahrady přímo na talíř . V ",
+   "image": null,
+   "native_id": "1724",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:ab996ed2c906"
   }
  ]
 }
