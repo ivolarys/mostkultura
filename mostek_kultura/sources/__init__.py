@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from .antee_rss import AnteeRssSource
 from .articok import ArticokSource
+from .astrohk import AstrohkSource
 from .bajkazyl_program import BajkazylProgramSource
 from .base import Source
 from .bezdruzic import BezdruzicSource
@@ -17,6 +18,9 @@ from .galerie_hk import GalerieHkSource
 from .galileo import GalileoSource
 from .goout import GoOutSource
 from .hkinfo_program import HkinfoProgramSource
+from .hvezdarna_jicin import HvezdarnaJicinSource
+from .jazzinec import JazzinecSource
+from .jgtt import JgttSource
 from .josefa_events import JosefaEventsSource
 from .klaster_hostinne import KlasterHostinneSource
 from .klicperovo_program import KlicperovoProgramSource
@@ -38,12 +42,14 @@ from .sd_jilm import SdJilmSource
 from .simcal_calendar import SimcalCalendarSource
 from .trut_program import TrutProgramSource
 from .uffo import UffoSource
+from .upice_observations import UpiceObservationsSource
 from .vismo import VismoSource
 from .vismo6 import Vismo6Source
 from .webnode_program import WebnodeProgramSource
 
 REGISTRY: dict[str, type[Source]] = {
     "articok": ArticokSource,
+    "astrohk": AstrohkSource,
     "galileo": GalileoSource,
     "galerie_hk": GalerieHkSource,
     "antee_rss": AnteeRssSource,
@@ -54,6 +60,9 @@ REGISTRY: dict[str, type[Source]] = {
     "podzimni_sneni": PodzimniSneniSource,
     "goout": GoOutSource,
     "hkinfo_program": HkinfoProgramSource,
+    "hvezdarna_jicin": HvezdarnaJicinSource,
+    "jazzinec": JazzinecSource,
+    "jgtt": JgttSource,
     "drupal_events": DrupalEventsSource,
     "drak_program": DrakProgramSource,
     "lodzie_program": LodzieSource,
@@ -64,6 +73,7 @@ REGISTRY: dict[str, type[Source]] = {
     "vismo6": Vismo6Source,
     "kultura_novapaka": KulturaNovaPakaSource,
     "uffo": UffoSource,
+    "upice_observations": UpiceObservationsSource,
     "sd_jilm": SdJilmSource,
     "manual": ManualSource,
     "menu_music": MenuMusicSource,

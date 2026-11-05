@@ -29,11 +29,16 @@ se načítají z vlastních programů; Nábleší a NUUK z městského kalendá�
 filtrovaného podle názvu nebo místa. Různé časy projekcí a různá kina zůstávají
 samostatnými akcemi. Divadelní zájezdy, uzavřená a školní představení se vynechávají.
 Podzimní snění načítá z aktuální homepage jeden vícedenní festivalový záznam.
+Hvězdárna a planetárium v Hradci Králové přidává veřejné pořady a přednášky z měsíčního programu; pravidelné pořady rozepisuje na konkrétní dny potvrzeného měsíce.
+Hvězdárna Jičín čte datované veřejné akce ze svého prvního Google kalendáře. Školní a interní záznamy vynechává; u přímého odkazu může doplnit obrázek a popis z webu hvězdárny.
+Hvězdárna v Úpici přidává pravidelné večerní pozorování potvrzené měsíčním článkem a provozní dobou; při nejasných výjimkách termíny neodhadujeme.
+Jazz Goes To Town načítá jednotlivé koncerty z festivalového programu; společné večery více účinkujících zůstávají jednou akcí.
 Společenský dům Jilm v Jilemnici bere aktuální stránkovaný program včetně odkazů, obrázků,
 popisů a kategorií; Kino 70 je součástí téhož programu, nikoli samostatný zdroj.
 Výchozí zapnuté zdroje pokrývají také program kina Biograf Český ráj v Jičíně
 a kulturní program Klubu Kus v Turnově.
 Zapnuté jsou také Hrad Pecka, Spolek Bezdružic a Pouťová Pecka pod obcí Pecka.
+Jazzinec v Trutnově načítá datované koncertní bloky z aktuálního programu; nedatovaný katalog účinkujících slouží pouze pro obrázky.
 
 Výběr „Další kultura v Hradci – HKinfo“ doplňuje zveřejněné akce PETROF Gallery,
 filharmonie, Galerie moderního umění, Muzea východních Čech, hvězdárny a planetária,
@@ -63,7 +68,7 @@ python -m http.server -d site 8000                            # http://localhost
 ## Jak přidat obec nebo zdroj
 
 - **Obec / venue:** přidej položku do `places` (název + aliasy, jak se místo objevuje v textech) nebo do `venues_allow` (konkrétní místo bez ohledu na obec).
-- **Zdroj existujícího typu** (`galileo`, `antee_rss`, `public4u`, `goout`, `drupal_events`, `lodzie_program`, `npu_events`, `josefa_events`, `vismo`, `vismo6`, `kultura_novapaka`, `uffo`, `sd_jilm`, `mojekino`, `epo1_calendar`, `epo1_exhibitions`, `webnode_program`, `koruna_program`, `simcal_calendar`, `klaster_hostinne`, `trut_program`, `podzimni_sneni`, `manual`): přidej záznam do `sources` s `url`, `place` (výchozí obec) a `priority`. Pak `build --record --source <name> --no-llm` nahraje fixture pro testy (u `manual` fixture není potřeba, čte se přímo `manual_events.yaml`).
+- **Zdroj existujícího typu** (`galileo`, `antee_rss`, `public4u`, `goout`, `drupal_events`, `lodzie_program`, `npu_events`, `josefa_events`, `vismo`, `vismo6`, `kultura_novapaka`, `uffo`, `sd_jilm`, `mojekino`, `epo1_calendar`, `epo1_exhibitions`, `webnode_program`, `koruna_program`, `simcal_calendar`, `klaster_hostinne`, `trut_program`, `podzimni_sneni`, `jazzinec`, `manual`): přidej záznam do `sources` s `url`, `place` (výchozí obec) a `priority`. Pak `build --record --source <name> --no-llm` nahraje fixture pro testy (u `manual` fixture není potřeba, čte se přímo `manual_events.yaml`).
 - **Nový typ zdroje:** modul v `mostek_kultura/sources/` s třídou odvozenou od `Source` (metoda `fetch(http) -> list[Event]`), registrace v `sources/__init__.py`, fixture a test v `tests/test_sources.py`.
 
 ## Ruční akce (Facebook apod.)

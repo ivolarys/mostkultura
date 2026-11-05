@@ -44,6 +44,8 @@ places:
     aliases: [Hořicích, Hořic]
   - name: Trutnov
     aliases: [Trutnově, UFFO, Uffo, Bojiště]
+  - name: Úpice
+    aliases: [Úpici, Úpice]
   - name: Turnov
     aliases: [Turnově, Turnova, Klub Kus]
   - name: Jaroměř
@@ -250,6 +252,14 @@ sources:
     page: https://www.mujicin.cz/vismo/kalendar-akci.asp
     place: Jičín
     priority: 7
+  - name: hvezdarna-jicin
+    label: Hvězdárna Jičín – Veřejné akce
+    type: hvezdarna_jicin
+    url: https://calendar.google.com/calendar/ical/1vjt2q4vgk80o9aub00u8rt6o4%40group.calendar.google.com/public/basic.ics
+    page: https://www.hvezdarnajicin.cz/kalendar/
+    place: Jičín
+    priority: 8
+    enabled: true
   - name: nova-paka
     label: Město Nová Paka – Kalendář akcí
     type: vismo
@@ -420,6 +430,38 @@ sources:
     page: https://podzimnisneni.cz/
     place: Hradec Králové
     priority: 8
+  - name: astrohk
+    label: Hvězdárna a planetárium – Hradec Králové
+    type: astrohk
+    url: https://www.astrohk.cz/program.php
+    page: https://www.astrohk.cz/program.php
+    place: Hradec Králové
+    priority: 8
+    enabled: true
+  - name: hvezdarna-upice
+    label: Hvězdárna v Úpici – Večerní pozorování
+    type: upice_observations
+    url: https://www.hvezdarnavupici.cz/
+    page: https://www.hvezdarnavupici.cz/
+    place: Úpice
+    priority: 8
+    enabled: true
+  - name: jgtt
+    label: Jazz Goes To Town – Hradec Králové
+    type: jgtt
+    url: https://jgtt.cz/program
+    page: https://jgtt.cz/program
+    place: Hradec Králové
+    priority: 8
+    enabled: true
+  - name: jazzinec
+    label: Jazzinec – Trutnov
+    type: jazzinec
+    url: https://www.jazzinec.cz/International-Music-Festival-Trutnov.html
+    page: https://www.jazzinec.cz/International-Music-Festival-Trutnov.html
+    place: Trutnov
+    priority: 8
+    enabled: true
   - name: nablesi
     label: Nábleší – Kalendář HKinfo
     type: hkinfo_program

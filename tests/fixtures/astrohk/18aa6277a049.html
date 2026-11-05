@@ -1,0 +1,2239 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" href="astrohk.css" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="StyleSheet" type="text/css">
+<title>Hvězdárna a planetárium v Hradci Králové | Program pro veřejnost v listopadu</title>
+</head>
+
+<body>
+
+<div id="header">
+<a name="menu"></a>
+
+
+<table cellpadding="4" cellspacing="4" width="100%" border="0" bgcolor="#303880">
+
+<tr>
+
+<td align="center" valign="center" width=10%><a href="index.php"><img src="data/logo/logo-hphk-320_195.jpg" width=100% border="0"></a></td>
+
+<td width=1%></td>
+
+<td align="left" valign="center">
+
+<p class="menu">
+
+Pro návštěvníky: <a href="index.php">Hlavní stránka</a> | <!a href="program.php">Program pro veřejnost</a> | <a href="mesicnik.php">Měsíčník</a> | <a href="https://www.hkpoint.cz/cs/poradatele/729-hvezdarna-a-planetarium-v-hradci-kralove">Předprodej vstupenek</a>
+
+<p class="menu">
+
+Pro školy: <a href="skoly.php">Programy pro školy</a> | <a href="planetarni_stezka.php">Planetární stezka</a> | <a href="galakticka_stezka.php">Galaktická stezka</a>
+
+<p class="menu">
+
+Pro zájemce: <a href="faq.php">Často kladené otázky</a> | <a href="publikace.php">Publikace</a> | <a href="krouzek.php">Astronomický kroužek</a> | <a href="https://www.ashk.cz">Astronomická společnost</a>
+
+<p class="menu">
+
+O nás: <a href="hvezdarna.php">O hvězdárně</a> | <a href="http://www.planethk.cz">O digitálním planetáriu</a> | <a href="veda_a_vyzkum.php">Věda a výzkum</a> | <a href="index.php#kontakt">Kontakt</a>
+
+</td>
+
+<td width=1%></td>
+
+</tr>
+
+</table>
+
+
+<img src="data/images/hphk.jpg" width="100%">
+
+</div><!--header-->
+
+<div id="container">
+<div id="page">
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+
+.obr:hover {
+  box-shadow: 0 0 10px 2px rgba(48, 56, 128, 0.5);
+}
+
+.tabulka {
+  overflow: hidden;
+  border: 4px solid #303880ff;
+  background-color: #303880ff;
+}
+
+.tabulka button {
+  background-color: #303880ff;
+  color: #84c4f0ff;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0s;
+  font-size: 18px;
+}
+
+.tabulka button:hover {
+  background-color: #84c4f0ff;
+  color: #303880ff;
+}
+
+.tabulka button.active {
+  background-color: #84c4f0ff;
+  color: #303880ff;
+}
+
+.tabulkacontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #303880ff;
+  border-top: none;
+}
+
+.faq {
+  background-color: white;
+  color: #303880ff;
+  cursor: pointer;
+  padding: 0px;
+  width: 95%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+
+.active, .faq:hover {
+  background-color: #84c4f0ff;
+  color: #303880ff;
+  padding: 0px;
+  width: 95%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+
+.odpoved {
+  background-color: white;
+  color: #303880ff;
+  padding: 0 0px;
+  width: 95%;
+  border: none;
+  text-align: justify;
+  outline: none;
+  font-size: 16px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+</style>
+</head>
+<body>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>Program na listopad</b></font></td></tr>
+
+	<tr><td align="justify">
+
+	<i><font color="#3e3671">
+Všechny návštěvníky žádáme, aby naše zařízení nenavštěvovali s příznaky jakéhokoliv infekčního onemocnění či zvýšenou teplotou. Dodržujte pokyny pracovníků zajišťujících program a ustanovení </font><a href="data/documents/navstevni_rad.pdf" style="text-decoration:none"><font color="#3e3671"><b>Návštěvního řádu</b></font></a><font color="#3e3671">. Děkujeme Vám za pochopení, toleranci a vzájemnou ohleduplnost.
+Změna programu vyhrazena. <b>Z bezpečnostních důvodů není možné vstupovat do sálu digitálního planetária a prostorů hvězdárny po zahájení programu.</b>
+	</font></i>
+
+	</td></tr>
+
+</table>
+
+	<p>
+
+<div class="tabulka">
+	<button class="tabulkalinks" onclick="openprogram('vse')" id="zapnuto">Zobrazit vše</button>
+	<button class="tabulkalinks" onclick="openprogram('stredy')">Středy</button>
+	<button class="tabulkalinks" onclick="openprogram('patky')">Pátky</button>
+	<button class="tabulkalinks" onclick="openprogram('soboty')">Soboty</button>
+	<button class="tabulkalinks" onclick="openprogram('prednaska')">Přednášky</button>
+	<button class="tabulkalinks" onclick="openprogram('skupiny')">Program pro skupiny</button>
+	<button class="tabulkalinks" onclick="openprogram('vystavy')">Výstavy</button>
+	<button class="tabulkalinks" onclick="openprogram('cenik')">Vstupné</button>
+	<button class="tabulkalinks" onclick="openprogram('nakup')">Jak zakoupit vstupenky</button>
+</div>
+
+<div id="vse" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>STŘEDY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-planetarium.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>18:30 | Večerní program s pořadem Living Worlds</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/living_worlds_b.jpg"><img src="data/movies/living_worlds_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdná obloha, virtuální vesmír a celooblohová filmová projekce <i>Living Worlds</i></font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 až 100 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9342-stredecni-vecerni-program" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+
+<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na aktuální noční oblohu bez světelného znečištění. Následně podnikneme virtuální cestu do vesmíru. V poslední části programu zhlédneme celooblohovou filmovou projekci <i>Living Worlds</i>.</font>
+	
+	<p>
+	
+<font color="#3e3671"><i>
+
+Země je planeta formovaná životem. Od lesů, které pomáhají stabilizovat naše klima, až po větry, které do odlehlých částí Zeměkoule přinášejí životodárnou vodu a kyslík. Otisky prstů života jsou viditelné i na mnoho světelných let daleko. Living Worlds, originální digitální show od California Academy of Sciences, Vás zve na cestu prostorem a časem, abyste prozkoumali život jako základní kvalitu naší domovské planety. Vypravěč Vás vezme na průzkum společného vývoje života a naší planety a odhalí způsoby, jakými život proměnil zemský povrch a atmosféru v průběhu miliard let. Cestou uvidíte, jak nám světlo a barvy mohou pomoci odhalit živý svět, a to i na velké vzdálenosti.
+Zatímco uvažujeme o tom, jaké formy by mohl mít život ve Sluneční soustavě i mimo ni, Living Worlds nás vybízí, abychom zvážili, jak může hlubší porozumění naší planety pomoci při hledání života v celém vesmíru, a zamysleli se nad způsoby, jak se můžeme spojit s naším živým světem, abychom zajistili naše další přežití.
+
+</i></font>
+		
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-observation.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>20:30 | Večerní pozorování | pouze za jasné oblohy</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/observation_b.jpg"><img src="data/program/observation_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování oblohy dalekohledy</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k dispozici 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování oblohy dalekohledy se koná pouze za jasné oblohy. Upozorňujeme, že po začátku večerního pozorování je vstup do hvězdárny uzavřen a není možné se v pozdější dobu přidat k právě probíhajícímu programu.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>PÁTKY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-children.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>16:30 | Podvečerní program pro děti aneb planetárium pro nejmenší | pořad vhodný pro diváky ve věku od 5 do 8 let</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/se_zviratky_o_vesmiru_b.jpg"><img src="data/movies/se_zviratky_o_vesmiru_b.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">astronomická pohádka a hvězdná obloha s živým výkladem lektora</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9250-planetarium-pro-nejmensi" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro diváky ve věku od 5 do 8 let v doprovodu dospělé osoby</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+	
+	<font color="#3e3671">Pořad, který je svým obsahem i délkou uzpůsoben pro nejmenší návštěvníky. V digitálním planetáriu se nejprve podíváme na hvězdnou oblohu a prohlédneme si souhvězdí. Druhá část programu bude věnována pohádce <i>Se zvířátky o vesmíru</i>.</font>
+
+	<p>
+
+	<font color="#3e3671"><i>
+
+Unikátní kombinace loutek vedených brněnskými herci a virtuálního světa stvořeného brněnskými grafiky zavede malé i velké diváky do snového světa jedné polozapomenuté raketové základny. Ba co víc, stačí se odrazit a najednou se ocitnete ve vesmíru…
+
+	</i></font>
+
+	<p>
+
+	<font color="#3e3671"><i>
+
+Ježek, zajíc, krtek a sova jsou čtyři kamarádi, kteří se sešli na kraji lesa, aby prozkoumali raketovou základnu. Všechno je pro ně nové, nikdy nic podobného neviděli, a když vidí startovat raketu, jsou z toho úplně paf. Nikdo netuší, o co by se mohlo jednat, a tak vymýšlí jeden bláznivý nápad za druhým. A snad by se tam dohadovali dodnes, kdyby nepotkali chytrého myšáka, který jim vše vysvětlil. A protože myšák strávil celý život mezi vědci na základně, ví toho o vesmíru opravdu hodně.
+
+	</i></font>
+
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-planetarium.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>18:30 | Večerní program s pořadem Voyager</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/voyager_b.jpg"><img src="data/movies/voyager_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdná obloha, virtuální vesmír a celooblohová filmová projekce <i>Voyager</i></font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 až 100 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9343-patecni-vecerni-program" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+
+<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na aktuální noční oblohu bez světelného znečištění. Následně podnikneme virtuální cestu do vesmíru. V poslední části programu zhlédneme celooblohovou filmovou projekci <i>Voyager</i>.</font>
+	
+	<p>
+	
+<font color="#3e3671"><i>
+
+Film vypráví vzrušující příběh o nejpozoruhodnější vesmírné misi v historii lidstva. V roce 1977 byly vypuštěny dvě kosmické sondy, aby prozkoumaly nejvzdálenější planety Sluneční soustavy: Jupiter, Saturn, Uran a Neptun spolu s jejich měsíci. Obě kosmické lodi velmi obohatily naše znalosti o těchto vzdálených světech. Nyní, po čtyřech desetiletích, prozkoumávají mezihvězdný prostor. Jako dvě láhve vyslané do kosmického oceánu, obě sondy nesou mezihvězdnou zprávu – pozlacenou desku s poselstvím určeným případným mimozemským civilizacím.
+
+</i></font>
+		
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-observation.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>20:30 | Večerní pozorování | pouze za jasné oblohy</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/observation_b.jpg"><img src="data/program/observation_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování oblohy dalekohledy</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k dispozici 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování oblohy dalekohledy se koná pouze za jasné oblohy. Upozorňujeme, že po začátku večerního pozorování je vstup do hvězdárny uzavřen a není možné se v pozdější dobu přidat k právě probíhajícímu programu.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>SOBOTY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-observation.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>14:00 | Pozorování Slunce | pouze za jasné oblohy</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/sun_b.jpg"><img src="data/program/sun_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování Slunce pomocí dalekohledů</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">30 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování Slunce pomocí dalekohledů se koná pouze za jasné oblohy.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+	
+	<p>
+	
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-children.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>15:30 | Odpolední program pro děti s pohádkou 3-2-1 START! | pořad vhodný pro diváky ve věku od 8 let</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/3-2-1_start_b.jpg"><img src="data/movies/3-2-1_start_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">astronomická pohádka, hvězdná obloha, let vesmírem</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9344-odpoledni-program-pro-deti" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium a hvězdárna – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro diváky ve věku od 8 let v doprovodu dospělé osoby</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+	
+	<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na hvězdnou oblohu a souhvězdí. Následně se proletíme vesmírem. V poslední části programu se podíváme na astronomickou pohádku <i>3-2-1 START!</i>. Po programu v digitálním planetáriu je možná návštěva hvězdárny a v případě příznivého počasí pozorování dalekohledy.</font>
+
+	<p>
+
+	<font color="#3e3671"><i>
+
+Křeček Elon najde na své zahrádce robota, který spadl z vesmírné lodi. Ta se ale chystá brzy odletět. Podaří se Elonovi překonat všechny fyzikální překážky, aby dostal robota do vesmíru včas?
+
+	</i></font>
+
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-planetarium.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>18:30 | Večerní program s pořadem Zrození: Vesmír v nás</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/zrozeni_vesmir_v_nas_b.jpg"><img src="data/movies/zrozeni_vesmir_v_nas_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdná obloha, virtuální vesmír a celooblohová filmová projekce <i>Zrození: Vesmír v nás</i></font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 až 100 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9345-sobotni-vecerni-program" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+
+<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na aktuální noční oblohu bez světelného znečištění. Následně podnikneme virtuální cestu do vesmíru. V poslední části programu zhlédneme celooblohovou filmovou projekci <i>Zrození: Vesmír v nás</i>.</font>
+	
+	<p>
+	
+<font color="#3e3671"><i>
+
+Od vzduchu, který dýcháme, až k zemi, na které stojíme... Za to všechno vděčíme hvězdám. Vydejme se na cestu vesmírem a časem, abychom byli svědky původu životodárných prvků, které tvoří naši Sluneční soustavu, Zemi a nás!
+
+</i></font>
+		
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-observation.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>20:30 | Večerní pozorování | pouze za jasné oblohy</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/observation_b.jpg"><img src="data/program/observation_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování oblohy dalekohledy</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k dispozici 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování oblohy dalekohledy se koná pouze za jasné oblohy. Upozorňujeme, že po začátku večerního pozorování je vstup do hvězdárny uzavřen a není možné se v pozdější dobu přidat k právě probíhajícímu programu.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>PŘEDNÁŠKY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-planetarium.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>12. 11. 18:00 | Jak žijí lidé v horách Vietnamu</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/news/prednaska11-1_b.jpg"><img src="data/news/prednaska11-1_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">přednášející: Zdeněk Porkert</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 až 80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9346-jak-ziji-lide-v-horach-vietnamu" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+
+<font color="#3e3671">
+
+Vydejte se do odlehlých horských oblastí severního Vietnamu za etnickými menšinami, s nimiž autor, známý především jako Vietnamista, strávil téměř rok. Přednáška nabízí autentický pohled do jejich každodenního života, tradic, duchovního světa šamanů i mezi poslední kuřáky opia. Poznejte mizící svět daleko od turistických tras skrze osobní příběhy, jedinečné fotografie a videa.
+
+</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-planetarium.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>26. 11. 18:00 | Vesmírné analogické mise</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/news/prednaska11-2_b.jpg"><img src="data/news/prednaska11-2_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">přednášející: Lucie Ráčková</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 až 80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9347-vesmirne-analogicke-mise" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+
+<font color="#3e3671">
+
+Co se děje s lidským tělem a myslí v izolaci, tichu a extrémních podmínkách? A můžeme to bezpečně otestovat ještě předtím, než se vydáme na jinou planetu? Vesmírné analogy simulují různé aspekty pobytu ve vesmíru – od izolace a omezeného prostoru až po mikrogravitaci nebo vliv radiace. Speciálním případem jsou analogické vesmírné mise, které simulují operace reálných vesmírných misí. Co všechno tyto mise odhalují o lidském těle i psychice?
+
+</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>PROGRAM PRO SKUPINY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-group.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Pro skupiny minimálně 20 osob</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="justify">
+	<font color="#3e3671">
+Pro skupiny minimálně 20 osob nabízíme možnost realizace programu v pracovních dnech v době mimo pravidelné programy pro veřejnost. Program je určen široké veřejnosti i s velkým věkovým rozpětím. Obsah programu lze upravit podle Vašeho přání. Více informací na telefonním čísle +420 737 456 777 v pracovních dnech v době 9–12 a 13–15 hodin.
+
+	<ul>
+	<li><b>Digitální planetárium</b>
+	</ul>
+	
+Pořad je živě moderován lektorem, který reaguje na dotazy a přání z publika. Ukážeme si hvězdnou oblohu, pohled na vesmír pomocí dalekohledů anebo přístrojů citlivých na neviditelné druhy záření. Absolvujeme virtuální cestu Sluneční soustavou, na některých tělesech můžeme přistát. Můžeme také odletět do vzdáleného vesmíru mezi galaxie.
+
+	<p>
+	
+Po dohodě s lektorem lze zařadit film z </font><a href="http://www.astrohk.cz/filmy.php"  style="text-decoration:none"><font color="#3e3671"><b>nabídky</b></font></a><font color="#3e3671">.
+
+	<ul>
+	<li><b>Hvězdárna</b>
+	</ul>
+	
+V případě příznivého počasí se dalekohledem podíváme na Slunce. Na terase hvězdárny je možné za vhodného počasí menším dalekohledem pozorovat okolí a oblohu. Cestou k dalekohledu si můžeme demonstrovat otáčení Země pomocí Foucaultova kyvadla. V budově hvězdárny je také plně funkční historické Malé Zeissovo planetárium, jehož prohlídku s ukázkou optomechanické projekce oblohy lze do programu zařadit. 
+	
+	<ul>
+	<li><b>Další možnosti</b>
+	</ul>
+
+V přízemí budovy digitálního planetária je možné zhlédnout interaktivní expozici Mikrosvět - makrosvět. V patře budovy digitálního planetária je pak edukativní výstava Energie - její formy a přeměny. Ve vstupní hale hvězdárny je k dispozici stálá expozice s obrazovými informacemi z astronomie a kosmonautiky a návštěvníci se tu mohou zvážit na kosmické váze. V astronomické herně si nejmenší návštěvníci mohou z velkých kostek sestavit souhvězdí viditelná v jednotlivých ročních obdobích. Je také možné zhlédnout právě probíhající výstavy na hvězdárně a v planetáriu.
+
+	<p>
+	
+V okolí hvězdárny je k dispozici </font><a href="http://www.astrohk.cz/planetarni_stezka.php" style="text-decoration:none"><font color="#3e3671"><b>Planetární stezka</b></font></a><font color="#3e3671"> - model Sluneční soustavy v měřítku 1:1 miliardě. Je možné si ji projít i samostatně, s menšími dětmi například jen část po planetu Mars (230 m od hvězdárny).
+
+	<p>
+	
+Od hvězdárny směrem na konečnou trolejbusů MHD na Novém Hradci Králové vede </font><a href="http://www.astrohk.cz/galakticka_stezka.php" style="text-decoration:none"><font color="#3e3671"><b>Galaktická stezka</b></font></a><font color="#3e3671">, která představuje 11 typických objektů naší Galaxie. Vzdálenosti a velikosti objektů na galaktické stezce jsou v měřítku 1:170 biliardám. Model centrální černé díry se nachází na zastávce MHD Nový Hradec Králové 1,5 km od hvězdárny. Stezku si můžete projít i samostatně. Poslední model galaktické stezky se nachází 9,5 km od hvězdárny v obci Bělečko.
+	</font>
+        </td></tr>
+        
+	<tr><td height="20"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>VÝSTAVY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+	
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-gallery.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Nad hlavou | Michal Šrejber a Marek Tušl</b></font></td></tr>
+
+</table>	
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">Objevte krásu proměn oblohy nad Hradcem Králové! Unikátní výstava fotografií Michala Šrejbera a Marka Tušla vás přesvědčí o tom, že je dobré se také dívat vzhůru.</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají v digitálním planetáriu</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium</font></td></tr>
+	    
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+	
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+	
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-gallery.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Papírové modely kosmické techniky</b></font></td></tr>
+
+</table>	
+
+	</button>
+
+<div class="odpoved">
+  	<p>
+
+<table width=100% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">papírové modely Petra Baldy a Miloše Drábka</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají v digitálním planetáriu</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium</font></td></tr>
+	    
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+	
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+	
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-gallery.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Historie Hvězdárny a planetária v Hradci Králové</b></font></td></tr>
+
+</table>	
+
+	</button>
+
+<div class="odpoved">
+  	<p>
+
+<table width=100% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">autor: Martin Cholasta a Pavel Kabrhel</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají na hvězdárně</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+	
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+	
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="80"><img border="0" src="data/icons/program-gallery.png" height="30"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Světelné znečištění</b></font></td></tr>
+
+</table>	
+
+	</button>
+
+<div class="odpoved">
+  	<p>
+
+<table width=100% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">autor: Radka Pavlíková a Pavel Kabrhel</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají na hvězdárně</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	</p>
+
+	</div>
+
+	<p>	
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><font color="#3e3671" size="5"><b>VSTUPNÉ</b></font></td></tr>
+	<tr><td align="center" height="40"><font color="#3e3671" size="4"><b>na programy Hvězdárny a planetária v Hradci Králové za 1 návštěvníka, od 1. ledna 2026</b></font></td></tr>
+
+</table>
+
+<table cellpadding="2" cellspacing="0" border="0" align="center" width="95%" rules="rows" bordercolor="#84c4f0">
+
+<tr><td><font color="#3e3671"><b>druh programu</b></font></td>
+            <td nowrap align="center"><font color="#3e3671"><b>základní</b></font></td>
+            <td nowrap align="center"><font color="#3e3671"><b>snížené</b></font></td></tr>
+
+	<tr bgcolor="#84c4f0"><td colspan=3></td></tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Pozorování</b> (Slunce, večerní obloha)</font></td>
+	    <td align="center"><font color="#3e3671">60 Kč</font></td>
+	    <td align="center"><font color="#3e3671">40 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Program pro děti</b> (odpolední, podvečerní)</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Večerní program</b></font></td>
+	    <td align="center"><font color="#3e3671">100 Kč</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Přednáška, kvíz</b></font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	    <td align="center"><font color="#3e3671">60 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Výstava</b> (v ceně vstup do prostorů obou budov)</font></td>
+	    <td align="center"><font color="#3e3671">40 Kč</font></td>
+	    <td align="center"><font color="#3e3671">40 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Program pro skupinu</b> (v počtu minimálně 20 osob)</font></td>
+	    <td align="center"><font color="#3e3671">100 Kč</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Výukový program pro školy</b> (školní třídy)</font></td>
+	    <td align="center"><font color="#3e3671">70 Kč</font></td>
+	    <td align="center"><font color="#3e3671">70 Kč</font></td>
+	</tr>
+
+	<tr>
+		<td  colspan=3>
+
+	<br>
+
+<font color="#3e3671"><b>Základní vstupné na programy HPHK je určeno pro osoby ve věku od 18 do 64 let.</b></font>
+
+	<p>
+
+<font color="#3e3671"><b>Snížené vstupné na programy HPHK je určeno pro děti a žáky ve věku do 19 let, studenty ve věku do 26 let, držitele průkazů ZTP, ZTP/P, průvodce ZTP/P a seniory ve věku od 65 let.</b></font>
+
+	<p>
+
+<font color="#3e3671"><b>Poskytování volného vstupného se nevztahuje na služby a doprovodné programy typu přednášek, edukativních programů a služeb průvodce vč. odborných výkladů.</b></font>
+
+	<p>
+
+<font color="#3e3671"><b>Na setkání s Vámi se těší pracovníci Hvězdárny a planetária v Hradci Králové, kteří pro Vás naše edukativně zaměřené a interaktivní formou provedené programy připravují.</b></font>
+
+	<p>
+
+		</td>
+	</tr>
+
+	<tr bgcolor="#84c4f0"><td colspan=3></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="95%" rules="rows" bordercolor="#6abfe2">
+
+	<tr><td>
+
+<small><font color="#3e3671"><b>Členové Astronomické společnosti v Hradci Králové, astronomického kroužku Hvězdárny a planetária v Hradci Králové a členové rodiny držitele platné "Karty pěstounské rodiny" vydané Královéhradeckým krajem</b> platí zvýhodněné vstupné <b>20 Kč za osobu</b> na všechny programy pořádané Hvězdárnou a planetáriem v Hradci Králové.</font></small><br>
+<small><font color="#3e3671">Návštěvníci Večerního programu v digitálním planetáriu mohou ve dni, kdy se jej zúčastnili, využít jednorázové zvýhodněné vstupné na časově navazující Večerní pozorování ve výši 20 Kč za osobu.</font></small><br>
+<small><font color="#3e3671"><b>Programy pro děti</b> jsou vhodné <b>pro děti ve věku od 5 nebo 8 let v doprovodu dospělé osoby</b>.</font></small><br>
+<small><font color="#3e3671"><b>Pracovníkům pedagogického doprovodu</b> školních skupin, účastnících se „Výukového programu pro školy“, je v počtu 2 osob na doprovázenou třídu poskytnut <b>bezplatný vstup</b>.</font></small><br>
+<small><font color="#3e3671">Před návštěvou Hvězdárny a planetária v Hradci Králové se seznamte s</font> <a href="data/documents/navstevni_rad.pdf" style="text-decoration:none"><font color="#3e3671"><b>návštěvním řádem</b></font></a><font color="#3e3671">.</font></small>
+
+	</td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>JAK ZAKOUPIT VSTUPENKY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="20"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Programy na hvězdárně</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td width="40"></td>
+	    <td align="justify"><font color="#3e3671">
+Vstupenky na programy pouze na hvězdárně jsou k zakoupení 15 minut před daným programem v pokladně hvězdárny. Tyto vstupenky nelze rezervovat ani nejsou k dispozici v předprodeji.
+	    </font></td></tr>
+
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p></p><button class="faq">
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" valign="center" height="40" width="20"></td>
+	    <td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Programy v digitálním planetáriu</b></font></td></tr>
+
+</table>
+
+	</button>
+
+<div class="odpoved">
+
+  	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td width="40"></td><td align="justify">
+
+<font color="#3e3671">Z důvodu omezeného počtu míst v sále využijte k zakoupení vstupenky na program</font>
+
+<ul>
+<li><a href="https://www.hkpoint.cz/cs/poradatele/729-hvezdarna-a-planetarium-v-hradci-kralove" style="text-decoration:none"><font color="#3e3671"><b>vstupenkový portál města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (elektronická vstupenka, online platba, při jednom nákupu je možné zakoupit maximálně 6 vstupenek) nebo</font></li>
+<li><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentrum Hradec Králové</b></font></a><font color="#3e3671">, Eliščino nábřeží 626, 500 03 Hradec Králové (papírová vstupenka, platba na místě v Infocentru).</font></li>
+</ul>
+
+	</td></tr>
+            
+	<tr height="10"><td width="40"></td><td></td></tr>    
+	<tr><td width="40"></td><td align="justify"><font color="#3e3671">Digitální planetárium i pokladna se otevírají půl hodiny před začátkem programu a vstupenky na tento program je možné na místě zakoupit pouze za předpokladu, že zbývají ještě z předprodeje.</font></td></tr> 
+	<tr height="30"><td width="40"></td><td></td></tr>
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>Jak zakoupit vstupenku přes HKPoint.cz?</b></font></td></tr>
+	<tr height="20"><td width="40"></td><td></td></tr>
+        	
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>I</b> - Na stránkách </font><a href="https://www.hkpoint.cz/cs/poradatele/729-hvezdarna-a-planetarium-v-hradci-kralove" style="text-decoration:none"><font color="#3e3671"><b>HKPoint.cz</b></font></a><font color="#3e3671"> si vyberte program.</font></td></tr>
+	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint01.png"><img border="0" src="data/images/hkpoint01.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>
+        
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>II</b> - U vybraného programu zvolte datum plánované návštěvy.</font></td></tr>
+ 	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint02.png"><img border="0" src="data/images/hkpoint02.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>	
+	
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>III</b> - Vyberte si kategorii. Základní vstupné na programy HPHK je určeno pro osoby ve věku od 18 do 64 let. Snížené vstupné na programy HPHK je určeno pro děti a žáky ve věku do 19 let, studenty ve věku do 26 let, držitele průkazů ZTP, ZTP/P, průvodce ZTP/P a seniory ve věku od 65 let. Následně zvolte počet vstupenek (při jednom nákupu je možné zakoupit maximálně 6 vstupenek).</font></td></tr>
+	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint03.png"><img border="0" src="data/images/hkpoint03.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>
+        
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>IV</b> - V košíku si můžete zkontrolovat váš nákup (počet vstupenek, program, datum apod.). Vstupenky Vám přijdou na email, který zadáte, platbu provedete online, vstupenky (v elektronické podobě i následně vytištěné) je nutné uchovávat na bezpečném místě, aby Vám je nikdo nemohl zkopírovat. Na poslední stránce dole si můžete založit účet, nebo využít rychlý nákup, při kterém stačí vyplnit jméno, příjmení, e-mail a telefon. Na e-mail Vám po provedení platby přijdou vstupenky, proto je nutné ho vyplnit velmi pečlivě.</font></td></tr>
+	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint04.png"><img border="0" src="data/images/hkpoint04.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>
+        
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>V</b> - Vstupenky si můžete následně vytisknout. Upozorňujeme, že je nutné si vytisknout všechny získané vstupenky (jedna vstupenka se tiskne na papír formátu A4 a je nutné ji vytisknout celou - s názvem a datem programu, cenou i s QR kódem). Možností je také mít uložené vstupenky například v chytrém telefonu a při vstupu do sálu digitálního planetária je ukázat v elektronické podobě. Je však nutné mít uložené všechny vstupenky v kompletním stavu.</font></td></tr>
+
+</table>
+
+	</p>
+
+	</div>
+
+	<p>
+
+</div>
+
+<div id="stredy" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>STŘEDY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>18:30 | Večerní program s pořadem Living Worlds</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-planetarium.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/living_worlds_b.jpg"><img src="data/movies/living_worlds_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdná obloha, virtuální vesmír a celooblohová filmová projekce <i>Living Worlds</i></font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 až 100 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9342-stredecni-vecerni-program" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+
+<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na aktuální noční oblohu bez světelného znečištění. Následně podnikneme virtuální cestu do vesmíru. V poslední části programu zhlédneme celooblohovou filmovou projekci <i>Living Worlds</i>.</font>
+	
+	<p>
+	
+<font color="#3e3671"><i>
+
+Země je planeta formovaná životem. Od lesů, které pomáhají stabilizovat naše klima, až po větry, které do odlehlých částí Zeměkoule přinášejí životodárnou vodu a kyslík. Otisky prstů života jsou viditelné i na mnoho světelných let daleko. Living Worlds, originální digitální show od California Academy of Sciences, Vás zve na cestu prostorem a časem, abyste prozkoumali život jako základní kvalitu naší domovské planety. Vypravěč Vás vezme na průzkum společného vývoje života a naší planety a odhalí způsoby, jakými život proměnil zemský povrch a atmosféru v průběhu miliard let. Cestou uvidíte, jak nám světlo a barvy mohou pomoci odhalit živý svět, a to i na velké vzdálenosti.
+Zatímco uvažujeme o tom, jaké formy by mohl mít život ve Sluneční soustavě i mimo ni, Living Worlds nás vybízí, abychom zvážili, jak může hlubší porozumění naší planety pomoci při hledání života v celém vesmíru, a zamysleli se nad způsoby, jak se můžeme spojit s naším živým světem, abychom zajistili naše další přežití.
+
+</i></font>
+		
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>20:30 | Večerní pozorování | pouze za jasné oblohy</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-observation.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/observation_b.jpg"><img src="data/program/observation_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování oblohy dalekohledy</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k dispozici 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování oblohy dalekohledy se koná pouze za jasné oblohy. Upozorňujeme, že po začátku večerního pozorování je vstup do hvězdárny uzavřen a není možné se v pozdější dobu přidat k právě probíhajícímu programu.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+</div>
+
+<div id="patky" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>PÁTEK</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>16:30 | Podvečerní program pro děti aneb planetárium pro nejmenší | pořad vhodný pro diváky ve věku od 5 do 8 let</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-children.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/se_zviratky_o_vesmiru_b.jpg"><img src="data/movies/se_zviratky_o_vesmiru_b.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">astronomická pohádka a hvězdná obloha s živým výkladem lektora</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9250-planetarium-pro-nejmensi" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro diváky ve věku od 5 do 8 let v doprovodu dospělé osoby</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+	
+	<font color="#3e3671">Pořad, který je svým obsahem i délkou uzpůsoben pro nejmenší návštěvníky. V digitálním planetáriu se nejprve podíváme na hvězdnou oblohu a prohlédneme si souhvězdí. Druhá část programu bude věnována pohádce <i>Se zvířátky o vesmíru</i>.</font>
+
+	<p>
+
+	<font color="#3e3671"><i>
+
+Unikátní kombinace loutek vedených brněnskými herci a virtuálního světa stvořeného brněnskými grafiky zavede malé i velké diváky do snového světa jedné polozapomenuté raketové základny. Ba co víc, stačí se odrazit a najednou se ocitnete ve vesmíru…
+
+	</i></font>
+
+	<p>
+
+	<font color="#3e3671"><i>
+
+Ježek, zajíc, krtek a sova jsou čtyři kamarádi, kteří se sešli na kraji lesa, aby prozkoumali raketovou základnu. Všechno je pro ně nové, nikdy nic podobného neviděli, a když vidí startovat raketu, jsou z toho úplně paf. Nikdo netuší, o co by se mohlo jednat, a tak vymýšlí jeden bláznivý nápad za druhým. A snad by se tam dohadovali dodnes, kdyby nepotkali chytrého myšáka, který jim vše vysvětlil. A protože myšák strávil celý život mezi vědci na základně, ví toho o vesmíru opravdu hodně.
+
+	</i></font>
+
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>18:30 | Večerní program s pořadem Voyager</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-planetarium.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/voyager_b.jpg"><img src="data/movies/voyager_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdná obloha, virtuální vesmír a celooblohová filmová projekce <i>Voyager</i></font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 až 100 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9343-patecni-vecerni-program" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+
+<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na aktuální noční oblohu bez světelného znečištění. Následně podnikneme virtuální cestu do vesmíru. V poslední části programu zhlédneme celooblohovou filmovou projekci <i>Voyager</i>.</font>
+	
+	<p>
+	
+<font color="#3e3671"><i>
+
+Film vypráví vzrušující příběh o nejpozoruhodnější vesmírné misi v historii lidstva. V roce 1977 byly vypuštěny dvě kosmické sondy, aby prozkoumaly nejvzdálenější planety Sluneční soustavy: Jupiter, Saturn, Uran a Neptun spolu s jejich měsíci. Obě kosmické lodi velmi obohatily naše znalosti o těchto vzdálených světech. Nyní, po čtyřech desetiletích, prozkoumávají mezihvězdný prostor. Jako dvě láhve vyslané do kosmického oceánu, obě sondy nesou mezihvězdnou zprávu – pozlacenou desku s poselstvím určeným případným mimozemským civilizacím.
+
+</i></font>
+		
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>20:30 | Večerní pozorování | pouze za jasné oblohy</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-observation.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/observation_b.jpg"><img src="data/program/observation_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování oblohy dalekohledy</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k dispozici 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování oblohy dalekohledy se koná pouze za jasné oblohy. Upozorňujeme, že po začátku večerního pozorování je vstup do hvězdárny uzavřen a není možné se v pozdější dobu přidat k právě probíhajícímu programu.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+</div>
+
+<div id="soboty" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>SOBOTY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>14:00 | Pozorování Slunce | pouze za jasné oblohy</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-observation.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/sun_b.jpg"><img src="data/program/sun_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování Slunce pomocí dalekohledů</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">30 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování Slunce pomocí dalekohledů se koná pouze za jasné oblohy.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+	
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>15:30 | Odpolední program pro děti s pohádkou 3-2-1 START! | pořad vhodný pro diváky ve věku od 8 let</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-children.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/3-2-1_start_b.jpg"><img src="data/movies/3-2-1_start_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">astronomická pohádka, hvězdná obloha, let vesmírem</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9344-odpoledni-program-pro-deti" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium a hvězdárna – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro diváky ve věku od 8 let v doprovodu dospělé osoby</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+	
+	<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na hvězdnou oblohu a souhvězdí. Následně se proletíme vesmírem. V poslední části programu se podíváme na astronomickou pohádku <i>3-2-1 START!</i>. Po programu v digitálním planetáriu je možná návštěva hvězdárny a v případě příznivého počasí pozorování dalekohledy.</font>
+
+	<p>
+
+	<font color="#3e3671"><i>
+
+Křeček Elon najde na své zahrádce robota, který spadl z vesmírné lodi. Ta se ale chystá brzy odletět. Podaří se Elonovi překonat všechny fyzikální překážky, aby dostal robota do vesmíru včas?
+
+	</i></font>
+
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>18:30 | Večerní program s pořadem Zrození: Vesmír v nás</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-planetarium.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/movies/zrozeni_vesmir_v_nas_b.jpg"><img src="data/movies/zrozeni_vesmir_v_nas_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdná obloha, virtuální vesmír a celooblohová filmová projekce <i>Zrození: Vesmír v nás</i></font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">80 až 100 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9345-sobotni-vecerni-program" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td align="justify" colspan=3>
+
+<font color="#3e3671">V digitálním planetáriu se nejprve podíváme na aktuální noční oblohu bez světelného znečištění. Následně podnikneme virtuální cestu do vesmíru. V poslední části programu zhlédneme celooblohovou filmovou projekci <i>Zrození: Vesmír v nás</i>.</font>
+	
+	<p>
+	
+<font color="#3e3671"><i>
+
+Od vzduchu, který dýcháme, až k zemi, na které stojíme... Za to všechno vděčíme hvězdám. Vydejme se na cestu vesmírem a časem, abychom byli svědky původu životodárných prvků, které tvoří naši Sluneční soustavu, Zemi a nás!
+
+</i></font>
+		
+	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>20:30 | Večerní pozorování | pouze za jasné oblohy</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-observation.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/program/observation_b.jpg"><img src="data/program/observation_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pozorování oblohy dalekohledy</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 až 60 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k dispozici 15 minut před daným programem v pokladně hvězdárny</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+<font color="#3e3671">Pozorování se koná na terase a v kopuli, kde je venkovní teplota. Před návštěvou je vhodné se podívat na předpověď počasí. Pozorování oblohy dalekohledy se koná pouze za jasné oblohy. Upozorňujeme, že po začátku večerního pozorování je vstup do hvězdárny uzavřen a není možné se v pozdější dobu přidat k právě probíhajícímu programu.</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+</div>
+
+<div id="prednaska" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>PŘEDNÁŠKY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>12. 11. 18:00 | Jak žijí lidé v horách Vietnamu</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-planetarium.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/news/prednaska11-1_b.jpg"><img src="data/news/prednaska11-1_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">přednášející: Zdeněk Porkert</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 až 80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9346-jak-ziji-lide-v-horach-vietnamu" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+
+<font color="#3e3671">
+
+Vydejte se do odlehlých horských oblastí severního Vietnamu za etnickými menšinami, s nimiž autor, známý především jako Vietnamista, strávil téměř rok. Přednáška nabízí autentický pohled do jejich každodenního života, tradic, duchovního světa šamanů i mezi poslední kuřáky opia. Poznejte mizící svět daleko od turistických tras skrze osobní příběhy, jedinečné fotografie a videa.
+
+</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>26. 11. 18:00 | Vesmírné analogické mise</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-planetarium.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="top" width="170" rowspan=6><a href="data/news/prednaska11-2_b.jpg"><img src="data/news/prednaska11-2_s.jpg" width="150" border="0"></a></td>
+	    <td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">přednášející: Lucie Ráčková</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">60 až 80 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/tickets2.png" width="13"></td>
+	    <td valign="center" align="left"><font color="#3e3671">vstupenky jsou k zakoupení na </font><a href="https://www.hkpoint.cz/cs/poradatele/9347-vesmirne-analogicke-mise" style="text-decoration:none"><font color="#3e3671"><b>vstupenkovém portálu města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (online platba) a v </font><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentru Hradec Králové</b></font></a></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium – budova digitálního planetária se otevírá 30 minut před začátkem programu</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">90 minut</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/age.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">pořad vhodný pro dospělé a mládež od staršího školního věku</font></td></tr>
+	    
+	<tr><td colspan=3 height="20"></td></tr>
+
+	<tr><td colspan=3 height="20" align="justify">
+
+<font color="#3e3671">
+
+Co se děje s lidským tělem a myslí v izolaci, tichu a extrémních podmínkách? A můžeme to bezpečně otestovat ještě předtím, než se vydáme na jinou planetu? Vesmírné analogy simulují různé aspekty pobytu ve vesmíru – od izolace a omezeného prostoru až po mikrogravitaci nebo vliv radiace. Speciálním případem jsou analogické vesmírné mise, které simulují operace reálných vesmírných misí. Co všechno tyto mise odhalují o lidském těle i psychice?
+
+</font>
+
+  	</td></tr>
+	
+	<tr><td colspan=3 height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+</div>
+
+<div id="skupiny" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>PROGRAM PRO SKUPINY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Pro skupiny minimálně 20 osob</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-group.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="justify">
+	<font color="#3e3671">
+Pro skupiny minimálně 20 osob nabízíme možnost realizace programu v pracovních dnech v době mimo pravidelné programy pro veřejnost. Program je určen široké veřejnosti i s velkým věkovým rozpětím. Obsah programu lze upravit podle Vašeho přání. Více informací na telefonním čísle +420 737 456 777 v pracovních dnech v době 9–12 a 13–15 hodin.
+
+	<ul>
+	<li><b>Digitální planetárium</b>
+	</ul>
+	
+Pořad je živě moderován lektorem, který reaguje na dotazy a přání z publika. Ukážeme si hvězdnou oblohu, pohled na vesmír pomocí dalekohledů anebo přístrojů citlivých na neviditelné druhy záření. Absolvujeme virtuální cestu Sluneční soustavou, na některých tělesech můžeme přistát. Můžeme také odletět do vzdáleného vesmíru mezi galaxie.
+
+	<p>
+	
+Po dohodě s lektorem lze zařadit film z </font><a href="http://www.astrohk.cz/filmy.php"  style="text-decoration:none"><font color="#3e3671"><b>nabídky</b></font></a><font color="#3e3671">.
+
+	<ul>
+	<li><b>Hvězdárna</b>
+	</ul>
+	
+V případě příznivého počasí se dalekohledem podíváme na Slunce. Na terase hvězdárny je možné za vhodného počasí menším dalekohledem pozorovat okolí a oblohu. Cestou k dalekohledu si můžeme demonstrovat otáčení Země pomocí Foucaultova kyvadla. V budově hvězdárny je také plně funkční historické Malé Zeissovo planetárium, jehož prohlídku s ukázkou optomechanické projekce oblohy lze do programu zařadit. 
+	
+	<ul>
+	<li><b>Další možnosti</b>
+	</ul>
+
+V přízemí budovy digitálního planetária je možné zhlédnout interaktivní expozici Mikrosvět - makrosvět. V patře budovy digitálního planetária je pak edukativní výstava Energie - její formy a přeměny. Ve vstupní hale hvězdárny je k dispozici stálá expozice s obrazovými informacemi z astronomie a kosmonautiky a návštěvníci se tu mohou zvážit na kosmické váze. V astronomické herně si nejmenší návštěvníci mohou z velkých kostek sestavit souhvězdí viditelná v jednotlivých ročních obdobích. Je také možné zhlédnout právě probíhající výstavy na hvězdárně a v planetáriu.
+
+	<p>
+	
+V okolí hvězdárny je k dispozici </font><a href="http://www.astrohk.cz/planetarni_stezka.php" style="text-decoration:none"><font color="#3e3671"><b>Planetární stezka</b></font></a><font color="#3e3671"> - model Sluneční soustavy v měřítku 1:1 miliardě. Je možné si ji projít i samostatně, s menšími dětmi například jen část po planetu Mars (230 m od hvězdárny).
+
+	<p>
+	
+Od hvězdárny směrem na konečnou trolejbusů MHD na Novém Hradci Králové vede </font><a href="http://www.astrohk.cz/galakticka_stezka.php" style="text-decoration:none"><font color="#3e3671"><b>Galaktická stezka</b></font></a><font color="#3e3671">, která představuje 11 typických objektů naší Galaxie. Vzdálenosti a velikosti objektů na galaktické stezce jsou v měřítku 1:170 biliardám. Model centrální černé díry se nachází na zastávce MHD Nový Hradec Králové 1,5 km od hvězdárny. Stezku si můžete projít i samostatně. Poslední model galaktické stezky se nachází 9,5 km od hvězdárny v obci Bělečko.
+	</font>
+        </td></tr>
+        
+	<tr><td height="20"></td></tr>
+	
+</table>
+
+	<p>
+
+</div>
+
+<div id="vystavy" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>VÝSTAVY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Nad hlavou | Michal Šrejber a Marek Tušl</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-gallery.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">Objevte krásu proměn oblohy nad Hradcem Králové! Unikátní výstava fotografií Michala Šrejbera a Marka Tušla vás přesvědčí o tom, že je dobré se také dívat vzhůru.</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají v digitálním planetáriu</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium</font></td></tr>
+	    
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Papírové modely kosmické techniky</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-gallery.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">papírové modely Petra Baldy a Miloše Drábka</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají v digitálním planetáriu</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">digitální planetárium</font></td></tr>
+	    
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Historie Hvězdárny a planetária v Hradci Králové</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-gallery.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">autor: Martin Cholasta a Pavel Kabrhel</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají na hvězdárně</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Světelné znečištění</b></font></td>
+	    <td align="center" valign="center" height="40" width="60"><img border="0" src="data/icons/program-gallery.png" height="30"></td></tr>
+
+</table>
+
+<table width=95% cellpadding="4" cellspacing="4" border="0" align="center">
+
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/information.png" width="11"></td>
+	    <td valign="center" align="left"><font color="#3e3671">autor: Radka Pavlíková a Pavel Kabrhel</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/time.png" width="14"></td>
+	    <td valign="center" align="left"><font color="#3e3671">výstava je přístupná při programech, které se konají na hvězdárně</font></td></tr>	    
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/order.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">40 Kč</font></td></tr>
+	<tr><td valign="center" align="left" width="25"><img border="0" src="data/icons/point.png" width="12"></td>
+	    <td valign="center" align="left"><font color="#3e3671">hvězdárna</font></td></tr>
+
+	<tr><td colspan=2 height="10"></td></tr>
+	
+</table>
+
+	<p>
+
+</div>
+
+<div id="cenik" class="tabulkacontent">
+
+	<p>
+
+<table width=100% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><font color="#3e3671" size="5"><b>VSTUPNÉ</b></font></td></tr>
+	<tr><td align="center" height="40"><font color="#3e3671" size="4"><b>na programy Hvězdárny a planetária v Hradci Králové za 1 návštěvníka, od 1. ledna 2026</b></font></td></tr>
+
+</table>
+
+<table cellpadding="2" cellspacing="0" border="0" align="center" width="95%" rules="rows" bordercolor="#84c4f0">
+
+<tr><td><font color="#3e3671"><b>druh programu</b></font></td>
+            <td nowrap align="center"><font color="#3e3671"><b>základní</b></font></td>
+            <td nowrap align="center"><font color="#3e3671"><b>snížené</b></font></td></tr>
+
+	<tr bgcolor="#84c4f0"><td colspan=3></td></tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Pozorování</b> (Slunce, večerní obloha)</font></td>
+	    <td align="center"><font color="#3e3671">60 Kč</font></td>
+	    <td align="center"><font color="#3e3671">40 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Program pro děti</b> (odpolední, podvečerní)</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Večerní program</b></font></td>
+	    <td align="center"><font color="#3e3671">100 Kč</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Přednáška, kvíz</b></font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	    <td align="center"><font color="#3e3671">60 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Výstava</b> (v ceně vstup do prostorů obou budov)</font></td>
+	    <td align="center"><font color="#3e3671">40 Kč</font></td>
+	    <td align="center"><font color="#3e3671">40 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Program pro skupinu</b> (v počtu minimálně 20 osob)</font></td>
+	    <td align="center"><font color="#3e3671">100 Kč</font></td>
+	    <td align="center"><font color="#3e3671">80 Kč</font></td>
+	</tr>
+
+	<tr height="40">
+	    <td><font color="#3e3671"><b>Výukový program pro školy</b> (školní třídy)</font></td>
+	    <td align="center"><font color="#3e3671">70 Kč</font></td>
+	    <td align="center"><font color="#3e3671">70 Kč</font></td>
+	</tr>
+
+	<tr>
+		<td  colspan=3>
+
+	<br>
+
+<font color="#3e3671"><b>Základní vstupné na programy HPHK je určeno pro osoby ve věku od 18 do 64 let.</b></font>
+
+	<p>
+
+<font color="#3e3671"><b>Snížené vstupné na programy HPHK je určeno pro děti a žáky ve věku do 19 let, studenty ve věku do 26 let, držitele průkazů ZTP, ZTP/P, průvodce ZTP/P a seniory ve věku od 65 let.</b></font>
+
+	<p>
+
+<font color="#3e3671"><b>Poskytování volného vstupného se nevztahuje na služby a doprovodné programy typu přednášek, edukativních programů a služeb průvodce vč. odborných výkladů.</b></font>
+
+	<p>
+
+<font color="#3e3671"><b>Na setkání s Vámi se těší pracovníci Hvězdárny a planetária v Hradci Králové, kteří pro Vás naše edukativně zaměřené a interaktivní formou provedené programy připravují.</b></font>
+
+	<p>
+
+		</td>
+	</tr>
+
+	<tr bgcolor="#84c4f0"><td colspan=3></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="95%" rules="rows" bordercolor="#6abfe2">
+
+	<tr><td>
+
+<small><font color="#3e3671"><b>Členové Astronomické společnosti v Hradci Králové, astronomického kroužku Hvězdárny a planetária v Hradci Králové a členové rodiny držitele platné "Karty pěstounské rodiny" vydané Královéhradeckým krajem</b> platí zvýhodněné vstupné <b>20 Kč za osobu</b> na všechny programy pořádané Hvězdárnou a planetáriem v Hradci Králové.</font></small><br>
+<small><font color="#3e3671">Návštěvníci Večerního programu v digitálním planetáriu mohou ve dni, kdy se jej zúčastnili, využít jednorázové zvýhodněné vstupné na časově navazující Večerní pozorování ve výši 20 Kč za osobu.</font></small><br>
+<small><font color="#3e3671"><b>Programy pro děti</b> jsou vhodné <b>pro děti ve věku od 5 nebo 8 let v doprovodu dospělé osoby</b>.</font></small><br>
+<small><font color="#3e3671"><b>Pracovníkům pedagogického doprovodu</b> školních skupin, účastnících se „Výukového programu pro školy“, je v počtu 2 osob na doprovázenou třídu poskytnut <b>bezplatný vstup</b>.</font></small><br>
+<small><font color="#3e3671">Před návštěvou Hvězdárny a planetária v Hradci Králové se seznamte s</font> <a href="data/documents/navstevni_rad.pdf" style="text-decoration:none"><font color="#3e3671"><b>návštěvním řádem</b></font></a><font color="#3e3671">.</font></small>
+
+	</td></tr>
+
+</table>
+
+	<p>
+
+</div>
+
+<div id="nakup" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>JAK ZAKOUPIT VSTUPENKY</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Programy na hvězdárně</b></font></td></tr>
+
+</table>	
+
+	<p>
+	
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td width="40"></td>
+	    <td align="justify"><font color="#3e3671">
+Vstupenky na programy pouze na hvězdárně jsou k zakoupení 15 minut před daným programem v pokladně hvězdárny. Tyto vstupenky nelze rezervovat ani nejsou k dispozici v předprodeji.
+	    </font></td></tr>
+
+</table>
+
+	<p>
+
+<hr width=95% color="#84c4f0">
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="left" valign="center" height="40"><font color="#3e3671" size="4"><b>Programy v digitálním planetáriu</b></font></td></tr>
+
+</table>
+
+  	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td width="40"></td><td align="justify">
+
+<font color="#3e3671">Z důvodu omezeného počtu míst v sále využijte k zakoupení vstupenky na program</font>
+
+<ul>
+<li><a href="https://www.hkpoint.cz/cs/poradatele/729-hvezdarna-a-planetarium-v-hradci-kralove" style="text-decoration:none"><font color="#3e3671"><b>vstupenkový portál města Hradce Králové HKPoint.cz</b></font></a><font color="#3e3671"> (elektronická vstupenka, online platba, při jednom nákupu je možné zakoupit maximálně 6 vstupenek) nebo</font></li>
+<li><a href="https://www.hkinfo.cz/cs/infocentrum-nabizi/prodej-vstupenek.html" style="text-decoration:none"><font color="#3e3671"><b>Infocentrum Hradec Králové</b></font></a><font color="#3e3671">, Eliščino nábřeží 626, 500 03 Hradec Králové (papírová vstupenka, platba na místě v Infocentru).</font></li>
+</ul>
+
+	</td></tr>
+            
+	<tr height="10"><td width="40"></td><td></td></tr>    
+	<tr><td width="40"></td><td align="justify"><font color="#3e3671">Digitální planetárium i pokladna se otevírají půl hodiny před začátkem programu a vstupenky na tento program je možné na místě zakoupit pouze za předpokladu, že zbývají ještě z předprodeje.</font></td></tr> 
+	<tr height="30"><td width="40"></td><td></td></tr>
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>Jak zakoupit vstupenku přes HKPoint.cz?</b></font></td></tr>
+	<tr height="20"><td width="40"></td><td></td></tr>
+        	
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>I</b> - Na stránkách </font><a href="https://www.hkpoint.cz/cs/poradatele/729-hvezdarna-a-planetarium-v-hradci-kralove" style="text-decoration:none"><font color="#3e3671"><b>HKPoint.cz</b></font></a><font color="#3e3671"> si vyberte program.</font></td></tr>
+	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint01.png"><img border="0" src="data/images/hkpoint01.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>
+        
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>II</b> - U vybraného programu zvolte datum plánované návštěvy.</font></td></tr>
+ 	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint02.png"><img border="0" src="data/images/hkpoint02.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>	
+	
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>III</b> - Vyberte si kategorii. Základní vstupné na programy HPHK je určeno pro osoby ve věku od 18 do 64 let. Snížené vstupné na programy HPHK je určeno pro děti a žáky ve věku do 19 let, studenty ve věku do 26 let, držitele průkazů ZTP, ZTP/P, průvodce ZTP/P a seniory ve věku od 65 let. Následně zvolte počet vstupenek (při jednom nákupu je možné zakoupit maximálně 6 vstupenek).</font></td></tr>
+	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint03.png"><img border="0" src="data/images/hkpoint03.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>
+        
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>IV</b> - V košíku si můžete zkontrolovat váš nákup (počet vstupenek, program, datum apod.). Vstupenky Vám přijdou na email, který zadáte, platbu provedete online, vstupenky (v elektronické podobě i následně vytištěné) je nutné uchovávat na bezpečném místě, aby Vám je nikdo nemohl zkopírovat. Na poslední stránce dole si můžete založit účet, nebo využít rychlý nákup, při kterém stačí vyplnit jméno, příjmení, e-mail a telefon. Na e-mail Vám po provedení platby přijdou vstupenky, proto je nutné ho vyplnit velmi pečlivě.</font></td></tr>
+	<tr height="30"><td width="40"></td><td align="center"><hr width=33% color="#84c4f0"></td></tr>
+	<tr><td width="40"></td><td align="center"><a href="data/images/hkpoint04.png"><img border="0" src="data/images/hkpoint04.png" width=33%></a></td></tr>
+	<tr height="30"><td width="40"></td><td></td></tr>
+        
+	<tr><td width="40"></td><td align="center"><font color="#3e3671"><b>V</b> - Vstupenky si můžete následně vytisknout. Upozorňujeme, že je nutné si vytisknout všechny získané vstupenky (jedna vstupenka se tiskne na papír formátu A4 a je nutné ji vytisknout celou - s názvem a datem programu, cenou i s QR kódem). Možností je také mít uložené vstupenky například v chytrém telefonu a při vstupu do sálu digitálního planetária je ukázat v elektronické podobě. Je však nutné mít uložené všechny vstupenky v kompletním stavu.</font></td></tr>
+
+</table>
+
+  	<p>
+
+</div>
+
+
+
+<script>
+function openprogram(programName) {
+  var i, tabulkacontent, tabulkalinks;
+  tabulkacontent = document.getElementsByClassName("tabulkacontent");
+  for (i = 0; i < tabulkacontent.length; i++) {
+    tabulkacontent[i].style.display = "none";
+  }
+  tabulkalinks = document.getElementsByClassName("tabulkalinks");
+  for (i = 0; i < tabulkalinks.length; i++) {
+    tabulkalinks[i].className = tabulkalinks[i].className.replace(" active", "");
+  }
+  document.getElementById(programName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("zapnuto").click();
+</script>
+
+<script>
+var coll = document.getElementsByClassName("faq");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var odpoved = this.nextElementSibling;
+    if (odpoved.style.maxHeight){
+      odpoved.style.maxHeight = null;
+    } else {
+      odpoved.style.maxHeight = odpoved.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+	</td></tr>
+
+</table>
+
+	<p>
+ 
+</body>
+</html> 
+
+</div><!--page-->
+
+<div id="footer">
+© Hvězdárna a planetárium v Hradci Králové, Zámeček 456/30, 500 08 Hradec Králové
+
+</div><!--footer-->
+</div><!--container-->
+
+</body>
+</html>

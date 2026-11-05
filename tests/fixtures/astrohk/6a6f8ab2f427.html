@@ -1,0 +1,1288 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" href="astrohk.css" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="StyleSheet" type="text/css">
+<title>Hvězdárna a planetárium v Hradci Králové | Měsíčník</title>
+</head>
+
+<body>
+
+<div id="header">
+<a name="menu"></a>
+
+
+<table cellpadding="4" cellspacing="4" width="100%" border="0" bgcolor="#303880">
+
+<tr>
+
+<td align="center" valign="center" width=10%><a href="index.php"><img src="data/logo/logo-hphk-320_195.jpg" width=100% border="0"></a></td>
+
+<td width=1%></td>
+
+<td align="left" valign="center">
+
+<p class="menu">
+
+Pro návštěvníky: <a href="index.php">Hlavní stránka</a> | <a href="program.php">Program pro veřejnost</a> | <!a href="mesicnik.php">Měsíčník</a> | <a href="https://www.hkpoint.cz/cs/poradatele/729-hvezdarna-a-planetarium-v-hradci-kralove">Předprodej vstupenek</a>
+
+<p class="menu">
+
+Pro školy: <a href="skoly.php">Programy pro školy</a> | <a href="planetarni_stezka.php">Planetární stezka</a> | <a href="galakticka_stezka.php">Galaktická stezka</a>
+
+<p class="menu">
+
+Pro zájemce: <a href="faq.php">Často kladené otázky</a> | <a href="publikace.php">Publikace</a> | <a href="krouzek.php">Astronomický kroužek</a> | <a href="https://www.ashk.cz">Astronomická společnost</a>
+
+<p class="menu">
+
+O nás: <a href="hvezdarna.php">O hvězdárně</a> | <a href="http://www.planethk.cz">O digitálním planetáriu</a> | <a href="veda_a_vyzkum.php">Věda a výzkum</a> | <a href="index.php#kontakt">Kontakt</a>
+
+</td>
+
+<td width=1%></td>
+
+</tr>
+
+</table>
+
+
+<img src="data/images/hphk.jpg" width="100%">
+
+</div><!--header-->
+
+<div id="container">
+<div id="page">
+<style>
+
+img {vertical-align: middle;}
+
+.obr:hover {
+  box-shadow: 0 0 10px 2px rgba(48, 56, 128, 0.5);
+}
+
+.tabulka {
+  overflow: hidden;
+  border: 4px solid #303880ff;
+  background-color: #303880ff;
+  width: 95%;
+  text-align: center;
+}
+
+.tabulka button {
+  background-color: #303880ff;
+  color: #84c4f0ff;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0s;
+  font-size: 18px;
+}
+
+.tabulka button:hover {
+  background-color: #84c4f0ff;
+  color: #303880ff;
+}
+
+.tabulka button.active {
+  background-color: #84c4f0ff;
+  color: #303880ff;
+}
+
+.tabulkacontent {
+  display: none;
+  padding: 6px 3px;
+  border: 1px solid #303880ff;
+  border-top: none;
+  width: 95%;
+}
+
+</style>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>Měsíčník</b></font></td></tr>
+
+	<tr><td align="center">
+		<font color="#3e3671"><i>
+V informačním letáku Měsíčník publikujeme program hvězdárny a planetária, mapku oblohy, seznam kosmických událostí pro dané období a krátké články.
+		</i></font>
+	</td></tr>
+
+</table>
+
+<p><center>
+
+<div class="tabulka">
+  <button class="tabulkalinks" onclick="openprogram('aktualni')" id="zapnuto">Aktuální číslo</button>
+  <button class="tabulkalinks" onclick="openprogram('archiv')">Archiv</button>
+</div>
+
+<div id="aktualni" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><a href="data/mesicnik/2026/Mesicnik-2026-11.pdf" style="text-decoration:none"><font color="#3e3671" size="5"><b>AKTUÁLNÍ ČÍSLO - listopad 2026</b></font></a></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="10"></td></tr>
+
+	<tr><td align="center"><font color="#3e3671"><b>program hvězdárny a planetária v listopadu; Jak žijí lidé v horách Vietnamu; Vesmírné analogické mise</b></font></td></tr>
+
+	<tr><td align="center" height="10"></td></tr>
+
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-11.pdf"><img src="data/mesicnik/2026/Mesicnik-2026-11a.png" class="obr" style="border: 0px; border-radius: 2px; padding: 0px; width: 25%; margin: 20px;"></a></td></tr>
+
+	<tr><td align="center" height="10"></td></tr>
+
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-11.pdf"><img src="data/mesicnik/2026/Mesicnik-2026-11b.png" class="obr" style="border: 0px; border-radius: 2px; padding: 0px; width: 25%; margin: 20px;"></a></td></tr>
+
+</table>
+
+	<p>
+
+</div>
+
+<div id="archiv" class="tabulkacontent">
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2026</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-11.pdf"><font color="#3e3671"><b>listopad 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v listopadu; Jak žijí lidé v horách Vietnamu; Vesmírné analogické mise</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-10.pdf"><font color="#3e3671"><b>říjen 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v říjnu; Přírodou Austrálie - s biologickou expedicí od Cairns po Sydney; Podivné měsíce naší soustavy; Halloweenský kvíz</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-09.pdf"><font color="#3e3671"><b>září 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září; Pardubicko-hradecká filmová fúze; Noc vědy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-07.pdf"><font color="#3e3671"><b>červenec a srpen 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červenci a v srpnu; Částečné zatmění Slunce; Perseidy (slzy svatého Vavřince - každoroční podívaná)</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-06.pdf"><font color="#3e3671"><b>červen 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červnu; Japonsko 360°: Svět podobný, ale v mnohém jiný; Akademie techniky a řemesel; Hrajme si i hlavou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-05.pdf"><font color="#3e3671"><b>květen 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v květnu; Úplné zatmění Slunce; Největší pikantnosti „hvězd“</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-04.pdf"><font color="#3e3671"><b>duben 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v dubnu; Velikonoční kvíz; Satelity versus drony</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-03.pdf"><font color="#3e3671"><b>březen 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v březnu; Největší z největších: Giganti světa dinosaurů; Na lovu za polární září</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-02.pdf"><font color="#3e3671"><b>únor 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v únoru; Za Indiány Ekvádoru a Peru; Průzkum Měsíce: Velké milníky a ještě větší plány</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2026/Mesicnik-2026-01.pdf"><font color="#3e3671"><b>leden 2026</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v lednu; Astronomie starověkých světů; Podívat se na zuby Rwandě</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2025</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-12.pdf"><font color="#3e3671"><b>prosinec 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v prosinci; Klenoty maledivských nocí; Předsilvestrovský kvíz</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-11.pdf"><font color="#3e3671"><b>listopad 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v listopadu; Vesmírné katastrofy v minulosti Země; 70 let naší hvězdárny</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-10.pdf"><font color="#3e3671"><b>říjen 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v říjnu; Sám na PUNK ve Vietnamu; Halloweenský kvíz</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-09.pdf"><font color="#3e3671"><b>září 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září; Zatmění Měsíce; Noc vědců</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-07.pdf"><font color="#3e3671"><b>červenec a srpen 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červenci a v srpnu; Perseidy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-06.pdf"><font color="#3e3671"><b>červen 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červnu; Terénní dozimetrie aneb střípky z radostí a strastí jaderného fyzika; Akademie techniky a řemesel; Hrajme si i hlavou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-05.pdf"><font color="#3e3671"><b>květen 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v květnu; Velký tyranosauří kvíz pro děti; Jsme ve vesmíru sami?; Královéhradecká muzejní noc</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-04.pdf"><font color="#3e3671"><b>duben 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v dubnu; Apríl!? Plochá Země!? Vol. 2; Velikonoční kvíz pro děti s pokusy; Jak byl objeven kráter Chicxulub</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-03.pdf"><font color="#3e3671"><b>březen 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v březnu; Sám na PUNK v Íránu; Kam se posunulo planetárium za první dekádu své existence</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-02.pdf"><font color="#3e3671"><b>únor 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v únoru; Dragonfly aneb pojďme se proletět na Titanu; Polární záře: Hra světla a barev i za hranicemi naší planety</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2025/Mesicnik-2025-01.pdf"><font color="#3e3671"><b>leden 2025</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v lednu; Na PUNK Severním Thajskem s Martinem; Terénní dozimetrie aneb střípky z radostí a strastí jaderného fyzika</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2024</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-12.pdf"><font color="#3e3671"><b>prosinec 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v prosinci; Betlémská hvězda; Vánočně-Silvestrovský kvíz</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-11.pdf"><font color="#3e3671"><b>listopad 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v listopadu; Kanárské ostrovy - tropy na dosah ruky; Astrofotografie nejjednodušší cestou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-10.pdf"><font color="#3e3671"><b>říjen 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v říjnu; Elektromagnetické vlny; Srážky galaxií</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-09.pdf"><font color="#3e3671"><b>září 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září; Noc vědců</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-07.pdf"><font color="#3e3671"><b>červenec a srpen 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červenci a srpnu; Perseidy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-06.pdf"><font color="#3e3671"><b>červen 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červnu; Spektrum vesmíru; Hrajme si i hlavou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-05.pdf"><font color="#3e3671"><b>květen 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v květnu; Minulost Země zapsaná v její současnosti a kde se vzal Český masiv; Muzejní noc; Dětský hvězdný kvíz</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-04.pdf"><font color="#3e3671"><b>duben 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v dubnu; Začíná tu být plno; Kosmonautika převážně nevážně aneb Co dělají kosmonauti, když se řídicí středisko nedívá!</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-03.pdf"><font color="#3e3671"><b>březen 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v březnu; Co vše skrývá nukleární medicína; Hvězdný kvíz – Velikonoční speciál pro děti; Zajímavosti (nejen) z naší hvězdárny</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-02.pdf"><font color="#3e3671"><b>únor 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v únoru; Kosmonautika převážně nevážně aneb co dělají kosmonauti, když se řídicí středisko nedívá!; Jak na to – aneb astrofotografem může být každý z vás</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2024/Mesicnik-2024-01.pdf"><font color="#3e3671"><b>leden 2024</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v lednu; O vítězi, který prohrál; Dvě století s dinosaury</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2023</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-12.pdf"><font color="#3e3671"><b>prosinec 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v prosinci; Betlémská hvězda; Adventní hvězdný kvíz</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-11.pdf"><font color="#3e3671"><b>listopad 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v listopadu; Týden vzdělávání dospělých v Královéhradeckém kraji; Hvězdný kvíz - HALLOWEENSKÝ; Mexiko - tajemná země Mayů a divoké přírody; Kameny z vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-10.pdf"><font color="#3e3671"><b>říjen 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v říjnu; Vznik Merkuru, Venuše, Země a Marsu v plynném disku; Polární záře - věčná inspirace; Noc vědců</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-09.pdf"><font color="#3e3671"><b>září 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září; Lasery všude kolem nás</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-06.pdf"><font color="#3e3671"><b>červen 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-05.pdf"><font color="#3e3671"><b>květen 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v květnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-04.pdf"><font color="#3e3671"><b>duben 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v dubnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-03.pdf"><font color="#3e3671"><b>březen 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v březnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-02.pdf"><font color="#3e3671"><b>únor 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v únoru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2023/Mesicnik-2023-01.pdf"><font color="#3e3671"><b>leden 2023</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v lednu</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2022</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-12.pdf"><font color="#3e3671"><b>prosinec 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v prosinci</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-11.pdf"><font color="#3e3671"><b>listopad 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v listopadu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-09.pdf"><font color="#3e3671"><b>září 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-07.pdf"><font color="#3e3671"><b>červenec a srpen 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červenci a srpnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-05.pdf"><font color="#3e3671"><b>květen 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v květnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-04.pdf"><font color="#3e3671"><b>duben 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v dubnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-03.pdf"><font color="#3e3671"><b>březen 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v březnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-02.pdf"><font color="#3e3671"><b>únor 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v únoru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2022/Mesicnik-2022-01.pdf"><font color="#3e3671"><b>leden 2022</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v lednu</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2021</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2021/Mesicnik-2021-12.pdf"><font color="#3e3671"><b>prosinec 2021</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v prosinci</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2021/Mesicnik-2021-11.pdf"><font color="#3e3671"><b>listopad 2021</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v listopadu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2021/Mesicnik-2021-10.pdf"><font color="#3e3671"><b>říjen 2021</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v říjnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2021/Mesicnik-2021-09.pdf"><font color="#3e3671"><b>září 2021</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2021/Mesicnik-2021-08.pdf"><font color="#3e3671"><b>srpen 2021</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v srpnu</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2020</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-10.pdf"><font color="#3e3671"><b>říjen 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v říjnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-09.pdf"><font color="#3e3671"><b>září 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v září</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-08.pdf"><font color="#3e3671"><b>srpen 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v srpnu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-07.pdf"><font color="#3e3671"><b>červenec 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červenci, mapka oblohy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-06.pdf"><font color="#3e3671"><b>červen 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">program hvězdárny a planetária v červnu, mapka oblohy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-05.pdf"><font color="#3e3671"><b>květen 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v květnu; mapa noční oblohy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-04.pdf"><font color="#3e3671"><b>duben 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v dubnu; mapa noční oblohy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-03.pdf"><font color="#3e3671"><b>březen 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Cesta na Měsíc, která se nepovedla; Vznik primordiálního života?; Od šupin k peří; HOUSTONE, MÁME PROBLÉM!</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-02.pdf"><font color="#3e3671"><b>únor 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Prapodivná pohádka; Fyzika a astronomie 2018 až 2019 - II; Na Enfieldu Nepálem; Co musí zvládnout kosmonaut; Jaké je Slunce?; Jak vznikl Měsíc?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2020/Mesicnik-2020-01.pdf"><font color="#3e3671"><b>leden 2020</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Východní Anatólie; Jak to zařídit, aby se jezdilo co nejdříve; Kosmonautika 2019</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2019</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-12.pdf"><font color="#3e3671"><b>prosinec 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Co víme (a nevíme) o vzniku Země a Měsíce; Výzkumníkem v Nepálu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-11.pdf"><font color="#3e3671"><b>listopad 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Fyzika a astronomie 2018 až 2019; Přechod Merkuru před Sluncem; Exoplanety; Apollo 12; Týden vědy a techniky Akademie věd České republiky</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-10.pdf"><font color="#3e3671"><b>říjen 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Retro večerní program; Historie podzemní továrny Richard; Apollo: trnitá cesta na Měsíc; Island - kolem ostrova</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-09.pdf"><font color="#3e3671"><b>září 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Noc vědců 2019; Dinosauří renesance</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-08.pdf"><font color="#3e3671"><b>srpen a červenec 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">částečné zatmění Měsíce; Apollo 11; Perseidy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-06.pdf"><font color="#3e3671"><b>červen 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hrajme si i hlavou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-05.pdf"><font color="#3e3671"><b>květen 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Trolejbusové sedmdesátiny; Neuvěřitelných 50 let od první návštěvy Měsíce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-04.pdf"><font color="#3e3671"><b>duben 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hledáme hranice vesmíru; Přírodní výběr</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-03.pdf"><font color="#3e3671"><b>březen 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Dvě století dinosaurů; Historie zámečku na Kopci sv. Jana</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-02.pdf"><font color="#3e3671"><b>únor 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Měsíc stále neznámý; Hledáme hranice vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2019/Mesicnik-2019-01.pdf"><font color="#3e3671"><b>leden 2019</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kurdistán, Kosovo, Černá Hora, Bosna... pohledem studentů?; Kosmonautika 2018; Pozor vlak; zatmění Měsíce</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2018</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-12.pdf"><font color="#3e3671"><b>prosinec 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Burianosaurus a ti druzí; Kambodža - tropický ráj s tragickou historií</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-11.pdf"><font color="#3e3671"><b>listopad 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Na Bramboře kolem světa; Co jste nevěděli o ozonu (a báli jste se zeptat)...; Apolo 8 - první lidé u Měsíce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-10.pdf"><font color="#3e3671"><b>říjen 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Prvorepublikové spolky pohledem Astronomické společnosti v HK; Fantom vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-09.pdf"><font color="#3e3671"><b>září 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Zlaté století paleontologie 1918 - 2018</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-08.pdf"><font color="#3e3671"><b>srpen a červenec 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">úplné zatmění Měsíce; Perseidy - meteorický roj</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-06.pdf"><font color="#3e3671"><b>červen 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hrajeme si i hlavou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-05.pdf"><font color="#3e3671"><b>květen 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Komety, meteory, Neptun a Josef Morstadt</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-04.pdf"><font color="#3e3671"><b>duben 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Po Kubě na korbě náklaďáku; Fotografie hvězdné oblohy aneb příběh Orionu po 84 letech</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-03.pdf"><font color="#3e3671"><b>březen 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">První interkosmonaut; Opeření Dinosauři; Vlaky a počítače</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-02.pdf"><font color="#3e3671"><b>únor 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">První hvězdy ve vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2018/Mesicnik-2018-01.pdf"><font color="#3e3671"><b>leden 2018</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonautika 2017</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2017</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-12.pdf"><font color="#3e3671"><b>prosinec 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosatky a keporkaci za polárním kruhem; Lajka byla první!</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-11.pdf"><font color="#3e3671"><b>listopad 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Město dvou kontinentů</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-10.pdf"><font color="#3e3671"><b>říjen 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Noc vědců: Mobilita; Věda hýbe světem</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-09.pdf"><font color="#3e3671"><b>září 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Měsíc jako loďka; Zabijáci</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-08.pdf"><font color="#3e3671"><b>srpen a červenec 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">dvě srpnová zatmění</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-06.pdf"><font color="#3e3671"><b>červen 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Po stopách života hvězd - Hrajme si i hlavou 10.</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-05.pdf"><font color="#3e3671"><b>květen 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kamikaze ve jménu vědy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-04.pdf"><font color="#3e3671"><b>duben 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Namibie... divoká, pestrá, hvězdná; zákryt Aldebaranu; Jak pracují Sluneční hodiny</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-03.pdf"><font color="#3e3671"><b>březen 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Rocková plavba planetáriem; Severní Korea; Kyrgyzstán</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-02.pdf"><font color="#3e3671"><b>únor 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Astronomická interferometrie; Ryba v nás; polostínové zatmění Měsíce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2017/Mesicnik-2017-01.pdf"><font color="#3e3671"><b>leden 2017</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Královská klička v Panně; Kosmonautika 2016 aneb Hurá na Mars</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2016</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-12.pdf"><font color="#3e3671"><b>prosinec 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Dinosauři za humny</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-11.pdf"><font color="#3e3671"><b>listopad 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Pravá Kuba; Thajsko od severu k jihu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-10.pdf"><font color="#3e3671"><b>říjen 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Lidová hvězdárna Dr. Eduarda Beneše</font></td></tr>
+	<tr height="20"><td></td></tr
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-09.pdf"><font color="#3e3671"><b>září 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Mongolsko - země Čingischána očima neturisty; Noc vědců - je na planetě Zemi bezpečno?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-08.pdf"><font color="#3e3671"><b>srpen a červenec 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Buňka! Buňka! Buňka!</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-06.pdf"><font color="#3e3671"><b>červen 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Souboj živlů; Königgrätz 1866 · 2016</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-05.pdf"><font color="#3e3671"><b>květen 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">mikrozatmění; přechod Merkuru přes Slunce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-04.pdf"><font color="#3e3671"><b>duben 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Měkké tkáně a tvrdá věda; Zrcadlo do vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-03.pdf"><font color="#3e3671"><b>březen 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Klima Česka pro 21. stol.</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-02.pdf"><font color="#3e3671"><b>únor 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Příroda Izraele; Pravěká astronomie</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2016/Mesicnik-2016-01.pdf"><font color="#3e3671"><b>leden 2016</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonautika 2015</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2015</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-11-12.pdf"><font color="#3e3671"><b>prosinec a listopad 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Dinosauří Armageddon; Horror vacui</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-09-10.pdf"><font color="#3e3671"><b>říjen a září 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Když světlo škodí; Světélkování; Evropská noc vědců</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-07-08.pdf"><font color="#3e3671"><b>srpen a červenec 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Pluto na dosah; srpnové setkání s kometami; Rozlišovali souhvězdí již lovci mamutů?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-05-06.pdf"><font color="#3e3671"><b>květen a červen 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Život ?...!; Příteli Milanovi s úctou a obdivem; Jak daleko je nekonečno?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-03-04.pdf"><font color="#3e3671"><b>březen a duben 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Planeta dopravy; Světlo je život; Gruzie - s batohem na zádech; Spektrum</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-01-02.pdf"><font color="#3e3671"><b>únor 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Rok 2015 na obloze; Ti úplně největší dinosauři; Erupce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2015/Mesicnik-2015-01.pdf"><font color="#3e3671"><b>leden 2015</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Jak zkoumáme Velký třesk; Kosmonutika 2014</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2014</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-12.pdf"><font color="#3e3671"><b>prosinec 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Jak dlouho trvá cesta na Měsíc a Slunce?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-11.pdf"><font color="#3e3671"><b>listopad 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Portugalsko II; Aurora; Od buňky ke galaxiím</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-10.pdf"><font color="#3e3671"><b>říjen 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">První popularizátor astronomie</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-09.pdf"><font color="#3e3671"><b>září 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Mars na dohled; Noc vědců</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-08.pdf"><font color="#3e3671"><b>srpen a červenec 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v červenci a srpnu 2014</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-06.pdf"><font color="#3e3671"><b>červen 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Slunovrat; Pohádková věda</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-05.pdf"><font color="#3e3671"><b>květen 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Život ve vesmíru; Pozvánka do pravěku</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-04.pdf"><font color="#3e3671"><b>duben 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Z Hradce ke hvězdám</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-03.pdf"><font color="#3e3671"><b>březen 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Lovy perel a diamantů v Ugandě</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-02.pdf"><font color="#3e3671"><b>únor 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Blitzkrieg doby ledové</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2014/Mesicnik-2014-01.pdf"><font color="#3e3671"><b>leden 2014</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonautika v roce 2013</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2013</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-12.pdf"><font color="#3e3671"><b>prosinec 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">pohyb komety C/2012 S1 (ISON) mezi souhvězdími v prosinci 2013</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-11.pdf"><font color="#3e3671"><b>listopad 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kometa se blíží; kometa je tady; zapomeňte na kometu</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-10.pdf"><font color="#3e3671"><b>říjen 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Legenda jménem T. rex; Co jsi zač, odkud pocházíš a kam směřuješ - vesmíre?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-09.pdf"><font color="#3e3671"><b>září 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Na řadě je Mars; Přeměny energie v přírodě</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-08.pdf"><font color="#3e3671"><b>srpen a červenec 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v červenci a srpnu 2013</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-06.pdf"><font color="#3e3671"><b>červen 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Neviditelný vesmír</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-05.pdf"><font color="#3e3671"><b>květen 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Vznik života na Zemi</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-04.pdf"><font color="#3e3671"><b>duben 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Do nitra polárních ledovců</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-03.pdf"><font color="#3e3671"><b>březen 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Ptakoještěři - dávní vládci oblohy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-02.pdf"><font color="#3e3671"><b>únor 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Umělé oči odhalující tajemství vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2013/Mesicnik-2013-01.pdf"><font color="#3e3671"><b>leden 2013</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Rekordy živé přírody</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2012</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-12.pdf"><font color="#3e3671"><b>prosinec 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonautika 2012</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-11.pdf"><font color="#3e3671"><b>listopad 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Mohli dinosauři vytvořit civilizaci?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-10.pdf"><font color="#3e3671"><b>říjen 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">50 let ESO</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-09.pdf"><font color="#3e3671"><b>září 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Epochální výlet na Mars</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-08.pdf"><font color="#3e3671"><b>srpen a červenec 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v červenci a srpnu 2012</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-06.pdf"><font color="#3e3671"><b>červen 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">přechod Venuše přes Slunce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-05.pdf"><font color="#3e3671"><b>květen 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Starověké vynálezy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-04.pdf"><font color="#3e3671"><b>duben 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kalendáře předkolumbovských civilizací</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-03.pdf"><font color="#3e3671"><b>březen 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Proč vyhynuli dinosauři?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-02.pdf"><font color="#3e3671"><b>únor 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonautika 2011; NaturTech v Hradci Králové</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2012/Mesicnik-2012-01.pdf"><font color="#3e3671"><b>leden 2012</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">2012</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2011</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-12.pdf"><font color="#3e3671"><b>prosinec 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Signály z vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-11.pdf"><font color="#3e3671"><b>listopad 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Nobelova cena za rozpínání vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-10.pdf"><font color="#3e3671"><b>říjen 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kam dál kosmonautiko?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-09.pdf"><font color="#3e3671"><b>září 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Dinosauři pohledem 21. století</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-08.pdf"><font color="#3e3671"><b>srpen a červenec 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v červenci a srpnu 2011</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-06.pdf"><font color="#3e3671"><b>červen 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">zatmění Slunce a Měsíce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-05.pdf"><font color="#3e3671"><b>květen 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Tak kde jsou?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-04.pdf"><font color="#3e3671"><b>duben 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonaut Gagarin byl první</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-03.pdf"><font color="#3e3671"><b>březen 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Jaro 21. března - letos naposledy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-02.pdf"><font color="#3e3671"><b>únor 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Indonésie a Indopacifik</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2011/Mesicnik-2011-01.pdf"><font color="#3e3671"><b>leden 2011</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">částečné zatmění Slunce</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2010</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-12.pdf"><font color="#3e3671"><b>prosinec 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Jak to bylo s hvězdou betlémskou?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-11.pdf"><font color="#3e3671"><b>listopad 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Seznamte se s Měsícem</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-10.pdf"><font color="#3e3671"><b>říjen 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Co přináší kosmonautika do běžného života?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-09.pdf"><font color="#3e3671"><b>září 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Svědectví z ráje</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-08.pdf"><font color="#3e3671"><b>srpen a červenec 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">kosmické události v červenci a srpnu 2010</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-06.pdf"><font color="#3e3671"><b>červen 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Život na Zemi - kosmická pro a proti</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-05.pdf"><font color="#3e3671"><b>květen 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Bude Jurský park realitou?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-04.pdf"><font color="#3e3671"><b>duben 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hubble a jeho následovníci</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-03.pdf"><font color="#3e3671"><b>březen 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Normandie, Bretaň; Římané v Čechách</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-02.pdf"><font color="#3e3671"><b>únor 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Proměny planety Země</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2010/Mesicnik-2010-01.pdf"><font color="#3e3671"><b>leden 2010</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Vesmír v kameni</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2009</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-12.pdf"><font color="#3e3671"><b>prosinec 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Nekonečně mnoho světů; Energie v přírodě</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-11.pdf"><font color="#3e3671"><b>listopad 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Supernovy – odkud se bere jejich energie?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-10.pdf"><font color="#3e3671"><b>říjen 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">O čem češtinářka nemá ani potuchy</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-09.pdf"><font color="#3e3671"><b>září 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Výprava za posledními dinosaury</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-08.pdf"><font color="#3e3671"><b>srpen a červenec 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Co nás v létě čeká na obloze a v e-mailové schránce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-06.pdf"><font color="#3e3671"><b>červen 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Vzpomínka na den na Měsíci před 40 lety</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-05.pdf"><font color="#3e3671"><b>květen 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Chicxulub - posel smrti z dávnověku</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-04.pdf"><font color="#3e3671"><b>duben 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">80 let Astronomické společnosti v Hradci Králové</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-03.pdf"><font color="#3e3671"><b>březen 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Astronomické oči</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-02.pdf"><font color="#3e3671"><b>únor 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Nitro hvězd</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2009/Mesicnik-2009-01.pdf"><font color="#3e3671"><b>leden 2009</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Mezinárodní rok astronomie 2009</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2008</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-12.pdf"><font color="#3e3671"><b>prosinec 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Kosmonautika 2008; Od pazourku po misi Apollo</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-11.pdf"><font color="#3e3671"><b>listopad 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Poutní zájezd do Říma</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-10.pdf"><font color="#3e3671"><b>říjen 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Velká říjnová revoluce</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-09.pdf"><font color="#3e3671"><b>září 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hrajme si i hlavou</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-06.pdf"><font color="#3e3671"><b>červen 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hledání života ve vesmíru</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-05.pdf"><font color="#3e3671"><b>květen 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Hvězdárny coby strážci času</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-04.pdf"><font color="#3e3671"><b>duben 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Jižní Indie - putování z Bengalúru do Chennai</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-03.pdf"><font color="#3e3671"><b>březen 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Z historie československé kosmonautiky</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-02.pdf"><font color="#3e3671"><b>únor 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Arizona - ráj astronomů a cestovatelů</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2008/Mesicnik-2008-01.pdf"><font color="#3e3671"><b>leden 2008</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Sluneční energie</font></td></tr>
+
+</table>
+
+	<p>
+
+<table width=95% cellpadding="2" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center" height="60"><font color="#3e3671" size="5"><b>2002 - 2001</b></font></td></tr>
+	<tr bgcolor="#84c4f0"><td></td></tr>
+
+</table>
+
+	<p>
+
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+
+	<tr><td align="center"><a href="data/mesicnik/2002/Mesicnik-2002-02.pdf"><font color="#3e3671"><b>únor 2002</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Globální polohový systém</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2002/Mesicnik-2002-01.pdf"><font color="#3e3671"><b>leden 2002</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Impaktní krátery</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2001/Mesicnik-2001-12.pdf"><font color="#3e3671"><b>prosinec 2001</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Betlémská hvězda nebo kometa?</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2001/Mesicnik-2001-11.pdf"><font color="#3e3671"><b>listopad 2001</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Jak pozorovat rádiové záření Jupitera</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2001/Mesicnik-2001-10.pdf"><font color="#3e3671"><b>říjen 2001</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Pokrok v našem chápání života</font></td></tr>
+	<tr height="20"><td></td></tr>
+	<tr><td align="center"><a href="data/mesicnik/2001/Mesicnik-2001-09.pdf"><font color="#3e3671"><b>září 2001</b></font></a> <small>[PDF]</small></td></tr>
+	<tr height="10"><td></td></tr>
+	<tr><td align="center"><font color="#3e3671">Uctívání Slunce</font></td></tr>
+
+</table>
+
+	<p>
+
+</div>
+
+	<p>	
+
+<script>
+function openprogram(programName) {
+  var i, tabulkacontent, tabulkalinks;
+  tabulkacontent = document.getElementsByClassName("tabulkacontent");
+  for (i = 0; i < tabulkacontent.length; i++) {
+    tabulkacontent[i].style.display = "none";
+  }
+  tabulkalinks = document.getElementsByClassName("tabulkalinks");
+  for (i = 0; i < tabulkalinks.length; i++) {
+    tabulkalinks[i].className = tabulkalinks[i].className.replace(" active", "");
+  }
+  document.getElementById(programName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("zapnuto").click();
+</script>
+
+</div><!--page-->
+
+<div id="footer">
+© Hvězdárna a planetárium v Hradci Králové, Zámeček 456/30, 500 08 Hradec Králové
+
+</div><!--footer-->
+</div><!--container-->
+
+</body>
+</html>
