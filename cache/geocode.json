@@ -545,6 +545,27 @@
   "q": "Hvězdárna a planetárium v Hradci Králové, Hradec Králové, Česko",
   "ts": "2026-10-12T12:29:11+00:00"
  },
+ "hvezdarna a planetarium v hradci kralove|hradec kralove": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Hvězdárna a planetárium v Hradci Králové, Hradec Králové, Česko",
+  "ts": "2026-11-05T12:51:54+00:00"
+ },
+ "hvezdarna jicin|jicin": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Hvězdárna Jičín, Jičín, Česko",
+  "ts": "2026-11-05T12:51:54+00:00"
+ },
+ "hvezdarna v upici|upice": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Hvězdárna v Úpici, Úpice, Česko",
+  "ts": "2026-11-05T12:51:54+00:00"
+ },
  "ic novopacko, klenotnice drahych kamenu|nova paka": {
   "lat": null,
   "lon": null,
@@ -1266,6 +1287,13 @@
   "q": "ShanTea – čajovna a kavárna, Vrchlabí, Česko",
   "ts": "2026-10-12T12:29:11+00:00"
  },
+ "sin bohuslava martinu|trutnov": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Síň Bohuslava Martinů, Trutnov, Česko",
+  "ts": "2026-11-05T12:51:54+00:00"
+ },
  "sloupovy sal klastera|nova paka": {
   "lat": null,
   "lon": null,
@@ -1762,6 +1790,13 @@
   "precision": "place",
   "q": "Turnov, Česko",
   "ts": "2026-09-20T15:28:30+00:00"
+ },
+ "|upice": {
+  "lat": 50.5125314,
+  "lon": 16.0154279,
+  "precision": "place",
+  "q": "Úpice, okres Trutnov, Česko",
+  "ts": "2026-11-05T12:51:54+00:00"
  },
  "|valdstejnska lodzie": {
   "lat": 50.449501,

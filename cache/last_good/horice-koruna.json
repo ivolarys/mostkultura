@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-04T12:30:50+00:00",
+ "fetched_at": "2026-11-05T12:49:59+00:00",
  "events": [
-  {
-   "title": "Hořice JazzNights 2026",
-   "start": "2026-11-04T19:30:00+01:00",
-   "source": "horice-koruna",
-   "url": "https://www.dum-kultury-koruna.cz/horice-jazznights-2026",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům kultury Koruna",
-   "category": null,
-   "native_category": null,
-   "description": "Mezinárodní jazzový festival opět zve všechny příznivce nekomerčních hudebních žánrů !!! Ve dnech 4. - 7.11.2026 se uskuteční již 31. ročník oblíbeného jazzového ...",
-   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01071/posters/fermata-A3.jpg",
-   "native_id": "https://www.dum-kultury-koruna.cz/horice-jazznights-2026",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "horice-koruna:9bfcf1cdc6bf"
-  },
   {
    "title": "Jiří Meca",
    "start": "2026-11-11T19:00:00+01:00",
