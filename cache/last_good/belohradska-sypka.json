@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T12:50:03+00:00",
+ "fetched_at": "2026-11-06T12:28:21+00:00",
  "events": [
   {
    "title": "Cesty Michala Halvy (Obrazy z let 1993-2026)",
@@ -168,6 +168,30 @@
    "lon": null,
    "geo": null,
    "id": "belohradska-sypka:45adf92960cf"
+  },
+  {
+   "title": "Svatomartinské menu v Bělohradské sýpce",
+   "start": "2026-11-14T17:00:00+01:00",
+   "source": "belohradska-sypka",
+   "url": "https://www.belohradskasypka.cz/l/svatomartinske-menu-v-belohradske-sypce/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kavárna Bělohradské sýpky",
+   "category": null,
+   "native_category": null,
+   "description": "Přijďte si vychutnat sváteční speciality, které pohladí po duši. Sestavili jsme pro vás kompletní menu plné tradičních chutí. ",
+   "image": null,
+   "native_id": "https://www.belohradskasypka.cz/l/svatomartinske-menu-v-belohradske-sypce/|2026-11-14T17:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "belohradska-sypka:0c1bd765b25c"
   },
   {
    "title": "Svatopluk Sváti Karáska - rockový koncert",

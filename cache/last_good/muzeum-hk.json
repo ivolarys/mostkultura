@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T12:50:51+00:00",
+ "fetched_at": "2026-11-06T12:29:21+00:00",
  "events": [
   {
    "title": "Není kámen jako kámen",
@@ -288,6 +288,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:b46a1da474c7"
+  },
+  {
+   "title": "Senior klub - Moderní byt 1960",
+   "start": "2026-12-10T10:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1725/-/senior-klub-moderni-byt-1960.html",
+   "end": "2026-12-10T12:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": null,
+   "description": "KOMENTOVANÁ PROHLÍDKA VÝSTAVY Panelové domy dnes vnímáme jako samozřejmost. Na přelomu 50. a 60. let však představovaly vrchol moderního inženýrství a příslib nového bydlení. Výstava „Moderní byt 1960“ představuje příběh královéhradecké konstrukční soustavy HK, vyvinuté královéhradeckým Stavoprojektem, která se postupně rozšířila po celém bývalém Východočeském kraji. Výstavou provede její spoluautor Petr Bártík. Vstup pro členy klubu je zdarma",
+   "image": null,
+   "native_id": "1725",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:45e7cd730bc7"
   },
   {
    "title": "Tradiční české Vánoce – pečivo, zvyky a dobroty",

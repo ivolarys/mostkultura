@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T12:50:11+00:00",
+ "fetched_at": "2026-11-06T12:28:30+00:00",
  "events": [
   {
    "title": "SVATOMARTINSKÁ HUSA NA NãPLAVCE",
@@ -144,6 +144,30 @@
    "lon": null,
    "geo": null,
    "id": "naplavka-hk:d41b2cd9e8cd"
+  },
+  {
+   "title": "Na Stojáka - Hradec Králové",
+   "start": "2027-02-24T18:00:00+01:00",
+   "source": "naplavka-hk",
+   "url": "https://naplavkahk.cz/udalost/2027-02-24-na-stojaka-hradec-kralove",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Náplavka kulturní klub",
+   "category": null,
+   "native_category": "Stand-up",
+   "description": "",
+   "image": "https://naplavkahk.cz/media/3159/medialibraryG1VO5r",
+   "native_id": "https://naplavkahk.cz/udalost/2027-02-24-na-stojaka-hradec-kralove",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "naplavka-hk:b8e00da3638b"
   }
  ]
 }
