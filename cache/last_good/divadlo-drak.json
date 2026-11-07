@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T12:29:25+00:00",
+ "fetched_at": "2026-11-07T11:21:42+00:00",
  "events": [
   {
    "title": "Město pro každého",
@@ -168,6 +168,30 @@
    "lon": null,
    "geo": null,
    "id": "divadlo-drak:4e9f3bc60e1f"
+  },
+  {
+   "title": "Proměna",
+   "start": "2026-11-12T18:00:00+01:00",
+   "source": "divadlo-drak",
+   "url": "https://draktheatre.cz/repertoar/promena/",
+   "end": null,
+   "all_day": false,
+   "place": "Hradec Králové",
+   "place_raw": "Hradec Králové",
+   "venue": "Divadlo DRAK – Studio",
+   "category": null,
+   "native_category": "Divadlo",
+   "description": "",
+   "image": "https://draktheatre.cz/wp-content/uploads/2024/08/2025-5-Promena-12-320x320.jpg",
+   "native_id": "https://draktheatre.cz/repertoar/promena/|2026-11-12T18:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "divadlo-drak:a18135460f8c"
   },
   {
    "title": "Město pro každého",

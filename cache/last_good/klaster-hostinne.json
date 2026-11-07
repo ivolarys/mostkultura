@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T12:28:29+00:00",
+ "fetched_at": "2026-11-07T11:20:50+00:00",
  "events": [
   {
    "title": "Cestopisná přednška: Skotsko",
@@ -24,30 +24,6 @@
    "lon": null,
    "geo": null,
    "id": "klaster-hostinne:e976b4c955c3"
-  },
-  {
-   "title": "Výstava: Podhorské rozjímání",
-   "start": "2026-11-06T00:00:00+01:00",
-   "source": "klaster-hostinne",
-   "url": "https://www.klasterhostinne.cz/aktuality-muzeum/vystava-vytvarne-skupiny-g21-podhorske-rozjimani",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": "Muzeum",
-   "description": "Zveme na vernisáž společné putovní výstavy G21 PODHORSKÉ ROZJÍMÁNÍ, která se uskuteční v pátek 6. listopadu 2026 od 17:00 v klášteře....",
-   "image": "https://www.klasterhostinne.cz/media/photos/articlem/item/images-604/vystava-vytvarne-skupiny-g21-podhorske-rozjimani-t2.jpg",
-   "native_id": "https://www.klasterhostinne.cz/aktuality-muzeum/vystava-vytvarne-skupiny-g21-podhorske-rozjimani",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klaster-hostinne:7f8f2a79db6b"
   }
  ]
 }

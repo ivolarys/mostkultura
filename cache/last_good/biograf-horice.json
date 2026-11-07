@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-06T12:28:09+00:00",
+ "fetched_at": "2026-11-07T11:20:31+00:00",
  "events": [
-  {
-   "title": "Divoký kůň Devítka",
-   "start": "2026-11-06T19:00:00+01:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-844032",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Děj se odehrává v roce 1973, krátce před vojenským převratem v Chile. Sleduje dva agenty CIA (John Malkovich a Sam Rockwell), kteří jsou vysláni ze Santiaga na Velikonoční ostrov (Rapa Nui). Během mise uprostřed ikonických kamenných soch, oba čelí zkoušce vzájemné důvěry, musí se vyrovnat se svou temnou minulostí a společně připravit nová spiknutí.",
-   "image": "https://storage.cinemaware.eu/katalogy/images/5/b/5b9f41dc-d5f5-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5601883",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:86cba40788f5"
-  },
   {
    "title": "Kocour v klobouku",
    "start": "2026-11-07T17:00:00+01:00",
