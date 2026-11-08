@@ -818,6 +818,13 @@
   "q": "Kostel sv. Jana Křtitele ve Vidonicích, Pecka, Česko",
   "ts": "2026-10-09T11:34:31+00:00"
  },
+ "kostel sv. vavrince, nam. miru, vrchlabi|vrchlabi": {
+  "lat": 50.6294327,
+  "lon": 15.6086194,
+  "precision": "venue",
+  "q": "nám. Míru, Vrchlabí, Česko",
+  "ts": "2026-11-08T11:34:16+00:00"
+ },
  "kostel sv. vavrince, nam. miru|vrchlabi": {
   "lat": 50.6292468,
   "lon": 15.6083404,
