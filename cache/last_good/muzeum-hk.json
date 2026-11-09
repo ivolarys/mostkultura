@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-08T11:33:27+00:00",
+ "fetched_at": "2026-11-09T13:22:42+00:00",
  "events": [
   {
    "title": "Není kámen jako kámen",
@@ -312,6 +312,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:45e7cd730bc7"
+  },
+  {
+   "title": "V zajetí múz života kus. 80 let výtvarníka Zdeňka Bláhy",
+   "start": "2026-12-11T10:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1726/-/v-zajeti-muz-zivota-kus-80-let-vytvarnika-zdenka-blahy.html",
+   "end": "2027-02-28T18:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Muzeum východních Čech v Hradci Králové",
+   "category": null,
+   "native_category": "Výstava",
+   "description": "Nová výstava představuje všestrannou tvorbu Zdeňka Bláhy, který působil přes čtyřicet let jako pracovník Muzea východních Čech v Hradci Králové. Díky svému obrovskému zápalu, důvtipu a nadsázce zanechal nezapomenutelnou stopu nejen v muzejních expozicích, ale i v celé řadě výtvarných a literárních projektů. Přijďte se seznámit s dílem osobnosti, která po desetiletí spoluvytvářela tvář královéhradeckého muzejnictví.",
+   "image": null,
+   "native_id": "1726",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:67469575771d"
   },
   {
    "title": "Tradiční české Vánoce – pečivo, zvyky a dobroty",

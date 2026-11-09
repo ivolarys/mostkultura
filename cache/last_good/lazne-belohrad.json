@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-08T11:28:40+00:00",
+ "fetched_at": "2026-11-09T13:16:02+00:00",
  "events": [
   {
    "title": "KULTURNÍ PROGRAM - listopad/prosinec",
@@ -434,20 +434,20 @@
    "id": "lazne-belohrad:54449289a722"
   },
   {
-   "title": "VIVI TADY NEBYDLÍ",
-   "start": "2026-11-08T15:00:00+01:00",
+   "title": "Výstava Cesty Michala Halvy (Obrazy z let 1993-2026)",
+   "start": "2026-11-07T00:00:00+01:00",
    "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/vivi-tady-nebydli-loutkova-pohadka",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/vystava-cesty-michala-halvy-obrazy-z-let-1993-2026",
    "end": null,
    "all_day": false,
    "place": null,
    "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
+   "venue": "Bělohradská sýpka",
    "category": null,
-   "native_category": "Divadlo, Pohádka, Pro děti",
-   "description": "Loutková pohádka pro děti od 6 let. Po pohádce následují dílny pro děti. Bělohradská sýpka od 15:00. Vstupné 50,- na místě.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13966786",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/vivi-tady-nebydli-loutkova-pohadka",
+   "native_category": null,
+   "description": "Galerie Bělohradská sýpka vás zve na mimořádnou soubornou výstavu brněnského malíře Michala Halvy s názvem CESTY MICHALA HALVY (Obrazy z let 1993–2026).",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13948201",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/vystava-cesty-michala-halvy-obrazy-z-let-1993-2026",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -455,23 +455,23 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "lazne-belohrad:bc52ff7ce362"
+   "id": "lazne-belohrad:9823187e0f8b"
   },
   {
-   "title": "HUBERTSKÁ MŠE",
-   "start": "2026-11-08T09:00:00+01:00",
+   "title": "Beseda s Františkem Kinským",
+   "start": "2026-11-13T19:00:00+01:00",
    "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/hubertska-mse",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/dusan-klik-les-mots-se-sont-tus",
    "end": null,
    "all_day": false,
    "place": null,
    "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
+   "venue": "Bělohradská sýpka",
    "category": null,
-   "native_category": "Mše",
-   "description": "Historicky první Hubertská mše v Lázních Bělohrad dne 8. listopadu 2026 od 9:00 hodin.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13966738",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/hubertska-mse",
+   "native_category": null,
+   "description": "Prožijte inspirativní večer s Františkem Kinským a Václavem Žmolíkem v Bělohradské sýpce.",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13842968",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/dusan-klik-les-mots-se-sont-tus",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -479,7 +479,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "lazne-belohrad:5b602dcd8909"
+   "id": "lazne-belohrad:8b651eeb08d5"
   }
  ]
 }

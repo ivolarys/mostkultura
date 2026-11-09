@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-08T11:33:29+00:00",
+ "fetched_at": "2026-11-09T13:22:44+00:00",
  "events": [
-  {
-   "title": "Prašina 1",
-   "start": "2026-11-09T10:30:00+01:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/prasina-1?t=15904",
-   "end": "2026-11-09T12:50:00+01:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Prašina 1 Hlavní scéna · Vojtěch Matocha Vojtěch Matocha · režie Pavel Khek Hlavní scéna Dobrodružné 10+ Dopolední představení Volné sezení",
-   "image": "https://www.klicperovodivadlo.cz/media/60/gallery/prasina-1-fotografie-01-16634",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/prasina-1?t=15904|2026-11-09T10:30:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:8a6d2202106e"
-  },
   {
    "title": "Brokolice na Marsu",
    "start": "2026-11-09T19:00:00+01:00",
@@ -794,7 +770,7 @@
    "id": "klicperovo-divadlo:c7ae52a819e4"
   },
   {
-   "title": "Dan Váchal – vernisáž",
+   "title": "Dan Váchal: Mimochodem…",
    "start": "2026-12-12T18:15:00+01:00",
    "source": "klicperovo-divadlo",
    "url": "https://www.klicperovodivadlo.cz/inscenace/daniel-vachal-vernisaz",
@@ -805,8 +781,8 @@
    "venue": "Foyer hlavní scény, Dlouhá 99/9",
    "category": null,
    "native_category": "Výstava",
-   "description": "Dan Váchal – vernisáž Foyer hlavní scény · Dan Váchal Dan Váchal Foyer hlavní scény Výstava",
-   "image": "https://www.klicperovodivadlo.cz/media/20165/gallery/dan-vachal-01",
+   "description": "Dan Váchal: Mimochodem… Foyer hlavní scény · Dan Váchal Dan Váchal Foyer hlavní scény Výstava",
+   "image": "https://www.klicperovodivadlo.cz/media/20382/gallery/masopustni-maskary",
    "native_id": "https://www.klicperovodivadlo.cz/inscenace/daniel-vachal-vernisaz|2026-12-12T18:15:00+01:00",
    "ongoing": false,
    "sources": [],

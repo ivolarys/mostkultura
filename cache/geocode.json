@@ -860,6 +860,13 @@
   "q": "Vančurova 378, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "kulturni dum strelnice, vrchlabi|vrchlabi": {
+  "lat": 50.6309689,
+  "lon": 15.6106598,
+  "precision": "venue",
+  "q": "Kulturní dům Střelnice, Vrchlabí, Česko",
+  "ts": "2026-11-09T13:23:34+00:00"
+ },
  "l art cafe|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -929,6 +936,13 @@
   "precision": "venue",
   "q": "Městská knihovna Trutnov, Trutnov, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "mestska knihovna, na. tgm|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Městská knihovna, ná. TGM, Vrchlabí, Česko",
+  "ts": "2026-11-09T13:23:34+00:00"
  },
  "mestska knihovna|jilemnice": {
   "lat": 50.6097704,
