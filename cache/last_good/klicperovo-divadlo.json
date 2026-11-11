@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-10T12:59:27+00:00",
+ "fetched_at": "2026-11-11T12:09:57+00:00",
  "events": [
-  {
-   "title": "Brokolice na Marsu",
-   "start": "2026-11-10T19:00:00+01:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/brokolice-na-marsu?t=15839",
-   "end": "2026-11-10T21:10:00+01:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "Brokolice na Marsu Hlavní scéna · David Drábek David Drábek · režie David Drábek Zrušeno Z důvodu úrazu zrušeno Více informací Hlavní scéna Tragikomedie Nakročeno k derniéře",
-   "image": "https://www.klicperovodivadlo.cz/media/11114/gallery/brokolice-na-marsu-fotografie-01-18428",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/brokolice-na-marsu?t=15839|2026-11-10T19:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:d6adef38c597"
-  },
   {
    "title": "Arabela",
    "start": "2026-11-11T14:30:00+01:00",

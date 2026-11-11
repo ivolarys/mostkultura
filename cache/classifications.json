@@ -23,6 +23,14 @@
   "place": "Hradec Králové",
   "ts": "2026-10-23T09:38:04+00:00"
  },
+ "articok-hk:4cca323ff082": {
+  "category": "divadlo",
+  "confidence": 0.98,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "articok-hk:781748dc5008": {
   "category": "komunita",
   "confidence": 0.91,
@@ -54,6 +62,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-10-16T09:21:59+00:00"
+ },
+ "articok-hk:be387abb7474": {
+  "category": "deti",
+  "confidence": 0.98,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "articok-hk:ee00e05bac95": {
   "category": "vystava",
@@ -206,6 +222,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-09-18T09:14:12+00:00"
+ },
+ "bajkazyl-hk:200b47009dc0": {
+  "category": "koncert",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "bajkazyl-hk:223d1965ea07": {
   "category": "koncert",
@@ -374,6 +398,14 @@
   "needs_review": false,
   "place": "Lázně Bělohrad",
   "ts": "2026-10-23T09:37:58+00:00"
+ },
+ "belohradska-sypka:8ab633c7113d": {
+  "category": "koncert",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Lázně Bělohrad",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "belohradska-sypka:9951213caf1c": {
   "category": "jine",
@@ -950,6 +982,14 @@
   "needs_review": false,
   "place": "Bílá Třemešná",
   "ts": "2026-10-06T05:18:32+00:00"
+ },
+ "bila-tremesna:54a9ebffd59a": {
+  "category": "slavnost",
+  "confidence": 0.98,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Bílá Třemešná",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "bila-tremesna:592c01b3318a": {
   "category": "koncert",
@@ -1591,6 +1631,14 @@
   "place": "Dvůr Králové nad Labem",
   "ts": "2026-11-04T12:32:15+00:00"
  },
+ "dvur-kralove:a5add04003c4": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Dvůr Králové nad Labem",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "dvur-kralove:a5d31bf27668": {
   "category": "trh",
   "confidence": 0.95,
@@ -2223,6 +2271,14 @@
   "place": "Hradec Králové",
   "ts": "2026-11-10T13:00:18+00:00"
  },
+ "hradec-vyber:010a227806a8": {
+  "category": "slavnost",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "hradec-vyber:0146232e9bf0": {
   "category": "koncert",
   "confidence": 0.99,
@@ -2470,6 +2526,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-10-13T12:11:32+00:00"
+ },
+ "hradec-vyber:142dd6479a5c": {
+  "category": "slavnost",
+  "confidence": 0.98,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "hradec-vyber:145ab9798d72": {
   "category": "prednaska",
@@ -2950,6 +3014,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-10-24T09:09:39+00:00"
+ },
+ "hradec-vyber:325f1cce6a05": {
+  "category": "jine",
+  "confidence": 0.82,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "hradec-vyber:3424675a9bfd": {
   "category": "vystava",
@@ -4159,6 +4231,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-14T07:29:42+00:00"
  },
+ "hradec-vyber:935f537c0cf9": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "hradec-vyber:947bb717a05e": {
   "category": "vystava",
   "confidence": 0.89,
@@ -4375,6 +4455,14 @@
   "place": "Hradec Králové",
   "ts": "2026-10-19T10:18:16+00:00"
  },
+ "hradec-vyber:a526e2f1efce": {
+  "category": "koncert",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "hradec-vyber:a69e12701c55": {
   "category": "koncert",
   "confidence": 0.99,
@@ -4558,6 +4646,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-09-26T05:06:51+00:00"
+ },
+ "hradec-vyber:b3c43c32895d": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "hradec-vyber:b5e8ddb08494": {
   "category": "koncert",
@@ -5022,6 +5118,14 @@
   "needs_review": false,
   "place": "Hradec Králové",
   "ts": "2026-10-11T11:05:16+00:00"
+ },
+ "hradec-vyber:dfad29e7fbcb": {
+  "category": "vystava",
+  "confidence": 0.88,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "hradec-vyber:e1b2c74edfdc": {
   "category": "koncert",
@@ -6335,6 +6439,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-24T13:57:33+00:00"
  },
+ "muzeum-hk:24bb65c70ba5": {
+  "category": "prednaska",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Hradec Králové",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "muzeum-hk:2664c206999e": {
   "category": "prednaska",
   "confidence": 0.99,
@@ -7334,6 +7446,14 @@
   "needs_review": true,
   "place": null,
   "ts": "2026-09-16T15:10:41+00:00"
+ },
+ "trutnov:614099d8a2f3": {
+  "category": "vystava",
+  "confidence": 0.72,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "trutnov:6ac2009607c0": {
   "category": "jine",
@@ -8863,6 +8983,14 @@
   "place": "Trutnov",
   "ts": "2026-09-23T07:00:31+00:00"
  },
+ "uffo:074425fdff70": {
+  "category": "deti",
+  "confidence": 0.77,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:074c476fe340": {
   "category": "film",
   "confidence": 0.97,
@@ -9407,6 +9535,14 @@
   "place": "Trutnov",
   "ts": "2026-10-31T10:40:12+00:00"
  },
+ "uffo:0a87516670df": {
+  "category": "divadlo",
+  "confidence": 0.75,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:0a8e224e13a6": {
   "category": "prednaska",
   "confidence": 0.76,
@@ -9542,6 +9678,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-31T10:40:01+00:00"
+ },
+ "uffo:0b943fa56111": {
+  "category": "divadlo",
+  "confidence": 0.82,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:0bcab20804ef": {
   "category": "prednaska",
@@ -10303,6 +10447,14 @@
   "place": "Trutnov",
   "ts": "2026-10-25T09:26:31+00:00"
  },
+ "uffo:1144aaa326fb": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:116b841e2d99": {
   "category": "slavnost",
   "confidence": 0.9,
@@ -10422,6 +10574,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-24T09:09:30+00:00"
+ },
+ "uffo:1233b3199e64": {
+  "category": "prednaska",
+  "confidence": 0.76,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:1237f6f009bb": {
   "category": "divadlo",
@@ -11887,6 +12047,14 @@
   "place": "Trutnov",
   "ts": "2026-09-30T05:19:18+00:00"
  },
+ "uffo:1cc73bd09249": {
+  "category": "deti",
+  "confidence": 0.89,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:1ccdc0dabac3": {
   "category": "divadlo",
   "confidence": 0.86,
@@ -12326,6 +12494,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-26T10:32:24+00:00"
+ },
+ "uffo:1ff98ca5800c": {
+  "category": "divadlo",
+  "confidence": 0.75,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:1ffb059d358c": {
   "category": "koncert",
@@ -13519,6 +13695,14 @@
   "place": "Hradec Králové",
   "ts": "2026-09-22T16:42:44+00:00"
  },
+ "uffo:27dab72476d7": {
+  "category": "slavnost",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:27e0444502e7": {
   "category": "divadlo",
   "confidence": 0.99,
@@ -13838,6 +14022,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-03T05:09:48+00:00"
+ },
+ "uffo:2a306363bad5": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "uffo:2a3b7f50a0ef": {
   "category": "trh",
@@ -14463,6 +14655,14 @@
   "place": "Trutnov",
   "ts": "2026-10-26T10:32:12+00:00"
  },
+ "uffo:2ef79f155c8c": {
+  "category": "prednaska",
+  "confidence": 0.95,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:2ef88b7dbd8c": {
   "category": "film",
   "confidence": 0.9,
@@ -14678,6 +14878,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-06T05:19:07+00:00"
+ },
+ "uffo:3025a35c6aea": {
+  "category": "divadlo",
+  "confidence": 0.82,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:302a07daedcc": {
   "category": "prednaska",
@@ -15510,6 +15718,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-31T10:39:49+00:00"
+ },
+ "uffo:36d20c3ea600": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:36d7cee2751e": {
   "category": "film",
@@ -17823,6 +18039,14 @@
   "place": "Trutnov",
   "ts": "2026-09-24T12:51:21+00:00"
  },
+ "uffo:466d6ca0c5e5": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "uffo:4688c0049d8e": {
   "category": "film",
   "confidence": 0.9,
@@ -18750,6 +18974,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-22T09:47:39+00:00"
+ },
+ "uffo:4cd92c3f7989": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:4d022eaa2f97": {
   "category": "koncert",
@@ -19775,6 +20007,14 @@
   "place": "Trutnov",
   "ts": "2026-09-29T06:42:46+00:00"
  },
+ "uffo:5508f3ecacd7": {
+  "category": "prednaska",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:550bef8f3dbe": {
   "category": "film",
   "confidence": 0.92,
@@ -19910,6 +20150,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-29T06:42:27+00:00"
+ },
+ "uffo:55fd91ad3951": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "uffo:560648d4b8e0": {
   "category": "deti",
@@ -21311,6 +21559,14 @@
   "place": "Trutnov",
   "ts": "2026-11-09T13:23:20+00:00"
  },
+ "uffo:5f74d784afc8": {
+  "category": "deti",
+  "confidence": 0.84,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:5f753805eb72": {
   "category": "prednaska",
   "confidence": 0.73,
@@ -22455,6 +22711,14 @@
   "place": "Trutnov",
   "ts": "2026-09-28T11:14:30+00:00"
  },
+ "uffo:6677f1fd0187": {
+  "category": "deti",
+  "confidence": 0.89,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:667d35270b13": {
   "category": "divadlo",
   "confidence": 0.88,
@@ -23159,6 +23423,14 @@
   "place": "Trutnov",
   "ts": "2026-09-12T20:08:06+00:00"
  },
+ "uffo:6c3c29eb3463": {
+  "category": "divadlo",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:6c3ea2a76db3": {
   "category": "film",
   "confidence": 0.8,
@@ -23510,6 +23782,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-11-06T12:30:06+00:00"
+ },
+ "uffo:6e94a7857c5d": {
+  "category": "prednaska",
+  "confidence": 0.95,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:6e95f8f5853b": {
   "category": "divadlo",
@@ -24118,6 +24398,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-11-01T11:32:58+00:00"
+ },
+ "uffo:71cae8be20ff": {
+  "category": "deti",
+  "confidence": 0.84,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:71e1d772efb7": {
   "category": "divadlo",
@@ -25023,6 +25311,14 @@
   "place": "Trutnov",
   "ts": "2026-09-16T05:10:02+00:00"
  },
+ "uffo:77db250cd223": {
+  "category": "divadlo",
+  "confidence": 0.82,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:77ebb0ec16d1": {
   "category": "film",
   "confidence": 0.96,
@@ -25214,6 +25510,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-19T10:18:04+00:00"
+ },
+ "uffo:79702d660c6d": {
+  "category": "prednaska",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:797abea768f1": {
   "category": "film",
@@ -26631,6 +26935,14 @@
   "place": "Trutnov",
   "ts": "2026-10-04T05:16:32+00:00"
  },
+ "uffo:848ba7407dc6": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "uffo:849ecaffa3a3": {
   "category": "film",
   "confidence": 0.9,
@@ -27191,6 +27503,14 @@
   "place": "Trutnov",
   "ts": "2026-10-29T11:09:27+00:00"
  },
+ "uffo:881901eb9a2c": {
+  "category": "deti",
+  "confidence": 0.9,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:881aee17e8a3": {
   "category": "jine",
   "confidence": 0.6,
@@ -27510,6 +27830,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-23T11:41:05+00:00"
+ },
+ "uffo:8a87ca290d45": {
+  "category": "divadlo",
+  "confidence": 0.81,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:8a8d72dbece7": {
   "category": "divadlo",
@@ -28223,6 +28551,14 @@
   "place": "Trutnov",
   "ts": "2026-09-20T09:28:31+00:00"
  },
+ "uffo:8f22e57cc6af": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "uffo:8f30b40d4568": {
   "category": "prednaska",
   "confidence": 0.88,
@@ -28519,6 +28855,14 @@
   "place": "Trutnov",
   "ts": "2026-09-25T05:06:46+00:00"
  },
+ "uffo:91d8157dc739": {
+  "category": "divadlo",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:91e03f276a74": {
   "category": "film",
   "confidence": 0.9,
@@ -28526,6 +28870,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-16T14:45:01+00:00"
+ },
+ "uffo:9203378583a9": {
+  "category": "divadlo",
+  "confidence": 0.78,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:920a635d253d": {
   "category": "film",
@@ -28959,6 +29311,14 @@
   "place": "Trutnov",
   "ts": "2026-09-18T09:13:55+00:00"
  },
+ "uffo:948d83aae539": {
+  "category": "deti",
+  "confidence": 0.78,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:949219b5e84c": {
   "category": "prednaska",
   "confidence": 0.96,
@@ -29158,6 +29518,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-23T07:00:57+00:00"
+ },
+ "uffo:95e40bb1ea47": {
+  "category": "prednaska",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:95fee4ee8c2c": {
   "category": "koncert",
@@ -29910,6 +30278,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-11-07T11:22:14+00:00"
+ },
+ "uffo:9a9edc72191e": {
+  "category": "koncert",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:9aa3c3122cc1": {
   "category": "film",
@@ -31414,6 +31790,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-24T08:51:44+00:00"
+ },
+ "uffo:a467fe52c786": {
+  "category": "slavnost",
+  "confidence": 0.84,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:a4741102df49": {
   "category": "deti",
@@ -32951,6 +33335,14 @@
   "place": "Trutnov",
   "ts": "2026-11-09T13:23:20+00:00"
  },
+ "uffo:af533163227a": {
+  "category": "trh",
+  "confidence": 0.96,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:af5634f6bfa3": {
   "category": "divadlo",
   "confidence": 0.7,
@@ -33150,6 +33542,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-22T09:47:39+00:00"
+ },
+ "uffo:b07924e32886": {
+  "category": "divadlo",
+  "confidence": 0.71,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:b0ad738e72ff": {
   "category": "divadlo",
@@ -33807,6 +34207,14 @@
   "place": "Trutnov",
   "ts": "2026-10-14T09:47:26+00:00"
  },
+ "uffo:b5fd34986f98": {
+  "category": "koncert",
+  "confidence": 0.9,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:b603154171cc": {
   "category": "prednaska",
   "confidence": 0.96,
@@ -34046,6 +34454,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-04T05:16:32+00:00"
+ },
+ "uffo:b74685f9af06": {
+  "category": "divadlo",
+  "confidence": 0.78,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:b7603d08e80e": {
   "category": "prednaska",
@@ -34318,6 +34734,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-28T11:14:30+00:00"
+ },
+ "uffo:b9b105d478b7": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:b9c015cf743f": {
   "category": "film",
@@ -34894,6 +35318,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-23T11:41:17+00:00"
+ },
+ "uffo:bd7f8a50c33c": {
+  "category": "prednaska",
+  "confidence": 0.88,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:bda81c33c2a1": {
   "category": "film",
@@ -36015,6 +36447,14 @@
   "place": "Trutnov",
   "ts": "2026-10-21T09:39:48+00:00"
  },
+ "uffo:c51cff6704ec": {
+  "category": "prednaska",
+  "confidence": 0.76,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:c52d65c6447a": {
   "category": "divadlo",
   "confidence": 0.9,
@@ -36446,6 +36886,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-14T07:29:08+00:00"
+ },
+ "uffo:c7dd96676020": {
+  "category": "divadlo",
+  "confidence": 0.78,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "uffo:c7e00d04d3d6": {
   "category": "prednaska",
@@ -37175,6 +37623,14 @@
   "place": "Trutnov",
   "ts": "2026-09-26T05:06:51+00:00"
  },
+ "uffo:cdbfaec306f7": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "uffo:cdda0a2c2820": {
   "category": "koncert",
   "confidence": 0.78,
@@ -37486,6 +37942,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-20T15:28:00+00:00"
+ },
+ "uffo:cfcee07be11c": {
+  "category": "divadlo",
+  "confidence": 0.98,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:cfdb781569f6": {
   "category": "divadlo",
@@ -38111,6 +38575,14 @@
   "place": "Trutnov",
   "ts": "2026-10-22T09:47:19+00:00"
  },
+ "uffo:d38078e638f8": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "uffo:d39cf117ed55": {
   "category": "koncert",
   "confidence": 0.99,
@@ -38278,6 +38750,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-10-14T09:47:26+00:00"
+ },
+ "uffo:d4c2c2cb1eb7": {
+  "category": "sport",
+  "confidence": 0.86,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:d4ccc0049740": {
   "category": "film",
@@ -38959,6 +39439,14 @@
   "place": "Trutnov",
   "ts": "2026-10-15T09:25:55+00:00"
  },
+ "uffo:d91c90460f87": {
+  "category": "deti",
+  "confidence": 0.84,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:d929b3c73bd6": {
   "category": "divadlo",
   "confidence": 0.74,
@@ -39406,6 +39894,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-14T07:28:37+00:00"
+ },
+ "uffo:dc20b0c5c1db": {
+  "category": "deti",
+  "confidence": 0.77,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:dc29b5f7a132": {
   "category": "film",
@@ -40287,6 +40783,14 @@
   "place": "Trutnov",
   "ts": "2026-09-24T08:51:33+00:00"
  },
+ "uffo:e3b6464dcbcd": {
+  "category": "deti",
+  "confidence": 0.84,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:e3c6b884aac3": {
   "category": "prednaska",
   "confidence": 0.68,
@@ -40726,6 +41230,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-11-08T11:34:06+00:00"
+ },
+ "uffo:e698c8b028f1": {
+  "category": "prednaska",
+  "confidence": 0.87,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
  },
  "uffo:e69a44036a31": {
   "category": "film",
@@ -42111,6 +42623,14 @@
   "place": "Trutnov",
   "ts": "2026-10-03T05:09:48+00:00"
  },
+ "uffo:f06ff9395e69": {
+  "category": "slavnost",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:f073a9d5af82": {
   "category": "divadlo",
   "confidence": 0.9,
@@ -43039,6 +43559,14 @@
   "place": "Trutnov",
   "ts": "2026-11-10T13:00:11+00:00"
  },
+ "uffo:f71b63a5df53": {
+  "category": "trh",
+  "confidence": 0.96,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:10:55+00:00"
+ },
  "uffo:f730856ac9ff": {
   "category": "deti",
   "confidence": 0.85,
@@ -43382,6 +43910,14 @@
   "needs_review": false,
   "place": "Trutnov",
   "ts": "2026-09-16T05:10:02+00:00"
+ },
+ "uffo:f9960b9fdeb6": {
+  "category": "film",
+  "confidence": 0.99,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Trutnov",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "uffo:f99e910df700": {
   "category": "deti",
@@ -44319,6 +44855,14 @@
   "place": "Valdštejnská lodžie",
   "ts": "2026-09-11T20:27:44+00:00"
  },
+ "valdstejnska-lodzie:1aecd65baa0a": {
+  "category": "koncert",
+  "confidence": 0.91,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Jičín",
+  "ts": "2026-11-11T12:10:43+00:00"
+ },
  "valdstejnska-lodzie:2525ad479245": {
   "category": "koncert",
   "confidence": 0.9,
@@ -44470,6 +45014,14 @@
   "needs_review": false,
   "place": "Vrchlabí",
   "ts": "2026-10-20T09:41:25+00:00"
+ },
+ "vrchlabi:13671d5ce479": {
+  "category": "prednaska",
+  "confidence": 0.84,
+  "model": "gpt-6-luna",
+  "needs_review": false,
+  "place": "Vrchlabí",
+  "ts": "2026-11-11T12:10:43+00:00"
  },
  "vrchlabi:2f86d66337fd": {
   "category": "deti",

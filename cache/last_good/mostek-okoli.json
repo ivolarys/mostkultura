@@ -1,4 +1,29 @@
 {
- "fetched_at": "2026-11-10T12:54:29+00:00",
- "events": []
+ "fetched_at": "2026-11-11T12:04:30+00:00",
+ "events": [
+  {
+   "title": "Vánoční jarmark v safari parku 22.11. 2026",
+   "start": "2026-11-22T09:00:00+01:00",
+   "source": "mostek-okoli",
+   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/akce-v-okoli/vanocni-jarmark-v-safari-parku-2211-2026-1654_391cs.html",
+   "end": "2026-11-22T16:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "ZOO a safari Dvůr králové nad Labem, Dvůr Králové nad Labem",
+   "category": null,
+   "native_category": "jarmark",
+   "description": "",
+   "image": "https://www.mostek.cz/evt_image.php?img=4171&width=500&v=1794382771",
+   "native_id": "event-1654",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "mostek-okoli:994b7e8185ba"
+  }
+ ]
 }

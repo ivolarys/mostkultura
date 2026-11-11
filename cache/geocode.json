@@ -39,7 +39,7 @@
   "lon": null,
   "precision": "none",
   "q": "Aula ČLA Trutnov, Trutnov, Česko",
-  "ts": "2026-09-24T08:51:58+00:00"
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "aula spos|dvur kralove nad labem": {
   "lat": null,
@@ -1518,6 +1518,13 @@
   "q": "Vánoční ozdoby - družstvo, Dvůr Králové nad Labem, Česko",
   "ts": "2026-10-25T09:26:43+00:00"
  },
+ "velky sal belohradske sypky|lazne belohrad": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Velký sál Bělohradské sýpky, Lázně Bělohrad, Česko",
+  "ts": "2026-11-11T12:11:06+00:00"
+ },
  "viki music bar, v. halka 1154, vrchlabi|vrchlabi": {
   "lat": 50.6244788,
   "lon": 15.6114562,
@@ -1622,6 +1629,13 @@
   "precision": "venue",
   "q": "Zimní stadion, Dvůr Králové nad Labem, Česko",
   "ts": "2026-09-12T06:19:21+00:00"
+ },
+ "zoo a safari dvur kralove nad labem, dvur kralove nad labem|dvur kralove nad labem": {
+  "lat": 50.4339532,
+  "lon": 15.8000612,
+  "precision": "venue",
+  "q": "ZOO a safari Dvůr králové nad Labem, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-11-11T12:11:06+00:00"
  },
  "zs husitska|nova paka": {
   "lat": 50.4867862,

@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-11-10T12:55:03+00:00",
+ "fetched_at": "2026-11-11T12:05:13+00:00",
  "events": [
+  {
+   "title": "Rozsvícení vánoční výzdoby",
+   "start": "2026-11-26T16:15:00+01:00",
+   "source": "bila-tremesna",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-bile-tremesne/rozsviceni-vanocni-vyzdoby-2005_1297cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "Obec Bílá Třemešná Vás zve na slavnostní rozsvícení vánoční výzdoby. Akce se uskuteční ve čtvrtek 26. listopadu 2026 v parku od 16:15 h, kdy vystoupí děti z mateřské a základní školy. Občerstvení zajištěno, ke koupi nejen dětské výrobky.",
+   "image": "https://www.bilatremesna.cz/evt_image.php?img=3326&width=300&v=1794383431",
+   "native_id": "event-2005",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna:54a9ebffd59a"
+  },
   {
    "title": "Taneční v Bílé Třemešné",
    "start": "2027-01-29T17:15:00+01:00",

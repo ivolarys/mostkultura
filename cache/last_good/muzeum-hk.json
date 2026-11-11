@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T12:59:25+00:00",
+ "fetched_at": "2026-11-11T12:09:55+00:00",
  "events": [
   {
    "title": "Není kámen jako kámen",
@@ -205,7 +205,7 @@
    "venue": "Muzeum východních Čech - budova ARCHA",
    "category": null,
    "native_category": "Výstava",
-   "description": "Čtyřdenní prodejní výstava, kterou připravila architektka, designérka a kurátorka Helena Dařbujánová z děl 22 českých designérů, designérek a designových značek, kteří pracují v oborech šperk, sklo, porcelán, fashion, kniha, hračky, papír, nábytek. Seznamte se s talentem českých designérů, jejichž práci obdivuje svět. V sedmém ročníku vás čekají díla, která vytvořili Hana Hillerová, František Jungvirt, Kateřina Reich, Andrea Vytlačilová, Veronika Jiroušková Velčovská, PRIM, Tyformy, Klimchi, Sha",
+   "description": "Čtyřdenní prodejní výstava, kterou připravila architektka, designérka a kurátorka Helena Dařbujánová z děl 27 českých designérů, designérek a designových značek, kteří pracují v oborech šperk, sklo, porcelán, fashion, kniha, hračky, papír, nábytek. Seznamte se s talentem českých designérů, jejichž práci obdivuje svět. V sedmém ročníku vás čekají díla, která vytvořili Hana Hillerová, František Jungvirt, Kateřina Reich, Andrea Vytlačilová, Veronika Jiroušková Velčovská, PRIM, Tyformy, Klimchi, Sha",
    "image": null,
    "native_id": "1722",
    "ongoing": false,
@@ -288,6 +288,30 @@
    "lon": null,
    "geo": null,
    "id": "muzeum-hk:b46a1da474c7"
+  },
+  {
+   "title": "Mezi nebem a vemenem: Magie kamenných artefaktů v lidové tradici - přednáška",
+   "start": "2026-12-02T17:00:00+01:00",
+   "source": "muzeum-hk",
+   "url": "https://www.muzeumhk.cz/program/kalendar-akci/1727/-/mezi-nebem-a-vemenem-magie-kamennych-artefaktu-v-lidove-tradici-prednaska.html",
+   "end": "2026-12-02T18:30:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Hlavní odborné pracoviště Gayerova kasárna",
+   "category": null,
+   "native_category": null,
+   "description": "PŘEDNÁŠKA v budově DOK, Opletalova 334 Dnešní archeologie poměrně přesně určuje účel jednotlivých pravěkých kamenných artefaktů. Avšak řadu odlišných, zpravidla magických a léčivých vlastností jim přikládali i lidé v nedávné minulosti. Přednáška archeologa Petra Čecháka představí tento „druhý život“ kamenných nástrojů v podobě tzv. hromových klínů, léčivých kamenů a nezbytných doplňků ke správnému dojení ovcí, koz a krav. Základní vstupné je 80 Kč.",
+   "image": null,
+   "native_id": "1727",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "muzeum-hk:24bb65c70ba5"
   },
   {
    "title": "Senior klub - Moderní byt 1960",
