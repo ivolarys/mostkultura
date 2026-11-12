@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T12:05:13+00:00",
+ "fetched_at": "2026-11-12T13:09:13+00:00",
  "events": [
   {
    "title": "Rozsvícení vánoční výzdoby",
@@ -24,6 +24,30 @@
    "lon": null,
    "geo": null,
    "id": "bila-tremesna:54a9ebffd59a"
+  },
+  {
+   "title": "Soutěž o nejlepší vánočku",
+   "start": "2026-12-03T17:00:00+01:00",
+   "source": "bila-tremesna",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-bile-tremesne/soutez-o-nejlepsi-vanocku-2007_1299cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "Soutěž o nejlepší vánočku proběhne 3. prosince 2026 ve Sboru Jana Amose Komenského od 17 h s koncertem folkové skupiny Milan a Bosorky.",
+   "image": "https://www.bilatremesna.cz/evt_image.php?img=3328&width=300&v=1794409091",
+   "native_id": "event-2007",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna:e2f55a0b568e"
   },
   {
    "title": "Taneční v Bílé Třemešné",

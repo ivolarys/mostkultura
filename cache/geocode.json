@@ -4,7 +4,7 @@
   "lon": null,
   "precision": "none",
   "q": "AC klub, Hradec Králové, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "adalbertinum, hradec kralove|hradec kralove": {
   "lat": 50.2109175,
@@ -242,7 +242,7 @@
   "lon": null,
   "precision": "none",
   "q": "Domov sv. Josefa, Žireč, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "domov svateho josefa zirec|zirec": {
   "lat": 50.4135836,
@@ -284,7 +284,7 @@
   "lon": null,
   "precision": "none",
   "q": "Dům kultury Koruna, Hořice, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "dum pod jasanem, voletiny 22|trutnov": {
   "lat": null,
@@ -361,7 +361,7 @@
   "lon": null,
   "precision": "none",
   "q": "Galerie Artičok, Hradec Králové, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "galerie articok|hradec kralove": {
   "lat": null,
@@ -382,14 +382,14 @@
   "lon": null,
   "precision": "none",
   "q": "Galerie města Trutnova, Trutnov, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "galerie moderniho umeni v hradci kralove, hradec kralove|hradec kralove": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Galerie moderního umění v Hradci Králové, Hradec Králové, Česko",
-  "ts": "2026-10-13T12:11:33+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "galerie moderniho umeni v hradci kralove|hradec kralove": {
   "lat": null,
@@ -536,14 +536,14 @@
   "lon": null,
   "precision": "none",
   "q": "Hudební klub Top Ten Rock, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "hvezdarna a planetarium v hradci kralove, hradec kralove|hradec kralove": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Hvězdárna a planetárium v Hradci Králové, Hradec Králové, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "hvezdarna a planetarium v hradci kralove|hradec kralove": {
   "lat": null,
@@ -585,7 +585,7 @@
   "lon": null,
   "precision": "none",
   "q": "Kavárna Bělohradské sýpky, Lázně Bělohrad, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "kavarna klubicko|dvur kralove nad labem": {
   "lat": null,
@@ -998,14 +998,14 @@
   "lon": null,
   "precision": "none",
   "q": "MKS Lázně Bělohrad, Lázně Bělohrad, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "muzeum podkrkonosi v trutnove|trutnov": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Muzeum Podkrkonoší v Trutnově, Trutnov, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "muzeum vychodnich cech - budova archa, hradec kralove|hradec kralove": {
   "lat": 50.2124534,
@@ -1056,19 +1056,26 @@
   "q": "náměstí T. G. Masaryka, Hradec Králové, Česko",
   "ts": "2026-09-24T09:23:23+00:00"
  },
+ "namesti tgm a zamecky park|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Náměstí TGM a zámecký park, Vrchlabí, Česko",
+  "ts": "2026-11-12T13:14:27+00:00"
+ },
  "namesti tgm, vrchlabi|vrchlabi": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Náměstí TGM, Vrchlabí, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "naplavka kulturni klub|hradec kralove": {
   "lat": null,
   "lon": null,
   "precision": "none",
   "q": "Náplavka kulturní klub, Hradec Králové, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "naplavka labe, hradec kralove|hradec kralove": {
   "lat": 50.2097411,
@@ -1159,7 +1166,7 @@
   "lon": null,
   "precision": "none",
   "q": "Petrof Gallery, Hradec Králové, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "pivovar nova paka a.s.|nova paka": {
   "lat": null,
@@ -1278,7 +1285,7 @@
   "lon": null,
   "precision": "none",
   "q": "hasičské zbrojnice v Pecce, Pecka, Česko",
-  "ts": "2026-10-12T12:29:11+00:00"
+  "ts": "2026-11-12T13:14:27+00:00"
  },
  "sal soni cervene, filharmonie hradec kralove|hradec kralove": {
   "lat": 50.2138168,

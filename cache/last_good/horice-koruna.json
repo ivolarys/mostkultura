@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-11T12:08:47+00:00",
+ "fetched_at": "2026-11-12T13:12:35+00:00",
  "events": [
-  {
-   "title": "Jiří Meca",
-   "start": "2026-11-11T19:00:00+01:00",
-   "source": "horice-koruna",
-   "url": "https://www.dum-kultury-koruna.cz/jiri-meca",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům kultury Koruna",
-   "category": null,
-   "native_category": null,
-   "description": "Jiří Meca - Historické kytary koncert Klubu přátel hudby sál hořické radnice 11.11.2026 v 19.00 h. Sólový recitál Jiřího Mecy se skládá ze skladeb 19. století ...",
-   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01066/posters/JIRI-MECA-WORKSHOP-PLAKAT.jpg",
-   "native_id": "https://www.dum-kultury-koruna.cz/jiri-meca",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "horice-koruna:c2e45d753032"
-  },
   {
    "title": "Bella Donna",
    "start": "2026-11-12T19:00:00+01:00",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T12:10:04+00:00",
+ "fetched_at": "2026-11-12T13:13:41+00:00",
  "events": [
   {
    "title": "Proměna",
@@ -696,6 +696,30 @@
    "lon": null,
    "geo": null,
    "id": "divadlo-drak:5108f6e97406"
+  },
+  {
+   "title": "Konektiv Night",
+   "start": "2026-12-11T17:00:00+01:00",
+   "source": "divadlo-drak",
+   "url": "https://draktheatre.cz/repertoar/konektiv-night-2/",
+   "end": null,
+   "all_day": false,
+   "place": "Hradec Králové",
+   "place_raw": "Hradec Králové",
+   "venue": "Divadlo DRAK – Studio",
+   "category": null,
+   "native_category": "Divadlo",
+   "description": "",
+   "image": "https://draktheatre.cz/wp-content/uploads/2026/11/konecny-2-320x320.jpg",
+   "native_id": "https://draktheatre.cz/repertoar/konektiv-night-2/|2026-12-11T17:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "divadlo-drak:cc9befc5454b"
   },
   {
    "title": "Příběh Draku 1958 – 2018",

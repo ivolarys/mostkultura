@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-11-11T12:09:02+00:00",
+ "fetched_at": "2026-11-12T13:12:51+00:00",
  "events": [
+  {
+   "title": "PÁTEČNÍ SVATOMARTINSKÁ SLAVNOST v ARTIČOKU 🥂🪿🍁 pátek",
+   "start": "2026-11-13T16:00:00+01:00",
+   "source": "articok-hk",
+   "url": "https://www.articok.cz/patecni-svatomartinska-slavnost-v-articoku-%f0%9f%a5%82%f0%9f%aa%bf%f0%9f%8d%81-patek-13-11-1600/",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Galerie Artičok",
+   "category": null,
+   "native_category": null,
+   "description": "PÁTEČNÍ SVATOMARTINSKÁ SLAVNOST v ARTIČOKU Změna místa z důvodu počasí a pro lepší pohodu PÁTEK 13. 11. 2026 od 16 do 22 hodin VÍNO ~ HUSA ~ CIMBÁL ~ ZPĚV / Páteční slavnost mladých a svatomartinských vín s muzikou a husím menu. Přijďte oslavit letošní úrodu vín 2026 v Hradci Králové! V kavárně Artičok připravujeme volnou degustaci 20 druhů vín, husí menu kavárny Artičok a cimbálovou muziku! VINAŘSTVÍ: Košut, Maňák, Šoman, Oulehla, Špalek, Sonberk, Lahofer, Bzenec, Hanzel, Volařík, Hort MENU: Br",
+   "image": "https://www.articok.cz/wp-content/uploads/2026/11/897302040_39790267390588051_5604125617476227611_n.jpg",
+   "native_id": "10544|2026-11-13T16:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "articok-hk:e97817dea5e4"
+  },
   {
    "title": "Kam zmizela královna od 19.hodin",
    "start": "2026-11-26T00:00:00+01:00",
