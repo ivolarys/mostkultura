@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T13:09:13+00:00",
+ "fetched_at": "2026-11-13T12:34:14+00:00",
  "events": [
   {
    "title": "Rozsvícení vánoční výzdoby",
@@ -48,6 +48,30 @@
    "lon": null,
    "geo": null,
    "id": "bila-tremesna:e2f55a0b568e"
+  },
+  {
+   "title": "Obecní ples",
+   "start": "2027-01-22T20:00:00+01:00",
+   "source": "bila-tremesna",
+   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-bile-tremesne/obecni-ples-2006_1298cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": null,
+   "category": null,
+   "native_category": null,
+   "description": "V pátek 22. ledna 2027 od 20 h se koná již 3. ročník obecního plesu.",
+   "image": "https://www.bilatremesna.cz/evt_image.php?img=3327&width=300&v=1794383727",
+   "native_id": "event-2006",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bila-tremesna:9e4bf96780fe"
   },
   {
    "title": "Taneční v Bílé Třemešné",

@@ -298,7 +298,7 @@
   "lon": null,
   "precision": "none",
   "q": "Dům s pečovatelskou službou, Pecka, Česko",
-  "ts": "2026-10-14T09:47:47+00:00"
+  "ts": "2026-11-13T12:45:12+00:00"
  },
  "ekocentrum krtek|vrchlabi": {
   "lat": null,
@@ -810,6 +810,13 @@
   "precision": "none",
   "q": "Kostel sv. Anny, Žireč u Dvora Králové nad Labem, Žireč, Česko",
   "ts": "2026-11-03T12:22:34+00:00"
+ },
+ "kostel sv. bartolomeje|horice": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Kostel sv. Bartoloměje, Hořice, Česko",
+  "ts": "2026-11-13T12:45:12+00:00"
  },
  "kostel sv. jana krtitele ve vidonicich, pecka|pecka": {
   "lat": null,

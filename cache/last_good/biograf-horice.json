@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-12T13:12:30+00:00",
+ "fetched_at": "2026-11-13T12:37:34+00:00",
  "events": [
-  {
-   "title": "Dřevorubec",
-   "start": "2026-11-12T19:00:00+01:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-844037",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Jana má perfektne rozbehnutú kariéru v hlavnom meste, vzťah so svojím šéfom a jasnú predstavu o budúcnosti. Lenže namiesto vysnívaného života a svadby končí na rodinnej píle svojho problematického otca, ktorú jej priateľ tajne kúpil. Uprostred beskydských lesov rýchlo zistí, že marketingové prezentácie na riadenie píly nestačia. Keď navyše vyhodí Pavla – muža, bez ktorého sa podnik nezaobíde – spustí reťazec udalostí, ktoré jej prevrátia život naruby. Romantická komédia o návratoch, ktoré sme ne",
-   "image": "https://storage.cinemaware.eu/katalogy/images/a/b/abba2b0f-db4e-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5604802",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:05b58e39409a"
-  },
   {
    "title": "Houpačky",
    "start": "2026-11-13T19:00:00+01:00",

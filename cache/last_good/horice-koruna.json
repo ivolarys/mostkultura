@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-12T13:12:35+00:00",
+ "fetched_at": "2026-11-13T12:39:07+00:00",
  "events": [
-  {
-   "title": "Bella Donna",
-   "start": "2026-11-12T19:00:00+01:00",
-   "source": "horice-koruna",
-   "url": "https://www.dum-kultury-koruna.cz/bella-donna",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům kultury Koruna",
-   "category": null,
-   "native_category": null,
-   "description": "BELLA DONNA DK Koruna 12.11.2026 v 19.00 Začátek roku znamená nový vztah! Carmen, známá autorka kuchařek, sice proti mužům nic nemá, nicméně dřív nebo později ji každý ...",
-   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01067/posters/belladonna-35.jpg",
-   "native_id": "https://www.dum-kultury-koruna.cz/bella-donna",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "horice-koruna:448ced9290de"
-  },
   {
    "title": "Dalibor - koncert ke 145. výročí založení hudebního spolku",
    "start": "2026-11-18T19:00:00+01:00",

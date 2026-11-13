@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T13:12:40+00:00",
+ "fetched_at": "2026-11-13T12:39:13+00:00",
  "events": [
   {
    "title": "Slavnostní vyhlášení Cyklovýzvy Jiřího Styblíka",
@@ -218,6 +218,30 @@
    "id": "pecka:6c3a7e38e07a"
   },
   {
+   "title": "Adventní koncert ZUŠ Melodie",
+   "start": "2026-12-19T17:00:00+01:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/adventni-koncert-zus-melodie-1560_924cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kostel sv. Bartoloměje",
+   "category": null,
+   "native_category": null,
+   "description": "Základní umělecká škola Melodie Hořice vás srdečně zve na tradiční adventní koncert. Vystoupí žáci a učitelé ZUŠ Melodie – pobočka Pecka. Dobrovolné vstupné bude věnováno na potřeby kostela.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5452&width=300&v=1794572190",
+   "native_id": "event-1560",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:f72bacc3bd0a"
+  },
+  {
    "title": "Silvestrovský běh Kryštofa Haranta",
    "start": "2026-12-31T10:00:00+01:00",
    "source": "pecka",
@@ -336,6 +360,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:b41dd722a9a8"
+  },
+  {
+   "title": "Virtuální univerzita třetího věku",
+   "start": "2027-02-03T09:00:00+01:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/virtualni-univerzita-tretiho-veku-1559_923cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Knihovna Kryštofa Haranta",
+   "category": null,
+   "native_category": null,
+   "description": "Zahájení letního semestru VU3V. Organizační garant: Provozně ekonomická fakulta ČZU v Praze. Více na www.knihovnapecka.cz.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5451&width=300&v=1794567664",
+   "native_id": "event-1559",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:7ac45e10da83"
   },
   {
    "title": "Smyslohraní",

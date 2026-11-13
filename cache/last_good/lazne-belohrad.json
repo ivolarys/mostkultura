@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T13:08:37+00:00",
+ "fetched_at": "2026-11-13T12:32:01+00:00",
  "events": [
   {
    "title": "Den otevřených dveří - ZŠ LÁZNĚ BĚLOHRAD",
@@ -38,7 +38,7 @@
    "category": null,
    "native_category": "Doporučujeme, Program",
    "description": "S příchodem chladnějších dnů přichází i nový kulturní program. Na listopad a prosinec jsme pro vás připravili pestrou nabídku akcí, ze které si určitě vyberete. Mrkněte na plakát a naplánujte si, kam vyrazíte.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14010844",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14070951",
    "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/kulturni-program-listopadprosinec",
    "ongoing": false,
    "sources": [],
@@ -182,7 +182,7 @@
    "category": null,
    "native_category": "Přednáška",
    "description": "Cyklus Tajemných příběhů dlouhých večerů pokračuje... tentokrát přednáší novopacký rodák Jaromír Typlt. Sál MÚ od 18:00.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13985985",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14071089",
    "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/obcovanci-mediani-duchari-aneb-spiritismus-v-podkrkonosi",
    "ongoing": false,
    "sources": [],
@@ -194,7 +194,7 @@
    "id": "lazne-belohrad:5835618b3b74"
   },
   {
-   "title": "NĚCO JAKO RODINA",
+   "title": "ZRUŠENO - NĚCO JAKO RODINA",
    "start": "2026-12-10T19:00:00+01:00",
    "source": "lazne-belohrad",
    "url": "https://www.lazne-belohrad.cz/kalendar-akci/neco-jako-rodina",
@@ -205,7 +205,7 @@
    "venue": "MKS Lázně Bělohrad",
    "category": null,
    "native_category": "Kino",
-   "description": "Zajišťuje kino na kolečkách. Sokolovna Lázně Bělohrad od 19:00. Více informací již brzy.",
+   "description": "Připravujeme náhradní termín... Děkujeme za pochopení.",
    "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13985777",
    "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/neco-jako-rodina",
    "ongoing": false,
@@ -218,7 +218,7 @@
    "id": "lazne-belohrad:9ae69f4bc058"
   },
   {
-   "title": "TAJEMSTVÍ DŽUNGLE",
+   "title": "ZRUŠENO - TAJEMSTVÍ DŽUNGLE",
    "start": "2026-12-10T17:00:00+01:00",
    "source": "lazne-belohrad",
    "url": "https://www.lazne-belohrad.cz/kalendar-akci/tajemstvi-dzungle",
@@ -229,7 +229,7 @@
    "venue": "MKS Lázně Bělohrad",
    "category": null,
    "native_category": "Kino, Pro děti",
-   "description": "Zajišťuje kino na kolečkách. Sokolovna Lázně Bělohrad od 17:00. Více informací již brzy.",
+   "description": "Připravujeme náhradní termín... Děkujeme za pochopení.",
    "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13985743",
    "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/tajemstvi-dzungle",
    "ongoing": false,
@@ -326,7 +326,7 @@
    "category": null,
    "native_category": "Advent, Koncert",
    "description": "Srdečně vás zveme na adventní koncert Hořického komorního orchestru. Kostel Všech svatých od 18:00.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13972982",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14070749",
    "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/adventni-koncert-moravske-vanoce",
    "ongoing": false,
    "sources": [],
