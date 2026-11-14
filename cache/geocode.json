@@ -46,7 +46,7 @@
   "lon": null,
   "precision": "none",
   "q": "Aula SPOŠ, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-10-15T09:26:01+00:00"
+  "ts": "2026-11-14T11:47:58+00:00"
  },
  "bajkazyl hradec kralove|hradec kralove": {
   "lat": 50.212324,
@@ -1328,6 +1328,13 @@
   "precision": "none",
   "q": "Síň Bohuslava Martinů, Trutnov, Česko",
   "ts": "2026-11-05T12:51:54+00:00"
+ },
+ "skolni jidelna slovanska 99, vrchlabi|vrchlabi": {
+  "lat": 50.622826,
+  "lon": 15.6129831,
+  "precision": "venue",
+  "q": "Školní jídelna Slovanská 99, Vrchlabí, Česko",
+  "ts": "2026-11-14T11:47:58+00:00"
  },
  "sloupovy sal klastera|nova paka": {
   "lat": null,

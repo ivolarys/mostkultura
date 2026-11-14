@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-13T12:39:13+00:00",
+ "fetched_at": "2026-11-14T11:46:08+00:00",
  "events": [
-  {
-   "title": "Slavnostní vyhlášení Cyklovýzvy Jiřího Styblíka",
-   "start": "2026-11-13T18:00:00+01:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/slavnostni-vyhlaseni-cyklovyzvy-jiriho-styblika-1530_908cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Sál hasičské zbrojnice v Pecce",
-   "category": null,
-   "native_category": null,
-   "description": "Vyhlášení výsledků Cyklovýzvy a oslava 30. výročí existence cykloodílu při TJ Harant. Občerstvení zajištěno.",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5421&width=300&v=1793611837",
-   "native_id": "event-1530",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:2b7bda39968b"
-  },
   {
    "title": "Hudební odpoledne v DPS",
    "start": "2026-11-26T16:00:00+01:00",

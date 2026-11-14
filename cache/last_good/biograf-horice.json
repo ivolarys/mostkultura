@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-13T12:37:34+00:00",
+ "fetched_at": "2026-11-14T11:45:58+00:00",
  "events": [
-  {
-   "title": "Houpačky",
-   "start": "2026-11-13T19:00:00+01:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-844028",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "„Houpačky jsou o přátelství. O setkání dvou žen, z nichž každá je úplně jiná, ale jejich životní situace dá vzniknout speciálnímu vztahu,“ vysvětlil režisér snímku Bohdan Sláma. „Náhodné setkání dvou povahově i vizuálně odlišných žen rozbíhá soukolí komického, ale zároveň dojemného příběhu o ženské sounáležitosti a emancipaci. Ústřední myšlenkou je život a jeho kvalita ve starším věku,“ dodali producenti snímku Martin Růžička a Jindřich Motýl ze společnosti Luminar Film. Hlavní role byly svěřeny",
-   "image": "https://storage.cinemaware.eu/katalogy/images/1/5/150b75fd-d5f5-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5604799",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:88afe7b9bd63"
-  },
   {
    "title": "Ovečka Shaun ve filmu: Příšera z Mossy Bottom",
    "start": "2026-11-14T17:00:00+01:00",
