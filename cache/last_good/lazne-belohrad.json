@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T11:42:23+00:00",
+ "fetched_at": "2026-11-15T12:11:24+00:00",
  "events": [
   {
    "title": "Den otevřených dveří - ZŠ LÁZNĚ BĚLOHRAD",
@@ -360,30 +360,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:65129ef8226d"
-  },
-  {
-   "title": "SVATOPLUK SVÁTI KARÁSKA",
-   "start": "2026-11-14T19:00:00+01:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/svatopluk-svati-karaska",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Festival, Koncert",
-   "description": "Koncert připomínající odkaz tvorby disidenta, chartisty a evangelického faráře. V Bělohradské sýpce od 19:00.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13972553",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/svatopluk-svati-karaska",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:88a0ad966ec1"
   },
   {
    "title": "ADVENTNÍ JARMARK",
