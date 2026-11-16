@@ -1182,6 +1182,13 @@
   "q": "Pivovar Nová Paka a.s., Nová Paka, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
  },
+ "pivovar tambor|dvur kralove nad labem": {
+  "lat": 50.4198237,
+  "lon": 15.8089863,
+  "precision": "venue",
+  "q": "pivovar Tambor, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-11-16T13:10:51+00:00"
+ },
  "podhuri, hospoda na hristi \"tj jiskra podhuri\"|vrchlabi": {
   "lat": null,
   "lon": null,

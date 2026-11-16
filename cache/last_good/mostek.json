@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-15T12:11:22+00:00",
+ "fetched_at": "2026-11-16T13:04:31+00:00",
  "events": [
-  {
-   "title": "Svatomartinské hody v restauraci Za Mostem",
-   "start": "2026-11-13T13:00:00+01:00",
-   "source": "mostek",
-   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/svatomartinske-hody-v-restauraci-za-mostem-1634_382cs.html",
-   "end": "2026-11-15T23:59:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Restaurace Za Mostem, Mostek",
-   "category": null,
-   "native_category": "hody",
-   "description": "",
-   "image": "https://www.mostek.cz/evt_image.php?img=4142&width=500&v=1792411767",
-   "native_id": "event-1634",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "mostek:14224fb6418b"
-  },
   {
    "title": "Noc venku 2026 ve Dvoře Králové",
    "start": "2026-11-19T09:00:00+01:00",

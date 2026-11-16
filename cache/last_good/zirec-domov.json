@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T12:11:55+00:00",
+ "fetched_at": "2026-11-16T13:05:24+00:00",
  "events": [
   {
    "title": "Česká mše vánoční",
@@ -24,30 +24,6 @@
    "lon": null,
    "geo": null,
    "id": "zirec-domov:c132adff9132"
-  },
-  {
-   "title": "Vánoční jarmark🎄",
-   "start": "2026-11-14T00:00:00+01:00",
-   "source": "zirec-domov",
-   "url": "https://www.domovsvatehojosefa.cz/vanocni-jarmark-1",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Domov sv. Josefa",
-   "category": null,
-   "native_category": null,
-   "description": "Přijďte si užít vánoční atmosféru do Domova sv. Josefa! Tradiční jarmark v Café Damián nabídne ručně vyráběné dárky, vůni svařáku, hudbu i prostor pro setkání a podporu dobré věci 🎄",
-   "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/2881-christmas-18106-1280.jpg",
-   "native_id": "2026-11-14|Vánoční jarmark🎄",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "zirec-domov:a6c5c2e96329"
   },
   {
    "title": "Sdílecí kruhy pro pečující",
