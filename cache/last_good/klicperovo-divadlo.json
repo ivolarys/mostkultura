@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T13:09:58+00:00",
+ "fetched_at": "2026-11-17T13:52:15+00:00",
  "events": [
   {
    "title": "Happening k 17. listopadu 2026",
@@ -1754,30 +1754,6 @@
    "id": "klicperovo-divadlo:3ad101994e3d"
   },
   {
-   "title": "O myších a lidech",
-   "start": "2027-01-22T10:00:00+01:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15918",
-   "end": "2027-01-22T12:25:00+01:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "O myších a lidech Hlavní scéna · John Steinbeck John Steinbeck · režie Pavel Khek Hlavní scéna Drama Dopolední představení Volné sezení",
-   "image": "https://www.klicperovodivadlo.cz/media/20235/gallery/at-0741-2-c88cb8fd5587",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15918|2027-01-22T10:00:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:27e618dbbf13"
-  },
-  {
    "title": "Každou první středu",
    "start": "2027-01-22T19:00:00+01:00",
    "source": "klicperovo-divadlo",
@@ -1824,6 +1800,30 @@
    "lon": null,
    "geo": null,
    "id": "klicperovo-divadlo:a798d0885589"
+  },
+  {
+   "title": "O myších a lidech",
+   "start": "2027-01-25T10:00:00+01:00",
+   "source": "klicperovo-divadlo",
+   "url": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15918",
+   "end": "2027-01-25T12:25:00+01:00",
+   "all_day": false,
+   "place": "Hradec Králové",
+   "place_raw": "Hradec Králové",
+   "venue": "Klicperovo divadlo, Dlouhá 99/9",
+   "category": null,
+   "native_category": "Divadlo",
+   "description": "O myších a lidech Hlavní scéna · John Steinbeck John Steinbeck · režie Pavel Khek Hlavní scéna Drama Dopolední představení Volné sezení",
+   "image": "https://www.klicperovodivadlo.cz/media/20235/gallery/at-0741-2-c88cb8fd5587",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15918|2027-01-25T10:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klicperovo-divadlo:e53a3ba743b4"
   },
   {
    "title": "Láska na první pohřeb",
