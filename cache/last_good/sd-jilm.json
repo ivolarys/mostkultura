@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T13:50:54+00:00",
+ "fetched_at": "2026-11-18T13:25:16+00:00",
  "events": [
   {
    "title": "Kurz taneční a společenské výchovy 2026",
@@ -24,6 +24,30 @@
    "lon": null,
    "geo": null,
    "id": "sd-jilm:af0e000ff329"
+  },
+  {
+   "title": "Vedle mě 2026",
+   "start": "2026-11-21T17:30:00+01:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/vystava/vedle-me-2026-2026",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": "vystava",
+   "native_category": "Výstava",
+   "description": "Vernisáž výstavy soutěžních fotografií z mezinárodní fotografické soutěže Vedle mě, která nabízí jedinečnou možnost nahlédnout na svět prostřednictvím mladé generace. Děti a dospívající z Česka i Polska zachytili to, co je obklopuje – drobné okamžiky, atmosféru každodennosti, osobní příběhy i nečekané detaily, kterým dospělý pohled často uniká. Výstava představí výběr nejzajímavějších snímků, které vynikají spontánností, autenticitou a upřímným pohledem na svět. Kromě vystavených fotografií si mohou návštěvníci užít hudební doprovod a drobné občerstvení.",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6af/d81/c08/thumb_2031_250_250_0_0_auto.webp",
+   "native_id": "777|2026-11-21T17:30:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:d9195596c0ca"
   },
   {
    "title": "Milonga v Jilemnice",
@@ -720,6 +744,30 @@
    "lon": null,
    "geo": null,
    "id": "sd-jilm:4bac70e28655"
+  },
+  {
+   "title": "Štístko a Poupěnka",
+   "start": "2027-02-24T16:00:00+01:00",
+   "source": "sd-jilm",
+   "url": "https://www.sdjilm.cz/sd-jilm/detsky-porad/stistko-a-poupenka-2027",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "SD Jilm",
+   "category": "deti",
+   "native_category": "Dětský pořad",
+   "description": "Poupěnka se vrací – a tentokrát s pořádným překvapením!",
+   "image": "https://www.sdjilm.cz/storage/app/uploads/public/6af/da1/cec/thumb_2033_250_250_0_0_auto.webp",
+   "native_id": "779|2027-02-24T16:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "sd-jilm:e78d3fd24b82"
   },
   {
    "title": "Kouči v nesnázích",

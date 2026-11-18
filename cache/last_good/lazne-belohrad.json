@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T13:46:46+00:00",
+ "fetched_at": "2026-11-18T13:21:15+00:00",
  "events": [
   {
    "title": "Den otevřených dveří - ZŠ LÁZNĚ BĚLOHRAD",
@@ -336,30 +336,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:e90b3235879f"
-  },
-  {
-   "title": "PŘÍBĚH PLAKÁTU „Pravda a láska“",
-   "start": "2026-11-17T18:00:00+01:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/pribeh-plakatu-pravda-a-laska",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "MKS Lázně Bělohrad",
-   "category": null,
-   "native_category": "Beseda, Festival",
-   "description": "Fotograf Pavel Hořejší přiblíží okolnosti vzniku plakátu pro Václava Havla s poselstvím „Pravda a láska musí zvítězit nad lží a nenávistí“. Sál MÚ od 18:00.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=13972659",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/pribeh-plakatu-pravda-a-laska",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:65129ef8226d"
   },
   {
    "title": "ADVENTNÍ JARMARK",
