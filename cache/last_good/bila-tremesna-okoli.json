@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-18T13:22:03+00:00",
+ "fetched_at": "2026-11-19T13:47:35+00:00",
  "events": [
-  {
-   "title": "Kurz tvoření barevných pásků",
-   "start": "2026-11-18T17:30:00+01:00",
-   "source": "bila-tremesna-okoli",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/kurz-tvoreni-barevnych-pasku-1987_1280cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Městské muzeum ve Dvoře Králové nad Labem zve všechny milovníky tvoření na kurz zaměřený na techniku tvorby dekorativních pásků, který se uskuteční 18. listopadu 2026 od 17.30 h.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3308&width=300&v=1793609420",
-   "native_id": "event-1987",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna-okoli:f4d20973cab0"
-  },
   {
    "title": "Oslava 380 let záchrany města",
    "start": "2026-11-21T10:30:00+01:00",

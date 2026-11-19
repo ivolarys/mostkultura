@@ -622,6 +622,13 @@
   "q": "Kavárna UFFO a Hrádeček, Trutnov, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
  },
+ "kd strelnice – klub kotelna|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "KD Střelnice – klub Kotelna, Vrchlabí, Česko",
+  "ts": "2026-11-19T13:54:47+00:00"
+ },
  "kd strelnice – koncert za oponou|vrchlabi": {
   "lat": null,
   "lon": null,
@@ -1299,7 +1306,7 @@
   "lon": null,
   "precision": "none",
   "q": "Safari Park Dvůr Králové, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-10-14T09:47:47+00:00"
+  "ts": "2026-11-19T13:54:47+00:00"
  },
  "sal hasicske zbrojnice v pecce|pecka": {
   "lat": null,

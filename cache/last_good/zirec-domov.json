@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T13:22:02+00:00",
+ "fetched_at": "2026-11-19T13:47:33+00:00",
  "events": [
   {
    "title": "Česká mše vánoční",
@@ -24,6 +24,30 @@
    "lon": null,
    "geo": null,
    "id": "zirec-domov:c132adff9132"
+  },
+  {
+   "title": "Vzdělávání pro dobrovolníky: pomáhejte s jistotou a bezpečně",
+   "start": "2026-12-03T00:00:00+01:00",
+   "source": "zirec-domov",
+   "url": "https://www.domovsvatehojosefa.cz/vzdelavani-pro-dobrovolniky-pomahejte-s-jistotou-a-bezpecne",
+   "end": null,
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "Domov sv. Josefa",
+   "category": null,
+   "native_category": null,
+   "description": "Dobrovolnictví přináší radost nejen těm, kterým pomáháme, ale i nám samotným. Chcete se stát dobrovolníkem a věnovat svůj čas lidem s roztroušenou sklerózou? Nebo už dobrovolničíte a rádi byste si rozšířili své znalosti a praktické dovednosti?",
+   "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/2927-2025-03-mars338.jpg",
+   "native_id": "2026-12-03|Vzdělávání pro dobrovolníky: pomáhejte s jistotou a bezpečně",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "zirec-domov:949f8cfeace2"
   },
   {
    "title": "Sdílecí kruhy pro pečující",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T13:25:25+00:00",
+ "fetched_at": "2026-11-19T13:52:20+00:00",
  "events": [
   {
    "title": "Vysmátej",
@@ -96,6 +96,30 @@
    "lon": null,
    "geo": null,
    "id": "klub-kus:c5577f160734"
+  },
+  {
+   "title": "Funky Xmas",
+   "start": "2026-12-26T20:00:00+01:00",
+   "source": "klub-kus",
+   "url": "https://www.kulturaturnov.cz/program/hudba/funky-xmas",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Turnov",
+   "venue": "Klub Kus",
+   "category": null,
+   "native_category": null,
+   "description": "Funk Corporation na Štěpána odehraje svůj tradiční vánoční koncert, tentokrát jako benefici.",
+   "image": "https://www.kulturaturnov.cz/data/photogallery/img_5795_thumb_45239.JPG",
+   "native_id": "https://www.kulturaturnov.cz/program/hudba/funky-xmas|2026-12-26T20:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klub-kus:f0e604a3d4c6"
   }
  ]
 }
