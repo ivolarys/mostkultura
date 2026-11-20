@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-19T13:50:51+00:00",
+ "fetched_at": "2026-11-20T13:33:56+00:00",
  "events": [
-  {
-   "title": "Máma a Táta jsou Boží",
-   "start": "2026-11-19T19:00:00+01:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-844426",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Rodina Novotných žije docela obyčejný život. Máma zvládá práci i domácnost, táta by měl nejradši klid a děti Simona s Petrem řeší školu, kamarády a vlastní malé velké starosti. Až do chvíle, kdy se po tisíci letech probudí dva teenageři do dnešní doby. A spolu s nimi i dva slovanští bohové, kteří se vtělí právě do rodičů Novotných. Z poklidné rodiny se tak stává domácnost plná podivných proměn, zvláštních schopností a komických situací, které občas nedávají žádný smysl. Tedy alespoň ne v 21. sto",
-   "image": "https://storage.cinemaware.eu/katalogy/images/e/2/e2055467-db4f-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5604832",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:72c72fc0bbcf"
-  },
   {
    "title": "Hunger Games: Úsvit sklizně",
    "start": "2026-11-20T19:00:00+01:00",

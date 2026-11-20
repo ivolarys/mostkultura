@@ -767,7 +767,14 @@
   "lon": null,
   "precision": "none",
   "q": "Klub Kus, Turnov, Česko",
-  "ts": "2026-10-21T09:39:53+00:00"
+  "ts": "2026-11-20T13:36:05+00:00"
+ },
+ "knihovna krystofa haranta|nova paka": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Knihovna Kryštofa Haranta, Nová Paka, Česko",
+  "ts": "2026-11-20T13:36:05+00:00"
  },
  "knihovna krystofa haranta|pecka": {
   "lat": 50.4811752,
