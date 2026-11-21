@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T13:29:46+00:00",
+ "fetched_at": "2026-11-21T12:56:17+00:00",
  "events": [
   {
    "title": "Novoroční galakoncert v Bělohradké sýpce: Karla Bytnarová, Renata Lichnovská a Roman Janál",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "lazne-belohrad:c4d40cabaf48"
-  },
-  {
-   "title": "Den otevřených dveří - ZŠ LÁZNĚ BĚLOHRAD",
-   "start": "2026-11-20T14:30:00+01:00",
-   "source": "lazne-belohrad",
-   "url": "https://www.lazne-belohrad.cz/kalendar-akci/den-otevrenych-dveri-zs-lazne-belohrad",
-   "end": "2026-11-20T17:00:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Základní škola K. V. Raise v Lázních Bělohradě srdečně zve veřejnost na Den otevřených dveří, který se uskuteční v pátek 20. listopadu 2026 od 14:30 do 17:00 hodin. Návštěvníci se mohou těšit na prohlídku školních prostor, včetně kuchyně a polytechnické učebny i tvořivé dílny pro děti.",
-   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14059163",
-   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/den-otevrenych-dveri-zs-lazne-belohrad",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "lazne-belohrad:c9742769d510"
   },
   {
    "title": "KULTURNÍ PROGRAM - listopad/prosinec",

@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-20T13:33:56+00:00",
+ "fetched_at": "2026-11-21T13:00:23+00:00",
  "events": [
-  {
-   "title": "Hunger Games: Úsvit sklizně",
-   "start": "2026-11-20T19:00:00+01:00",
-   "source": "biograf-horice",
-   "url": "https://www.biografnaspici.cz/klient-101/kino-30/stranka-176/film-844428",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Biograf Na Špici",
-   "category": null,
-   "native_category": "Film",
-   "description": "Začíná Den sklizně 50. ročníku Hladových her a všechny kraje Panemu svírá strach. Letos, bude do Kapitolu z každého kraje odveden dvojnásobný počet splátců. Haymitch Abernathy z 12. kraje touží po jediném – přežít den a vrátit se k milované dívce. Když ale mezi čtyřmi vybranými zazní jeho jméno, jeho sny se v jediném okamžiku rozplynou. Hry začínají a Haymitch brzy pochopí, že nemá šanci vyhrát. Přesto se nehodlá vzdát. Dokáže svůj boj přenést až za hranice smrtící arény?",
-   "image": "https://storage.cinemaware.eu/katalogy/images/3/0/30c1b148-db50-11f1-9bbd-9e966f951e90.jpg",
-   "native_id": "5604820",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "biograf-horice:5b61cecab141"
-  },
   {
    "title": "Kocour v klobouku",
    "start": "2026-11-21T16:30:00+01:00",
