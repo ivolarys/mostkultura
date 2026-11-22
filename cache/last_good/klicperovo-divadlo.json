@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-21T13:01:47+00:00",
+ "fetched_at": "2026-11-22T12:54:13+00:00",
  "events": [
-  {
-   "title": "O myších a lidech",
-   "start": "2026-11-21T17:30:00+01:00",
-   "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15848",
-   "end": "2026-11-21T19:55:00+01:00",
-   "all_day": false,
-   "place": "Hradec Králové",
-   "place_raw": "Hradec Králové",
-   "venue": "Klicperovo divadlo, Dlouhá 99/9",
-   "category": null,
-   "native_category": "Divadlo",
-   "description": "O myších a lidech Senioři 3 Hlavní scéna · John Steinbeck John Steinbeck · režie Pavel Khek Hlavní scéna Senioři 3 Drama Autobusová linka pro předplatitele autobusová linka zdarma Jízdní řád autobusu",
-   "image": "https://www.klicperovodivadlo.cz/media/20235/gallery/at-0741-2-c88cb8fd5587",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15848|2026-11-21T17:30:00+01:00",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "klicperovo-divadlo:b3c8da7ca32e"
-  },
   {
    "title": "Cyrano",
    "start": "2026-11-23T19:00:00+01:00",
@@ -149,8 +125,8 @@
    "title": "Hérečky",
    "start": "2026-11-26T10:30:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15854",
+   "end": "2026-11-26T11:50:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -159,7 +135,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Komedie Dopolední představení Volné sezení veřejná generálka",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-11-26T10:30:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15854|2026-11-26T10:30:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -167,7 +143,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:19a473fdfacf"
+   "id": "klicperovo-divadlo:aa1151ac0426"
   },
   {
    "title": "O myších a lidech",
@@ -197,8 +173,8 @@
    "title": "Hérečky",
    "start": "2026-11-27T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15856",
+   "end": "2026-11-27T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -207,7 +183,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Komedie 1. premiéra",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-11-27T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15856|2026-11-27T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -215,14 +191,14 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:8da36c72336d"
+   "id": "klicperovo-divadlo:b02cab3630cc"
   },
   {
    "title": "Hérečky",
    "start": "2026-11-28T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15857",
+   "end": "2026-11-28T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -231,7 +207,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Premiéry Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Premiéry Komedie 2. premiéra",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-11-28T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15857|2026-11-28T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -239,7 +215,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:da8864d01aba"
+   "id": "klicperovo-divadlo:6884a4c80dc9"
   },
   {
    "title": "A pak usnu a vstanu",
@@ -293,8 +269,8 @@
    "title": "Hérečky",
    "start": "2026-12-02T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15866",
+   "end": "2026-12-02T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -303,7 +279,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Středy Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Středy Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-12-02T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15866|2026-12-02T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -311,7 +287,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:9fed92df421a"
+   "id": "klicperovo-divadlo:506acc54121f"
   },
   {
    "title": "S Caroline v kuchyni",
@@ -349,7 +325,7 @@
    "venue": "Klicperovo divadlo, Dlouhá 99/9",
    "category": null,
    "native_category": "Divadlo",
-   "description": "O myších a lidech Senioři 1 Hlavní scéna · John Steinbeck John Steinbeck · režie Pavel Khek Hlavní scéna Senioři 1 Drama Autobusová linka Pro předplatitele autobusová linka zdarma",
+   "description": "O myších a lidech Senioři 1 Hlavní scéna · John Steinbeck John Steinbeck · režie Pavel Khek Hlavní scéna Senioři 1 Drama Autobusová linka Pro předplatitele autobusová linka zdarma Aktuální poloha autobusu",
    "image": "https://www.klicperovodivadlo.cz/media/20235/gallery/at-0741-2-c88cb8fd5587",
    "native_id": "https://www.klicperovodivadlo.cz/inscenace/o-mysich-a-lidech?t=15869|2026-12-04T17:30:00+01:00",
    "ongoing": false,
@@ -365,8 +341,8 @@
    "title": "Hérečky",
    "start": "2026-12-04T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15870",
+   "end": "2026-12-04T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -375,7 +351,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Pátky Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Pátky Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-12-04T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15870|2026-12-04T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -383,7 +359,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:586bf233aa87"
+   "id": "klicperovo-divadlo:36463d1dcc31"
   },
   {
    "title": "Cyrano",
@@ -653,8 +629,8 @@
    "title": "Hérečky",
    "start": "2026-12-15T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15884",
+   "end": "2026-12-15T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -663,7 +639,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Úterky 1 Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Úterky 1 Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-12-15T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15884|2026-12-15T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -671,7 +647,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:f282356a584b"
+   "id": "klicperovo-divadlo:80a0f435bbc2"
   },
   {
    "title": "Portrét dámy",
@@ -853,7 +829,7 @@
    "venue": "Klicperovo divadlo, Dlouhá 99/9",
    "category": null,
    "native_category": "Divadlo",
-   "description": "Don Quijote Senioři 2 Hlavní scéna · David Drábek David Drábek · režie David Drábek Hlavní scéna Senioři 2 Komedie Autobusová linka Pro předplatitele autobusová linka zdarma",
+   "description": "Don Quijote Senioři 2 Hlavní scéna · David Drábek David Drábek · režie David Drábek Hlavní scéna Senioři 2 Komedie Autobusová linka Pro předplatitele autobusová linka zdarma Aktuální poloha autobusu",
    "image": "https://www.klicperovodivadlo.cz/media/19970/gallery/don-quijote-fotografie-01-98528",
    "native_id": "https://www.klicperovodivadlo.cz/inscenace/don-quijote-17765|2026-12-21T17:30:00+01:00",
    "ongoing": false,
@@ -869,8 +845,8 @@
    "title": "Hérečky",
    "start": "2026-12-21T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15895",
+   "end": "2026-12-21T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -879,7 +855,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2026-12-21T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15895|2026-12-21T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -887,7 +863,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:4449707e2436"
+   "id": "klicperovo-divadlo:581fd82471f6"
   },
   {
    "title": "Prašina 2 – Černý merkurit",
@@ -1453,7 +1429,7 @@
    "venue": "Klicperovo divadlo, Dlouhá 99/9",
    "category": null,
    "native_category": "Divadlo",
-   "description": "Láska na první pohřeb Senioři 3 Hlavní scéna · Tomáš Dianiška Tomáš Dianiška · režie Tomáš Dianiška Hlavní scéna Senioři 3 Hudební Komedie 15+ Autobusová linka Pro předplatitele autobusová linka zdarma.",
+   "description": "Láska na první pohřeb Senioři 3 Hlavní scéna · Tomáš Dianiška Tomáš Dianiška · režie Tomáš Dianiška Hlavní scéna Senioři 3 Hudební Komedie 15+ Autobusová linka Pro předplatitele autobusová linka zdarma. Aktuální poloha autobusu",
    "image": "https://www.klicperovodivadlo.cz/media/338/gallery/laska-na-prvni-pohreb-fotografie-01-86995",
    "native_id": "https://www.klicperovodivadlo.cz/inscenace/laska-na-prvni-pohreb?t=15932|2027-01-16T17:30:00+01:00",
    "ongoing": false,
@@ -1661,8 +1637,8 @@
    "title": "Hérečky",
    "start": "2027-01-21T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15938",
+   "end": "2027-01-21T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -1671,7 +1647,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Čtvrtky Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Čtvrtky Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2027-01-21T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15938|2027-01-21T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1679,7 +1655,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:3ad101994e3d"
+   "id": "klicperovo-divadlo:0b9ea8537dff"
   },
   {
    "title": "Každou první středu",
@@ -1805,8 +1781,8 @@
    "title": "Hérečky",
    "start": "2027-01-26T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15943",
+   "end": "2027-01-26T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -1815,7 +1791,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Úterky 2 Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Úterky 2 Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2027-01-26T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15943|2027-01-26T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1823,7 +1799,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:8ec6a3720d63"
+   "id": "klicperovo-divadlo:2efbb1ee7dc6"
   },
   {
    "title": "Kytice",
@@ -1925,8 +1901,8 @@
    "title": "Hérečky",
    "start": "2027-01-30T19:00:00+01:00",
    "source": "klicperovo-divadlo",
-   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky",
-   "end": null,
+   "url": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15949",
+   "end": "2027-01-30T20:20:00+01:00",
    "all_day": false,
    "place": "Hradec Králové",
    "place_raw": "Hradec Králové",
@@ -1935,7 +1911,7 @@
    "native_category": "Divadlo",
    "description": "Hérečky Studio Beseda · Petr Kult Petr Kult · režie Petr Kult Studio Beseda Komedie",
    "image": "https://www.klicperovodivadlo.cz/media/19973/gallery/herecky-fotografie-01-98566",
-   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky|2027-01-30T19:00:00+01:00",
+   "native_id": "https://www.klicperovodivadlo.cz/inscenace/herecky?t=15949|2027-01-30T19:00:00+01:00",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1943,7 +1919,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "klicperovo-divadlo:0c4a424468fe"
+   "id": "klicperovo-divadlo:0fc8d3893f80"
   }
  ]
 }

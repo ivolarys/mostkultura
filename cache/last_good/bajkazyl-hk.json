@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T13:01:58+00:00",
+ "fetched_at": "2026-11-22T12:54:25+00:00",
  "events": [
   {
    "title": "STUZ M.P.",
@@ -1680,6 +1680,30 @@
    "lon": null,
    "geo": null,
    "id": "bajkazyl-hk:68d4043d96e3"
+  },
+  {
+   "title": "Schůzka Cyklokomunity HNK",
+   "start": "2026-12-08T19:00:00+01:00",
+   "source": "bajkazyl-hk",
+   "url": "https://bajkazylhk.cz/akce/schuzka-cyklokomunity-hnk-20261208-1800",
+   "end": "2026-12-08T20:30:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Hradec Králové",
+   "venue": "Bajkazyl Hradec Králové",
+   "category": null,
+   "native_category": null,
+   "description": "https://hradecnakole.cz Nenechme se zmást neaktuálními stránkami. Hradecká cyklokomunita žije hlavně offline! Odkaz na minulou schůzku: https://bajkazylhk.cz/akce/schuzka-cyklokomunity-hnk-20261110-1900",
+   "image": "https://i.ibb.co/xdSggVj/260402-hnk.jpg",
+   "native_id": "65j3idph6gqm8bb5cdi6ab9kcdimabb1cgom6bb2cpimapj16spj6p9m70@google.com",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "bajkazyl-hk:d9c680799b8b"
   },
   {
    "title": "Critilal Mass HK",

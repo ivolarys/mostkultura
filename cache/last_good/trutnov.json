@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-21T12:56:54+00:00",
+ "fetched_at": "2026-11-22T12:49:26+00:00",
  "events": [
-  {
-   "title": "Cestopisný stand-up fest",
-   "start": "2026-11-21T14:00:00+01:00",
-   "source": "trutnov",
-   "url": "https://www.trutnov.cz/dre-cs/78681-cestopisny-stand-up-fest.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Aula ČLA Trutnov",
-   "category": null,
-   "native_category": "Ostatní",
-   "description": "",
-   "image": "https://www.trutnov.cz/galerie/2289380_106_150.png",
-   "native_id": "https://www.trutnov.cz/dre-cs/78681-cestopisny-stand-up-fest.html",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "trutnov:84742bd91ca8"
-  },
   {
    "title": "Jazzinec - YOLK – Filip Żółtowski Q.",
    "start": "2026-11-23T19:00:00+01:00",
@@ -240,6 +216,30 @@
    "lon": null,
    "geo": null,
    "id": "trutnov:51a05268696e"
+  },
+  {
+   "title": "Jakub Janovský: Kindergarten",
+   "start": "2026-10-22T00:00:00+02:00",
+   "source": "trutnov",
+   "url": "https://www.trutnov.cz/dre-cs/80731-jakub-janovsky-kindergarten.html",
+   "end": "2026-11-28T23:59:00+01:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "Galerie města Trutnova",
+   "category": null,
+   "native_category": "Ostatní",
+   "description": "",
+   "image": null,
+   "native_id": "https://www.trutnov.cz/dre-cs/80731-jakub-janovsky-kindergarten.html",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "trutnov:045a959af8f0"
   }
  ]
 }
