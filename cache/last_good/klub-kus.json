@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T12:52:56+00:00",
+ "fetched_at": "2026-11-23T15:17:32+00:00",
  "events": [
   {
    "title": "Digitální zdraví dětí: hry a sítě",
@@ -26,7 +26,7 @@
    "id": "klub-kus:89faa742eeb9"
   },
   {
-   "title": "Amelie Siba a Jiný Metro",
+   "title": "Amelie Siba a Jiný Metro - ZRUŠENO",
    "start": "2026-12-05T20:00:00+01:00",
    "source": "klub-kus",
    "url": "https://www.kulturaturnov.cz/program/kus/amelie-siba-a-jiny-metro",
@@ -37,7 +37,7 @@
    "venue": "Klub Kus",
    "category": null,
    "native_category": null,
-   "description": "Indie folk-rockový girls-power večer.",
+   "description": "Koncert byl z provozních důvodů zrušen.",
    "image": "https://www.kulturaturnov.cz/data/photogallery/02_sheep_rectangleweb_thumb_38863.jpg",
    "native_id": "https://www.kulturaturnov.cz/program/kus/amelie-siba-a-jiny-metro|2026-12-05T20:00:00+01:00",
    "ongoing": false,

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T12:52:59+00:00",
+ "fetched_at": "2026-11-23T15:19:01+00:00",
  "events": [
   {
    "title": "Retro Disko Ples 2026",
@@ -98,10 +98,10 @@
    "id": "horice-koruna:27ff1db8c8fe"
   },
   {
-   "title": "DASHA A PAJKY PAJK",
+   "title": "DASHA s kapelou",
    "start": "2026-12-15T19:00:00+01:00",
    "source": "horice-koruna",
-   "url": "https://www.dum-kultury-koruna.cz/dasha-a-pajky-pajk",
+   "url": "https://www.dum-kultury-koruna.cz/dasha-s-kapelou",
    "end": null,
    "all_day": false,
    "place": null,
@@ -109,9 +109,9 @@
    "venue": "Dům kultury Koruna",
    "category": null,
    "native_category": null,
-   "description": "DASHA A PAJKY PAJK Koncert populární zpěvačky v DK Koruna proběhne 15.12.2026 v 19.00 Vstupenky na https://goout.net/cs/listky/dasha-and-pajky-pajk/gktmb/?_gl=1*12j020e*_up*MQ..*_ga*NjczMTk5NTI2LjE3ODM2OTAwOTQ.*_ga_1NH4XYLBBD*czE3ODM2OTAwOTQkbzEkZzEkdDE3ODM2OTAwOTYkajU4JGwwJGgw DASHA ...",
+   "description": "DASHA s kapelou Koncert populární zpěvačky v DK Koruna proběhne 15.12.2026 v 19.00 Vstupenky na https://goout.net/cs/listky/dasha-and-pajky-pajk/gktmb/?_gl=1*12j020e*_up*MQ..*_ga*NjczMTk5NTI2LjE3ODM2OTAwOTQ.*_ga_1NH4XYLBBD*czE3ODM2OTAwOTQkbzEkZzEkdDE3ODM2OTAwOTYkajU4JGwwJGgw DASHA ...",
    "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/01061/posters/paIcwg.jpg",
-   "native_id": "https://www.dum-kultury-koruna.cz/dasha-a-pajky-pajk",
+   "native_id": "https://www.dum-kultury-koruna.cz/dasha-s-kapelou",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -119,7 +119,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "horice-koruna:8c646687148a"
+   "id": "horice-koruna:cc3e5535a822"
   },
   {
    "title": "Karamel a JS Band",

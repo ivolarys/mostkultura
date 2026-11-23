@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-22T12:48:46+00:00",
+ "fetched_at": "2026-11-23T15:13:15+00:00",
  "events": [
-  {
-   "title": "Vepřové hody v restauraci Za Mostem",
-   "start": "2026-11-20T13:00:00+01:00",
-   "source": "mostek",
-   "url": "https://www.mostek.cz/zivot-v-obci/volny-cas/kam-za-kulturou/veprove-hody-v-restauraci-za-mostem-1636_384cs.html",
-   "end": "2026-11-22T23:59:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Restaurace Za Mostem, Mostek",
-   "category": null,
-   "native_category": "hody",
-   "description": "",
-   "image": "https://www.mostek.cz/evt_image.php?img=4144&width=500&v=1792411944",
-   "native_id": "event-1636",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "mostek:7bb393217266"
-  },
   {
    "title": "Rozsvícení vánočního stromu v Mostku",
    "start": "2026-11-29T16:30:00+01:00",
