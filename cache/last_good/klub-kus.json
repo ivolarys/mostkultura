@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T15:17:32+00:00",
+ "fetched_at": "2026-11-24T15:15:18+00:00",
  "events": [
   {
    "title": "Digitální zdraví dětí: hry a sítě",
@@ -48,6 +48,30 @@
    "lon": null,
    "geo": null,
    "id": "klub-kus:15d65fa04542"
+  },
+  {
+   "title": "Roubovaný vokurky",
+   "start": "2026-12-05T20:00:00+01:00",
+   "source": "klub-kus",
+   "url": "https://www.kulturaturnov.cz/program/kus/roubovany-vokurky-kus",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": "Turnov",
+   "venue": "Klub Kus",
+   "category": null,
+   "native_category": null,
+   "description": "Oblíbená undergroundová kapela se vrací do Kusu.",
+   "image": "https://www.kulturaturnov.cz/data/photogallery-shows/visek_thumb_40138.jpeg",
+   "native_id": "https://www.kulturaturnov.cz/program/kus/roubovany-vokurky-kus|2026-12-05T20:00:00+01:00",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "klub-kus:22ac53f4ea16"
   },
   {
    "title": "Modré hory",
