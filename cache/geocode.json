@@ -305,7 +305,7 @@
   "lon": null,
   "precision": "none",
   "q": "Ekocentrum Krtek, Vrchlabí, Česko",
-  "ts": "2026-10-26T10:32:50+00:00"
+  "ts": "2026-11-25T14:57:41+00:00"
  },
  "epo1, trutnov|trutnov": {
   "lat": 50.5772687,
@@ -593,6 +593,13 @@
   "precision": "none",
   "q": "IC Novopacko, Klenotnice drahých kamenů, Nová Paka, Česko",
   "ts": "2026-09-18T09:14:13+00:00"
+ },
+ "jedlicka , kuks|kuks": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Jedlička, Kuks, Česko",
+  "ts": "2026-11-25T14:57:41+00:00"
  },
  "kaple sv. anny|mostek": {
   "lat": null,
@@ -944,6 +951,13 @@
   "q": "Kulturní dům Střelnice, Vrchlabí, Česko",
   "ts": "2026-11-09T13:23:34+00:00"
  },
+ "kulturni dum strelnice|vrchlabi": {
+  "lat": 50.6309689,
+  "lon": 15.6106598,
+  "precision": "venue",
+  "q": "Kulturní dům Střelnice, Vrchlabí, Česko",
+  "ts": "2026-11-25T14:57:41+00:00"
+ },
  "l art cafe|dvur kralove nad labem": {
   "lat": null,
   "lon": null,
@@ -964,6 +978,13 @@
   "precision": "none",
   "q": "Letiště Vrchlabí, Vrchlabí, Česko",
   "ts": "2026-09-12T06:34:41+00:00"
+ },
+ "libotov|dvur kralove nad labem": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Libotov, Dvůr Králové nad Labem, Česko",
+  "ts": "2026-11-25T14:57:41+00:00"
  },
  "masarykovo divadlo jicin|jicin": {
   "lat": 50.4357182,

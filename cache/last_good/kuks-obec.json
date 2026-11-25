@@ -1,4 +1,29 @@
 {
- "fetched_at": "2026-11-24T15:12:00+00:00",
- "events": []
+ "fetched_at": "2026-11-25T14:51:59+00:00",
+ "events": [
+  {
+   "title": "Rozsvěcení vánočního stromku",
+   "start": "2026-11-29T16:30:00+01:00",
+   "source": "kuks-obec",
+   "url": "https://www.kuks.cz/obec-174/akce-v-kuksu-a-okoli/rozsveceni-vanocniho-stromku-441_319cs.html",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Jedlička , Kuks",
+   "category": null,
+   "native_category": null,
+   "description": "Rozsvěcení vánočního stromku",
+   "image": "https://www.kuks.cz/evt_image.php?img=1231&width=300&v=1795592431",
+   "native_id": "event-441",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "kuks-obec:a7f0aa85168c"
+  }
+ ]
 }

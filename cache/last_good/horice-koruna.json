@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T15:16:46+00:00",
+ "fetched_at": "2026-11-25T14:55:27+00:00",
  "events": [
   {
    "title": "Retro Disko Ples 2026",
@@ -192,6 +192,30 @@
    "lon": null,
    "geo": null,
    "id": "horice-koruna:392b8def7e2c"
+  },
+  {
+   "title": "Dětský karneval 2027",
+   "start": "2027-01-15T16:00:00+01:00",
+   "source": "horice-koruna",
+   "url": "https://www.dum-kultury-koruna.cz/detsky-karneval-2027",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Dům kultury Koruna",
+   "category": null,
+   "native_category": null,
+   "description": "Dům dětí a mládeže Hořice pořádá DĚTSKÝ KARNEVAL Bohatá tombola, soutěže, origináílní masky, atd. DK Koruna 15.1.2027 v 16.00 h. ...",
+   "image": "https://www.dum-kultury-koruna.cz/UserFiles/image/!_Predstaveni/00000/posters/DDM.jpg",
+   "native_id": "https://www.dum-kultury-koruna.cz/detsky-karneval-2027",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "horice-koruna:fc7f5d0217ef"
   },
   {
    "title": "Festival loutkových divadel",

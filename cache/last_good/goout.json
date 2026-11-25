@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T15:18:15+00:00",
+ "fetched_at": "2026-11-25T14:57:07+00:00",
  "events": [
   {
    "title": "Jakub Smolík: Vánoční koncert - 40 let s vámi",
@@ -120,6 +120,30 @@
    "lon": null,
    "geo": null,
    "id": "goout:8a87880ffd4f"
+  },
+  {
+   "title": "Libor Macháček: Pořádná práce",
+   "start": "2027-05-29T19:00:00+02:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/libor-machacek-poradna-prace/szlyupy/",
+   "end": "2027-05-29T23:59:59+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Trutnov",
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": "in_city, in_city",
+   "description": "Druhý stand-up speciál **Libora Macháčka** je tady. Svatby, blbci nebo třeba čeští řidiči – všechno, na co Libor nemůže přestat myslet a musí se o to podělit.",
+   "image": null,
+   "native_id": "schedule:9622486",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:1792203f56cc"
   },
   {
    "title": "Tady Vary 2026/27 – filmová sezóna s předplatným",

@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-11-24T15:10:55+00:00",
+ "fetched_at": "2026-11-25T14:51:00+00:00",
  "events": [
+  {
+   "title": "Povídání s Pohřebními průvodci - dobrý pohřeb, smrt a mýty kolem",
+   "start": "2026-12-11T18:00:00+01:00",
+   "source": "lazne-belohrad",
+   "url": "https://www.lazne-belohrad.cz/kalendar-akci/povidani-s-pohrebnimi-pruvodci-dobry-pohreb-smrt-a-myty-kolem",
+   "end": null,
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Knihovna Lázně Bělohrad",
+   "category": null,
+   "native_category": null,
+   "description": "Setkání nabídne otevřené povídání o smrti, podobě důstojného pohřbu a mýtech, které se s posledním rozloučením pojí.",
+   "image": "https://www.lazne-belohrad.cz/image.php?nid=21730&oid=14104339",
+   "native_id": "https://www.lazne-belohrad.cz/kalendar-akci/povidani-s-pohrebnimi-pruvodci-dobry-pohreb-smrt-a-myty-kolem",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "lazne-belohrad:0bc7f3c5c027"
+  },
   {
    "title": "Novoroční galakoncert v Bělohradké sýpce: Karla Bytnarová, Renata Lichnovská a Roman Janál",
    "start": "2027-01-03T19:00:00+01:00",
