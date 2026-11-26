@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T14:55:42+00:00",
+ "fetched_at": "2026-11-26T14:21:05+00:00",
  "events": [
   {
    "title": "ArtMoment v Náplavce Hradec Králové",
@@ -86,7 +86,7 @@
    "category": null,
    "native_category": "Zážitek",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3164/medialibraryBygN3l.pagespeed.ce.0K6h-SjH_W.jpg",
+   "image": "https://naplavkahk.cz/media/3164/medialibraryBygN3l",
    "native_id": "https://naplavkahk.cz/udalost/2027-01-19-artmoment-v-naplavce-hradec-kralove",
    "ongoing": false,
    "sources": [],
@@ -110,7 +110,7 @@
    "category": null,
    "native_category": "Stand-up",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3159/xmedialibraryG1VO5r.pagespeed.ic.V_H4vlu6yH.jpg",
+   "image": "https://naplavkahk.cz/media/3159/medialibraryG1VO5r",
    "native_id": "https://naplavkahk.cz/udalost/2027-02-24-na-stojaka-hradec-kralove",
    "ongoing": false,
    "sources": [],

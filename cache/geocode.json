@@ -445,7 +445,7 @@
   "lon": null,
   "precision": "none",
   "q": "Hankův dům - sál, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-10-27T10:07:03+00:00"
+  "ts": "2026-11-26T14:22:42+00:00"
  },
  "hankuv dum, dvur kralove nad labem|dvur kralove nad labem": {
   "lat": 50.4309307,
@@ -762,6 +762,13 @@
   "q": "Kiosek dLabe, nábřeží M. Kubátové, Vrchlabí, Česko",
   "ts": "2026-09-24T12:51:56+00:00"
  },
+ "klasterni kostel sv. augustina, vrchlabi|vrchlabi": {
+  "lat": null,
+  "lon": null,
+  "precision": "none",
+  "q": "Klášterní kostel sv. Augustina, Vrchlabí, Česko",
+  "ts": "2026-11-26T14:22:42+00:00"
+ },
  "klasterni schody v nove pace|nova paka": {
   "lat": null,
   "lon": null,
@@ -844,7 +851,7 @@
   "lon": null,
   "precision": "none",
   "q": "Koncertní síň Bohuslava Martinů, Trutnov, Česko",
-  "ts": "2026-10-26T10:32:50+00:00"
+  "ts": "2026-11-26T14:22:42+00:00"
  },
  "kostel ceskobratrske cirkve evangelicke|dvur kralove nad labem": {
   "lat": 50.4298046,
@@ -963,7 +970,7 @@
   "lon": null,
   "precision": "none",
   "q": "L´Art Café, Dvůr Králové nad Labem, Česko",
-  "ts": "2026-09-26T05:06:53+00:00"
+  "ts": "2026-11-26T14:22:42+00:00"
  },
  "lekarna ipc poliklinika vrchlabi, jihoslovanska 465|vrchlabi": {
   "lat": 50.6234663,

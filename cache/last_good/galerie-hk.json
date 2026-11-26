@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T14:56:10+00:00",
+ "fetched_at": "2026-11-26T14:21:25+00:00",
  "events": [
   {
    "title": "Umění zblízka | Skupina 42",
@@ -266,6 +266,30 @@
    "id": "galerie-hk:ef6832ae7830"
   },
   {
+   "title": "Černá díra ve výtvarném umění",
+   "start": "2026-11-27T00:00:00+01:00",
+   "source": "galerie-hk",
+   "url": "https://www.galeriehk.cz/vystavy/cerna-dira-ve-vytvarnem-umeni/",
+   "end": "2027-04-11T23:59:59+02:00",
+   "all_day": true,
+   "place": null,
+   "place_raw": null,
+   "venue": "Galerie moderního umění v Hradci Králové",
+   "category": null,
+   "native_category": "Výstava",
+   "description": "",
+   "image": null,
+   "native_id": "https://www.galeriehk.cz/vystavy/cerna-dira-ve-vytvarnem-umeni/",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "galerie-hk:9660ce48e558"
+  },
+  {
    "title": "Eva Horská & Jakub Horský | Co všechno máme",
    "start": "2026-10-09T00:00:00+02:00",
    "source": "galerie-hk",
@@ -432,30 +456,6 @@
    "lon": null,
    "geo": null,
    "id": "galerie-hk:694a52589782"
-  },
-  {
-   "title": "Černá díra ve výtvarném umění",
-   "start": "2026-11-27T00:00:00+01:00",
-   "source": "galerie-hk",
-   "url": "https://www.galeriehk.cz/vystavy/cerna-dira-ve-vytvarnem-umeni/",
-   "end": "2027-04-11T23:59:59+02:00",
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Galerie moderního umění v Hradci Králové",
-   "category": null,
-   "native_category": "Výstava",
-   "description": "",
-   "image": null,
-   "native_id": "https://www.galeriehk.cz/vystavy/cerna-dira-ve-vytvarnem-umeni/",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "galerie-hk:9660ce48e558"
   }
  ]
 }

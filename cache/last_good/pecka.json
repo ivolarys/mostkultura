@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T14:55:33+00:00",
+ "fetched_at": "2026-11-26T14:20:57+00:00",
  "events": [
   {
    "title": "Hudební odpoledne v DPS",
@@ -50,30 +50,6 @@
    "id": "pecka:2107f31eb4ed"
   },
   {
-   "title": "Prodej nových dětských knih",
-   "start": "2026-11-23T09:00:00+01:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/prodej-novych-detskych-knih-1563_925cs.html",
-   "end": "2026-11-27T23:59:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Knihovna Kryštofa Haranta",
-   "category": null,
-   "native_category": null,
-   "description": "Navštivte knihovnu a přijďte si zakoupit pěknou dětskou knížku k Vánocům. V rámci akce Den pro dětskou knihu nabízíme k zakoupení dětské knihy za akční ceny - od 99,- Kč. Knihy k prodeji dodalo Naše knihkupectví, Nová Paka.",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5457&width=300&v=1795180498",
-   "native_id": "event-1563",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:87d0d39f90f9"
-  },
-  {
    "title": "Rozsvícení vánočního stromku",
    "start": "2026-11-28T15:00:00+01:00",
    "source": "pecka",
@@ -96,6 +72,30 @@
    "lon": null,
    "geo": null,
    "id": "pecka:2433069ae9fe"
+  },
+  {
+   "title": "Prodej nových dětských knih",
+   "start": "2026-11-23T09:00:00+01:00",
+   "source": "pecka",
+   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/prodej-novych-detskych-knih-1563_925cs.html",
+   "end": "2026-11-27T23:59:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Knihovna Kryštofa Haranta",
+   "category": null,
+   "native_category": null,
+   "description": "Navštivte knihovnu a přijďte si zakoupit pěknou dětskou knížku k Vánocům. V rámci akce Den pro dětskou knihu nabízíme k zakoupení dětské knihy za akční ceny - od 99,- Kč. Knihy k prodeji dodalo Naše knihkupectví, Nová Paka.",
+   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5457&width=300&v=1795180498",
+   "native_id": "event-1563",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "pecka:87d0d39f90f9"
   },
   {
    "title": "Smyslohraní",
