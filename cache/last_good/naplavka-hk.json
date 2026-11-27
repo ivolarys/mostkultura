@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T14:21:05+00:00",
+ "fetched_at": "2026-11-27T14:16:39+00:00",
  "events": [
   {
    "title": "ArtMoment v Náplavce Hradec Králové",
@@ -14,7 +14,7 @@
    "category": null,
    "native_category": "Zážitek",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3163/medialibraryU0mD7j.pagespeed.ce.ciP-571Fvr.jpg",
+   "image": "https://naplavkahk.cz/media/3163/medialibraryU0mD7j",
    "native_id": "https://naplavkahk.cz/udalost/2026-12-08-artmoment-v-naplavce-hradec-kralove",
    "ongoing": false,
    "sources": [],
@@ -38,7 +38,7 @@
    "category": null,
    "native_category": "Koncert + party",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3161/xmedialibrary7hTXod.pagespeed.ic.7K6wgvJ2F4.jpg",
+   "image": "https://naplavkahk.cz/media/3161/medialibrary7hTXod",
    "native_id": "https://naplavkahk.cz/udalost/2026-12-19-factorial-orchestra-banda-di-feste",
    "ongoing": false,
    "sources": [],
@@ -134,7 +134,7 @@
    "category": null,
    "native_category": "Párty",
    "description": "",
-   "image": "https://naplavkahk.cz/media/3167/medialibraryjl9DPi",
+   "image": "https://naplavkahk.cz/media/3167/medialibraryjl9DPi.pagespeed.ce.AwTvheQNb-.jpg",
    "native_id": "https://naplavkahk.cz/udalost/2027-03-05-na-karneval-2027",
    "ongoing": false,
    "sources": [],

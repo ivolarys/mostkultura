@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T14:22:17+00:00",
+ "fetched_at": "2026-11-27T14:17:55+00:00",
  "events": [
   {
    "title": "Jakub Smolík: Vánoční koncert - 40 let s vámi",
@@ -194,6 +194,30 @@
    "id": "goout:aee22441f586"
   },
   {
+   "title": "Malý princ, Recitál",
+   "start": "2027-07-11T19:00:00+02:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/maly-princ-recital/szqahqy/",
+   "end": "2027-07-11T23:59:59+02:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Kuks",
+   "venue": "Hospitál Kuks",
+   "category": null,
+   "native_category": "concerts, concerts",
+   "description": "Naše ztvárnění není klasickým vyprávěním příběhu Malého prince. Je to originální spojení hudby a slova, které divákovi umožní oddat se své fantazii a pohladí ho na duši. V recitálu exceluje známý herec Jan Cina, který nás provede kouzelným světem, kde vše, co je důležité, je očím neviditelné. Spolu se zpěvačkou Vendulou Příhodovou / Kateřinou Bohatovou představí původní písně od Kryštofa Marka za doprovodu smyčcového kvarteta Unique Quartet a piana.\n\nPředstavení je vhodné pro diváky všech věkový",
+   "image": null,
+   "native_id": "schedule:9629391",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:cd9ab88617c2"
+  },
+  {
    "title": "Brutal Assault 2027",
    "start": "2027-08-04T12:00:01+02:00",
    "source": "goout",
@@ -216,6 +240,30 @@
    "lon": null,
    "geo": null,
    "id": "goout:50b2c3a41c66"
+  },
+  {
+   "title": "Partička na vzduchu – Divadelní představení",
+   "start": "2027-11-10T19:00:00+01:00",
+   "source": "goout",
+   "url": "https://goout.net/cs/particka-na-vzduchu-divadelni-predstaveni/szoahqy/",
+   "end": "2027-11-10T23:59:59+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": "Jaroměř",
+   "venue": "Městské kulturní středisko Jaroměř",
+   "category": null,
+   "native_category": "in_city, in_city",
+   "description": "*Varování Ministerstva zdravotnictví: Partička na vzduchu Vám může nenávratně zlepšit náladu.*\n\nTo je improvizační show Partička s Michalem Suchánkem, Richardem Genzerem, Michalem Novotným, Jakubem Kohákem a Luďkem Staňkem.\n\nPořadatel si vyhrazuje právo adekvátní alternace.",
+   "image": null,
+   "native_id": "schedule:9629389",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "goout:f005c546d82c"
   },
   {
    "title": "Prague Cello Quartet",

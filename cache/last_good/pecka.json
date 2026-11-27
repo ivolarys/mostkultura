@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-26T14:20:57+00:00",
+ "fetched_at": "2026-11-27T14:16:30+00:00",
  "events": [
-  {
-   "title": "Hudební odpoledne v DPS",
-   "start": "2026-11-26T16:00:00+01:00",
-   "source": "pecka",
-   "url": "https://www.mestys-pecka.cz/volny-cas/kalendar-akci-1/hudebni-odpoledne-v-dps-1537_913cs.html",
-   "end": null,
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Dům s pečovatelskou službou, Pecka",
-   "category": null,
-   "native_category": null,
-   "description": "Vystoupení oblíbené zpěvačky Markéty ve společenské místnosti. Připraveno malé občerstvení. Vstupné dobrovolné.",
-   "image": "https://www.mestys-pecka.cz/evt_image.php?img=5406&width=300&v=1791970399",
-   "native_id": "event-1537",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "pecka:542f33fe17b7"
-  },
   {
    "title": "DEN PRO DĚTSKOU KNIHU",
    "start": "2026-11-27T14:00:00+01:00",

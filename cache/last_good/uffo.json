@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T14:20:40+00:00",
+ "fetched_at": "2026-11-27T14:16:07+00:00",
  "events": [
   {
    "title": "JAKUB SMOLÍK: 40 LET S VÁMI",
@@ -15,7 +15,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160183-a4ea01",
+   "native_id": "1795772169220-659aaa",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -23,7 +23,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:d27ccfb3cf05"
+   "id": "uffo:1430e7389573"
   },
   {
    "title": "ŠTÍSTKO A POUPĚNKA...A KDE JE POUPĚNKA?",
@@ -39,7 +39,7 @@
    "native_category": "Akce pro děti, Koncert, Pro nejmenší",
    "description": "Ahoj Broučkové, rok se s rokem sešel a my pro vás máme nové představení s písničkami z nového filmu Zpívej s námi. Tento...",
    "image": "https://cdn.uffo.cz/images/0/826d32192e2284cb/3/stistko-a-poupenka-a-kde-je-poupenka.jpg?hash=320733603",
-   "native_id": "1795700160185-16663a",
+   "native_id": "1795772169221-6fadf2",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -47,7 +47,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:aed36cd95d87"
+   "id": "uffo:e7a7af3059ee"
   },
   {
    "title": "MUZIKÁLY NARUBY",
@@ -63,7 +63,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160186-e8cf2f",
+   "native_id": "1795772169222-a1c3cb",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -71,7 +71,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:41cf59d8ed67"
+   "id": "uffo:1de1bc02bb7a"
   },
   {
    "title": "WOHNOUT: BOHÉMSKÝCH 30",
@@ -87,7 +87,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160190-c370ca",
+   "native_id": "1795772169230-f472db",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -95,7 +95,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:d8759043d115"
+   "id": "uffo:74d904e41ad5"
   },
   {
    "title": "HOTEL MODRÁ HVĚZDA",
@@ -111,7 +111,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160199-1a0adf",
+   "native_id": "1795772169239-676ec3",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -119,7 +119,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4819c0b692ad"
+   "id": "uffo:6315a907bcd4"
   },
   {
    "title": "DRAZÍ RODIČE",
@@ -135,7 +135,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160199-37a5c7",
+   "native_id": "1795772169239-2ae61f",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -143,7 +143,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:e9432f3325da"
+   "id": "uffo:f7f8b3e9797f"
   },
   {
    "title": "POŘÁD JSEM TO JÁ",
@@ -159,7 +159,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160206-819c7d",
+   "native_id": "1795772169244-a320fc",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -167,7 +167,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:2b41ff1e2b01"
+   "id": "uffo:fa7fbd33af52"
   },
   {
    "title": "LORDI",
@@ -183,7 +183,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160207-8825ce",
+   "native_id": "1795772169246-243215",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -191,7 +191,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:622adb896654"
+   "id": "uffo:7c5ff1bcafbc"
   },
   {
    "title": "LAVIČKA",
@@ -207,7 +207,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160208-790a04",
+   "native_id": "1795772169247-9ea871",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -215,7 +215,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:11de772bab97"
+   "id": "uffo:51cc8d3bf711"
   },
   {
    "title": "OLMERKA",
@@ -231,7 +231,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160232-bf6b72",
+   "native_id": "1795772169256-4290c0",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -239,7 +239,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:c5ed2667c3a8"
+   "id": "uffo:333fa1478110"
   },
   {
    "title": "SNOWBOARĎÁCI",
@@ -255,7 +255,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160234-91836c",
+   "native_id": "1795772169256-0eb1c6",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -263,7 +263,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:842efc761954"
+   "id": "uffo:706a0c2a69cd"
   },
   {
    "title": "TRAGÉDIE LIBLICE",
@@ -279,7 +279,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160244-e8c28b",
+   "native_id": "1795772169262-388ed9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -287,7 +287,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:565000384e5a"
+   "id": "uffo:f9565b7010c3"
   },
   {
    "title": "CIRKUS BAZAR",
@@ -303,7 +303,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160247-bd5817",
+   "native_id": "1795772169264-05487a",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -311,7 +311,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:6840f25cea2f"
+   "id": "uffo:8677d84ddb4a"
   },
   {
    "title": "ST. ART",
@@ -327,7 +327,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160249-81f20e",
+   "native_id": "1795772169269-f3e3e0",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -335,7 +335,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4a86cd60a431"
+   "id": "uffo:8f0cc894e176"
   },
   {
    "title": "IVAN MLÁDEK & BANJO BAND",
@@ -351,7 +351,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160252-f66fa3",
+   "native_id": "1795772169276-e654d3",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -359,7 +359,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:281651cd6cc5"
+   "id": "uffo:05ea75d4b8e3"
   },
   {
    "title": "JURAČKA A TRÁVNÍČEK: HORY BEZ FILTRU",
@@ -375,7 +375,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160253-b25611",
+   "native_id": "1795772169276-385be9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -383,7 +383,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:d9d127986c54"
+   "id": "uffo:51800c929320"
   },
   {
    "title": "KOMIKAZE",
@@ -399,7 +399,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160254-86604a",
+   "native_id": "1795772169278-ed5017",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -407,7 +407,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:896897105ef6"
+   "id": "uffo:843a87dd7259"
   },
   {
    "title": "ONDŘEJ RUML: ZAPOMENUTÝ PŘÍBĚH",
@@ -423,7 +423,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160254-bd88e1",
+   "native_id": "1795772169278-88af49",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -431,7 +431,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:c08efeeca079"
+   "id": "uffo:c2d23c26e479"
   },
   {
    "title": "SOUBOJ KLAVÍRŮ",
@@ -447,7 +447,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160256-ada063",
+   "native_id": "1795772169279-13a64f",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -455,7 +455,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:3dab0005dc0d"
+   "id": "uffo:9933970fc4ee"
   },
   {
    "title": "DAN BÁRTA & ILLUSTRATOSPHERE & LASH & GREY",
@@ -471,7 +471,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160257-5c4ef9",
+   "native_id": "1795772169284-3956e9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -479,7 +479,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:45259af9bb51"
+   "id": "uffo:76d0ac186b77"
   },
   {
    "title": "LUCIE KUTROVÁ: POLÁRNÍ EXPEDICE KUNGSLEDEN",
@@ -495,7 +495,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160258-58e35f",
+   "native_id": "1795772169285-76b7bc",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -503,31 +503,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:704cea1d5b08"
-  },
-  {
-   "title": "TP-JIŘÍ BÁRTA A HUDBA TŘÍ GENERACÍ",
-   "start": "2026-11-26T19:00:00+01:00",
-   "source": "uffo",
-   "url": "https://uffo.cz/tp-jiri-barta-a-hudba-tri-generaci-p6474/",
-   "end": "2026-11-26T21:00:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "UFFO Trutnov",
-   "category": null,
-   "native_category": "Festival, Koncert",
-   "description": "",
-   "image": "https://cdn.uffo.cz/images/0/b6792a7125adfe14/3/tp-jiri-barta-a-hudba-tri-generaci.jpg?hash=320733603",
-   "native_id": "1795700160259-fd6254",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "uffo:38671ebb9069"
+   "id": "uffo:49d53293abe0"
   },
   {
    "title": "PAVLA BIČÍKOVÁ: SEVERNÍ MAKEDONIE",
@@ -543,7 +519,7 @@
    "native_category": "Cestopisná přednáška",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/fadc2157b1779603/3/pavla-bicikova-severni-makedonie.JPG?hash=320733603",
-   "native_id": "1795700160263-35681a",
+   "native_id": "1795772169288-b6d051",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -551,7 +527,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:ae80ad8413eb"
+   "id": "uffo:a5f6384aad15"
   },
   {
    "title": "Avengers: Doomsday",
@@ -567,7 +543,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160264-f47848",
+   "native_id": "1795772169288-adc8fd",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -575,7 +551,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:1aa0c000f2cb"
+   "id": "uffo:2a76ce14077d"
   },
   {
    "title": "Avengers: Doomsday",
@@ -591,7 +567,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160264-92c726",
+   "native_id": "1795772169289-cedd57",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -599,7 +575,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:8c6b37f372e1"
+   "id": "uffo:6a78b7d7800c"
   },
   {
    "title": "Avengers: Doomsday",
@@ -615,7 +591,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160265-369a2d",
+   "native_id": "1795772169290-0c2427",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -623,7 +599,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:2a2421978b08"
+   "id": "uffo:87b0a46fece4"
   },
   {
    "title": "MIKROPÁRTY S KARLEM ŠÍPEM",
@@ -639,7 +615,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160266-20e816",
+   "native_id": "1795772169291-6b18f7",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -647,7 +623,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:a3325529a1d2"
+   "id": "uffo:1eb67ae6a49a"
   },
   {
    "title": "SUPRČUPR MIKULÁŠSKÁ",
@@ -663,7 +639,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160267-0763e6",
+   "native_id": "1795772169295-8cafb9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -671,7 +647,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:bb5edd66b10f"
+   "id": "uffo:31465ba5e92b"
   },
   {
    "title": "AKADEMIE TŘETÍHO VĚKU",
@@ -687,7 +663,7 @@
    "native_category": "Ostatní akce, Přednáška",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/c9b733eba911fecc/3/akademie-tretiho-veku.jpg?hash=320733603",
-   "native_id": "1795700160267-2b1e60",
+   "native_id": "1795772169296-169c74",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -695,7 +671,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:d21733f181e8"
+   "id": "uffo:865100b91f40"
   },
   {
    "title": "ROZSVÍCENÍ VÁNOČNÍHO STROMU",
@@ -711,7 +687,7 @@
    "native_category": "Trutnovské Vánoce",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/a1f3d23669f5c472/3/rozsviceni-vanocniho-stromu.jpg?hash=320733603",
-   "native_id": "1795700160268-52e215",
+   "native_id": "1795772169297-29eccd",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -719,7 +695,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:64c48874b7df"
+   "id": "uffo:2d24ae2d3325"
   },
   {
    "title": "LUCIE BÍLÁ, RECITÁL",
@@ -735,7 +711,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160269-638e5b",
+   "native_id": "1795772169297-1f63f7",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -743,7 +719,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:438d4f89e00f"
+   "id": "uffo:07f8afc1261c"
   },
   {
    "title": "JAK ANDĚLÍČEK ZACHRÁNIL VÁNOCE",
@@ -759,7 +735,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160270-6146bc",
+   "native_id": "1795772169299-2068ae",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -767,7 +743,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4975a5fd6914"
+   "id": "uffo:e03aea90e02c"
   },
   {
    "title": "MARTIN PŮLPÁN: HEDVÁBNÁ STEZKA",
@@ -783,7 +759,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160272-03497d",
+   "native_id": "1795772169299-e37920",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -791,7 +767,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:98280c06261a"
+   "id": "uffo:fa2efa085860"
   },
   {
    "title": "O ČERTOVI",
@@ -807,7 +783,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160272-5837fe",
+   "native_id": "1795772169300-9136f1",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -815,7 +791,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:f1214fdbe974"
+   "id": "uffo:cd656a872460"
   },
   {
    "title": "MICHAL HERTLÍK: LATINSKÁ AMERIKA",
@@ -831,7 +807,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160273-3985cb",
+   "native_id": "1795772169300-84a76c",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -839,7 +815,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:10d2fc9f4156"
+   "id": "uffo:e3fc517800ae"
   },
   {
    "title": "JAK ANDĚLÍČEK ZACHRÁNIL VÁNOCE",
@@ -855,7 +831,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160274-f027c7",
+   "native_id": "1795772169301-a51954",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -863,7 +839,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:9d124710f8fc"
+   "id": "uffo:4ca762a2e733"
   },
   {
    "title": "POHÁDKY Z PAŘEZOVÉ CHALOUPKY",
@@ -879,7 +855,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160274-814e19",
+   "native_id": "1795772169302-82332d",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -887,7 +863,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:7a4e1a4247b8"
+   "id": "uffo:77f6888695a7"
   },
   {
    "title": "POHÁDKY Z PAŘEZOVÉ CHALOUPKY",
@@ -903,7 +879,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160277-818bba",
+   "native_id": "1795772169304-f0cbe2",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -911,7 +887,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:9d373d434303"
+   "id": "uffo:27da4fd185c4"
   },
   {
    "title": "CHOVÁNÍ, KTERÉ OTEVÍRÁ DVEŘE – ETIKETA PRO KAŽDÝ DEN",
@@ -927,7 +903,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160281-abfa17",
+   "native_id": "1795772169306-dcd497",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -935,7 +911,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:b118e62d9207"
+   "id": "uffo:eb5fa7c86098"
   },
   {
    "title": "CHOVÁNÍ, KTERÉ OTEVÍRÁ DVEŘE – ETIKETA PRO KAŽDÝ DEN",
@@ -951,7 +927,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160282-907151",
+   "native_id": "1795772169307-f209c8",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -959,7 +935,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:98b67a23ff01"
+   "id": "uffo:d9da3292abca"
   },
   {
    "title": "PETR A LUCIE",
@@ -975,7 +951,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160284-7cd4da",
+   "native_id": "1795772169314-95857e",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -983,7 +959,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:7fe4737fc6a4"
+   "id": "uffo:498ffc1ef17b"
   },
   {
    "title": "PETR A LUCIE",
@@ -999,7 +975,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160284-55ba27",
+   "native_id": "1795772169318-dbfbb2",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1007,7 +983,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:301269cec0bc"
+   "id": "uffo:ff8a24c8c99b"
   },
   {
    "title": "TRUTNOV OPEN CHAMPIONS NIGHT",
@@ -1023,7 +999,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160285-56bf36",
+   "native_id": "1795772169324-10037c",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1031,7 +1007,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:aa3f3c52dbdb"
+   "id": "uffo:90ae1aa6aced"
   },
   {
    "title": "ADVENTNÍ TRHY V UFFU",
@@ -1047,7 +1023,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160289-6e7462",
+   "native_id": "1795772169331-c1e8a9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1055,7 +1031,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:895b2875440f"
+   "id": "uffo:cadb341857d9"
   },
   {
    "title": "ADVENTNÍ TRHY V UFFU",
@@ -1071,7 +1047,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160292-68f77d",
+   "native_id": "1795772169335-872ffd",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1079,7 +1055,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:838cf4445757"
+   "id": "uffo:7fa26edb6da1"
   },
   {
    "title": "ADVENTNÍ TRHY V UFFU",
@@ -1095,7 +1071,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160294-d45a2a",
+   "native_id": "1795772169344-9209f9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1103,7 +1079,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:fc928c5864b9"
+   "id": "uffo:5940a824d013"
   },
   {
    "title": "ZÁVADNÝ OBSAH",
@@ -1119,7 +1095,7 @@
    "native_category": "Divadelní představení",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/bd3fa143b3fbcec5/3/zavadny-obsah.gif?hash=320733603",
-   "native_id": "1795700160296-1c7cbd",
+   "native_id": "1795772169346-e8220f",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1127,7 +1103,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:3b92d5acc20a"
+   "id": "uffo:72818d19972f"
   },
   {
    "title": "MOBILNÍ PLANETÁRIUM",
@@ -1143,7 +1119,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160297-fd41b5",
+   "native_id": "1795772169348-0a6f0d",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1151,7 +1127,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:ab773674f39b"
+   "id": "uffo:e45502dacb9e"
   },
   {
    "title": "KRAMPUS PRŮVOD",
@@ -1167,7 +1143,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160298-6f4776",
+   "native_id": "1795772169351-57035f",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1175,7 +1151,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:622b026b582f"
+   "id": "uffo:f6bc5cdd7517"
   },
   {
    "title": "OSLAVY NOVÉHO ROKU",
@@ -1191,7 +1167,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160301-071beb",
+   "native_id": "1795772169353-9034d8",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1199,7 +1175,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:fd500762bf98"
+   "id": "uffo:cfaa89610d90"
   },
   {
    "title": "VÁNOČNÍ TRHY NA KRAKONOŠOVĚ NÁMĚSTÍ",
@@ -1215,7 +1191,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160306-f22191",
+   "native_id": "1795772169354-adadc8",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1223,7 +1199,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:0a955bfb6697"
+   "id": "uffo:4969b2e5cb3b"
   },
   {
    "title": "AKADEMIE TŘETÍHO VĚKU",
@@ -1239,7 +1215,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160308-8cab35",
+   "native_id": "1795772169355-fa8abf",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1247,7 +1223,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:cbd8ba5929fc"
+   "id": "uffo:ac7702673361"
   },
   {
    "title": "AKADEMIE TŘETÍHO VĚKU",
@@ -1263,7 +1239,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160309-d51342",
+   "native_id": "1795772169355-f6cdf2",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1271,7 +1247,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:49cebc654983"
+   "id": "uffo:5369c01ef3c3"
   },
   {
    "title": "9. PLES LOKOMOTIVY",
@@ -1287,7 +1263,7 @@
    "native_category": "Ples",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/ccd0928d68a0b616/3/9-ples-lokomotivy.jpg?hash=320733603",
-   "native_id": "1795700160310-f91da6",
+   "native_id": "1795772169360-4ba7c0",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1295,7 +1271,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:c37f7142eecd"
+   "id": "uffo:1ed7e9b76280"
   },
   {
    "title": "BENEFIČNÍ VYSTOUPENÍ ŠKOL",
@@ -1311,7 +1287,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160311-229711",
+   "native_id": "1795772169364-d18fb9",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1319,7 +1295,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:eac54f68e02f"
+   "id": "uffo:924bd3ac70af"
   },
   {
    "title": "BENEFIČNÍ VYSTOUPENÍ ŠKOL",
@@ -1335,7 +1311,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160311-480109",
+   "native_id": "1795772169365-924efe",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1343,7 +1319,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:a71bc8b0dbd9"
+   "id": "uffo:ef21c1d5cca1"
   },
   {
    "title": "Beckham - Studio DVA",
@@ -1359,7 +1335,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160312-8169cb",
+   "native_id": "1795772169369-7ff282",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1367,7 +1343,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:aeed21c70e2a"
+   "id": "uffo:98858a076e6e"
   },
   {
    "title": "ROCK´N´ROLLEM PROTI RAKOVINĚ VOL. 2",
@@ -1383,7 +1359,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160313-d75fd2",
+   "native_id": "1795772169370-cd209a",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1391,7 +1367,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:9b53c76c3d7d"
+   "id": "uffo:807b93fe9b4a"
   },
   {
    "title": "LUCIE BÍLÁ, RECITÁL",
@@ -1407,7 +1383,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160314-780272",
+   "native_id": "1795772169375-dbc5dd",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1415,55 +1391,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:492c1f314889"
-  },
-  {
-   "title": "Milovaný",
-   "start": "2026-11-26T19:00:00+01:00",
-   "source": "uffo",
-   "url": "https://uffo.cz/milovany-p7792/",
-   "end": "2026-11-26T21:00:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kino Vesmír",
-   "category": null,
-   "native_category": "Film",
-   "description": "",
-   "image": "https://cdn.uffo.cz/images/0/65b345658e5d6c62/3/milovany.jpg?hash=320733603",
-   "native_id": "1795700160317-bc37c6",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "uffo:6df5b7832305"
-  },
-  {
-   "title": "Thankskilling Day",
-   "start": "2026-11-26T19:15:00+01:00",
-   "source": "uffo",
-   "url": "https://uffo.cz/thankskilling-day-p7793/",
-   "end": "2026-11-26T21:15:00+01:00",
-   "all_day": false,
-   "place": null,
-   "place_raw": null,
-   "venue": "Kino Vesmír",
-   "category": null,
-   "native_category": "Film",
-   "description": "",
-   "image": "https://cdn.uffo.cz/images/0/7894d4ab9ab9d5ca/3/thankskilling-day.jpg?hash=320733603",
-   "native_id": "1795700160318-d22a57",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "uffo:067dfd572177"
+   "id": "uffo:05683639602c"
   },
   {
    "title": "SOUBORNÉ DÍLO W. SHAKESPEARA VE 120 MINUTÁCH",
@@ -1479,7 +1407,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160320-0e50e0",
+   "native_id": "1795772169379-f63b90",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1487,7 +1415,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:fe34c9bfc2b3"
+   "id": "uffo:e05fd21f4abb"
   },
   {
    "title": "S LUBOMÍREM BRABCEM O ANTARKTIDĚ",
@@ -1503,7 +1431,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160323-32b3ba",
+   "native_id": "1795772169380-23f9ef",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1511,7 +1439,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:0bd40783793e"
+   "id": "uffo:88a36cb60ddd"
   },
   {
    "title": "LADISLAV ZIBURA: DO JAPONSKA!",
@@ -1527,7 +1455,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160323-742e36",
+   "native_id": "1795772169381-e1486d",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1535,7 +1463,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4fb79b9bca66"
+   "id": "uffo:f472928a7d77"
   },
   {
    "title": "LADISLAV ZIBURA: DO JAPONSKA!",
@@ -1551,7 +1479,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160325-b88d1c",
+   "native_id": "1795772169382-5105c3",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1559,7 +1487,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4a3ec5e29022"
+   "id": "uffo:805d3b0bfc44"
   },
   {
    "title": "Hexe: Magický svět",
@@ -1575,7 +1503,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/7561cfdce7b926f6/3/hexe-magicky-svet.png?hash=320733603",
-   "native_id": "1795700160325-a71131",
+   "native_id": "1795772169383-892f74",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1583,7 +1511,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:6c3af9f2afcd"
+   "id": "uffo:81b354074e04"
   },
   {
    "title": "Příručka pro superhrdiny",
@@ -1599,7 +1527,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/d19b9bcfe4359a7e/3/prirucka-pro-superhrdiny.jpg?hash=320733603",
-   "native_id": "1795700160326-a825f7",
+   "native_id": "1795772169384-a5321b",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1607,7 +1535,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:7180ec0a021c"
+   "id": "uffo:cecdb392a75c"
   },
   {
    "title": "Dobré vibrace",
@@ -1623,7 +1551,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/b5a1d56bf440d4bd/3/dobre-vibrace.jpg?hash=320733603",
-   "native_id": "1795700160328-817f17",
+   "native_id": "1795772169385-6bf9b0",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1631,7 +1559,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:d3b49198e6ce"
+   "id": "uffo:7e2696d33492"
   },
   {
    "title": "Něco jako rodina",
@@ -1647,7 +1575,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/46cd3d070f89dac8/3/neco-jako-rodina.jpg?hash=320733603",
-   "native_id": "1795700160329-7c9b99",
+   "native_id": "1795772169385-746838",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1655,7 +1583,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:b0bf55a9e2a9"
+   "id": "uffo:88f31f98d1d0"
   },
   {
    "title": "Santova kouzelná dílna",
@@ -1671,7 +1599,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/307bda0e316d6b8b/3/santova-kouzelna-dilna.jpg?hash=320733603",
-   "native_id": "1795700160330-f26908",
+   "native_id": "1795772169387-b58f69",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1679,7 +1607,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:717a1d1f1038"
+   "id": "uffo:cd536af10a91"
   },
   {
    "title": "Tři přání pro Popelku",
@@ -1695,7 +1623,7 @@
    "native_category": "Film",
    "description": "Film Tři přání pro Popelku přináší tradiční příběh, který je však trochu jiný než ty, co už známe. Popelka je velkou fan...",
    "image": "https://cdn.uffo.cz/images/0/f65bdc657adfde92/3/tri-prani-pro-popelku.jpg?hash=320733603",
-   "native_id": "1795700160332-4a03a3",
+   "native_id": "1795772169387-949dd2",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1703,7 +1631,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4deeecec4875"
+   "id": "uffo:a5a5af1eff4e"
   },
   {
    "title": "Rámájana: Zrození legendy",
@@ -1719,7 +1647,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/aa9cb7adda6dc67e/3/ramajana-zrozeni-legendy.jpg?hash=320733603",
-   "native_id": "1795700160333-06a873",
+   "native_id": "1795772169388-afd2f0",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1727,7 +1655,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:8ab6f73f8d35"
+   "id": "uffo:27f483e26310"
   },
   {
    "title": "Všichni fotři jsou lotři",
@@ -1743,7 +1671,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/5bcde716a6248141/3/vsichni-fotri-jsou-lotri.jpg?hash=320733603",
-   "native_id": "1795700160334-ce2dbb",
+   "native_id": "1795772169389-c53db5",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1751,7 +1679,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:01314fbdb899"
+   "id": "uffo:aab320414dac"
   },
   {
    "title": "Hexe: Magický svět",
@@ -1767,7 +1695,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/7561cfdce7b926f6/3/hexe-magicky-svet.png?hash=320733603",
-   "native_id": "1795700160335-63ca36",
+   "native_id": "1795772169390-d335dd",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1775,7 +1703,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:32b7238ed679"
+   "id": "uffo:0867e6fb415b"
   },
   {
    "title": "Máma a Táta jsou Boží",
@@ -1791,7 +1719,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/784b0d0e48cc4d41/3/mama-a-tata-jsou-bozi.jpg?hash=320733603",
-   "native_id": "1795700160336-55a214",
+   "native_id": "1795772169391-5c3c25",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1799,7 +1727,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:e8fde51522bf"
+   "id": "uffo:72d3bf36de64"
   },
   {
    "title": "Všichni fotři jsou lotři",
@@ -1815,7 +1743,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/5bcde716a6248141/3/vsichni-fotri-jsou-lotri.jpg?hash=320733603",
-   "native_id": "1795700160337-3a7b54",
+   "native_id": "1795772169392-13d330",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1823,7 +1751,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:b5f87770ba5f"
+   "id": "uffo:53a4a000b40b"
   },
   {
    "title": "Něco jako rodina",
@@ -1839,7 +1767,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/46cd3d070f89dac8/3/neco-jako-rodina.jpg?hash=320733603",
-   "native_id": "1795700160338-169dc6",
+   "native_id": "1795772169396-30a3f4",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1847,7 +1775,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:1fc849498c46"
+   "id": "uffo:610d366ca1a3"
   },
   {
    "title": "TALK SHOW VOJTĚCHA BERNATSKÉHO",
@@ -1863,7 +1791,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160338-ecf481",
+   "native_id": "1795772169397-2a85c7",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1871,7 +1799,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:f802f94c9cc2"
+   "id": "uffo:d65e556dd1b7"
   },
   {
    "title": "Já, Rocky",
@@ -1887,7 +1815,7 @@
    "native_category": "Film",
    "description": "",
    "image": "https://cdn.uffo.cz/images/0/f110d4db3fcc2822/3/ja-rocky.png?hash=320733603",
-   "native_id": "1795700160339-c5e214",
+   "native_id": "1795772169398-5f3763",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1895,7 +1823,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:6f594e7c170f"
+   "id": "uffo:7a762f3dcd17"
   },
   {
    "title": "První hvězda",
@@ -1911,7 +1839,7 @@
    "native_category": "Film",
    "description": "Romanu Kořínkovi je 45 let a patří mezi špičky ve svém oboru - gastronomii. Jeho celoživotním snem je získat svoji první...",
    "image": "https://cdn.uffo.cz/images/0/c5b1c0d6bef48355/3/prvni-hvezda.png?hash=320733603",
-   "native_id": "1795700160341-109625",
+   "native_id": "1795772169400-2fd88b",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1919,7 +1847,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:69400d3670de"
+   "id": "uffo:cea7bcadc59e"
   },
   {
    "title": "Ženy v lihu",
@@ -1935,7 +1863,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160342-5dc656",
+   "native_id": "1795772169401-f281ce",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1943,7 +1871,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:2b7167a3d3f4"
+   "id": "uffo:499555021402"
   },
   {
    "title": "Něco jako rodina",
@@ -1959,7 +1887,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160343-6617ec",
+   "native_id": "1795772169402-f624c5",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1967,7 +1895,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:5f082e7d9872"
+   "id": "uffo:4d62172d381c"
   },
   {
    "title": "Ebenezer: Vánoční koleda",
@@ -1983,7 +1911,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160344-3e1866",
+   "native_id": "1795772169403-31a7e7",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1991,7 +1919,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:c0128468e942"
+   "id": "uffo:5c9aa3ff4757"
   },
   {
    "title": "Dřevorubec",
@@ -2007,7 +1935,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160345-fdce6a",
+   "native_id": "1795772169404-e4c646",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2015,7 +1943,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:79dedfa28c61"
+   "id": "uffo:e5685e84ddde"
   },
   {
    "title": "Primetime",
@@ -2031,7 +1959,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160346-e4542f",
+   "native_id": "1795772169405-55a918",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2039,7 +1967,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:c3472af99909"
+   "id": "uffo:e82b0c6d3ba2"
   },
   {
    "title": "Robert Richardson: Bílý ďábel",
@@ -2055,7 +1983,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160346-857d6a",
+   "native_id": "1795772169406-29318a",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2063,7 +1991,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:55fc27872956"
+   "id": "uffo:966732c12985"
   },
   {
    "title": "Asterix a Obelix: Království Núbie",
@@ -2079,7 +2007,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160347-00fd6f",
+   "native_id": "1795772169407-192dfb",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2087,7 +2015,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:87322e8077b5"
+   "id": "uffo:1fcf624a77bb"
   },
   {
    "title": "Tři přání pro Popelku",
@@ -2103,7 +2031,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160348-1feb40",
+   "native_id": "1795772169407-2f26b2",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2111,7 +2039,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:eb89c5c9abaa"
+   "id": "uffo:3a832a6db5e2"
   },
   {
    "title": "Hunger Games: Úsvit sklizně",
@@ -2127,7 +2055,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160351-890dde",
+   "native_id": "1795772169408-ca8e5e",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2135,7 +2063,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:c2f9759e6c65"
+   "id": "uffo:6d5651e52e17"
   },
   {
    "title": "Šílená noc 2",
@@ -2151,7 +2079,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160352-487767",
+   "native_id": "1795772169409-c21094",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2159,7 +2087,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:e3593c84fcd6"
+   "id": "uffo:165e79a58d6f"
   },
   {
    "title": "Hexe: Magický svět",
@@ -2175,7 +2103,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160353-569037",
+   "native_id": "1795772169411-28ab92",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2183,7 +2111,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:0f459f69bed5"
+   "id": "uffo:564c7f317c89"
   },
   {
    "title": "Máma a Táta jsou Boží",
@@ -2199,7 +2127,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160353-c9798b",
+   "native_id": "1795772169411-208982",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2207,7 +2135,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:0f3ba42e1a0c"
+   "id": "uffo:f1257cf92be8"
   },
   {
    "title": "Všichni fotři jsou lotři",
@@ -2223,7 +2151,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160354-24f35c",
+   "native_id": "1795772169412-d39507",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2231,7 +2159,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:5fcd3d03c6bd"
+   "id": "uffo:68d39fe93cf0"
   },
   {
    "title": "Já, Rocky",
@@ -2247,7 +2175,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160355-f0bcf2",
+   "native_id": "1795772169413-638188",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2255,7 +2183,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:f99770a0d99c"
+   "id": "uffo:62dd4e1a202b"
   },
   {
    "title": "Asterix a Obelix: Království Núbie",
@@ -2271,7 +2199,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160357-f472a4",
+   "native_id": "1795772169418-8b5b94",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2279,7 +2207,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:776df41bf990"
+   "id": "uffo:9126c7a94b85"
   },
   {
    "title": "Hexe: Magický svět",
@@ -2295,7 +2223,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160359-ae19de",
+   "native_id": "1795772169420-bf8e7e",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2303,7 +2231,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:dea175ef06ca"
+   "id": "uffo:1e1dd879f0e3"
   },
   {
    "title": "Ebenezer: Vánoční koleda",
@@ -2319,7 +2247,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160361-28b73e",
+   "native_id": "1795772169424-c4f752",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2327,7 +2255,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:42676a462de2"
+   "id": "uffo:fc2d48a949ae"
   },
   {
    "title": "Dobré vibrace",
@@ -2343,7 +2271,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160364-660c13",
+   "native_id": "1795772169429-652f26",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2351,7 +2279,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:8b6c037ada88"
+   "id": "uffo:89f96b418ca4"
   },
   {
    "title": "O DVANÁCTI MĚSÍČKÁCH",
@@ -2367,7 +2295,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160365-937add",
+   "native_id": "1795772169434-10a3a0",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2375,7 +2303,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:a69e761b7829"
+   "id": "uffo:26aae321de8a"
   },
   {
    "title": "O DVANÁCTI MĚSÍČKÁCH",
@@ -2391,7 +2319,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160367-886888",
+   "native_id": "1795772169437-7e245b",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2399,7 +2327,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:6beda6bf9a24"
+   "id": "uffo:f2af0a6ec66a"
   },
   {
    "title": "RADKA TKÁČIKOVÁ: NEJKRÁSNĚJŠÍ TREKY V ANDÁCH",
@@ -2415,7 +2343,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160368-a9e514",
+   "native_id": "1795772169439-c3b450",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2423,7 +2351,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:5cd8db5070ac"
+   "id": "uffo:eecfd75e2b95"
   },
   {
    "title": "ŤUKY ŤUK",
@@ -2439,7 +2367,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160369-a92f72",
+   "native_id": "1795772169440-ccc338",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2447,7 +2375,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:cd8d6e891c82"
+   "id": "uffo:48b27f9ce226"
   },
   {
    "title": "IVAN MITRUS: 7.000 KM PŘES CHILE",
@@ -2463,7 +2391,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160369-1896e1",
+   "native_id": "1795772169441-ee2e8e",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2471,7 +2399,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:794ab2e19497"
+   "id": "uffo:730987502268"
   },
   {
    "title": "Louskáček - Vánoční příběh",
@@ -2487,7 +2415,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160371-07f7b7",
+   "native_id": "1795772169441-61a7d5",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2495,7 +2423,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:4ea2a5a5f01e"
+   "id": "uffo:057b48bbfad9"
   },
   {
    "title": "JARO PÁVEK – HYPNOTERAPIE",
@@ -2511,7 +2439,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160371-0189df",
+   "native_id": "1795772169442-92b54e",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2519,7 +2447,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:ba46407f230c"
+   "id": "uffo:41f2ed79bf28"
   },
   {
    "title": "8. ROČNÍK YOGFEST HOR TRUTNOV",
@@ -2535,7 +2463,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160372-96a837",
+   "native_id": "1795772169443-5d8a0c",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2543,7 +2471,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:f270673b9024"
+   "id": "uffo:e2f496cdc275"
   },
   {
    "title": "PLES POD SNĚŽKOU – TANEČNÍ GALAVEČER",
@@ -2559,7 +2487,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160373-6295b2",
+   "native_id": "1795772169444-d38d3c",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2567,7 +2495,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:5d54d0daefec"
+   "id": "uffo:ab51e01dfb9d"
   },
   {
    "title": "Lajna - Konečně film!",
@@ -2583,7 +2511,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160375-240805",
+   "native_id": "1795772169446-bccf12",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2591,7 +2519,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:18b27e2084e5"
+   "id": "uffo:6a44251384b7"
   },
   {
    "title": "FUSION A EXPERIMENTAL/DANCE WORKSHOPY S ADÉL ZOE",
@@ -2607,7 +2535,7 @@
    "native_category": null,
    "description": "",
    "image": null,
-   "native_id": "1795700160378-4c298e",
+   "native_id": "1795772169447-51fe73",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -2615,7 +2543,175 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "uffo:cf78683bcd8c"
+   "id": "uffo:eda0d21a1795"
+  },
+  {
+   "title": "Já, Rocky",
+   "start": "2026-12-07T17:30:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-07T19:30:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169448-ec2457",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:cb0799902b6d"
+  },
+  {
+   "title": "Behemot!",
+   "start": "2026-12-08T18:00:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-08T20:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169449-da467f",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:052392f3d843"
+  },
+  {
+   "title": "Ebenezer: Vánoční koleda",
+   "start": "2026-12-08T18:30:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-08T20:30:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169450-0ec95e",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:648a56f54d58"
+  },
+  {
+   "title": "Pravda, nebo lež",
+   "start": "2026-12-09T10:00:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-09T12:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169452-a8d3dd",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:4338b05f544a"
+  },
+  {
+   "title": "Fantom opery",
+   "start": "2026-12-09T10:00:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-09T12:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169453-f88f7c",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:c4b01fe09e5b"
+  },
+  {
+   "title": "Hunger Games: Úsvit sklizně",
+   "start": "2026-12-09T18:00:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-09T20:00:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169454-68651f",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:6c871d2048e5"
+  },
+  {
+   "title": "Ženy v lihu",
+   "start": "2026-12-09T18:30:00+01:00",
+   "source": "uffo",
+   "url": "https://uffo.cz/program/",
+   "end": "2026-12-09T20:30:00+01:00",
+   "all_day": false,
+   "place": null,
+   "place_raw": null,
+   "venue": "Kino Vesmír",
+   "category": null,
+   "native_category": null,
+   "description": "",
+   "image": null,
+   "native_id": "1795772169456-227dd8",
+   "ongoing": false,
+   "sources": [],
+   "urls": [],
+   "needs_review": false,
+   "lat": null,
+   "lon": null,
+   "geo": null,
+   "id": "uffo:2d6352847918"
   }
  ]
 }
