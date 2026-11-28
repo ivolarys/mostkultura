@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T14:12:51+00:00",
+ "fetched_at": "2026-11-28T13:29:44+00:00",
  "events": [
   {
    "title": "Všichni fotři jsou lotři",
@@ -1130,20 +1130,20 @@
    "id": "vrchlabi:480d3d4a692d"
   },
   {
-   "title": "Snow Film Fest 2026",
-   "start": "2026-12-15T17:30:00+01:00",
+   "title": "Vánoční koncert dětí ZUŠ Jilemnice",
+   "start": "2026-12-15T16:30:00+01:00",
    "source": "vrchlabi",
-   "url": "https://www.mestovrchlabi.cz/events/snow-film-fest-2026",
-   "end": "2026-12-15T19:30:00+01:00",
+   "url": "https://www.mestovrchlabi.cz/events/vanocni-koncert-deti-zus-jilemnice",
+   "end": "2026-12-15T18:30:00+01:00",
    "all_day": false,
    "place": null,
    "place_raw": null,
-   "venue": "KD Střelnice, Vančurova 378, Vrchlabí",
+   "venue": "Zámecká kaple Černínů-Morzinů, ul. Dobrovského, Vrchlabí",
    "category": null,
-   "native_category": "Divadlo",
-   "description": "Filmový festival Snow Film Fest přináší ty nejlepší filmy o zimních sportech z celého světa i z domácí produkce. Ani letos si nenechte ujít další ročník festivalu plného sněhu, ledu, hor a adrenalinu. Těšíme se na vás!",
-   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2026-11/snow-film-fest.jpg?h=a151eb41&itok=jf6uWD4m",
-   "native_id": "https://www.mestovrchlabi.cz/events/snow-film-fest-2026",
+   "native_category": "Hudba, koncerty",
+   "description": "Přijďte se naladit na Vánoce a užít si koncert v Černínsko-morzínské kapli.",
+   "image": "https://www.mestovrchlabi.cz/sites/default/files/styles/teaser_event/public/images/2025-11/Morzinsko-%C4%8Cerninsk%C3%A1%20kaple.jpg?h=3fdf2f58&itok=7xLPO-YH",
+   "native_id": "https://www.mestovrchlabi.cz/events/vanocni-koncert-deti-zus-jilemnice",
    "ongoing": false,
    "sources": [],
    "urls": [],
@@ -1151,7 +1151,7 @@
    "lat": null,
    "lon": null,
    "geo": null,
-   "id": "vrchlabi:8bd686aff6ad"
+   "id": "vrchlabi:aa4eb070c153"
   }
  ]
 }

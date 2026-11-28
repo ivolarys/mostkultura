@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-11-27T14:12:57+00:00",
+ "fetched_at": "2026-11-28T13:29:50+00:00",
  "events": [
-  {
-   "title": "Rozsvícení vánočního stromu",
-   "start": "2026-11-27T00:00:00+01:00",
-   "source": "bila-tremesna-okoli",
-   "url": "https://www.bilatremesna.cz/volny-cas/kalendar-akci-v-okoli/rozsviceni-vanocniho-stromu-1993_1286cs.html",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": null,
-   "category": null,
-   "native_category": null,
-   "description": "Přijďte na náměstí T. G. Masaryka ve Dvoře Králové nad Labem, kde se 27. listopadu 2026 od 15 hodin koná kulturní k rozsvícení vánočního stromu. Celý den bude probíhat vánoční trh s různými stánky a nabídkami.",
-   "image": "https://www.bilatremesna.cz/evt_image.php?img=3314&width=300&v=1793610988",
-   "native_id": "event-1993",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "bila-tremesna-okoli:13f7d7cecb62"
-  },
   {
    "title": "Výstava betlémů ve Dvoře Králové nad Labem",
    "start": "2026-11-24T00:00:00+01:00",

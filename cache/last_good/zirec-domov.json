@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T14:12:55+00:00",
+ "fetched_at": "2026-11-28T13:29:48+00:00",
  "events": [
   {
    "title": "Česká mše vánoční",
@@ -48,30 +48,6 @@
    "lon": null,
    "geo": null,
    "id": "zirec-domov:949f8cfeace2"
-  },
-  {
-   "title": "Kineziologické tejpování",
-   "start": "2026-11-26T00:00:00+01:00",
-   "source": "zirec-domov",
-   "url": "https://www.domovsvatehojosefa.cz/kineziologicke-tejpovani",
-   "end": null,
-   "all_day": true,
-   "place": null,
-   "place_raw": null,
-   "venue": "Domov sv. Josefa",
-   "category": null,
-   "native_category": null,
-   "description": "Bc. T. Krejsková seminář je zaměřen na nejčastější obtíže pohybového aparátu, které se vyskytují v důsledku fyzické zátěže, jednostranné práce a stresu. Pozornost je věnována zejména bolestem zad a krční páteře, problémům s meziobratlovými ploténkami, otokům, syndromu karpálního tunelu, tenisovému lokti, zamrzlému rameni či nestabilitě kolene",
-   "image": "https://www.domovsvatehojosefa.cz/data/images-article-list/1045-img-5819.jpg",
-   "native_id": "2026-11-26|Kineziologické tejpování",
-   "ongoing": false,
-   "sources": [],
-   "urls": [],
-   "needs_review": false,
-   "lat": null,
-   "lon": null,
-   "geo": null,
-   "id": "zirec-domov:3a0fa22879c2"
   },
   {
    "title": "2. workshop 3. LF UK",
